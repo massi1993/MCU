@@ -1,0 +1,195 @@
+###############################################################################
+#
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  01/Jun/2022  12:41:37
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\Exe\binarny_cnt.out
+#    Map file     =
+#        C:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\List\binarny_cnt.map
+#    Command line =
+#        -f
+#        C:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\Exe\binarny_cnt.out.rsp
+#        (C:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\Obj\main.o
+#        --no_out_extension -o
+#        C:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\Exe\binarny_cnt.out
+#        --map
+#        C:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\List\binarny_cnt.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\generic_cortex.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x7'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block PROC_STACK with size = 0, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+
+  Section          Kind         Address   Size  Object
+  -------          ----         -------   ----  ------
+"A0":                                     0x40
+  .intvec          ro code          0x0   0x40  vector_table_M.o [3]
+                                 - 0x40   0x40
+
+"P1":                                    0x120
+  .text            ro code         0x40   0x4c  main.o [1]
+  .text            ro code         0x8c   0x38  zero_init3.o [3]
+  .text            ro code         0xc4   0x28  data_init.o [3]
+  .iar.init_table  const           0xec   0x10  - Linker created -
+  .text            ro code         0xfc   0x1e  cmain.o [3]
+  .text            ro code        0x11a    0x4  low_level_init.o [2]
+  .text            ro code        0x11e    0x4  exit.o [2]
+  .text            ro code        0x122    0x2  vectortrap_M.o [3]
+  .text            ro code        0x124    0xa  cexit.o [3]
+  .text            ro code        0x130   0x14  exit.o [4]
+  .text            ro code        0x144   0x1c  cstartup_M.o [3]
+  .rodata          const          0x160    0x0  zero_init3.o [3]
+                                - 0x160  0x120
+
+"P2", part 1 of 2:                         0x4
+  .bss             zero     0x2000'0000    0x4  main.o [1]
+                          - 0x2000'0004    0x4
+
+"P2", part 2 of 2:                       0x400
+  CSTACK                    0x2000'0008  0x400  <Block>
+    CSTACK         uninit   0x2000'0008  0x400  <Block tail>
+                          - 0x2000'0408  0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x160     0x7'ffff  0x7'fea0
+  0x2000'0004  0x2000'0007       0x4
+  0x2000'0408  0x2000'ffff    0xfbf8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x4:
+          0x2000'0000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+C:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\Obj: [1]
+    main.o                 76                 4
+    -------------------------------------------
+    Total:                 76                 4
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+rt7M_tl.a: [3]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           28
+    data_init.o            40
+    vector_table_M.o       64
+    vectortrap_M.o          2
+    zero_init3.o           56
+    -------------------------------------------
+    Total:                230
+
+shb_l.a: [4]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    2
+    Linker created                  16    1'024
+-----------------------------------------------
+    Grand Total:          336       16    1'028
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base          0xec         --   Gb  - Linker created -
+.iar.init_table$$Limit         0xfc         --   Gb  - Linker created -
+?main                          0xfd        Code  Gb  cmain.o [3]
+BusFault_Handler              0x123        Code  Wk  vectortrap_M.o [3]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0408         --   Gb  - Linker created -
+DebugMon_Handler              0x123        Code  Wk  vectortrap_M.o [3]
+HardFault_Handler             0x123        Code  Wk  vectortrap_M.o [3]
+MemManage_Handler             0x123        Code  Wk  vectortrap_M.o [3]
+NMI_Handler                   0x123        Code  Wk  vectortrap_M.o [3]
+PendSV_Handler                0x123        Code  Wk  vectortrap_M.o [3]
+Region$$Table$$Base            0xec         --   Gb  - Linker created -
+Region$$Table$$Limit           0xfc         --   Gb  - Linker created -
+SVC_Handler                   0x123        Code  Wk  vectortrap_M.o [3]
+SysTick_Handler               0x123        Code  Wk  vectortrap_M.o [3]
+UsageFault_Handler            0x123        Code  Wk  vectortrap_M.o [3]
+__cmain                        0xfd        Code  Gb  cmain.o [3]
+__exit                        0x131  0x14  Code  Gb  exit.o [4]
+__iar_data_init3               0xc5  0x28  Code  Gb  data_init.o [3]
+__iar_program_start           0x145        Code  Gb  cstartup_M.o [3]
+__iar_zero_init3               0x8d  0x38  Code  Gb  zero_init3.o [3]
+__low_level_init              0x11b   0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0        Data  Gb  vector_table_M.o [3]
+_call_main                    0x109        Code  Gb  cmain.o [3]
+_exit                         0x125        Code  Gb  cexit.o [3]
+contatore               0x2000'0000   0x4  Data  Gb  main.o [1]
+exit                          0x11f   0x4  Code  Gb  exit.o [2]
+main                           0x41  0x4c  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+    336 bytes of readonly  code memory
+     16 bytes of readonly  data memory
+  1'028 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

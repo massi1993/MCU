@@ -1,6 +1,7 @@
 typedef struct{
         unsigned int AHBENR;
 }RCC_Type;
+
 typedef struct{
         unsigned int MODER;
         unsigned int OTYPER;

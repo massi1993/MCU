@@ -1,0 +1,21 @@
+# ninja log v5
+3	369	6757816580000000	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/main.xcl	3eb47fc3f03de5a6
+1	437	6757816580000000	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/binary_cnt.xcl	c43385b6b5456b88
+372	2148	6757816609250575	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/main.pbi	55ddec883e3bb072
+441	2274	6757816610654578	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/binary_cnt.pbi	5fa50df81c2c6016
+2276	2340	6757816611278579	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/binary_cnt.pbd	3fe4da9585b38799
+2343	6167	6757816645754639	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/binary_cnt.pbw	a1968dc201627f3c
+1	972	6757821640000000	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/main.xcl	fd44c57348ca0d07
+976	1076	6757821642675445	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/main.pbi	55ddec883e3bb072
+1078	1143	6757821643299446	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/binary_cnt.pbd	a9d2ad63cdaaea33
+1145	8482	6757821716307574	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/binary_cnt.pbw	a1968dc201627f3c
+1	1172	6757828411940560	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/main.pbi	55ddec883e3bb072
+1174	1698	6757828417712570	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/binary_cnt.pbd	a9d2ad63cdaaea33
+1700	8253	6757828482980688	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/binary_cnt.pbw	a1968dc201627f3c
+0	35	6757828633988996	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/main.pbi	55ddec883e3bb072
+37	47	6757828634144996	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/binary_cnt.pbd	a9d2ad63cdaaea33
+49	2411	6757828657629786	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/binary_cnt.pbw	a1968dc201627f3c
+2	270	6757832770000000	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/main.xcl	3eb47fc3f03de5a6
+273	305	6757832775466358	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/main.pbi	55ddec883e3bb072
+308	317	6757832775622358	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/binarny_cnt.pbd	a098178047504a3e
+320	1736	6757832789506382	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/BrowseInfo/binarny_cnt.pbw	60ebb43c89cefe54
