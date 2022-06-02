@@ -3,7 +3,7 @@
 
 # CONFIGURATION IDE IAR EMBEDDED : Follow these steps to configure project options
 1. In the Project Editor, right-click on the project name and select Options... to display the Options dialog box:
-![Alt text](/config_ide/config1.jpg)
+![Alt text](https://github.com/massiAvg/MCU/blob/develop/config_ide/config1.png)
 # Description
 
 To make a binary counter we need a counter variable, whose value increases by 1 each time the USER button (PA0) is pressed. 
