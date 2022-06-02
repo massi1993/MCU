@@ -1,0 +1,15 @@
+# ninja log v5
+0	4735	6758831878061329	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	a93f1ad320cb8378
+4819	5484	6758831885705342	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	b1879baf04681843
+910	1168	6758832601975530	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	18ec48d32b93a29
+1173	3568	6758832626019573	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	fdb4bd2a7b0c2828
+337	3490	6758839753824223	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	18ec48d32b93a29
+3624	4265	6758839761156236	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	fdb4bd2a7b0c2828
+1	92	6758839957390914	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	18ec48d32b93a29
+95	128	6758839957702915	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	fdb4bd2a7b0c2828
+2	68	6758840136447621	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	18ec48d32b93a29
+72	107	6758840136759621	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	fdb4bd2a7b0c2828
+2	280	6758847669400747	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	18ec48d32b93a29
+283	318	6758847670980751	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	fdb4bd2a7b0c2828
+1	68	6758855562144687	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	18ec48d32b93a29
+72	113	6758855562612688	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	fdb4bd2a7b0c2828

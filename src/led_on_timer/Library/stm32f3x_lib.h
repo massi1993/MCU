@@ -71,10 +71,10 @@ typedef struct {
 -------------------------------------------------------------*/
 
 /*!< define of peripheral base address >*/
-#define RCC             ((RCC_Type*)    0x40021000U)
-#define GPIOE           ((GPIO_Type*)   0x48001000U)
-#define GPIOA           ((GPIO_Type*)   0x48000000U)
-#define TIM2            ((TIMER_Type*)  0x40000000U)
+#define RCC             ((RCC_Type*)   0x40021000U)
+#define GPIOE           ((GPIO_Type*)  0x48001000U)
+#define GPIOA           ((GPIO_Type*)  0x48000000U)
+#define TIM2            ((TIMER_Type*) 0x40000000U)
 
 /*!< define MACROS of GPIOx_EN into RCC_AHBENR >*/
 #define GPIOA_EN                (1<<17)
