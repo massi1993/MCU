@@ -18,7 +18,7 @@ void main(){
           GPIOE->MODER|= (OUT_MODE << 2*i);
         }
  
-        TIM2->ARR=N_CONT(1); //TIME (in seconds) IN INPUT
+        TIM2->ARR=N_CONT(0.5); //TIME (in seconds) IN INPUT
         
         //ENABLE COUNTER PULL UP BIT CEN
         TIM2->CR1|=CEN_EN;
