@@ -1,3 +1,26 @@
 
 src/binary_counter/Debug/BrowseInfo/.ninja_log
 src/binary_counter/Debug/BrowseInfo/main.pbi.dep
+src/led_on_timer/settings/led_on_timer.dnx
+src/led_on_timer/led_on_timer.dep
+src/led_on_timer/Debug/Obj/main.o
+src/led_on_timer/Debug/List/led_on_timer.map
+src/led_on_timer/Debug/Exe/led_on_timer.sim
+src/led_on_timer/Debug/Exe/led_on_timer.out
+src/led_on_timer/Debug/BrowseInfo/main.pbi.dep
+src/led_on_timer/Debug/BrowseInfo/main.pbi
+src/led_on_timer/Debug/BrowseInfo/led_on_timer.pbd.browse
+src/led_on_timer/Debug/BrowseInfo/led_on_timer.pbd
+src/led_on_timer/Debug/BrowseInfo/.ninja_log
+src/led_on_timer/Debug/.ninja_log
+src/led_on_timer/Debug/.ninja_deps
+src/binary_counter/settings/workspace_project.wsdt
+src/binary_counter/settings/binarny_cnt.dnx
+src/binary_counter/settings/binarny_cnt.dbgdt
+src/binary_counter/Debug/Obj/main.o
+src/binary_counter/Debug/List/binarny_cnt.map
+src/binary_counter/Debug/Exe/binarny_cnt.out
+src/binary_counter/Debug/BrowseInfo/main.pbi.dep
+src/binary_counter/Debug/.ninja_log
+src/binary_counter/Debug/.ninja_deps
+src/binary_counter/binarny_cnt.dep
