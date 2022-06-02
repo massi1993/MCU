@@ -7,7 +7,8 @@ In the Options dialog box, select the General Options category, open the Target 
 ![Alt text](https://github.com/massiAvg/MCU/blob/develop/config_ide/config1.png)
 2. If your source files include header files, select the C/C++ Compiler category, open the Preprocessor tab, and specify their paths. The path of the
 include directory is a relative path, and always starts with the project directory location referenced by $PROJ DIR$:
-![Alt text2](https://github.com/massiAvg/MCU/blob/develop/config_ide/config2.PNG)
+![config2](https://user-images.githubusercontent.com/83538787/171648810-18e38b38-9617-4f14-8800-9ccd810dc166.PNG)
+
 3. To set up the ST-Link embedded debug tool interface, select the Debugger category, open the Setup tab and, from the drop-down Driver menu, select ST-Link. Then,
 open the Debugger tab and select Use flash loader(s):
 ![Alt text3](https://github.com/massiAvg/MCU/blob/develop/config_ide/config3.PNG)
