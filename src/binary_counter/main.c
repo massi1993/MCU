@@ -7,8 +7,8 @@ int led_on=0;
 void main(){
   
 	// ENABLE GPIOE AND GPIOA
-	RCC->AHBENR|=GPIOE_EN|GPIOA_EN;
-	 
+        RCC->AHBENR|=GPIOE_EN|GPIOA_EN;
+	
 	//SET PEx (WITH x = 8,9,..15) IN OUTPUT_MODE
         for(int i = 8; i < 16; i++)
         {

@@ -6,12 +6,14 @@
 -------------------------------------------------------------*/
 
 /*!< define GENERAL MACROS >*/
-#define OUT_MODE     1
-#define IN_MODE      3           /*!< IN_MODE DEFINED 3 BECAUSE OF NEGATIVE LOGIC.
-                                      TO SET PINY (WITH Y = A,B,C,...,F) IN IN_MODE WE WRITE:   
-                                      PYx & = ~ (3 << x) 
-                                      INSTEAD OF
-                                      PYx | = (0 << x) >*/       
+#define OUT_MODE                1
+#define IN_MODE                 3           /*!< IN_MODE DEFINED 3 BECAUSE OF NEGATIVE LOGIC.
+                                            TO SET PINY (WITH Y = A,B,C,...,F) IN IN_MODE WE WRITE:   
+                                            PYx & = ~ (3 << x) 
+                                            INSTEAD OF
+                                            PYx | = (0 << x) >*/   
+#define SET                     1
+#define RESET                   0
 
 
 /*!< define MACROS for GPIOA_IDR>*/

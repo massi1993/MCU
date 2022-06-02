@@ -9,8 +9,7 @@
                                         determined by the compiler.
                                         E.g. A variable can be modified by external 
                                         interrupt.>*/    
-                                          
-                                         
+                                                  
 /*!----------------------------------------------------------
           DEFINE  STRUCT PERIPHERAL OF STM32F3DISCOVERY
 ------------------------------------------------------------->*/
@@ -34,11 +33,18 @@ typedef struct{
 
 typedef struct{
        __vo uint32_t MODER;             /*!< its address is (GPIOx_base_address + 0x00) >*/
-       __vo uint32_t OTYPER;            /*!< its address is (GPIOx_base_address + 0x04) >*/
+       __vo uint16_t OTYPER;            /*!< its address is (GPIOx_base_address + 0x04) >*/
+       __vo uint16_t RESERVED1;         /*!< its address is (GPIOx_base_address + 0x06) >*/      
        __vo uint32_t OSPEEDR;           /*!< its address is (GPIOx_base_address + 0x08) >*/
        __vo uint32_t PUPDR;             /*!< its address is (GPIOx_base_address + 0x0C) >*/
-       __vo uint32_t IDR;               /*!< its address is (GPIOx_base_address + 0x10) >*/
-       __vo uint32_t ODR;               /*!< its address is (GPIOx_base_address + 0x14) >*/
+       __vo uint16_t IDR;               /*!< its address is (GPIOx_base_address + 0x10) >*/
+       __vo uint16_t RESERVED2;         /*!< its address is (GPIOx_base_address + 0x12) >*/
+       __vo uint16_t ODR;               /*!< its address is (GPIOx_base_address + 0x14) >*/
+       __vo uint16_t RESERVED3;         /*!< its address is (GPIOx_base_address + 0x16) >*/
+       __vo uint32_t BSRR;              /*!< its address is (GPIOx_base_address + 0x18) >*/
+       __vo uint32_t LCKR;              /*!< its address is (GPIOx_base_address + 0x1C) >*/
+       __vo uint32_t AFR[2];            /*!< its address is (GPIOx_base_address + 0x20) >*/
+       __vo uint32_t BRR;               /*!< its address is (GPIOx_base_address + 0x28) >*/
 }GPIO_Type;
 
 
@@ -75,6 +81,8 @@ typedef struct {
 #define GPIOE           ((GPIO_Type*)  0x48001000U)
 #define GPIOA           ((GPIO_Type*)  0x48000000U)
 #define TIM2            ((TIMER_Type*) 0x40000000U)
+#define TIM3            ((TIMER_Type*) 0x40000400U)        
+
 
 /*!< define MACROS of GPIOx_EN into RCC_AHBENR >*/
 #define GPIOA_EN                (1<<17)
@@ -87,7 +95,7 @@ typedef struct {
 
 /*!< define MACROS of TIM2  >*/
 #define TIM2_EN  (1<<0)
-#define CEN_EN  (1<<0)
+#define CEN_EN   (1<<0)
 
 
 #endif /* STM32_F3X_LIB_H */

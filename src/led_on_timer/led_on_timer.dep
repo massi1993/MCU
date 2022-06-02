@@ -6,10 +6,9 @@
         <name>Debug</name>
         <outputs>
             <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Library\startup_stm32f30x.s</file>
-            <file>$PROJ_DIR$\Library\stm32f3x_gpio_driver.h</file>
-            <file>$PROJ_DIR$\Library\stm32f3x_timer_driver.h</file>
-            <file>$PROJ_DIR$\Library\stm32f3x_lib.h</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.h</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_timer_driver.h</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
@@ -26,47 +25,44 @@
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\Debug\Exe\led_on_timer.out</file>
             <file>$PROJ_DIR$\Debug\List\led_on_timer.map</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_timer_driver.h</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</file>
-            <file>$PROJ_DIR$\..\..\libraries\startup_stm32f30x.s</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.h</file>
+            <file>$PROJ_DIR$\..\binary_counter\Library\stm32f3x_lib.h</file>
         </outputs>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 18</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 13 10 5 16 12 6 9 22 8 24 21</file>
-                </tool>
-            </inputs>
-        </file>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 19 20</file>
+                    <file> 18 19</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 9 4 15 11 5 8 2 7 1 3</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\led_on_timer.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 20</file>
+                    <file> 19</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 11 18 15 7 17 14</file>
+                    <file> 10 17 14 6 16 13</file>
                 </tool>
             </inputs>
         </file>

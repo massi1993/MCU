@@ -86,8 +86,9 @@ typedef struct {
 
 
 /*!< define MACROS of TIM2  >*/
-#define TIM2_EN  (1<<0)
-#define CEN_EN  (1<<0)
+#define TIM2_EN                 (1<<0)
+#define TIM3_EN                 (1<<1)
+#define CEN_EN                  (1<<0)
 
 
 #endif /* STM32_F3X_LIB_H */

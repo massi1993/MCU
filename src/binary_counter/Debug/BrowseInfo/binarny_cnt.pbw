@@ -2111,7 +2111,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "19",
+      "line": "18",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "members": [
@@ -2122,12 +2122,12 @@
         "display": "CR",
         "location": {
           "column": "23",
-          "line": "20",
+          "line": "19",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       },
       {
         "ID": "c:@SA@RCC_Type@FI@CFGR",
@@ -2136,12 +2136,12 @@
         "display": "CFGR",
         "location": {
           "column": "23",
-          "line": "21",
+          "line": "20",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CFGR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       },
       {
         "ID": "c:@SA@RCC_Type@FI@CIR",
@@ -2150,12 +2150,12 @@
         "display": "CIR",
         "location": {
           "column": "23",
-          "line": "22",
+          "line": "21",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CIR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       },
       {
         "ID": "c:@SA@RCC_Type@FI@APB2RSTR",
@@ -2164,12 +2164,12 @@
         "display": "APB2RSTR",
         "location": {
           "column": "23",
-          "line": "23",
+          "line": "22",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "APB2RSTR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       },
       {
         "ID": "c:@SA@RCC_Type@FI@APB1RSTR",
@@ -2178,12 +2178,12 @@
         "display": "APB1RSTR",
         "location": {
           "column": "23",
-          "line": "24",
+          "line": "23",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "APB1RSTR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       },
       {
         "ID": "c:@SA@RCC_Type@FI@AHBENR",
@@ -2192,12 +2192,12 @@
         "display": "AHBENR",
         "location": {
           "column": "23",
-          "line": "25",
+          "line": "24",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "AHBENR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       },
       {
         "ID": "c:@SA@RCC_Type@FI@APB2ENR",
@@ -2206,12 +2206,12 @@
         "display": "APB2ENR",
         "location": {
           "column": "23",
-          "line": "26",
+          "line": "25",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "APB2ENR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       },
       {
         "ID": "c:@SA@RCC_Type@FI@APB1ENR",
@@ -2220,12 +2220,12 @@
         "display": "APB1ENR",
         "location": {
           "column": "23",
-          "line": "27",
+          "line": "26",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "APB1ENR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       },
       {
         "ID": "c:@SA@RCC_Type@FI@BDCR",
@@ -2234,12 +2234,12 @@
         "display": "BDCR",
         "location": {
           "column": "23",
-          "line": "28",
+          "line": "27",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "BDCR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       },
       {
         "ID": "c:@SA@RCC_Type@FI@CSR",
@@ -2248,12 +2248,12 @@
         "display": "CSR",
         "location": {
           "column": "23",
-          "line": "29",
+          "line": "28",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CSR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       },
       {
         "ID": "c:@SA@RCC_Type@FI@AHBRSTR",
@@ -2262,12 +2262,12 @@
         "display": "AHBRSTR",
         "location": {
           "column": "23",
-          "line": "30",
+          "line": "29",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "AHBRSTR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       },
       {
         "ID": "c:@SA@RCC_Type@FI@CFGR2",
@@ -2276,12 +2276,12 @@
         "display": "CFGR2",
         "location": {
           "column": "23",
-          "line": "31",
+          "line": "30",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CFGR2",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       },
       {
         "ID": "c:@SA@RCC_Type@FI@CFGR3",
@@ -2290,12 +2290,12 @@
         "display": "CFGR3",
         "location": {
           "column": "23",
-          "line": "32",
+          "line": "31",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CFGR3",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       },
       {
         "ID": "c:@T@RCC_Type",
@@ -2304,12 +2304,12 @@
         "display": "struct RCC_Type",
         "location": {
           "column": "2",
-          "line": "33",
+          "line": "32",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "RCC_Type",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_19_9"
+        "scope": "_anonymous_stm32f3x_lib_h_18_9"
       }
     ],
     "name": "",
@@ -2323,7 +2323,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "35",
+      "line": "34",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "members": [
@@ -2334,12 +2334,12 @@
         "display": "MODER",
         "location": {
           "column": "22",
-          "line": "36",
+          "line": "35",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "MODER",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_35_9"
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
       },
       {
         "ID": "c:@SA@GPIO_Type@FI@OTYPER",
@@ -2348,12 +2348,26 @@
         "display": "OTYPER",
         "location": {
           "column": "22",
-          "line": "37",
+          "line": "36",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "OTYPER",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_35_9"
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@RESERVED1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "RESERVED1",
+        "location": {
+          "column": "22",
+          "line": "37",
+          "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
+        },
+        "name": "RESERVED1",
+        "origin": "user_include",
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
       },
       {
         "ID": "c:@SA@GPIO_Type@FI@OSPEEDR",
@@ -2367,7 +2381,7 @@
         },
         "name": "OSPEEDR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_35_9"
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
       },
       {
         "ID": "c:@SA@GPIO_Type@FI@PUPDR",
@@ -2381,7 +2395,7 @@
         },
         "name": "PUPDR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_35_9"
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
       },
       {
         "ID": "c:@SA@GPIO_Type@FI@IDR",
@@ -2395,7 +2409,21 @@
         },
         "name": "IDR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_35_9"
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@RESERVED2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "RESERVED2",
+        "location": {
+          "column": "22",
+          "line": "41",
+          "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
+        },
+        "name": "RESERVED2",
+        "origin": "user_include",
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
       },
       {
         "ID": "c:@SA@GPIO_Type@FI@ODR",
@@ -2404,12 +2432,82 @@
         "display": "ODR",
         "location": {
           "column": "22",
-          "line": "41",
+          "line": "42",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "ODR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_35_9"
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@RESERVED3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "RESERVED3",
+        "location": {
+          "column": "22",
+          "line": "43",
+          "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
+        },
+        "name": "RESERVED3",
+        "origin": "user_include",
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@BSRR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BSRR",
+        "location": {
+          "column": "22",
+          "line": "44",
+          "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
+        },
+        "name": "BSRR",
+        "origin": "user_include",
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@LCKR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "LCKR",
+        "location": {
+          "column": "22",
+          "line": "45",
+          "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
+        },
+        "name": "LCKR",
+        "origin": "user_include",
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@AFR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AFR",
+        "location": {
+          "column": "22",
+          "line": "46",
+          "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
+        },
+        "name": "AFR",
+        "origin": "user_include",
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@BRR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BRR",
+        "location": {
+          "column": "22",
+          "line": "47",
+          "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
+        },
+        "name": "BRR",
+        "origin": "user_include",
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
       },
       {
         "ID": "c:@T@GPIO_Type",
@@ -2418,12 +2516,12 @@
         "display": "struct GPIO_Type",
         "location": {
           "column": "2",
-          "line": "42",
+          "line": "48",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "GPIO_Type",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_35_9"
+        "scope": "_anonymous_stm32f3x_lib_h_34_9"
       }
     ],
     "name": "",
@@ -2437,7 +2535,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "46",
+      "line": "52",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "members": [
@@ -2448,12 +2546,12 @@
         "display": "CR1",
         "location": {
           "column": "21",
-          "line": "47",
+          "line": "53",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CR1",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CR2",
@@ -2462,12 +2560,12 @@
         "display": "CR2",
         "location": {
           "column": "21",
-          "line": "48",
+          "line": "54",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CR2",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@SMCR",
@@ -2476,12 +2574,12 @@
         "display": "SMCR",
         "location": {
           "column": "21",
-          "line": "49",
+          "line": "55",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "SMCR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@DIER",
@@ -2490,12 +2588,12 @@
         "display": "DIER",
         "location": {
           "column": "21",
-          "line": "50",
+          "line": "56",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "DIER",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@SR",
@@ -2504,12 +2602,12 @@
         "display": "SR",
         "location": {
           "column": "21",
-          "line": "51",
+          "line": "57",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "SR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@EGR",
@@ -2518,12 +2616,12 @@
         "display": "EGR",
         "location": {
           "column": "21",
-          "line": "52",
+          "line": "58",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "EGR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCMR1",
@@ -2532,12 +2630,12 @@
         "display": "CCMR1",
         "location": {
           "column": "21",
-          "line": "53",
+          "line": "59",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCMR1",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCMR2",
@@ -2546,12 +2644,12 @@
         "display": "CCMR2",
         "location": {
           "column": "21",
-          "line": "54",
+          "line": "60",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCMR2",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCER",
@@ -2560,12 +2658,12 @@
         "display": "CCER",
         "location": {
           "column": "21",
-          "line": "55",
+          "line": "61",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCER",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CNT",
@@ -2574,12 +2672,12 @@
         "display": "CNT",
         "location": {
           "column": "21",
-          "line": "56",
+          "line": "62",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CNT",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@PSC",
@@ -2588,12 +2686,12 @@
         "display": "PSC",
         "location": {
           "column": "21",
-          "line": "57",
+          "line": "63",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "PSC",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@ARR",
@@ -2602,12 +2700,12 @@
         "display": "ARR",
         "location": {
           "column": "21",
-          "line": "58",
+          "line": "64",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "ARR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@RESERVED1",
@@ -2616,12 +2714,12 @@
         "display": "RESERVED1",
         "location": {
           "column": "21",
-          "line": "59",
+          "line": "65",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "RESERVED1",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCR1",
@@ -2630,12 +2728,12 @@
         "display": "CCR1",
         "location": {
           "column": "21",
-          "line": "60",
+          "line": "66",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCR1",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCR2",
@@ -2644,12 +2742,12 @@
         "display": "CCR2",
         "location": {
           "column": "21",
-          "line": "61",
+          "line": "67",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCR2",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCR3",
@@ -2658,12 +2756,12 @@
         "display": "CCR3",
         "location": {
           "column": "21",
-          "line": "62",
+          "line": "68",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCR3",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCR4",
@@ -2672,12 +2770,12 @@
         "display": "CCR4",
         "location": {
           "column": "21",
-          "line": "63",
+          "line": "69",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCR4",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@RESERVED2",
@@ -2686,12 +2784,12 @@
         "display": "RESERVED2",
         "location": {
           "column": "21",
-          "line": "64",
+          "line": "70",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "RESERVED2",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@DCR",
@@ -2700,12 +2798,12 @@
         "display": "DCR",
         "location": {
           "column": "21",
-          "line": "65",
+          "line": "71",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "DCR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@DMAR",
@@ -2714,12 +2812,12 @@
         "display": "DMAR",
         "location": {
           "column": "21",
-          "line": "66",
+          "line": "72",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "DMAR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       },
       {
         "ID": "c:@T@TIMER_Type",
@@ -2728,12 +2826,12 @@
         "display": "struct TIMER_Type",
         "location": {
           "column": "2",
-          "line": "67",
+          "line": "73",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "TIMER_Type",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_46_9"
+        "scope": "_anonymous_stm32f3x_lib_h_52_9"
       }
     ],
     "name": "",
@@ -2741,13 +2839,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@4879@macro@RCC",
+    "ID": "c:stm32f3x_lib.h@5501@macro@RCC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC",
     "location": {
       "column": "9",
-      "line": "74",
+      "line": "80",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC",
@@ -2755,13 +2853,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@4932@macro@GPIOE",
+    "ID": "c:stm32f3x_lib.h@5554@macro@GPIOE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE",
     "location": {
       "column": "9",
-      "line": "75",
+      "line": "81",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOE",
@@ -2769,13 +2867,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@4985@macro@GPIOA",
+    "ID": "c:stm32f3x_lib.h@5607@macro@GPIOA",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA",
     "location": {
       "column": "9",
-      "line": "76",
+      "line": "82",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOA",
@@ -2783,13 +2881,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5038@macro@TIM2",
+    "ID": "c:stm32f3x_lib.h@5660@macro@TIM2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM2",
     "location": {
       "column": "9",
-      "line": "77",
+      "line": "83",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "TIM2",
@@ -2797,13 +2895,27 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5145@macro@GPIOA_EN",
+    "ID": "c:stm32f3x_lib.h@5713@macro@TIM3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM3",
+    "location": {
+      "column": "9",
+      "line": "84",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
+    },
+    "name": "TIM3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_lib.h@5830@macro@GPIOA_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA_EN",
     "location": {
       "column": "9",
-      "line": "80",
+      "line": "88",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOA_EN",
@@ -2811,13 +2923,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5186@macro@GPIOB_EN",
+    "ID": "c:stm32f3x_lib.h@5871@macro@GPIOB_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOB_EN",
     "location": {
       "column": "9",
-      "line": "81",
+      "line": "89",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOB_EN",
@@ -2825,13 +2937,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5227@macro@GPIOC_EN",
+    "ID": "c:stm32f3x_lib.h@5912@macro@GPIOC_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOC_EN",
     "location": {
       "column": "9",
-      "line": "82",
+      "line": "90",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOC_EN",
@@ -2839,13 +2951,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5268@macro@GPIOD_EN",
+    "ID": "c:stm32f3x_lib.h@5953@macro@GPIOD_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOD_EN",
     "location": {
       "column": "9",
-      "line": "83",
+      "line": "91",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOD_EN",
@@ -2853,13 +2965,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5309@macro@GPIOE_EN",
+    "ID": "c:stm32f3x_lib.h@5994@macro@GPIOE_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE_EN",
     "location": {
       "column": "9",
-      "line": "84",
+      "line": "92",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOE_EN",
@@ -2867,13 +2979,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5350@macro@GPIOF_EN",
+    "ID": "c:stm32f3x_lib.h@6035@macro@GPIOF_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOF_EN",
     "location": {
       "column": "9",
-      "line": "85",
+      "line": "93",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOF_EN",
@@ -2881,13 +2993,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5428@macro@TIM2_EN",
+    "ID": "c:stm32f3x_lib.h@6113@macro@TIM2_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM2_EN",
     "location": {
       "column": "9",
-      "line": "89",
+      "line": "97",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "TIM2_EN",
@@ -2895,13 +3007,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5453@macro@CEN_EN",
+    "ID": "c:stm32f3x_lib.h@6138@macro@CEN_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CEN_EN",
     "location": {
       "column": "9",
-      "line": "90",
+      "line": "98",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "CEN_EN",
@@ -4799,7 +4911,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@244@F@main@i",
+    "ID": "c:main.c@250@F@main@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -4841,7 +4953,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@314@macro@IN_MODE",
+    "ID": "c:stm32f3x_gpio_driver.h@325@macro@IN_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IN_MODE",
@@ -4855,13 +4967,41 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@713@macro@PA0_IDR_MASK",
+    "ID": "c:stm32f3x_gpio_driver.h@714@macro@SET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SET",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+    },
+    "name": "SET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_gpio_driver.h@749@macro@RESET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RESET",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+    },
+    "name": "RESET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_gpio_driver.h@825@macro@PA0_IDR_MASK",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PA0_IDR_MASK",
     "location": {
       "column": "9",
-      "line": "18",
+      "line": "20",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
     },
     "name": "PA0_IDR_MASK",
@@ -4869,13 +5009,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@748@macro@PA1_IDR_MASK",
+    "ID": "c:stm32f3x_gpio_driver.h@860@macro@PA1_IDR_MASK",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PA1_IDR_MASK",
     "location": {
       "column": "9",
-      "line": "19",
+      "line": "21",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
     },
     "name": "PA1_IDR_MASK",
@@ -4883,13 +5023,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@783@macro@PA2_IDR_MASK",
+    "ID": "c:stm32f3x_gpio_driver.h@895@macro@PA2_IDR_MASK",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PA2_IDR_MASK",
     "location": {
       "column": "9",
-      "line": "20",
+      "line": "22",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
     },
     "name": "PA2_IDR_MASK",
@@ -4897,13 +5037,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@818@macro@GPIOA_IDR_IN0",
+    "ID": "c:stm32f3x_gpio_driver.h@930@macro@GPIOA_IDR_IN0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA_IDR_IN0",
     "location": {
       "column": "9",
-      "line": "21",
+      "line": "23",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
     },
     "name": "GPIOA_IDR_IN0",
@@ -4911,13 +5051,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@895@macro@GPIOA_IDR_IN1",
+    "ID": "c:stm32f3x_gpio_driver.h@1007@macro@GPIOA_IDR_IN1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA_IDR_IN1",
     "location": {
       "column": "9",
-      "line": "22",
+      "line": "24",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
     },
     "name": "GPIOA_IDR_IN1",
@@ -4925,13 +5065,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1015@macro@GPIOE_TURN_LED",
+    "ID": "c:stm32f3x_gpio_driver.h@1127@macro@GPIOE_TURN_LED",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE_TURN_LED",
     "location": {
       "column": "9",
-      "line": "27",
+      "line": "29",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
     },
     "name": "GPIOE_TURN_LED",
@@ -4939,13 +5079,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1066@macro@GPIOE_ALL_LED_ON",
+    "ID": "c:stm32f3x_gpio_driver.h@1178@macro@GPIOE_ALL_LED_ON",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE_ALL_LED_ON",
     "location": {
       "column": "9",
-      "line": "28",
+      "line": "30",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
     },
     "name": "GPIOE_ALL_LED_ON",
