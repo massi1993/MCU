@@ -2741,13 +2741,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@4895@macro@RCC",
+    "ID": "c:stm32f3x_lib.h@4879@macro@RCC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC",
     "location": {
       "column": "9",
-      "line": "75",
+      "line": "74",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\Library\\stm32f3x_lib.h"
     },
     "name": "RCC",
@@ -2755,13 +2755,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@4949@macro@GPIOE",
+    "ID": "c:stm32f3x_lib.h@4932@macro@GPIOE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE",
     "location": {
       "column": "9",
-      "line": "76",
+      "line": "75",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\Library\\stm32f3x_lib.h"
     },
     "name": "GPIOE",
@@ -2769,13 +2769,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5003@macro@GPIOA",
+    "ID": "c:stm32f3x_lib.h@4985@macro@GPIOA",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA",
     "location": {
       "column": "9",
-      "line": "77",
+      "line": "76",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\Library\\stm32f3x_lib.h"
     },
     "name": "GPIOA",
@@ -2783,13 +2783,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5057@macro@TIM2",
+    "ID": "c:stm32f3x_lib.h@5038@macro@TIM2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM2",
     "location": {
       "column": "9",
-      "line": "78",
+      "line": "77",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\Library\\stm32f3x_lib.h"
     },
     "name": "TIM2",
@@ -2797,13 +2797,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5165@macro@GPIOA_EN",
+    "ID": "c:stm32f3x_lib.h@5145@macro@GPIOA_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA_EN",
     "location": {
       "column": "9",
-      "line": "81",
+      "line": "80",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\Library\\stm32f3x_lib.h"
     },
     "name": "GPIOA_EN",
@@ -2811,13 +2811,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5206@macro@GPIOB_EN",
+    "ID": "c:stm32f3x_lib.h@5186@macro@GPIOB_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOB_EN",
     "location": {
       "column": "9",
-      "line": "82",
+      "line": "81",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\Library\\stm32f3x_lib.h"
     },
     "name": "GPIOB_EN",
@@ -2825,13 +2825,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5247@macro@GPIOC_EN",
+    "ID": "c:stm32f3x_lib.h@5227@macro@GPIOC_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOC_EN",
     "location": {
       "column": "9",
-      "line": "83",
+      "line": "82",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\Library\\stm32f3x_lib.h"
     },
     "name": "GPIOC_EN",
@@ -2839,13 +2839,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5288@macro@GPIOD_EN",
+    "ID": "c:stm32f3x_lib.h@5268@macro@GPIOD_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOD_EN",
     "location": {
       "column": "9",
-      "line": "84",
+      "line": "83",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\Library\\stm32f3x_lib.h"
     },
     "name": "GPIOD_EN",
@@ -2853,13 +2853,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5329@macro@GPIOE_EN",
+    "ID": "c:stm32f3x_lib.h@5309@macro@GPIOE_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE_EN",
     "location": {
       "column": "9",
-      "line": "85",
+      "line": "84",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\Library\\stm32f3x_lib.h"
     },
     "name": "GPIOE_EN",
@@ -2867,13 +2867,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5370@macro@GPIOF_EN",
+    "ID": "c:stm32f3x_lib.h@5350@macro@GPIOF_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOF_EN",
     "location": {
       "column": "9",
-      "line": "86",
+      "line": "85",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\Library\\stm32f3x_lib.h"
     },
     "name": "GPIOF_EN",
@@ -2881,13 +2881,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5448@macro@TIM2_EN",
+    "ID": "c:stm32f3x_lib.h@5428@macro@TIM2_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM2_EN",
     "location": {
       "column": "9",
-      "line": "90",
+      "line": "89",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\Library\\stm32f3x_lib.h"
     },
     "name": "TIM2_EN",
@@ -2895,13 +2895,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@5473@macro@CEN_EN",
+    "ID": "c:stm32f3x_lib.h@5453@macro@CEN_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CEN_EN",
     "location": {
       "column": "9",
-      "line": "91",
+      "line": "90",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\Library\\stm32f3x_lib.h"
     },
     "name": "CEN_EN",

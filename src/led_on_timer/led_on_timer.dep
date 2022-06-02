@@ -5,51 +5,39 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\..\binary_counter\Library\stm32f3x_lib.h</file>
-            <file>$PROJ_DIR$\..\binary_counter\Library\stm32f3x_gpio_driver.h</file>
-            <file>$PROJ_DIR$\..\binary_counter\main.c</file>
             <file>$PROJ_DIR$\main.c</file>
-            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f303xC.icf</file>
+            <file>$PROJ_DIR$\Library\stm32f3x_gpio_driver.h</file>
+            <file>$PROJ_DIR$\Library\stm32f3x_timer_driver.h</file>
+            <file>$PROJ_DIR$\Library\stm32f3x_lib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f303xC.icf</file>
             <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
             <file>$PROJ_DIR$\Debug\List\led_on_timer.map</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$PROJ_DIR$\Debug\Exe\led_on_timer.out</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Library\stm32f3x_timer_driver.h</file>
-            <file>$PROJ_DIR$\Library\stm32f3x_gpio_driver.h</file>
-            <file>$PROJ_DIR$\Library\stm32f3x_lib.h</file>
         </outputs>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 16 14</file>
-                </tool>
-            </outputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 19</file>
+                    <file> 6</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 6 17 18 10 7 8 9 22 13 21 20</file>
+                    <file> 9 4 5 16 10 11 12 3 15 1 2</file>
                 </tool>
             </inputs>
         </file>
@@ -58,15 +46,24 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 14</file>
+                    <file> 17</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 4 19 12 11 5 15</file>
+                    <file> 8 6 13 14 7 18</file>
                 </tool>
             </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 17 19</file>
+                </tool>
+            </outputs>
         </file>
         <forcedrebuild>
             <name>$PROJ_DIR$\main.c</name>
