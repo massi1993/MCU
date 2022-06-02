@@ -11,7 +11,7 @@ C:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\main.p
 -I
 C:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter
 -I
-C:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Library
+C:\Users\Attilio\Documents\GitHub\MCU\libraries
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I
@@ -19,7 +19,7 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -I
-C:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Library
+C:\Users\Attilio\Documents\GitHub\MCU\libraries
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

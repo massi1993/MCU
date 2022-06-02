@@ -2854,4 +2854,7 @@
     <file>
         <name>$PROJ_DIR$\Library\stm32f3x_lib.h</name>
     </file>
+    <file>
+        <name>$PROJ_DIR$\Library\stm32f3x_timer_driver.h</name>
+    </file>
 </project>

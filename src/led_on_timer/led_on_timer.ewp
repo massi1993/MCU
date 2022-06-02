@@ -339,7 +339,7 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>C:\Users\Attilio\Documents\GitHub\MCU\src\led_on_timer\Library</state>
+                    <state>C:\Users\Attilio\Documents\GitHub\MCU\libraries</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -655,7 +655,7 @@
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>0</hasPrio>
+                <hasPrio>176</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -2113,12 +2113,12 @@
         <name>$PROJ_DIR$\main.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\Library\stm32f3x_gpio_driver.h</name>
+        <name>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.h</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\Library\stm32f3x_lib.h</name>
+        <name>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\Library\stm32f3x_timer_driver.h</name>
+        <name>$PROJ_DIR$\..\..\libraries\stm32f3x_timer_driver.h</name>
     </file>
 </project>
