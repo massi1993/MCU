@@ -2113,6 +2113,9 @@
         <name>$PROJ_DIR$\main.c</name>
     </file>
     <file>
+        <name>$PROJ_DIR$\Library\stm32f3x_gpio_driver.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\Library\stm32f3x_lib.h</name>
     </file>
 </project>

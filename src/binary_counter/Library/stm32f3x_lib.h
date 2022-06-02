@@ -1,39 +1,53 @@
+#ifndef STM32_F3X_LIB_H
+#define STM32_F3X_LIB_H
+
+#include <stdint.h>
+
+#define __vo volatile                   /*!< The volatile keyword is intended to prevent 
+                                        the compiler from applying any optimizations on 
+                                        objects that can change in ways that cannot be 
+                                        determined by the compiler.
+                                        E.g. A variable can be modified by external 
+                                        interrupt.>*/    
+
 /*!----------------------------------------------------------
           DEFINE  STRUCT PERIPHERAL OF STM32F3DISCOVERY
--------------------------------------------------------------*/
+------------------------------------------------------------->*/
 
 /*!< define RCC REGISTERS >*/
 typedef struct{
-        unsigned int CR;
-        unsigned int CFGR;
-        unsigned int CIR;
-        unsigned int APB2RSTR;
-        unsigned int APB1RSTR;
-        unsigned int AHBENR;
+        __vo uint32_t CR;               /*!< its address is (RCC_base_address + 0x00) >*/                    
+        __vo uint32_t CFGR;             /*!< its address is (RCC_base_address + 0x04) >*/
+        __vo uint32_t CIR;              /*!< its address is (RCC_base_address + 0x08) >*/
+        __vo uint32_t APB2RSTR;         /*!< its address is (RCC_base_address + 0x0C) >*/
+        __vo uint32_t APB1RSTR;         /*!< its address is (RCC_base_address + 0x10) >*/        
+        __vo uint32_t AHBENR;           /*!< its address is (RCC_base_address + 0x14) >*/   
+        __vo uint32_t APB2ENR;          /*!< its address is (RCC_base_address + 0x18) >*/
+        __vo uint32_t APB1ENR;          /*!< its address is (RCC_base_address + 0x1C) >*/   
+        __vo uint32_t BDCR;             /*!< its address is (RCC_base_address + 0x20) >*/   
+        __vo uint32_t CSR;              /*!< its address is (RCC_base_address + 0x24) >*/   
+        __vo uint32_t AHBRSTR;          /*!< its address is (RCC_base_address + 0x28) >*/   
+        __vo uint32_t CFGR2;             /*!< its address is (RCC_base_address + 0x2C) >*/
+        __vo uint32_t CFGR3;             /*!< its address is (RCC_base_address + 0x30) >*/
 }RCC_Type;
 
 typedef struct{
-        unsigned int MODER;
-        unsigned int OTYPER;
-        unsigned int OSPEEDR;
-        unsigned int PUPDR;
-        unsigned int IDR;
-        unsigned int ODR;
+       __vo uint32_t MODER;             /*!< its address is (GPIOx_base_address + 0x00) >*/
+       __vo uint32_t OTYPER;            /*!< its address is (GPIOx_base_address + 0x04) >*/
+       __vo uint32_t OSPEEDR;           /*!< its address is (GPIOx_base_address + 0x08) >*/
+       __vo uint32_t PUPDR;             /*!< its address is (GPIOx_base_address + 0x0C) >*/
+       __vo uint32_t IDR;               /*!< its address is (GPIOx_base_address + 0x10) >*/
+       __vo uint32_t ODR;               /*!< its address is (GPIOx_base_address + 0x14) >*/
 }GPIO_Type;
 
-/*!< define GENERAL MACROS >*/
-#define OUT_MODE     1
-#define IN_MODE      3           /*!< IN_MODE DEFINED 3 BECAUSE OF NEGATIVE LOGIC.
-                                      TO SET PINY (WITH Y = A,B,C,...,F) IN IN_MODE WE WRITE:   
-                                      PYx & = ~ (3 << x) 
-                                      INSTEAD OF
-                                      PYx | = (0 << x) >*/       
-
+/*!<----------------------------------------------------------
+          END DEFINE STRUCT PERIPHERAL OF STM32F3DISCOVERY
+-------------------------------------------------------------*/
 
 /*!< define of peripheral base address >*/
-#define RCC             ((RCC_Type*)  0x40021000)
-#define GPIOE           ((GPIO_Type*) 0x48001000)
-#define GPIOA           ((GPIO_Type*) 0x48000000)
+#define RCC             ((RCC_Type*)  0x40021000U)
+#define GPIOE           ((GPIO_Type*) 0x48001000U)
+#define GPIOA           ((GPIO_Type*) 0x48000000U)
 
 
 /*!< define MACROS of GPIOx_EN into RCC_AHBENR >*/
@@ -46,16 +60,4 @@ typedef struct{
 
 
 
-
-/*!< define MACROS for GPIOA_IDR>*/
-#define PA0_IDR_MASK            1
-#define PA1_IDR_MASK            2
-#define PA2_IDR_MASK            3
-#define GPIOA_IDR_IN0()         while(((GPIOA->IDR) & (PA0_IDR_MASK)) == 0)
-#define GPIOA_IDR_IN1()         while(((GPIOA->IDR) & (PA0_IDR_MASK)) == 1)
-
-
-
-/*!< define MACROS for GPIOE_ODR>*/
-#define GPIOE_TURN_LED(x)       GPIOE->ODR=(x)<<8
-
+#endif /* STM32_F3X_LIB_H */
