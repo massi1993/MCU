@@ -2637,16 +2637,16 @@
     "scope": null
   },
   {
-    "ID": "c:@contatore",
+    "ID": "c:@led_on",
     "What": "Variable",
     "defdec": "Def",
-    "display": "contatore",
+    "display": "led_on",
     "location": {
       "column": "5",
       "line": "4",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\binary_counter\\main.c"
     },
-    "name": "contatore",
+    "name": "led_on",
     "origin": "project_file",
     "scope": null
   },
@@ -2665,7 +2665,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@212@F@main@i",
+    "ID": "c:main.c@209@F@main@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -3057,6 +3057,90 @@
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\binary_counter\\Library\\stm32f3x_lib.h"
     },
     "name": "GPIOF_EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_lib.h@1599@macro@PA0_IDR_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PA0_IDR_MASK",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\binary_counter\\Library\\stm32f3x_lib.h"
+    },
+    "name": "PA0_IDR_MASK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_lib.h@1634@macro@PA1_IDR_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PA1_IDR_MASK",
+    "location": {
+      "column": "9",
+      "line": "52",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\binary_counter\\Library\\stm32f3x_lib.h"
+    },
+    "name": "PA1_IDR_MASK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_lib.h@1669@macro@PA2_IDR_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PA2_IDR_MASK",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\binary_counter\\Library\\stm32f3x_lib.h"
+    },
+    "name": "PA2_IDR_MASK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_lib.h@1704@macro@GPIOA_IDR_IN0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_IDR_IN0",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\binary_counter\\Library\\stm32f3x_lib.h"
+    },
+    "name": "GPIOA_IDR_IN0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_lib.h@1781@macro@GPIOA_IDR_IN1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_IDR_IN1",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\binary_counter\\Library\\stm32f3x_lib.h"
+    },
+    "name": "GPIOA_IDR_IN1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_lib.h@1901@macro@GPIOE_TURN_LED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOE_TURN_LED",
+    "location": {
+      "column": "9",
+      "line": "60",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\binary_counter\\Library\\stm32f3x_lib.h"
+    },
+    "name": "GPIOE_TURN_LED",
     "origin": "user_include",
     "scope": null
   }

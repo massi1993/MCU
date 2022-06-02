@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  02/Jun/2022  12:38:28
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  02/Jun/2022  12:57:29
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -188,8 +188,8 @@ __low_level_init         0x800'015f   0x4  Code  Gb  low_level_init.o [2]
 __vector_table           0x800'0000        Data  Gb  vector_table_M.o [4]
 _call_main               0x800'014d        Code  Gb  cmain.o [4]
 _exit                    0x800'0169        Code  Gb  cexit.o [4]
-contatore               0x2000'0000   0x4  Data  Gb  main.o [1]
 exit                     0x800'0163   0x4  Code  Gb  exit.o [2]
+led_on                  0x2000'0000   0x4  Data  Gb  main.o [1]
 main                     0x800'0041  0x68  Code  Gb  main.o [1]
 
 

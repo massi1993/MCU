@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "stm32f3x_lib.h"
 
-int contatore=0;
+int led_on=0;
 
 void main(){
   
@@ -19,11 +19,11 @@ void main(){
 	 
 	while(1)
 	{
-	  while(((GPIOA->IDR) & (1)) == 0); //WAIT UNTIL PA0 IS NOT PRESSED
+	  GPIOA_IDR_IN0(); //WAIT UNTIL PA0 IS NOT PRESSED
 	 
-	  while(((GPIOA->IDR) & (1)) == 1); //PA0 PRESSED. GO TO NEXT STATEMENT ONLY IF PA0 IS RELEASED
-	  contatore++;
-	  GPIOE->ODR=contatore<<8;
+	  GPIOA_IDR_IN1(); //PA0 PRESSED. GO TO NEXT STATEMENT ONLY IF PA0 IS RELEASED
+	 
+          GPIOE_TURN_LED(++led_on);
 	}
 
-}//end main 
+}
