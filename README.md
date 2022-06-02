@@ -20,7 +20,7 @@ open the Debugger tab and select Use flash loader(s):
 5. Done: click OK to save the project settings.
 
 # Description
-
+## Project binary counter
 To make a binary counter we need a counter variable, whose value increases by 1 each time the USER button (PA0) is pressed. 
 We also want the value to be shown on the display, which in our case is represented by the 8 LEDs.
 
@@ -29,4 +29,11 @@ Example:
 - cnt = 1 -> blue led PE8 on
 - cnt = 2 -> red led PE9 on
 - cnt = 3 -> blue and red led (PE8 and PE9) on
+
+## Project LED FLASHING EVERY x SECONDS
+The clock frequency provided by the board is 8 MHz, which is 8 million counts per second. 
+For example, if we want the LEDs to change state every 0.5 second, the counter must reach 4 million.
+fck = 8 MHz
+Tck = 1 / fck = 125 ns
+N = Δt / Tck = 4 000 000
 
