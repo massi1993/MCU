@@ -33,6 +33,7 @@ Example:
 ## Project LED FLASHING EVERY x SECONDS
 The clock frequency provided by the board is 8 MHz, which is 8 million counts per second. 
 For example, if we want the LEDs to change state every 0.5 second, the counter must reach 4 million.
+
 fck = 8 MHz
 Tck = 1 / fck = 125 ns
 N = Δt / Tck = 4 000 000
