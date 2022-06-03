@@ -42,3 +42,6 @@ Tck = 1 / fck = 125 ns
 
 N = Δt / Tck = 4 000 000
 
+## Project EXTERNAL INTERRUPT (PA0)
+Manage external interrupt when PA0 is pressed.
+

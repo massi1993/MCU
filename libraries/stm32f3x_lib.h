@@ -22,7 +22,9 @@
 #define FLASH_BASE      ((uint32_t)0x08000000)     /*!< FLASH base address in the alias region >*/
 
 /*!-----------------------------------------------------------------------------
+
                     PROCESSOR SPECIFIC DETAILS: ARM CORTEX M4-PROCESSOR
+
 -------------------------------------------------------------------------------->*/
  
 /*!<  Structure type to access the Nested Vectored Interrupt Controller (NVIC) >*/
@@ -44,10 +46,9 @@ typedef struct
   __vo uint32_t STIR;                    /*!< Offset: 0xE00 ( /W)  Software Trigger Interrupt Register >*/
 }  NVIC_Type;
 
-#define NVIC                ((NVIC_Type*)0xE000E100U)   
+
                                          
-
-
+/*!< define SCB Registers >*/
 typedef struct
 {
   __vo uint32_t CPUID;                   /*!< Offset: 0x000 (R/ )  CPUID Base Register                                   */
@@ -74,13 +75,8 @@ typedef struct
 } SCB_Type;
 
 
-#define SCB                 ((SCB_Type*) 0xE000E000U )   /*!< SCB configuration struct>*/  
 
-
-/** 
-  * @brief FLASH Registers
-  */
-
+/*!< define FLASH Registers >*/
 typedef struct
 {
   __vo uint32_t ACR;          /*!< FLASH access control register,              Address offset: 0x00 */
@@ -96,16 +92,22 @@ typedef struct
 } FLASH_TypeDef;
 
 
-#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
-#define AHB1PERIPH_BASE       (PERIPH_BASE + 0x00020000)
-#define FLASH_R_BASE          (AHB1PERIPH_BASE + 0x00002000) /*!< Flash registers base address */
-#define FLASH                 ((FLASH_TypeDef *) FLASH_R_BASE)
 
-/******************************************************************************/
-/*                                                                            */
-/*                                    FLASH                                   */
-/*                                                                            */
-/******************************************************************************/
+#define NVIC                    ((NVIC_Type*)0xE000E100U)   
+
+#define SCB                     ((SCB_Type*) 0xE000E000U )   /*!< SCB configuration struct>*/  
+
+#define PERIPH_BASE             ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+#define AHB1PERIPH_BASE         (PERIPH_BASE + 0x00020000)
+#define FLASH_R_BASE            (AHB1PERIPH_BASE + 0x00002000) /*!< Flash registers base address */
+#define FLASH                   ((FLASH_TypeDef *) FLASH_R_BASE)
+
+/*!-----------------------------------------------------------------------------
+
+                                    FLASH                                   
+
+-------------------------------------------------------------------------------->*/
+
 /*******************  Bit definition for FLASH_ACR register  ******************/
 #define  FLASH_ACR_LATENCY                   ((uint8_t)0x03)               /*!< LATENCY[2:0] bits (Latency) */
 #define  FLASH_ACR_LATENCY_0                 ((uint8_t)0x01)               /*!< Bit 0 */
@@ -117,7 +119,9 @@ typedef struct
 
 
 /*!-----------------------------------------------------------------------------
+
                     DEFINE  STRUCT PERIPHERAL OF STM32F3DISCOVERY
+
 -------------------------------------------------------------------------------->*/
 
 /*!< define RCC REGISTERS >*/
@@ -190,9 +194,7 @@ typedef struct {
       __vo uint32_t DMAR;               /*!< its address is (TIMER_base_address + 0x4C) >*/
 }TIMER_Type;
 
-/*!<----------------------------------------------------------
-          END DEFINE STRUCT PERIPHERAL OF STM32F3DISCOVERY
--------------------------------------------------------------*/
+
 
 /*!< define of peripheral base address >*/
 #define RCC             ((RCC_Type*)    0x40021000U)
@@ -229,11 +231,12 @@ typedef struct {
 #define CEN_EN                  (1<<0)
 
 
-/******************************************************************************/
-/*                                                                            */
-/*                         Reset and Clock Control                            */
-/*                                                                            */
-/******************************************************************************/
+/*!-----------------------------------------------------------------------------
+
+                          Reset and Clock Control                            
+                                                                        
+-------------------------------------------------------------------------------->*/
+
 /********************  Bit definition for RCC_CR register  ********************/
 #define  RCC_CR_HSION                        ((uint32_t)0x00000001)
 #define  RCC_CR_HSIRDY                       ((uint32_t)0x00000002)
@@ -451,30 +454,31 @@ typedef struct {
 #define  RCC_CFGR2_ADCPRE34_DIV128           ((uint32_t)0x00003400)        /*!< ADC34 PLL clock divided by 128 */
 #define  RCC_CFGR2_ADCPRE34_DIV256           ((uint32_t)0x00003600)        /*!< ADC34 PLL clock divided by 256 */
 
-/**
+/*!<
  * @brief In the following line adjust the value of External High Speed oscillator (HSE)
    used in your application 
    
    Tip: To avoid modifying this file each time you need to use different HSE, you
         can define the HSE value in your toolchain compiler preprocessor.
-  */           
+> */           
 #if !defined  (HSE_VALUE) 
  #define HSE_VALUE            ((uint32_t)8000000) /*!< Value of the External oscillator in Hz */
 #endif /* HSE_VALUE */
 
-/**
+/*!<
  * @brief In the following line adjust the External High Speed oscillator (HSE) Startup 
    Timeout value 
-   */
+  
+> */
 #if !defined  (HSE_STARTUP_TIMEOUT) 
  #define HSE_STARTUP_TIMEOUT  ((uint16_t)0x0500)   /*!< Time out for HSE start up */
 #endif /* HSE_STARTUP_TIMEOUT */
 
 
-/**
+/*!<
  * @brief In the following line adjust the Internal High Speed oscillator (HSI) Startup 
    Timeout value 
-   */
+>*/
 #if !defined  (HSI_STARTUP_TIMEOUT) 
  #define HSI_STARTUP_TIMEOUT   ((uint16_t)0x0500) /*!< Time out for HSI start up */
 #endif /* HSI_STARTUP_TIMEOUT */  

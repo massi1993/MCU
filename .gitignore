@@ -63,3 +63,9 @@ src/led_on_timer/led_on_timer.ewp
 src/led_on_timer/led_on_timer.ewt
 src/led_on_timer/settings/led_on_timer.dnx
 src/led_on_timer/settings/led_on_timer.dbgdt
+src/PA0_EXTI/Debug/BrowseInfo/.ninja_log
+src/PA0_EXTI/Debug/BrowseInfo/exti_PA0.pbd
+src/PA0_EXTI/Debug/BrowseInfo/exti_PA0.pbd.browse
+src/PA0_EXTI/Debug/BrowseInfo/exti_PA0.pbw
+src/PA0_EXTI/Debug/BrowseInfo/main.pbi.dep
+src/PA0_EXTI/Debug/BrowseInfo/system_stm32f30x.pbi
