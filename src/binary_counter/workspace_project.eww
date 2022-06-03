@@ -4,6 +4,9 @@
         <path>$WS_DIR$\binarny_cnt.ewp</path>
     </project>
     <project>
+        <path>$WS_DIR$\..\PA0_EXTI\exti_PA0.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\..\led_on_timer\led_on_timer.ewp</path>
     </project>
     <batchBuild />

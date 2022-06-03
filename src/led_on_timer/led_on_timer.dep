@@ -26,16 +26,10 @@
             <file>$PROJ_DIR$\Debug\Exe\led_on_timer.out</file>
             <file>$PROJ_DIR$\Debug\List\led_on_timer.map</file>
             <file>$PROJ_DIR$\..\binary_counter\Library\stm32f3x_lib.h</file>
+            <file>$PROJ_DIR$\..\binary_counter\main.c</file>
+            <file>$PROJ_DIR$\..\..\libraries\startup\startup_stm32f30x.s</file>
+            <file>$PROJ_DIR$\..\PA0_EXTI\main.c</file>
         </outputs>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 18 19</file>
-                </tool>
-            </outputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
@@ -65,6 +59,15 @@
                     <file> 10 17 14 6 16 13</file>
                 </tool>
             </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 18 19</file>
+                </tool>
+            </outputs>
         </file>
         <forcedrebuild>
             <name>$PROJ_DIR$\main.c</name>
