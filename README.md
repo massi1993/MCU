@@ -44,4 +44,4 @@ N = Δt / Tck = 4 000 000
 
 ## Project EXTERNAL INTERRUPT (PA0)
 Manage external interrupt when PA0 is pressed.
-For this project, is added a new c source file (stm32f3x_gpio_driver)
+For this project, is added a new c source file (stm32f3x_gpio_driver.c)

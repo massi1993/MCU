@@ -8,6 +8,7 @@ short int flag = SET;
 
 unsigned int _index_EXTI = RESET;                   /*!< Index of SYSCFG -> EXTI >*/ 
 unsigned int _bit_pos_EXTI = RESET;                 /*!< Bit position in which write the data >*/  
+
 void main(){
          
           RCC->AHBENR |= GPIOE_EN;

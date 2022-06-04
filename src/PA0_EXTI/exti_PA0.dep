@@ -30,6 +30,7 @@
             <file>$TOOLKIT_DIR$\config\linker\ST\stm32f303xC.icf</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\..\led_on_timer\main.c</file>
             <file>$PROJ_DIR$\Debug\List\exti_PA0.map</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.c</file>
             <file>$PROJ_DIR$\Debug\Obj\stm32f3x_gpio_driver.o</file>
@@ -40,7 +41,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 19 25</file>
+                    <file> 19 26</file>
                 </tool>
             </outputs>
         </file>
@@ -94,13 +95,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 25</file>
+                    <file> 26</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 22 15 16 27 8 23 21 18 24</file>
+                    <file> 22 15 16 28 8 23 21 18 24</file>
                 </tool>
             </inputs>
         </file>
@@ -109,7 +110,7 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 27</file>
+                    <file> 28</file>
                 </tool>
             </outputs>
             <inputs>

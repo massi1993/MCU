@@ -8427,7 +8427,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "11",
+      "line": "12",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\PA0_EXTI\\main.c"
     },
     "name": "main",
@@ -8435,13 +8435,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@499@F@main@i",
+    "ID": "c:main.c@501@F@main@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "16",
+      "line": "17",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\PA0_EXTI\\main.c"
     },
     "name": "i",
@@ -8455,7 +8455,7 @@
     "display": "void EXTI0_IRQHandler(void)",
     "location": {
       "column": "6",
-      "line": "41",
+      "line": "42",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\PA0_EXTI\\main.c"
     },
     "name": "EXTI0_IRQHandler",

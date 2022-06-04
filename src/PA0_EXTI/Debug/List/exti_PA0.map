@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  04/Jun/2022  12:47:40
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  04/Jun/2022  12:54:50
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -162,8 +162,8 @@ No sections matched the following patterns:
 
 "P2", part 1 of 2:                            0xc
   P2-1                        0x2000'0000     0xa  <Init block>
-    .data            inited   0x2000'0000     0x4  main.o [1]
-    .data            inited   0x2000'0004     0x4  main.o [1]
+    .bss             inited   0x2000'0000     0x4  main.o [1]
+    .bss             inited   0x2000'0004     0x4  main.o [1]
     .data            inited   0x2000'0008     0x2  main.o [1]
                             - 0x2000'000a     0xa
 
