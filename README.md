@@ -8,6 +8,7 @@ In the Options dialog box, select the General Options category, open the Target 
 
 2. If your source files include header files, select the C/C++ Compiler category, open the Preprocessor tab, and specify their paths. The path of the
 include directory is a relative path. In this project, the library to include is stored in path /libraries/ as shown:
+
 ![config2](https://user-images.githubusercontent.com/83538787/171996102-4ffdc9a5-c428-4759-a331-e0912adb2bca.PNG)
 
 3. To set up the ST-Link embedded debug tool interface, select the Debugger category, open the Setup tab and, from the drop-down Driver menu, select ST-Link. Then,
