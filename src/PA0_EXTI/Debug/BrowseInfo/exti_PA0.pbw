@@ -9114,21 +9114,21 @@
     "location": {
       "column": "5",
       "line": "13",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.c"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index_EXTI",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.c@279@F@index_EXTI@index",
+    "ID": "c:stm32f3x_api.c@279@F@index_EXTI@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",
     "location": {
       "column": "9",
       "line": "15",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.c"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index",
     "origin": "project_file",
@@ -9142,21 +9142,21 @@
     "location": {
       "column": "5",
       "line": "34",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.c"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos_EXTI",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.c@727@F@bit_pos_EXTI@bit_pos",
+    "ID": "c:stm32f3x_api.c@727@F@bit_pos_EXTI@bit_pos",
     "What": "Variable",
     "defdec": "Def",
     "display": "bit_pos",
     "location": {
       "column": "9",
       "line": "36",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.c"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos",
     "origin": "project_file",

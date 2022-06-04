@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  04/Jun/2022  12:54:50
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  04/Jun/2022  13:13:53
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -12,7 +12,7 @@
 #        C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Exe\exti_PA0.out.rsp
 #        (C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Obj\main.o
 #        C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Obj\startup_stm32f30x.o
-#        C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Obj\stm32f3x_gpio_driver.o
+#        C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Obj\stm32f3x_api.o
 #        C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Obj\system_stm32f30x.o
 #        --no_out_extension -o
 #        C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Exe\exti_PA0.out
@@ -70,7 +70,7 @@ No sections matched the following patterns:
 "P1":                                       0x44c
   .text              ro code   0x800'0188   0x118  system_stm32f30x.o [1]
   .text              ro code   0x800'02a0    0xec  main.o [1]
-  .text              ro code   0x800'038c    0x16  stm32f3x_gpio_driver.o [1]
+  .text              ro code   0x800'038c    0x16  stm32f3x_api.o [1]
   .text              ro code   0x800'03a2    0x2a  copy_init3.o [4]
   .text              ro code   0x800'03cc    0x28  data_init.o [4]
   .text              ro code   0x800'03f4    0x22  fpinit_M.o [3]
@@ -199,49 +199,49 @@ Copy (__iar_copy_init3)
 *** MODULE SUMMARY
 ***
 
-    Module                  ro code  ro data  rw data
-    ------                  -------  -------  -------
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
 command line/config:
-    -------------------------------------------------
+    ----------------------------------------------
     Total:
 
 C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Obj: [1]
-    main.o                      236       10       10
-    startup_stm32f30x.o         704
-    stm32f3x_gpio_driver.o       22
-    system_stm32f30x.o          280
-    -------------------------------------------------
-    Total:                    1'242       10       10
+    main.o                   236       10       10
+    startup_stm32f30x.o      704
+    stm32f3x_api.o            22
+    system_stm32f30x.o       280
+    ----------------------------------------------
+    Total:                 1'242       10       10
 
 dl7M_tln.a: [2]
-    exit.o                        4
-    low_level_init.o              4
-    -------------------------------------------------
-    Total:                        8
+    exit.o                     4
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                     8
 
 m7M_tls.a: [3]
-    fpinit_M.o                   34
-    -------------------------------------------------
-    Total:                       34
+    fpinit_M.o                34
+    ----------------------------------------------
+    Total:                    34
 
 rt7M_tl.a: [4]
-    cexit.o                      10
-    cmain.o                      30
-    copy_init3.o                 42
-    cstartup_M.o                 28
-    data_init.o                  40
-    -------------------------------------------------
-    Total:                      150
+    cexit.o                   10
+    cmain.o                   30
+    copy_init3.o              42
+    cstartup_M.o              28
+    data_init.o               40
+    ----------------------------------------------
+    Total:                   150
 
 shb_l.a: [5]
-    exit.o                       20
-    -------------------------------------------------
-    Total:                       20
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
 
-    Gaps                          4        2
-    Linker created                        22    8'192
------------------------------------------------------
-    Grand Total:              1'458       34    8'202
+    Gaps                       4        2
+    Linker created                     22    8'192
+--------------------------------------------------
+    Grand Total:           1'458       34    8'202
 
 
 *******************************************************************************
@@ -272,10 +272,10 @@ _bit_pos_EXTI           0x2000'0004   0x4  Data  Gb  main.o [1]
 _call_main               0x800'0439        Code  Gb  cmain.o [4]
 _exit                    0x800'0455        Code  Gb  cexit.o [4]
 _index_EXTI             0x2000'0000   0x4  Data  Gb  main.o [1]
-bit_pos_EXTI             0x800'0395   0xe  Code  Gb  stm32f3x_gpio_driver.o [1]
+bit_pos_EXTI             0x800'0395   0xe  Code  Gb  stm32f3x_api.o [1]
 exit                     0x800'044f   0x4  Code  Gb  exit.o [2]
 flag                    0x2000'0008   0x2  Data  Gb  main.o [1]
-index_EXTI               0x800'038d   0x8  Code  Gb  stm32f3x_gpio_driver.o [1]
+index_EXTI               0x800'038d   0x8  Code  Gb  stm32f3x_api.o [1]
 main                     0x800'02a1  0x90  Code  Gb  main.o [1]
 
 

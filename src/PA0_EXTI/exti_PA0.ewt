@@ -2852,7 +2852,7 @@
         <name>$PROJ_DIR$\..\..\libraries\startup\startup_stm32f30x.s</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.c</name>
+        <name>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</name>
     </file>
     <file>
         <name>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.h</name>
