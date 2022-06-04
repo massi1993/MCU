@@ -26,6 +26,7 @@
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
             <file>$PROJ_DIR$\..\PA0_EXTI\main.c</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.c</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\binarny_cnt.out</name>

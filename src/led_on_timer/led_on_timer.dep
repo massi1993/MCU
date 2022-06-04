@@ -25,6 +25,7 @@
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\Debug\Exe\led_on_timer.out</file>
             <file>$PROJ_DIR$\Debug\List\led_on_timer.map</file>
+            <file>$PROJ_DIR$\..\binary_counter\main.c</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\main.c</name>

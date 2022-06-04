@@ -13,10 +13,7 @@ void main(){
         RCC->APB1ENR |= TIM2_EN;
         
         //SET PEx (WITH x = 8,9,..15) IN OUTPUT_MODE
-        for(int i = 8; i < 16; i++)
-        {
-          GPIOE->MODER|= (OUT_MODE << 2*i);
-        }
+        SET_PE_IN_OUT_MODE();
  
         TIM2->ARR = N_CONT(0.5); //TIME (in seconds) IN INPUT
         
