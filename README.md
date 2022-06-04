@@ -8,7 +8,7 @@ In the Options dialog box, select the General Options category, open the Target 
 
 2. If your source files include header files, select the C/C++ Compiler category, open the Preprocessor tab, and specify their paths. The path of the
 include directory is a relative path. In this project, the library to include is stored in path /libraries/ as shown:
-![config2](https://user-images.githubusercontent.com/83538787/171750789-a132971b-6ee9-45bb-aa21-57394c18c3c5.PNG)
+
 
 3. To set up the ST-Link embedded debug tool interface, select the Debugger category, open the Setup tab and, from the drop-down Driver menu, select ST-Link. Then,
 open the Debugger tab and select Use flash loader(s):
@@ -44,4 +44,4 @@ N = Δt / Tck = 4 000 000
 
 ## Project EXTERNAL INTERRUPT (PA0)
 Manage external interrupt when PA0 is pressed.
-
+For this project, is added a new c source file (stm32f3x_gpio_driver)

@@ -29,6 +29,11 @@ build C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\main.
   flags = C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\main.c -o C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\Attilio\Documents\GitHub\MCU\libraries\ -Ol --predef_macros C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\main.tmp
   rspfile_name = C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\main.xcl.rsp
 
+build C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\stm32f3x_gpio_driver.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Attilio\Documents\GitHub\MCU\libraries\stm32f3x_gpio_driver.c -xcl_file C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\stm32f3x_gpio_driver.xcl -macro_file C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\stm32f3x_gpio_driver.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\Attilio\Documents\GitHub\MCU\libraries\stm32f3x_gpio_driver.c -o C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\Attilio\Documents\GitHub\MCU\libraries\ -Ol --predef_macros C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\stm32f3x_gpio_driver.tmp
+  rspfile_name = C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\stm32f3x_gpio_driver.xcl.rsp
+
 build C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\system_stm32f30x.xcl : COMPILER_XCL 
   xclcommand = -source_file C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\system_stm32f30x.c -xcl_file C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\system_stm32f30x.xcl -macro_file C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\system_stm32f30x.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
   flags = C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\system_stm32f30x.c -o C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\Attilio\Documents\GitHub\MCU\libraries\ -Ol --predef_macros C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\system_stm32f30x.tmp
@@ -38,6 +43,10 @@ build C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\main.
 C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\main.c
   flags = -out=C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\main.pbi -f C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\main.xcl
 
+build C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\stm32f3x_gpio_driver.pbi : INDEXER C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\stm32f3x_gpio_driver.xcl |  $
+C$:\Users\Attilio\Documents\GitHub\MCU\libraries\stm32f3x_gpio_driver.c
+  flags = -out=C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\stm32f3x_gpio_driver.pbi -f C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\stm32f3x_gpio_driver.xcl
+
 build C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\system_stm32f30x.pbi : INDEXER C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\system_stm32f30x.xcl |  $
 C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\system_stm32f30x.c
   flags = -out=C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\system_stm32f30x.pbi -f C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\system_stm32f30x.xcl
@@ -46,6 +55,7 @@ build C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\exti_
   flags = C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\exti_PA0.pbd -output C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\exti_PA0.pbw
 
 build C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\exti_PA0.pbd : PDBLINK C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\main.pbi |  $
+C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\stm32f3x_gpio_driver.pbi $
 C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\system_stm32f30x.pbi
-  flags = -M C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\exti_PA0.pbd C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\main.pbi C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\system_stm32f30x.pbi
+  flags = -M C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\exti_PA0.pbd C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\main.pbi C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\stm32f3x_gpio_driver.pbi C$:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\system_stm32f30x.pbi
 

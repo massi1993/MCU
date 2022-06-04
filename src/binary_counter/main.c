@@ -10,11 +10,8 @@ void main(){
         RCC->AHBENR|=GPIOE_EN|GPIOA_EN;
 	
 	//SET PEx (WITH x = 8,9,..15) IN OUTPUT_MODE
-        for(int i = 8; i < 16; i++)
-        {
-          GPIOE->MODER|= (OUT_MODE << 2*i);
-        }
-
+        SET_PE_IN_OUT_MODE();
+        
         //SET PA0 IN INPUT MODE (BY DEFAULT PA0 IS ALREADY IN INPUT MODE)
         GPIOA -> MODER &=~ (IN_MODE << 0);
 	 
