@@ -78,5 +78,6 @@
 int index_EXTI(int PinNumber);
 int bit_pos_EXTI(int PinNumber);
 int bit_pos_GPIO_MODER(int PinNumber);
+int index_NVIC_ISER(int IRQ);
 
 #endif /* STM32_F3X_DRIVER_H */

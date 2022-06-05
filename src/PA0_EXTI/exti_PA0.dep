@@ -36,6 +36,7 @@
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</file>
+            <file>$PROJ_DIR$\..\Timer3_internal_interrupt\main.c</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\system_stm32f30x.c</name>

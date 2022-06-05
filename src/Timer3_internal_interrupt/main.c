@@ -28,7 +28,8 @@ unsigned int nArr_TIM3;
 
 int time = 1;    //1 secondo
 
-unsigned int _bit_pos_GPIO_MODER = SET;
+unsigned int _bit_pos_GPIO_MODER = SET;         /*!< Bit position in which write the data >*/ 
+unsigned int _index_NVIC_ISER = SET;            /*!< Index of NVIC -> ISER >*/     
 
 void main(){
 
@@ -50,7 +51,10 @@ void main(){
       TIM3->CR1|=CEN_EN;   //COUNTER ENABLE
      
       TIM3->DIER|=TIM_DIER_UIE;
-      NVIC->ISER[0]|=(1<<29);    //INTERRUPT SU TIM3
+      
+      /*!< Configure the index of NVIC_ISER and unmasking of TIM3 global interrupt>*/
+      _index_NVIC_ISER = index_NVIC_ISER(IRQ_TIM3);
+      NVIC->ISER[_index_NVIC_ISER]|= (1 << IRQ_TIM3);    //INTERRUPT SU TIM3
      
       while(1);
  

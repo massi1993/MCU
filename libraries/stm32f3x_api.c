@@ -7,7 +7,6 @@
 
 #include "stm32f3x_api_driver.h"
 
-
 /*!-----------------------------------------------------------------------------
 
                       API FOR General Purpose Input Output 
@@ -42,7 +41,7 @@ int bit_pos_GPIO_MODER(int PinNumber){
 
 /*!-----------------------------------------------------------------------------
 
-                      API FOR EXTernal Interrupt 
+                      API FOR EXTernal Interrupt AND INTERNAL INTERRUPT
 
 -------------------------------------------------------------------------------->*/
 /*!<
@@ -83,4 +82,27 @@ int bit_pos_EXTI(int PinNumber){
     bit_pos = (PinNumber % 4) * 4;
     
     return bit_pos;
+}
+
+
+/*!<
+@brief
+Get the index of NVIC -> ISER[index].
+
+@param IRQ      number of interrupt request:
+                - From 0 to 31 the interrupts are set in the ISER[0] register;
+                - from 32 to 63 the interrupts are set in the ISER[1] register;
+                - from 64 to 81 the interrupts are set in the ISER[2] register
+
+@return value of NVIC_ISER index. It can be ISER[0], ISER[1] and ISER[2]
+
+*/
+
+int index_NVIC_ISER(int IRQ){
+    
+    int index;
+    
+    index = IRQ/32;
+
+    return index;
 }

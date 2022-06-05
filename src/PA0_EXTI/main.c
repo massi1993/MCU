@@ -8,6 +8,7 @@ short int flag = SET;
 
 unsigned int _index_EXTI = RESET;                   /*!< Index of SYSCFG -> EXTI >*/ 
 unsigned int _bit_pos_EXTI = RESET;                 /*!< Bit position in which write the data >*/  
+unsigned int _index_NVIC_ISER = SET;                /*!< Index of NVIC -> ISER >*/ 
 
 void main(){
          
@@ -34,7 +35,8 @@ void main(){
           EXTI->PR |= (1<<0);
          
           //ABILITO DA NVIC LA POSIZIONE DI EXTI LINE 0 INTERRUPT
-          NVIC->ISER[0] |= (1<<6);
+          _index_NVIC_ISER = index_NVIC_ISER(IRQ_NO_EXTI0);
+          NVIC->ISER[_index_NVIC_ISER] |= (1<<IRQ_NO_EXTI0);
          
           while(1);
 }

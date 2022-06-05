@@ -102,6 +102,23 @@ typedef struct
 #define FLASH_R_BASE            (AHB1PERIPH_BASE + 0x00002000) /*!< Flash registers base address */
 #define FLASH                   ((FLASH_TypeDef *) FLASH_R_BASE)
 
+/*!< define macros for INTERRUPT REQUEST FOR STM32F3DISCOVERY - INTERRUPT VECTOR >*/
+#define IRQ_NO_EXTI0            6
+#define IRQ_NO_EXTI1            7
+#define IRQ_NO_EXTI2            8
+#define IRQ_NO_EXTI3            9
+#define IRQ_NO_EXTI4            10
+#define IRQ_NO_EXTI9_5          23
+#define IRQ_TIM2                28
+#define IRQ_TIM3                29
+#define IRQ_TIM4                30
+#define IRQ_SPI1                35
+#define IRQ_SPI2                36
+#define IRQ_NO_EXTI15_10        40
+#define IRQ_SPI3                51
+#define IRQ_TIM7                55
+
+
 /*!-----------------------------------------------------------------------------
 
                                     FLASH                                   
@@ -212,19 +229,6 @@ typedef struct {
 #define GPIOD_EN                (1<<20)
 #define GPIOE_EN                (1<<21)
 #define GPIOF_EN                (1<<22)
-
-
-
-/*!< define macros for INTERRUPT REQUEST FOR STM32F3DISCOVERY >*/
-#define IRQ_NO_EXTI0            6
-#define IRQ_NO_EXTI1            7
-#define IRQ_NO_EXTI2            8
-#define IRQ_NO_EXTI3            9
-#define IRQ_NO_EXTI4            10
-#define IRQ_NO_EXTI9_5          23
-#define IRQ_NO_EXTI15_10        40        
-
-
 
 /*!-----------------------------------------------------------------------------
 
