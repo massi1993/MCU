@@ -53,11 +53,13 @@ For this project, is added a new c source file (stm32f3x_api.c)
 Management INTERNAL interrupt WITH LED ON / OFF EVERY SECOND. 
 Inasmuch as TIM3 is a 16-bit timer, it can count to 65,535 before rolling over, which means we can measure events no longer than about 819 microseconds if Fck = 80 MHz!
 As a matter of fact:
-fck = 80 MHz
 
-Δt_(max) = (2^16)/fck = 819,2 us
+$ f_ck = 80 MHz$
 
-N = [Δt_(max) * fck - 1]= 65 535
+$ Δt_(max) = (2^16)/fck = 819,2 us $
+
+$ N = [Δt_(max) * fck - 1]= 65 535 $
+
 If we wish to measure longer events, we need to use a prescaler, which is a piece of hardware that divides the clock source. 
 For example, a prescaler of 80 would turn an 80 MHz clock into a 1 MHz clock.
 
