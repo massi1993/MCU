@@ -201,6 +201,7 @@ typedef struct {
 #define GPIOE           ((GPIO_Type*)   0x48001000U)
 #define GPIOA           ((GPIO_Type*)   0x48000000U)
 #define TIM2            ((TIMER_Type*)  0x40000000U)
+#define TIM3            ((TIMER_Type*)  0x40000400U)
 #define EXTI            ((EXTI_Type*)   0x40010400U)
 #define SYSCFG          ((SYSCFG_Type*) 0x40010000U)
 
@@ -223,12 +224,6 @@ typedef struct {
 #define IRQ_NO_EXTI9_5          23
 #define IRQ_NO_EXTI15_10        40        
 
-
-
-/*!< define MACROS of TIM2  >*/
-#define TIM2_EN                 (1<<0)
-#define TIM3_EN                 (1<<1)
-#define CEN_EN                  (1<<0)
 
 
 /*!-----------------------------------------------------------------------------

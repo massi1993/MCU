@@ -26,6 +26,7 @@
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
+            <file>$PROJ_DIR$\..\Timer3_internal_interrupt\main.c</file>
             <file>$PROJ_DIR$\..\led_on_timer\main.c</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</file>
@@ -41,7 +42,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 19 14 16 11 13 0 17 3 12 22</file>
+                    <file> 19 14 16 11 13 0 17 3 12 23</file>
                 </tool>
             </inputs>
         </file>
@@ -80,7 +81,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 22</file>
+                    <file> 23</file>
                 </tool>
             </inputs>
         </file>

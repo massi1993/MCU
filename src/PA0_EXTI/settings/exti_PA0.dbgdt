@@ -160,7 +160,7 @@
             </IarPane-34087>
             <IarPane-34101>
                 <expressions>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

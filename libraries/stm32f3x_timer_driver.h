@@ -25,4 +25,9 @@
 /*!< define MACROS for TIMx->DIER (DMA INTERRUPT ENABLE REGISTER)>*/
 #define TIM_DIER_UIE    (1<<0)
 
+/*!< define MACROS  >*/
+#define TIM2_EN                 (1<<0)
+#define TIM3_EN                 (1<<1)
+#define CEN_EN                  (1<<0)
+
 #endif /* STM32_F3X_T_DRIVER_H */

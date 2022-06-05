@@ -9029,7 +9029,7 @@
     "display": "int bit_pos_GPIO_MODER(int)",
     "location": {
       "column": "5",
-      "line": "30",
+      "line": "34",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos_GPIO_MODER",
@@ -9037,13 +9037,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@900@F@bit_pos_GPIO_MODER@bit_pos",
+    "ID": "c:stm32f3x_api.c@1080@F@bit_pos_GPIO_MODER@bit_pos",
     "What": "Variable",
     "defdec": "Def",
     "display": "bit_pos",
     "location": {
       "column": "9",
-      "line": "32",
+      "line": "36",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos",
@@ -9057,7 +9057,7 @@
     "display": "int index_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "54",
+      "line": "58",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index_EXTI",
@@ -9065,13 +9065,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@1451@F@index_EXTI@index",
+    "ID": "c:stm32f3x_api.c@1631@F@index_EXTI@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",
     "location": {
       "column": "9",
-      "line": "56",
+      "line": "60",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index",
@@ -9085,7 +9085,7 @@
     "display": "int bit_pos_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "75",
+      "line": "79",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos_EXTI",
@@ -9093,13 +9093,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@1898@F@bit_pos_EXTI@bit_pos",
+    "ID": "c:stm32f3x_api.c@2078@F@bit_pos_EXTI@bit_pos",
     "What": "Variable",
     "defdec": "Def",
     "display": "bit_pos",
     "location": {
       "column": "9",
-      "line": "77",
+      "line": "81",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos",
