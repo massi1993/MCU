@@ -44,5 +44,16 @@ Tck = 1 / fck = 125 ns
 N = Δt / Tck = 4 000 000
 
 ## Project EXTERNAL INTERRUPT (PA0)
-Manage external interrupt when PA0 is pressed.
+Management external interrupt when PA0 is pressed.
 For this project, is added a new c source file (stm32f3x_api.c)
+
+
+## Project INTERNAL INTERRUPT (TIMER3)
+For this project, is added a new c source file (stm32f3x_api.c)
+Management INTERNAL interrupt WITH LED ON / OFF EVERY SECOND. 
+Inasmuch as TIM3 is a 16-bit timer, it can count to 65,535 before rolling over, which means we can measure events no longer than about 819 microseconds if Fck = 80 MHz!
+
+If we wish to measure longer events, we need to use a prescaler, which is a piece of hardware that divides the clock source. 
+For example, a prescaler of 80 would turn an 80 MHz clock into a 1 MHz clock.
+
+
