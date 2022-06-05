@@ -21,7 +21,11 @@ WRITING CORRECTLY THE CHOSEN MODE IN THE TWO BITS OF INTEREST.
 SO, THIS FUNCTION ALLOWS TO FIND THE BIT POSITION IN WHICH TO WRITE.
 For this, we first get the module reported to 2 (PinNumber % 2) and then we multiply by 2.
 
-@param PinNumber that generate the external interrupt (NOTE: use the MACROS define PxY, e.g Px0,Px1,etc..)
+@param PinNumber pin number chosen from MACROS define PxY, e.g Px0, Px1, etc..
+                 If we choose PA0, PinNumber will be Px0;
+                 If we choose PB1, PinNumber will be Px1;
+                 If we choose PB2, PinNumber will be Px2;
+                 and so on...
 
 @return value of bit position
 
