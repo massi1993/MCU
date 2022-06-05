@@ -37,11 +37,11 @@ Example:
 The clock frequency provided by the board is 8 MHz, which is 8 million counts per second. 
 For example, if we want the LEDs to change state every 0.5 second, the counter must reach 4 million.
 
-$fck = 8 MHz $
+$f_{ck} = 8 MHz $
 
-$ Tck = 1 / fck = 125 ns$
+$ T_{ck} = 1 / f_{ck} = 125 ns$
 
-$N = Δt / Tck = 4 000 000$
+$N = Δt / T_{ck} = 4 000 000$
 
 
 ## 3. Project EXTERNAL INTERRUPT (PA0)
@@ -55,11 +55,11 @@ Management INTERNAL interrupt WITH LED ON / OFF EVERY SECOND.
 Inasmuch as TIM3 is a 16-bit timer, it can count to 65,535 before rolling over, which means we can measure events no longer than about 819 microseconds if Fck = 80 MHz!
 As a matter of fact:
 
-$ f_ck = 80 MHz$
+$ f_{ck} = 80 MHz$
 
-$ Δt_{max} = (2^{16})/fck = 819,2 us $
+$ Δt_{max} = (2^{16})/f_{ck} = 819,2 us $
 
-$ N = [Δt_{max} * fck - 1]= 65 535 $
+$ N = [Δt_{max} * f_{ck} - 1]= 65 535 $
 
 If we wish to measure longer events, we need to use a prescaler, which is a piece of hardware that divides the clock source. 
 For example, a prescaler of 80 would turn an 80 MHz clock into a 1 MHz clock.
