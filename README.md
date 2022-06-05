@@ -1,5 +1,5 @@
 # Project MCU
-# Update : 04/06/22 , version : 0.2.1
+# Update : 05/06/22 , version : 0.3
 
 # CONFIGURATION IDE IAR EMBEDDED : Follow these steps to configure project options
 1. In the Project Editor, right-click on the project name and select Options... to display the Options dialog box:

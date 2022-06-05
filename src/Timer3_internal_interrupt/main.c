@@ -1,5 +1,10 @@
 /*
 *
+*       Created on : June 05, 2022 
+*           Author : massiAv
+*
+
+*
 TIMER 3 IS A 16-BIT TIMER;
     
 Before the timer clock signal gets to the counter, it must pass through the prescaler, PSC. 
@@ -33,37 +38,37 @@ unsigned int _index_NVIC_ISER = SET;            /*!< Index of NVIC -> ISER >*/
 
 void main(){
 
-      /*!< ENABLE GPIOE AND GPIOA ON AHB BUS >*/
-      RCC->AHBENR|=GPIOE_EN|GPIOA_EN;
-     
-      /*!< ENABLE TIMER2 ON APB1 BUS >*/
-      RCC->APB1ENR|=TIM3_EN;
-     
-      /*!< LED IN OUTPUT MODE >*/
-      SET_PE_IN_OUT_MODE();
+          /*!< ENABLE GPIOE AND GPIOA ON AHB BUS >*/
+          RCC->AHBENR|=GPIOE_EN|GPIOA_EN;
 
-      prescaler_TIM3 = (unsigned int)(time*Fck/65535);
-      TIM3->PSC = prescaler_TIM3;
-      nArr_TIM3 = (unsigned int)(time*Fck)/(TIM3->PSC +1);
-      TIM3->ARR = nArr_TIM3;
-     
-      TIM3->CNT=0;
-      TIM3->CR1|=CEN_EN;   //COUNTER ENABLE
-     
-      TIM3->DIER|=TIM_DIER_UIE;
-      
-      /*!< Configure the index of NVIC_ISER and unmasking of TIM3 global interrupt>*/
-      _index_NVIC_ISER = index_NVIC_ISER(IRQ_TIM3);
-      NVIC->ISER[_index_NVIC_ISER]|= (1 << IRQ_TIM3);    //INTERRUPT SU TIM3
-     
-      while(1);
+          /*!< ENABLE TIMER2 ON APB1 BUS >*/
+          RCC->APB1ENR|=TIM3_EN;
+
+          /*!< LED IN OUTPUT MODE >*/
+          SET_PE_IN_OUT_MODE();
+
+          prescaler_TIM3 = (unsigned int)(time*Fck/65535);
+          TIM3->PSC = prescaler_TIM3;
+          nArr_TIM3 = (unsigned int)(time*Fck)/(TIM3->PSC +1);
+          TIM3->ARR = nArr_TIM3;
+
+          TIM3->CNT=0;
+          TIM3->CR1|=CEN_EN;   //COUNTER ENABLE
+
+          TIM3->DIER|=TIM_DIER_UIE;
+
+          /*!< Configure the index of NVIC_ISER and unmasking of TIM3 global interrupt>*/
+          _index_NVIC_ISER = index_NVIC_ISER(IRQ_TIM3);
+          NVIC->ISER[_index_NVIC_ISER]|= (1 << IRQ_TIM3);    //INTERRUPT SU TIM3
+
+          while(1);
  
 }
  
-void TIM3_IRQHandler(){
-
-  TIM3->SR&=~(1<<0);
-  GPIOE->ODR^=GPIOE_ALL_LED_ON; //^= INVERTE LO STATO
+void TIM3_IRQHandler()
+{
+          TIM3->SR&=~(1<<0);
+          GPIOE->ODR^=GPIOE_ALL_LED_ON; //^= INVERTE LO STATO
   
  }
 

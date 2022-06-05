@@ -1,3 +1,10 @@
+/* 
+*
+*       Created on : June 04, 2022 
+*           Author : massiAv
+*
+*/
+
 #include <stdio.h>
 #include "stm32f3x_lib.h"
 #include "stm32f3x_api_driver.h"
@@ -34,7 +41,7 @@ void main(){
           //CANCELLO LA CAUSA DI INTERRUZIONE
           EXTI->PR |= (1<<0);
          
-          //ABILITO DA NVIC LA POSIZIONE DI EXTI LINE 0 INTERRUPT
+          /*!< Configure the index of NVIC_ISER and unmasking of EXTI0_Line global interrupt>*/
           _index_NVIC_ISER = index_NVIC_ISER(IRQ_NO_EXTI0);
           NVIC->ISER[_index_NVIC_ISER] |= (1<<IRQ_NO_EXTI0);
          
@@ -43,18 +50,18 @@ void main(){
  
 void EXTI0_IRQHandler()
 {
-     //RICANCELLO LA CAUSA DI INTERRUZIONE
-      EXTI->PR|=(1<<0);
-     
-      //se flag==1 -> accendo i led
-      if(flag == SET)
-      {
-        GPIOE->ODR|=GPIOE_ALL_LED_ON;
-        flag = RESET;
-      } else   
-      {
-        //se flag==0 -> spengo i led
-        GPIOE->ODR=0;
-        flag=SET;
-      }
+          //RICANCELLO LA CAUSA DI INTERRUZIONE
+          EXTI->PR|=(1<<0);
+
+          //se flag==1 -> accendo i led
+          if(flag == SET)
+          {
+            GPIOE->ODR|=GPIOE_ALL_LED_ON;
+            flag = RESET;
+          } else   
+          {
+            //se flag==0 -> spengo i led
+            GPIOE->ODR=0;
+            flag=SET;
+          }
 }
