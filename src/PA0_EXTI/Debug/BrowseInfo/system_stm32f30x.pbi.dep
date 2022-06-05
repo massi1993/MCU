@@ -1,6 +1,6 @@
 C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\BrowseInfo\system_stm32f30x.pbi: \
   C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\system_stm32f30x.c \
-  C:\Users\Attilio\Documents\GitHub\MCU\libraries\stm32f3x_gpio_driver.h \
+  C:\Users\Attilio\Documents\GitHub\MCU\libraries\stm32f3x_api_driver.h \
   C:\Users\Attilio\Documents\GitHub\MCU\libraries\stm32f3x_lib.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \

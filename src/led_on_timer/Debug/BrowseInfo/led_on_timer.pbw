@@ -8407,13 +8407,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@346@F@main@i",
+    "ID": "c:main.c@347@F@main@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "9",
-      "line": "16",
+      "line": "15",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\main.c"
     },
     "name": "i",
@@ -8435,380 +8435,492 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@138@macro@STM32_F3X_DRIVER_H",
+    "ID": "c:stm32f3x_api_driver.h@138@macro@STM32_F3X_DRIVER_H",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "STM32_F3X_DRIVER_H",
     "location": {
       "column": "9",
       "line": "9",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "STM32_F3X_DRIVER_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@392@macro@OUT_MODE",
+    "ID": "c:stm32f3x_api_driver.h@392@macro@OUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OUT_MODE",
     "location": {
       "column": "9",
       "line": "16",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "OUT_MODE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@427@macro@IN_MODE",
+    "ID": "c:stm32f3x_api_driver.h@427@macro@IN_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IN_MODE",
     "location": {
       "column": "9",
       "line": "17",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "IN_MODE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@816@macro@SET",
+    "ID": "c:stm32f3x_api_driver.h@816@macro@SET",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SET",
     "location": {
       "column": "9",
       "line": "22",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "SET",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@851@macro@RESET",
+    "ID": "c:stm32f3x_api_driver.h@851@macro@RESET",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RESET",
     "location": {
       "column": "9",
       "line": "23",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "RESET",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1008@macro@PA0",
+    "ID": "c:stm32f3x_api_driver.h@1008@macro@PA0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PA0",
     "location": {
       "column": "9",
       "line": "27",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PA0",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1211@macro@PB0",
+    "ID": "c:stm32f3x_api_driver.h@1211@macro@PB0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PB0",
     "location": {
       "column": "9",
       "line": "29",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PB0",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1246@macro@PC0",
+    "ID": "c:stm32f3x_api_driver.h@1246@macro@PC0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PC0",
     "location": {
       "column": "9",
       "line": "30",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PC0",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1281@macro@PD0",
+    "ID": "c:stm32f3x_api_driver.h@1281@macro@PD0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PD0",
     "location": {
       "column": "9",
       "line": "31",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PD0",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1316@macro@PE0",
+    "ID": "c:stm32f3x_api_driver.h@1316@macro@PE0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PE0",
     "location": {
       "column": "9",
       "line": "32",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PE0",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1351@macro@PF0",
+    "ID": "c:stm32f3x_api_driver.h@1351@macro@PF0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PF0",
     "location": {
       "column": "9",
       "line": "33",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PF0",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1714@macro@Px0",
+    "ID": "c:stm32f3x_api_driver.h@1714@macro@Px0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px0",
     "location": {
       "column": "9",
       "line": "45",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px0",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1749@macro@Px1",
+    "ID": "c:stm32f3x_api_driver.h@1749@macro@Px1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px1",
     "location": {
       "column": "9",
       "line": "46",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px1",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1784@macro@Px2",
+    "ID": "c:stm32f3x_api_driver.h@1784@macro@Px2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px2",
     "location": {
       "column": "9",
       "line": "47",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px2",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1819@macro@Px3",
+    "ID": "c:stm32f3x_api_driver.h@1819@macro@Px3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px3",
     "location": {
       "column": "9",
       "line": "48",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px3",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1854@macro@Px4",
+    "ID": "c:stm32f3x_api_driver.h@1854@macro@Px4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px4",
     "location": {
       "column": "9",
       "line": "49",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px4",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1889@macro@Px5",
+    "ID": "c:stm32f3x_api_driver.h@1889@macro@Px5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px5",
     "location": {
       "column": "9",
       "line": "50",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px5",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1924@macro@Px6",
+    "ID": "c:stm32f3x_api_driver.h@1924@macro@Px6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px6",
     "location": {
       "column": "9",
       "line": "51",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px6",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1959@macro@Px7",
+    "ID": "c:stm32f3x_api_driver.h@1959@macro@Px7",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px7",
     "location": {
       "column": "9",
       "line": "52",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px7",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@1994@macro@Px8",
+    "ID": "c:stm32f3x_api_driver.h@1994@macro@Px8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px8",
     "location": {
       "column": "9",
       "line": "53",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px8",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@2029@macro@Px9",
+    "ID": "c:stm32f3x_api_driver.h@2029@macro@Px9",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px9",
     "location": {
       "column": "9",
       "line": "54",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px9",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@2064@macro@Px10",
+    "ID": "c:stm32f3x_api_driver.h@2064@macro@Px10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px10",
     "location": {
       "column": "9",
       "line": "55",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px10",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@2100@macro@Px11",
+    "ID": "c:stm32f3x_api_driver.h@2100@macro@Px11",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px11",
     "location": {
       "column": "9",
       "line": "56",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px11",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@2136@macro@Px12",
+    "ID": "c:stm32f3x_api_driver.h@2136@macro@Px12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px12",
     "location": {
       "column": "9",
       "line": "57",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px12",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@2172@macro@Px13",
+    "ID": "c:stm32f3x_api_driver.h@2172@macro@Px13",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px13",
     "location": {
       "column": "9",
       "line": "58",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px13",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@2208@macro@Px14",
+    "ID": "c:stm32f3x_api_driver.h@2208@macro@Px14",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px14",
     "location": {
       "column": "9",
       "line": "59",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px14",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@2244@macro@Px15",
+    "ID": "c:stm32f3x_api_driver.h@2244@macro@Px15",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px15",
     "location": {
       "column": "9",
       "line": "60",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px15",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api_driver.h@2319@macro@PA0_IDR_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PA0_IDR_MASK",
+    "location": {
+      "column": "9",
+      "line": "63",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "PA0_IDR_MASK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api_driver.h@2354@macro@PA1_IDR_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PA1_IDR_MASK",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "PA1_IDR_MASK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api_driver.h@2389@macro@PA2_IDR_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PA2_IDR_MASK",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "PA2_IDR_MASK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api_driver.h@2424@macro@GPIOA_IDR_IN0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_IDR_IN0",
+    "location": {
+      "column": "9",
+      "line": "66",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "GPIOA_IDR_IN0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api_driver.h@2501@macro@GPIOA_IDR_IN1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_IDR_IN1",
+    "location": {
+      "column": "9",
+      "line": "67",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "GPIOA_IDR_IN1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api_driver.h@2619@macro@GPIOE_TURN_LED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOE_TURN_LED",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "GPIOE_TURN_LED",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api_driver.h@2670@macro@GPIOE_ALL_LED_ON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOE_ALL_LED_ON",
+    "location": {
+      "column": "9",
+      "line": "72",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "GPIOE_ALL_LED_ON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api_driver.h@2761@macro@SET_PE_IN_OUT_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SET_PE_IN_OUT_MODE",
+    "location": {
+      "column": "9",
+      "line": "75",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "SET_PE_IN_OUT_MODE",
     "origin": "user_include",
     "scope": null
   },
@@ -8819,8 +8931,8 @@
     "display": "int index_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "62",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "line": "78",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "index_EXTI",
     "origin": "user_include",
@@ -8833,122 +8945,24 @@
     "display": "int bit_pos_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "63",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "line": "79",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "bit_pos_EXTI",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_gpio_driver.h@2389@macro@PA0_IDR_MASK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PA0_IDR_MASK",
+    "ID": "c:@F@bit_pos_GPIO_MODER",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int bit_pos_GPIO_MODER(int)",
     "location": {
-      "column": "9",
-      "line": "67",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
-    },
-    "name": "PA0_IDR_MASK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f3x_gpio_driver.h@2424@macro@PA1_IDR_MASK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PA1_IDR_MASK",
-    "location": {
-      "column": "9",
-      "line": "68",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
-    },
-    "name": "PA1_IDR_MASK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f3x_gpio_driver.h@2459@macro@PA2_IDR_MASK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PA2_IDR_MASK",
-    "location": {
-      "column": "9",
-      "line": "69",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
-    },
-    "name": "PA2_IDR_MASK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f3x_gpio_driver.h@2494@macro@GPIOA_IDR_IN0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIOA_IDR_IN0",
-    "location": {
-      "column": "9",
-      "line": "70",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
-    },
-    "name": "GPIOA_IDR_IN0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f3x_gpio_driver.h@2571@macro@GPIOA_IDR_IN1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIOA_IDR_IN1",
-    "location": {
-      "column": "9",
-      "line": "71",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
-    },
-    "name": "GPIOA_IDR_IN1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f3x_gpio_driver.h@2691@macro@GPIOE_TURN_LED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIOE_TURN_LED",
-    "location": {
-      "column": "9",
-      "line": "76",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
-    },
-    "name": "GPIOE_TURN_LED",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f3x_gpio_driver.h@2742@macro@GPIOE_ALL_LED_ON",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIOE_ALL_LED_ON",
-    "location": {
-      "column": "9",
-      "line": "77",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
-    },
-    "name": "GPIOE_ALL_LED_ON",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f3x_gpio_driver.h@2833@macro@SET_PE_IN_OUT_MODE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SET_PE_IN_OUT_MODE",
-    "location": {
-      "column": "9",
+      "column": "5",
       "line": "80",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_gpio_driver.h"
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
-    "name": "SET_PE_IN_OUT_MODE",
+    "name": "bit_pos_GPIO_MODER",
     "origin": "user_include",
     "scope": null
   },

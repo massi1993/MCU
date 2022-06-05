@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "stm32f3x_lib.h"
-#include "stm32f3x_gpio_driver.h"
+#include "stm32f3x_api_driver.h"
 
 int led_on=0;
+int _bit_pos_GPIO_MODE = SET;
 
 void main(){
   
@@ -12,8 +13,9 @@ void main(){
 	//SET PEx (WITH x = 8,9,..15) IN OUTPUT_MODE
         SET_PE_IN_OUT_MODE();
         
-        //SET PA0 IN INPUT MODE (BY DEFAULT PA0 IS ALREADY IN INPUT MODE)
-        GPIOA -> MODER &=~ (IN_MODE << 0);
+        /*!< SET PA0 IN INPUT MODE (BY DEFAULT PA0 IS ALREADY IN INPUT MODE)> */
+        _bit_pos_GPIO_MODE = bit_pos_GPIO_MODER(Px0);
+        GPIOA -> MODER &=~ (IN_MODE << _bit_pos_GPIO_MODE);
 	 
 	while(1)
 	{

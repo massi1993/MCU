@@ -59,10 +59,6 @@
 #define Px14                    14
 #define Px15                    15
 
-int index_EXTI(int PinNumber);
-int bit_pos_EXTI(int PinNumber);
-
-
 /*!< define MACROS for GPIOA_IDR>*/
 #define PA0_IDR_MASK            1
 #define PA1_IDR_MASK            2
@@ -71,12 +67,16 @@ int bit_pos_EXTI(int PinNumber);
 #define GPIOA_IDR_IN1()         while(((GPIOA->IDR) & (PA0_IDR_MASK)) == 1)
 
 
-
 /*!< define MACROS for GPIOE_ODR>*/
 #define GPIOE_TURN_LED(x)       GPIOE->ODR=(x)<<8
 #define GPIOE_ALL_LED_ON        0x0000FF00      
 
 /*!< define MACROS for GPIOE_MODER>*/
 #define SET_PE_IN_OUT_MODE()             for(int i = 8; i < 16; i++){GPIOE->MODER|= (OUT_MODE << 2*i);}
+
+/*!< prototypes FUNCTIONS >*/
+int index_EXTI(int PinNumber);
+int bit_pos_EXTI(int PinNumber);
+int bit_pos_GPIO_MODER(int PinNumber);
 
 #endif /* STM32_F3X_DRIVER_H */

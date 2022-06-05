@@ -29,13 +29,23 @@ build C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo
   flags = C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\main.c -o C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\Attilio\Documents\GitHub\MCU\libraries\ -Ol --predef_macros C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\main.tmp
   rspfile_name = C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\main.xcl.rsp
 
+build C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\stm32f3x_api.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Attilio\Documents\GitHub\MCU\libraries\stm32f3x_api.c -xcl_file C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\stm32f3x_api.xcl -macro_file C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\stm32f3x_api.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\Attilio\Documents\GitHub\MCU\libraries\stm32f3x_api.c -o C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\Attilio\Documents\GitHub\MCU\libraries\ -Ol --predef_macros C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\stm32f3x_api.tmp
+  rspfile_name = C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\stm32f3x_api.xcl.rsp
+
 build C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\main.pbi : INDEXER C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\main.xcl |  $
 C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\main.c
   flags = -out=C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\main.pbi -f C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\main.xcl
 
+build C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\stm32f3x_api.pbi : INDEXER C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\stm32f3x_api.xcl |  $
+C$:\Users\Attilio\Documents\GitHub\MCU\libraries\stm32f3x_api.c
+  flags = -out=C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\stm32f3x_api.pbi -f C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\stm32f3x_api.xcl
+
 build C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\binarny_cnt.pbw : MAKEBROWSE C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\binarny_cnt.pbd
   flags = C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\binarny_cnt.pbd -output C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\binarny_cnt.pbw
 
-build C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\binarny_cnt.pbd : PDBLINK C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\main.pbi
-  flags = -M C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\binarny_cnt.pbd C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\main.pbi
+build C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\binarny_cnt.pbd : PDBLINK C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\main.pbi |  $
+C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\stm32f3x_api.pbi
+  flags = -M C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\binarny_cnt.pbd C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\main.pbi C$:\Users\Attilio\Documents\GitHub\MCU\src\binary_counter\Debug\BrowseInfo\stm32f3x_api.pbi
 

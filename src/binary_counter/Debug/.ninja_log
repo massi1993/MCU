@@ -79,3 +79,8 @@
 163	202	6760431772468494	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/Exe/binarny_cnt.out	809dd2929520104
 2	207	6760445541886060	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/Obj/main.o	cdd5270ea3f25640
 211	544	6760445545256252	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/Exe/binarny_cnt.out	809dd2929520104
+1	132	6761430626775571	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/Obj/main.o	cdd5270ea3f25640
+6	139	6761430626775571	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/Obj/stm32f3x_api.o	70624c512bab1d75
+143	315	6761430628645678	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/Exe/binarny_cnt.out	76cc1bd19923e5d6
+1	97	6761431001967031	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/Obj/main.o	cdd5270ea3f25640
+101	170	6761431002637069	C:/Users/Attilio/Documents/GitHub/MCU/src/binary_counter/Debug/Exe/binarny_cnt.out	76cc1bd19923e5d6

@@ -655,7 +655,7 @@
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>176</hasPrio>
+                <hasPrio>1</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -2113,7 +2113,7 @@
         <name>$PROJ_DIR$\main.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.h</name>
+        <name>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</name>
     </file>
     <file>
         <name>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</name>

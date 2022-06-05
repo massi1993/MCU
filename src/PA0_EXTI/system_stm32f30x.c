@@ -86,7 +86,7 @@
   *
   ******************************************************************************
   */
-#include "stm32f3x_gpio_driver.h"
+#include "stm32f3x_api_driver.h"
 /** @addtogroup CMSIS
   * @{
   */
