@@ -37,11 +37,12 @@ Example:
 The clock frequency provided by the board is 8 MHz, which is 8 million counts per second. 
 For example, if we want the LEDs to change state every 0.5 second, the counter must reach 4 million.
 
-fck = 8 MHz
+$$fck = 8 MHz
 
 Tck = 1 / fck = 125 ns
 
 N = Δt / Tck = 4 000 000
+$$
 
 ## 3. Project EXTERNAL INTERRUPT (PA0)
 Management external interrupt when PA0 is pressed.
@@ -56,9 +57,9 @@ As a matter of fact:
 
 $ f_ck = 80 MHz$
 
-$ Δt_(max) = (2^16)/fck = 819,2 us $
+$ Δt_max = (2^16)/fck = 819,2 us $
 
-$ N = [Δt_(max) * fck - 1]= 65 535 $
+$ N = [Δt_max * fck - 1]= 65 535 $
 
 If we wish to measure longer events, we need to use a prescaler, which is a piece of hardware that divides the clock source. 
 For example, a prescaler of 80 would turn an 80 MHz clock into a 1 MHz clock.
