@@ -57,7 +57,7 @@ As a matter of fact:
 
 $ f_ck = 80 MHz$
 
-$ Δt_{max} = (2^16)/fck = 819,2 us $
+$ Δt_{max} = (2^{16})/fck = 819,2 us $
 
 $ N = [Δt_{max} * fck - 1]= 65 535 $
 
