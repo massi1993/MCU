@@ -56,4 +56,5 @@ Inasmuch as TIM3 is a 16-bit timer, it can count to 65,535 before rolling over, 
 If we wish to measure longer events, we need to use a prescaler, which is a piece of hardware that divides the clock source. 
 For example, a prescaler of 80 would turn an 80 MHz clock into a 1 MHz clock.
 
+![1a01c1b8-ed69-4d86-8c9e-67388366a487](https://user-images.githubusercontent.com/83538787/172060373-4970bbf8-c6ca-4e81-8eb0-47ae446bf3de.jpg)
 
