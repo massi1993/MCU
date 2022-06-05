@@ -23,7 +23,7 @@ open the Debugger tab and select Use flash loader(s):
 6. For this project, the workspace has been saved in the "binary_counter" folder and is renamed "workspace_project".
 
 # Description
-## Project binary counter
+## 1. Project binary counter
 To make a binary counter we need a counter variable, whose value increases by 1 each time the USER button (PA0) is pressed. 
 We also want the value to be shown on the display, which in our case is represented by the 8 LEDs.
 
@@ -33,27 +33,36 @@ Example:
 - cnt = 2 -> red led PE9 on
 - cnt = 3 -> blue and red led (PE8 and PE9) on
 
-## Project LED FLASHING EVERY x SECONDS
+## 2. Project LED FLASHING EVERY x SECONDS
 The clock frequency provided by the board is 8 MHz, which is 8 million counts per second. 
 For example, if we want the LEDs to change state every 0.5 second, the counter must reach 4 million.
 
-fck = 8 MHz
+$f_{ck} = 8 MHz $
 
-Tck = 1 / fck = 125 ns
+$ T_{ck} = 1 / f_{ck} = 125 ns$
 
-N = Δt / Tck = 4 000 000
+$N = Δt / T_{ck} = 4 000 000$
 
-## Project EXTERNAL INTERRUPT (PA0)
+
+## 3. Project EXTERNAL INTERRUPT (PA0)
 Management external interrupt when PA0 is pressed.
 For this project, is added a new c source file (stm32f3x_api.c)
 
 
-## Project INTERNAL INTERRUPT (TIMER3)
+## 4. Project INTERNAL INTERRUPT (TIMER3)
 For this project, is added a new c source file (stm32f3x_api.c)
 Management INTERNAL interrupt WITH LED ON / OFF EVERY SECOND. 
 Inasmuch as TIM3 is a 16-bit timer, it can count to 65,535 before rolling over, which means we can measure events no longer than about 819 microseconds if Fck = 80 MHz!
+As a matter of fact:
+
+$ f_{ck} = 80 MHz$
+
+$ Δt_{max} = (2^{16})/f_{ck} = 819,2 us $
+
+$ N = [Δt_{max} * f_{ck} - 1]= 65 535 $
 
 If we wish to measure longer events, we need to use a prescaler, which is a piece of hardware that divides the clock source. 
 For example, a prescaler of 80 would turn an 80 MHz clock into a 1 MHz clock.
 
+![1a01c1b8-ed69-4d86-8c9e-67388366a487](https://user-images.githubusercontent.com/83538787/172060373-4970bbf8-c6ca-4e81-8eb0-47ae446bf3de.jpg)
 
