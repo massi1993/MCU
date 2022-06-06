@@ -4,6 +4,7 @@
 *           Author : massiAv
 *
 */
+#include <stdint.h>
 
 #ifndef STM32_F3X_DRIVER_H
 #define STM32_F3X_DRIVER_H
@@ -21,6 +22,9 @@
                                             PYx | = (0 << x) >*/   
 #define SET                     1
 #define RESET                   0
+
+#define ENABLE                  1        
+#define DISABLE                 0
 
 /*!< MACROS TO DEFINE bits that are written by software to select the source input for the EXTIx with x = 0,1,2,3>*/
 
@@ -74,10 +78,26 @@
 /*!< define MACROS for GPIOE_MODER>*/
 #define SET_PE_IN_OUT_MODE()             for(int i = 8; i < 16; i++){GPIOE->MODER|= (OUT_MODE << 2*i);}
 
+/*!< define MACROS for RCC_AHB ENABLE >*/
+#define RCC_AHBENR_GPIOA                GPIOA_EN
+#define RCC_AHBENR_GPIOB                GPIOB_EN
+#define RCC_AHBENR_GPIOC                GPIOC_EN
+#define RCC_AHBENR_GPIOD                GPIOD_EN
+#define RCC_AHBENR_GPIOE                GPIOE_EN
+#define RCC_AHBENR_GPIOF                GPIOF_EN
+
+/*!< define MACROS for RCC_AP1 ENABLE >*/
+#define RCC_APB1ENR_TIM2                TIM2_EN
+#define RCC_APB1ENR_TIM3                TIM3_EN
+
+
+
 /*!< prototypes FUNCTIONS >*/
+void RCC_PCLK_AHBEN(uint32_t RCC_AHBENR_Periph, int status);   
+void RCC_PCLK_APB1EN(uint32_t RCC_APB1ENR_Periph, int status);
+int bit_pos_GPIO_MODER(int PinNumber);
 int index_EXTI(int PinNumber);
 int bit_pos_EXTI(int PinNumber);
-int bit_pos_GPIO_MODER(int PinNumber);
 int index_NVIC_ISER(int IRQ);
 
 #endif /* STM32_F3X_DRIVER_H */

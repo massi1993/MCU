@@ -82,3 +82,16 @@
 1	61	6761521386695725	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/main.pbi	8a5b4ee9442bf5ea
 63	80	6761521386905737	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/exti_PA0.pbd	e6634c3e407b925a
 83	782	6761521393656124	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/exti_PA0.pbw	1ae515959c3aee3d
+233	368	6762213909733414	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/stm32f3x_api.pbi	129497500133bed1
+95	585	6762213912073418	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/main.pbi	8a5b4ee9442bf5ea
+370	783	6762213914257422	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/system_stm32f30x.pbi	41c2bd499916e803
+785	1127	6762213917689428	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/exti_PA0.pbd	e6634c3e407b925a
+1130	5829	6762213964333510	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/exti_PA0.pbw	1ae515959c3aee3d
+1	67	6762216954763994	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/main.pbi	8a5b4ee9442bf5ea
+69	150	6762216955543996	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/exti_PA0.pbd	e6634c3e407b925a
+155	764	6762216961472006	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/exti_PA0.pbw	1ae515959c3aee3d
+1	65	6762218040112558	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/main.pbi	8a5b4ee9442bf5ea
+3	69	6762218040112558	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/stm32f3x_api.pbi	129497500133bed1
+68	123	6762218040736559	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/system_stm32f30x.pbi	41c2bd499916e803
+126	146	6762218040892560	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/exti_PA0.pbd	e6634c3e407b925a
+148	644	6762218045728568	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/BrowseInfo/exti_PA0.pbw	1ae515959c3aee3d

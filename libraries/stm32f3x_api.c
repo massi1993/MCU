@@ -5,7 +5,79 @@
 *
 */
 
+#include "stm32f3x_lib.h"
 #include "stm32f3x_api_driver.h"
+
+/*!-----------------------------------------------------------------------------
+
+                      API FOR ENABLE CLOCK PERIPHERAL RCC 
+
+-------------------------------------------------------------------------------->*/
+                        
+/*!<
+@brief
+Define if enable or disable the RCC_AHBENR
+@param RCC_AHBENR_Periph  specifies the AHB peripheral to gates its clock.
+    Can be:
+    @arg     RCC_AHBENR_GPIOA   
+    @arg     RCC_AHBENR_GPIOB
+    @arg     RCC_AHBENR_GPIOC
+    @arg     RCC_AHBENR_GPIOD
+    @arg     RCC_AHBENR_GPIOE
+    @arg     RCC_AHBENR_GPIOF
+        
+@param status state of specified peripheral clock.
+    Can be: ENABLE or DISABLE
+
+@return None
+
+*/
+
+void RCC_PCLK_AHBEN(uint32_t RCC_AHBENR_Periph, int status){
+
+    if(status == ENABLE)
+    {
+      RCC->AHBENR |= RCC_AHBENR_Periph;
+    }
+    else
+    {
+      RCC->AHBENR &=~ RCC_AHBENR_Periph;
+    }
+
+}
+
+
+/*!<
+@brief
+Define if enable or disable the RCC_AHBENR
+@param RCC_AHBENR_GPIO  specifies the AHB peripheral to gates its clock.
+    Can be:
+    @arg     RCC_AHBENR_GPIOA   
+    @arg     RCC_AHBENR_GPIOB
+    @arg     RCC_AHBENR_GPIOC
+    @arg     RCC_AHBENR_GPIOD
+    @arg     RCC_AHBENR_GPIOE
+    @arg     RCC_AHBENR_GPIOF
+        
+@param status state of specified peripheral clock.
+    Can be: ENABLE or DISABLE
+
+@return None
+
+*/
+
+void RCC_PCLK_APB1EN(uint32_t RCC_APB1ENR_Periph, int status){
+
+    if(status == ENABLE)
+    {
+      RCC->APB1ENR |= RCC_APB1ENR_Periph;
+    }
+    else
+    {
+      RCC->APB1ENR &=~ RCC_APB1ENR_Periph;
+    }
+
+}
 
 /*!-----------------------------------------------------------------------------
 

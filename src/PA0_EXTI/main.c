@@ -19,13 +19,13 @@ unsigned int _index_NVIC_ISER = SET;                /*!< Index of NVIC -> ISER >
 
 void main(){
          
-          RCC->AHBENR |= GPIOE_EN;
-          RCC->AHBENR |= GPIOA_EN;              /*!< Enable GPIOA and GPIOE >*/ 
+          RCC_PCLK_AHBEN(RCC_AHBENR_GPIOA,ENABLE);
+          RCC_PCLK_AHBEN(RCC_AHBENR_GPIOE,ENABLE);      /*!< Enable GPIOA and GPIOE >*/ 
          
-          SET_PE_IN_OUT_MODE();                 /*!< Enable PEx (x = 8,..15) in output mode >*/ 
+          SET_PE_IN_OUT_MODE();                         /*!< Enable PEx (x = 8,..15) in output mode >*/ 
           
           
-          GPIOA->MODER &=~ (IN_MODE<<0);        /*!< Enable PA0 in input mode >*/         
+          GPIOA->MODER &=~ (IN_MODE<<0);                /*!< Enable PA0 in input mode >*/         
           
           /*!<CONFIGURE PA0 AS EXTERNAL INTERRUPT. WE HAVE TO SELECT PA0 AS MULTIPLEXER'S INPUT >*/
           _index_EXTI = index_EXTI(Px0);

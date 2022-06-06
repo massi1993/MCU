@@ -38,11 +38,11 @@ unsigned int _index_NVIC_ISER = SET;            /*!< Index of NVIC -> ISER >*/
 
 void main(){
 
-          /*!< ENABLE GPIOE AND GPIOA ON AHB BUS >*/
-          RCC->AHBENR|=GPIOE_EN|GPIOA_EN;
+          /*!< ENABLE GPIOE ON AHB BUS >*/
+          RCC_PCLK_AHBEN(RCC_AHBENR_GPIOE,ENABLE);
 
           /*!< ENABLE TIMER2 ON APB1 BUS >*/
-          RCC->APB1ENR|=TIM3_EN;
+          RCC_PCLK_APB1EN(RCC_APB1ENR_TIM3,ENABLE);
 
           /*!< LED IN OUTPUT MODE >*/
           SET_PE_IN_OUT_MODE();

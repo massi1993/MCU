@@ -15,9 +15,9 @@ int flag = RESET;
 void main(){
   
         /*!< ENABLE GPIOE AND TIMER2>*/
-        RCC->AHBENR |= GPIOE_EN; 
-        RCC->APB1ENR |= TIM2_EN;
-        
+        RCC_PCLK_AHBEN(RCC_AHBENR_GPIOE,ENABLE);
+        RCC_PCLK_APB1EN(RCC_APB1ENR_TIM2,ENABLE);
+                
         /*!< SET PEx (WITH x = 8,9,..15) IN OUTPUT_MODE >*/
         SET_PE_IN_OUT_MODE();
  
