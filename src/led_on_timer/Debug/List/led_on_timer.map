@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  06/Jun/2022  14:29:02
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  06/Jun/2022  16:02:24
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -64,22 +64,22 @@ No sections matched the following patterns:
   .intvec          ro code   0x800'0000    0x40  vector_table_M.o [4]
                            - 0x800'0040    0x40
 
-"P1":                                     0x1e4
-  .text            ro code   0x800'0040    0xac  main.o [1]
-  .text            ro code   0x800'00ec    0x3c  stm32f3x_api.o [1]
-  .text            ro code   0x800'0128    0x38  zero_init3.o [4]
-  .text            ro code   0x800'0160    0x28  data_init.o [4]
-  .text            ro code   0x800'0188    0x22  fpinit_M.o [3]
-  .iar.init_table  const     0x800'01ac    0x10  - Linker created -
-  .text            ro code   0x800'01bc     0x2  vectortrap_M.o [4]
-  .text            ro code   0x800'01c0    0x1e  cmain.o [4]
-  .text            ro code   0x800'01de     0x4  low_level_init.o [2]
-  .text            ro code   0x800'01e2     0x4  exit.o [2]
-  .text            ro code   0x800'01e8     0xa  cexit.o [4]
-  .text            ro code   0x800'01f4    0x14  exit.o [5]
-  .text            ro code   0x800'0208    0x1c  cstartup_M.o [4]
-  .rodata          const     0x800'0224     0x0  zero_init3.o [4]
-                           - 0x800'0224   0x1e4
+"P1":                                     0x1f4
+  .text            ro code   0x800'0040    0xa0  main.o [1]
+  .text            ro code   0x800'00e0    0x58  stm32f3x_api.o [1]
+  .text            ro code   0x800'0138    0x38  zero_init3.o [4]
+  .text            ro code   0x800'0170    0x28  data_init.o [4]
+  .text            ro code   0x800'0198    0x22  fpinit_M.o [3]
+  .iar.init_table  const     0x800'01bc    0x10  - Linker created -
+  .text            ro code   0x800'01cc     0x2  vectortrap_M.o [4]
+  .text            ro code   0x800'01d0    0x1e  cmain.o [4]
+  .text            ro code   0x800'01ee     0x4  low_level_init.o [2]
+  .text            ro code   0x800'01f2     0x4  exit.o [2]
+  .text            ro code   0x800'01f8     0xa  cexit.o [4]
+  .text            ro code   0x800'0204    0x14  exit.o [5]
+  .text            ro code   0x800'0218    0x1c  cstartup_M.o [4]
+  .rodata          const     0x800'0234     0x0  zero_init3.o [4]
+                           - 0x800'0234   0x1f4
 
 "P2", part 1 of 2:                          0x4
   .bss             zero     0x2000'0000     0x4  main.o [1]
@@ -94,7 +94,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-   0x800'0224   0x803'ffff  0x3'fddc
+   0x800'0234   0x803'ffff  0x3'fdcc
   0x2000'0004  0x2000'0007       0x4
   0x2000'2008  0x2000'9fff    0x7ff8
 
@@ -122,10 +122,10 @@ command line/config:
     Total:
 
 C:\Users\Attilio\Documents\GitHub\MCU\src\led_on_timer\Debug\Obj: [1]
-    main.o                172                 4
-    stm32f3x_api.o         60
+    main.o                160                 4
+    stm32f3x_api.o         88
     -------------------------------------------
-    Total:                232                 4
+    Total:                248                 4
 
 dl7M_tln.a: [2]
     exit.o                  4
@@ -157,7 +157,7 @@ shb_l.a: [5]
     Gaps                    6        2
     Linker created                  16    8'192
 -----------------------------------------------
-    Grand Total:          530       18    8'196
+    Grand Total:          546       18    8'196
 
 
 *******************************************************************************
@@ -166,37 +166,38 @@ shb_l.a: [5]
 
 Entry                       Address  Size  Type      Object
 -----                       -------  ----  ----      ------
-.iar.init_table$$Base    0x800'01ac         --   Gb  - Linker created -
-.iar.init_table$$Limit   0x800'01bc         --   Gb  - Linker created -
-?main                    0x800'01c1        Code  Gb  cmain.o [4]
-BusFault_Handler         0x800'01bd        Code  Wk  vectortrap_M.o [4]
+.iar.init_table$$Base    0x800'01bc         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'01cc         --   Gb  - Linker created -
+?main                    0x800'01d1        Code  Gb  cmain.o [4]
+BusFault_Handler         0x800'01cd        Code  Wk  vectortrap_M.o [4]
+CNT_EN_TIM               0x800'011d  0x1c  Code  Gb  stm32f3x_api.o [1]
 CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'2008         --   Gb  - Linker created -
-DebugMon_Handler         0x800'01bd        Code  Wk  vectortrap_M.o [4]
-HardFault_Handler        0x800'01bd        Code  Wk  vectortrap_M.o [4]
-MemManage_Handler        0x800'01bd        Code  Wk  vectortrap_M.o [4]
-NMI_Handler              0x800'01bd        Code  Wk  vectortrap_M.o [4]
-PendSV_Handler           0x800'01bd        Code  Wk  vectortrap_M.o [4]
-RCC_PCLK_AHBEN           0x800'00ed  0x1a  Code  Gb  stm32f3x_api.o [1]
-RCC_PCLK_APB1EN          0x800'0107  0x1a  Code  Gb  stm32f3x_api.o [1]
-Region$$Table$$Base      0x800'01ac         --   Gb  - Linker created -
-Region$$Table$$Limit     0x800'01bc         --   Gb  - Linker created -
-SVC_Handler              0x800'01bd        Code  Wk  vectortrap_M.o [4]
-SysTick_Handler          0x800'01bd        Code  Wk  vectortrap_M.o [4]
-UsageFault_Handler       0x800'01bd        Code  Wk  vectortrap_M.o [4]
-__cmain                  0x800'01c1        Code  Gb  cmain.o [4]
-__exit                   0x800'01f5  0x14  Code  Gb  exit.o [5]
-__iar_data_init3         0x800'0161  0x28  Code  Gb  data_init.o [4]
-__iar_init_vfp           0x800'0189        Code  Gb  fpinit_M.o [3]
-__iar_program_start      0x800'0209        Code  Gb  cstartup_M.o [4]
-__iar_zero_init3         0x800'0129  0x38  Code  Gb  zero_init3.o [4]
-__low_level_init         0x800'01df   0x4  Code  Gb  low_level_init.o [2]
+DebugMon_Handler         0x800'01cd        Code  Wk  vectortrap_M.o [4]
+HardFault_Handler        0x800'01cd        Code  Wk  vectortrap_M.o [4]
+MemManage_Handler        0x800'01cd        Code  Wk  vectortrap_M.o [4]
+NMI_Handler              0x800'01cd        Code  Wk  vectortrap_M.o [4]
+PendSV_Handler           0x800'01cd        Code  Wk  vectortrap_M.o [4]
+RCC_PCLK_AHBEN           0x800'00e1  0x1a  Code  Gb  stm32f3x_api.o [1]
+RCC_PCLK_APB1EN          0x800'00fb  0x1a  Code  Gb  stm32f3x_api.o [1]
+Region$$Table$$Base      0x800'01bc         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'01cc         --   Gb  - Linker created -
+SVC_Handler              0x800'01cd        Code  Wk  vectortrap_M.o [4]
+SysTick_Handler          0x800'01cd        Code  Wk  vectortrap_M.o [4]
+UsageFault_Handler       0x800'01cd        Code  Wk  vectortrap_M.o [4]
+__cmain                  0x800'01d1        Code  Gb  cmain.o [4]
+__exit                   0x800'0205  0x14  Code  Gb  exit.o [5]
+__iar_data_init3         0x800'0171  0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp           0x800'0199        Code  Gb  fpinit_M.o [3]
+__iar_program_start      0x800'0219        Code  Gb  cstartup_M.o [4]
+__iar_zero_init3         0x800'0139  0x38  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'01ef   0x4  Code  Gb  low_level_init.o [2]
 __vector_table           0x800'0000        Data  Gb  vector_table_M.o [4]
-_call_main               0x800'01cd        Code  Gb  cmain.o [4]
-_exit                    0x800'01e9        Code  Gb  cexit.o [4]
-exit                     0x800'01e3   0x4  Code  Gb  exit.o [2]
+_call_main               0x800'01dd        Code  Gb  cmain.o [4]
+_exit                    0x800'01f9        Code  Gb  cexit.o [4]
+exit                     0x800'01f3   0x4  Code  Gb  exit.o [2]
 flag                    0x2000'0000   0x4  Data  Gb  main.o [1]
-main                     0x800'0041  0xac  Code  Gb  main.o [1]
+main                     0x800'0041  0xa0  Code  Gb  main.o [1]
 
 
 [1] = C:\Users\Attilio\Documents\GitHub\MCU\src\led_on_timer\Debug\Obj
@@ -205,7 +206,7 @@ main                     0x800'0041  0xac  Code  Gb  main.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-    530 bytes of readonly  code memory
+    546 bytes of readonly  code memory
      18 bytes of readonly  data memory
   8'196 bytes of readwrite data memory
 

@@ -59,3 +59,14 @@
 1	102	6762218137274736	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Obj/main.o	a53b3914f8cb9a51
 90	172	6762218137898737	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Obj/system_stm32f30x.o	a826286f8bf09150
 177	350	6762218139614740	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Exe/exti_PA0.out	f142522b7818ede2
+6	455	6762281518188594	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Obj/stm32f3x_api.o	fabec1599ad98376
+1	493	6762281518656595	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Obj/main.o	a53b3914f8cb9a51
+460	688	6762281520684598	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Obj/system_stm32f30x.o	a826286f8bf09150
+693	843	6762281522244601	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Exe/exti_PA0.out	f142522b7818ede2
+6	356	6762291013602677	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Obj/stm32f3x_api.o	fabec1599ad98376
+304	411	6762291014092683	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Obj/system_stm32f30x.o	a826286f8bf09150
+2	80	6762291099753677	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Obj/main.o	a53b3914f8cb9a51
+83	219	6762291101173697	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Exe/exti_PA0.out	f142522b7818ede2
+1	86	6762294018733823	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Obj/main.o	a53b3914f8cb9a51
+11	101	6762294018853825	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Obj/stm32f3x_api.o	fabec1599ad98376
+106	264	6762294020423836	C:/Users/Attilio/Documents/GitHub/MCU/src/PA0_EXTI/Debug/Exe/exti_PA0.out	f142522b7818ede2

@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  06/Jun/2022  14:30:13
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  06/Jun/2022  16:36:42
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -67,39 +67,22 @@ No sections matched the following patterns:
   .intvec            ro code   0x800'0000   0x188  startup_stm32f30x.o [1]
                              - 0x800'0188   0x188
 
-"P1":                                       0x48c
+"P1":                                       0x4d0
   .text              ro code   0x800'0188   0x118  system_stm32f30x.o [1]
-  .text              ro code   0x800'02a0   0x100  main.o [1]
-  .text              ro code   0x800'03a0    0x3e  stm32f3x_api.o [1]
-  .text              ro code   0x800'03de    0x2a  copy_init3.o [4]
-  .text              ro code   0x800'0408    0x28  data_init.o [4]
-  .text              ro code   0x800'0430    0x22  fpinit_M.o [3]
-  .iar.init_table    const     0x800'0454    0x14  - Linker created -
-  .text              ro code   0x800'0468    0x1e  cmain.o [4]
-  .text              ro code   0x800'0486     0x4  low_level_init.o [2]
-  .text              ro code   0x800'048a     0x4  exit.o [2]
-  .text              ro code   0x800'0490     0xa  cexit.o [4]
-  .text              ro code   0x800'049c    0x14  exit.o [5]
-  .text              ro code   0x800'04b0    0x1c  cstartup_M.o [4]
-  .text              ro code   0x800'04cc    0x10  startup_stm32f30x.o [1]
-  Initializer bytes  const     0x800'04dc    0x10  <for P2-1>
-  .text              ro code   0x800'04ec     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'04f0     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'04f4     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'04f8     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'04fc     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'0500     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'0504     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'0508     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'050c     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'0510     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'0514     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'0518     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'051c     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'0520     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'0524     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'0528     0x4  startup_stm32f30x.o [1]
-  .text              ro code   0x800'052c     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'02a0    0xd4  main.o [1]
+  .text              ro code   0x800'0374    0xb6  stm32f3x_api.o [1]
+  .text              ro code   0x800'042a    0x2a  copy_init3.o [4]
+  .text              ro code   0x800'0454    0x28  data_init.o [4]
+  .text              ro code   0x800'047c    0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x800'04a0    0x14  - Linker created -
+  .text              ro code   0x800'04b4    0x1e  cmain.o [4]
+  .text              ro code   0x800'04d2     0x4  low_level_init.o [2]
+  .text              ro code   0x800'04d6     0x4  exit.o [2]
+  .text              ro code   0x800'04dc     0xa  cexit.o [4]
+  .text              ro code   0x800'04e8    0x14  exit.o [5]
+  .text              ro code   0x800'04fc    0x1c  cstartup_M.o [4]
+  .text              ro code   0x800'0518    0x10  startup_stm32f30x.o [1]
+  Initializer bytes  const     0x800'0528     0x8  <for P2-1>
   .text              ro code   0x800'0530     0x4  startup_stm32f30x.o [1]
   .text              ro code   0x800'0534     0x4  startup_stm32f30x.o [1]
   .text              ro code   0x800'0538     0x4  startup_stm32f30x.o [1]
@@ -157,28 +140,43 @@ No sections matched the following patterns:
   .text              ro code   0x800'0608     0x4  startup_stm32f30x.o [1]
   .text              ro code   0x800'060c     0x4  startup_stm32f30x.o [1]
   .text              ro code   0x800'0610     0x4  startup_stm32f30x.o [1]
-  .rodata            const     0x800'0614     0x0  copy_init3.o [4]
-                             - 0x800'0614   0x48c
+  .text              ro code   0x800'0614     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'0618     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'061c     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'0620     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'0624     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'0628     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'062c     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'0630     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'0634     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'0638     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'063c     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'0640     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'0644     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'0648     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'064c     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'0650     0x4  startup_stm32f30x.o [1]
+  .text              ro code   0x800'0654     0x4  startup_stm32f30x.o [1]
+  .rodata            const     0x800'0658     0x0  copy_init3.o [4]
+                             - 0x800'0658   0x4d0
 
-"P2", part 1 of 2:                           0x10
-  P2-1                        0x2000'0000     0xe  <Init block>
+"P2", part 1 of 2:                            0x8
+  P2-1                        0x2000'0000     0x6  <Init block>
     .data            inited   0x2000'0000     0x4  main.o [1]
-    .bss             inited   0x2000'0004     0x4  main.o [1]
-    .bss             inited   0x2000'0008     0x4  main.o [1]
-    .data            inited   0x2000'000c     0x2  main.o [1]
-                            - 0x2000'000e     0xe
+    .data            inited   0x2000'0004     0x2  main.o [1]
+                            - 0x2000'0006     0x6
 
 "P2", part 2 of 2:                         0x2000
-  CSTACK                      0x2000'0010  0x2000  <Block>
-    CSTACK           uninit   0x2000'0010  0x2000  <Block tail>
-                            - 0x2000'2010  0x2000
+  CSTACK                      0x2000'0008  0x2000  <Block>
+    CSTACK           uninit   0x2000'0008  0x2000  <Block tail>
+                            - 0x2000'2008  0x2000
 
 Unused ranges:
 
          From           To      Size
          ----           --      ----
-   0x800'0614   0x803'ffff  0x3'f9ec
-  0x2000'2010  0x2000'9fff    0x7ff0
+   0x800'0658   0x803'ffff  0x3'f9a8
+  0x2000'2008  0x2000'9fff    0x7ff8
 
 
 *******************************************************************************
@@ -188,10 +186,10 @@ Unused ranges:
           Address      Size
           -------      ----
 Copy (__iar_copy_init3)
-    1 source range, total size 0x10 (114% of destination):
-           0x800'04dc  0x10
-    1 destination range, total size 0xe:
-          0x2000'0000   0xe
+    1 source range, total size 0x8 (133% of destination):
+           0x800'0528   0x8
+    1 destination range, total size 0x6:
+          0x2000'0000   0x6
 
 
 
@@ -206,12 +204,12 @@ command line/config:
     Total:
 
 C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Obj: [1]
-    main.o                   256       14       14
+    main.o                   212        6        6
     startup_stm32f30x.o      704
-    stm32f3x_api.o            62
+    stm32f3x_api.o           182
     system_stm32f30x.o       280
     ----------------------------------------------
-    Total:                 1'302       14       14
+    Total:                 1'378        6        6
 
 dl7M_tln.a: [2]
     exit.o                     4
@@ -241,7 +239,7 @@ shb_l.a: [5]
     Gaps                       4        2
     Linker created                     22    8'192
 --------------------------------------------------
-    Grand Total:           1'518       38    8'206
+    Grand Total:           1'594       30    8'198
 
 
 *******************************************************************************
@@ -250,36 +248,37 @@ shb_l.a: [5]
 
 Entry                       Address  Size  Type      Object
 -----                       -------  ----  ----      ------
-.iar.init_table$$Base    0x800'0454         --   Gb  - Linker created -
-.iar.init_table$$Limit   0x800'0468         --   Gb  - Linker created -
-?main                    0x800'0469        Code  Gb  cmain.o [4]
-CSTACK$$Base            0x2000'0010         --   Gb  - Linker created -
-CSTACK$$Limit           0x2000'2010         --   Gb  - Linker created -
-EXTI0_IRQHandler         0x800'0345  0x30  Code  Gb  main.o [1]
-RCC_PCLK_AHBEN           0x800'03a1  0x1a  Code  Gb  stm32f3x_api.o [1]
-Region$$Table$$Base      0x800'0454         --   Gb  - Linker created -
-Region$$Table$$Limit     0x800'0468         --   Gb  - Linker created -
+.iar.init_table$$Base    0x800'04a0         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'04b4         --   Gb  - Linker created -
+?main                    0x800'04b5        Code  Gb  cmain.o [4]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2008         --   Gb  - Linker created -
+EXTI0_IRQHandler         0x800'0323  0x30  Code  Gb  main.o [1]
+GPIO_MODE                0x800'038f  0x2a  Code  Gb  stm32f3x_api.o [1]
+RCC_PCLK_AHBEN           0x800'0375  0x1a  Code  Gb  stm32f3x_api.o [1]
+Region$$Table$$Base      0x800'04a0         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'04b4         --   Gb  - Linker created -
 SetSysClock              0x800'01df  0x9a  Code  Lc  system_stm32f30x.o [1]
 SystemInit               0x800'0189  0x56  Code  Gb  system_stm32f30x.o [1]
-__cmain                  0x800'0469        Code  Gb  cmain.o [4]
-__exit                   0x800'049d  0x14  Code  Gb  exit.o [5]
-__iar_copy_init3         0x800'03df  0x2a  Code  Gb  copy_init3.o [4]
-__iar_data_init3         0x800'0409  0x28  Code  Gb  data_init.o [4]
-__iar_init_vfp           0x800'0431        Code  Gb  fpinit_M.o [3]
-__iar_program_start      0x800'04b1        Code  Gb  cstartup_M.o [4]
-__low_level_init         0x800'0487   0x4  Code  Gb  low_level_init.o [2]
+__cmain                  0x800'04b5        Code  Gb  cmain.o [4]
+__exit                   0x800'04e9  0x14  Code  Gb  exit.o [5]
+__iar_copy_init3         0x800'042b  0x2a  Code  Gb  copy_init3.o [4]
+__iar_data_init3         0x800'0455  0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp           0x800'047d        Code  Gb  fpinit_M.o [3]
+__iar_program_start      0x800'04fd        Code  Gb  cstartup_M.o [4]
+__low_level_init         0x800'04d3   0x4  Code  Gb  low_level_init.o [2]
 __vector_table           0x800'0000        Data  Gb  startup_stm32f30x.o [1]
-_bit_pos_EXTI           0x2000'0008   0x4  Data  Gb  main.o [1]
-_call_main               0x800'0475        Code  Gb  cmain.o [4]
-_exit                    0x800'0491        Code  Gb  cexit.o [4]
-_index_EXTI             0x2000'0004   0x4  Data  Gb  main.o [1]
+_call_main               0x800'04c1        Code  Gb  cmain.o [4]
+_exit                    0x800'04dd        Code  Gb  cexit.o [4]
 _index_NVIC_ISER        0x2000'0000   0x4  Data  Gb  main.o [1]
-bit_pos_EXTI             0x800'03c9   0xe  Code  Gb  stm32f3x_api.o [1]
-exit                     0x800'048b   0x4  Code  Gb  exit.o [2]
-flag                    0x2000'000c   0x2  Data  Gb  main.o [1]
-index_EXTI               0x800'03c1   0x8  Code  Gb  stm32f3x_api.o [1]
-index_NVIC_ISER          0x800'03d7   0x8  Code  Gb  stm32f3x_api.o [1]
-main                     0x800'02a1  0xa4  Code  Gb  main.o [1]
+bit_pos_EXTI             0x800'0415   0xe  Code  Gb  stm32f3x_api.o [1]
+bit_pos_GPIO_MODER       0x800'03b9   0xe  Code  Gb  stm32f3x_api.o [1]
+exit                     0x800'04d7   0x4  Code  Gb  exit.o [2]
+flag                    0x2000'0004   0x2  Data  Gb  main.o [1]
+index_EXTI               0x800'040d   0x8  Code  Gb  stm32f3x_api.o [1]
+index_NVIC_ISER          0x800'0423   0x8  Code  Gb  stm32f3x_api.o [1]
+main                     0x800'02a1  0x82  Code  Gb  main.o [1]
+set_SYSCFG_EXTI          0x800'03c7  0x3e  Code  Gb  stm32f3x_api.o [1]
 
 
 [1] = C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Obj
@@ -288,9 +287,9 @@ main                     0x800'02a1  0xa4  Code  Gb  main.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  1'518 bytes of readonly  code memory
-     38 bytes of readonly  data memory
-  8'206 bytes of readwrite data memory
+  1'594 bytes of readonly  code memory
+     30 bytes of readonly  data memory
+  8'198 bytes of readwrite data memory
 
 Errors: none
 Warnings: none

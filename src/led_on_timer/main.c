@@ -24,10 +24,7 @@ void main(){
         TIM2->ARR = N_CONT(0.5);                /*!< TIME (in seconds) as INPUT > */
         
         /*!< ENABLE COUNTER PULL UP BIT CEN >*/
-        TIM2->CR1 |= CEN_EN;
-        
-        /*!< RESET THE COUNTER >*/
-        TIM2->CNT = RESET;                      /*!< WHEN CNT REACHES N_CNT(X) THE UIF IS SET TO 1 >*/
+        CNT_EN_TIM(TIM2,ENABLE);               /*!< WHEN CNT REACHES N_CNT(X) THE UIF IS SET TO 1 >*/
         
         while(1)
         {

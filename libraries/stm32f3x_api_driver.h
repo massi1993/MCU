@@ -28,6 +28,7 @@
 #define DISABLE                 0
 
 /*!< MACROS TO DEFINE bits that are written by software to select the source input for the EXTIx with x = 0,1,2,3>*/
+/*!< WE DEFINE THEM PortNumber for EXTI REGISTER>*/
 
 #define PA0                     3          /*!< TO SELECT PA0 FOR EXTI0 MUST BE WRITTEN 0 BUT DUE TO SOFTWARE NEGATIVE LOGIC 
                                              WE MUST WRITTEN 3. >*/       
@@ -46,7 +47,8 @@
           ......
          - PA0, PB0, PC0, PD0, PE0, PF0;
          - PA0, PB0, PC0, PD0, PE0, PF0; 
-<*/
+>*/
+/*!<WE DEFINE THE PinNumber >*/
 #define Px0                     0
 #define Px1                     1
 #define Px2                     2
@@ -96,9 +98,11 @@
 /*!< prototypes FUNCTIONS >*/
 void RCC_PCLK_AHBEN(uint32_t RCC_AHBENR_Periph, int status);   
 void RCC_PCLK_APB1EN(uint32_t RCC_APB1ENR_Periph, int status);
+void GPIO_MODE (GPIO_Type* GPIO, unsigned int mode, unsigned int PinNumber);
 int bit_pos_GPIO_MODER(int PinNumber);
 void set_PSC_and_ARR_TIM(TIMER_Type* Timer, unsigned int time, unsigned int Fck);
 void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status);
+void set_SYSCFG_EXTI(int PinNumber, int PortNumber);
 int index_EXTI(int PinNumber);
 int bit_pos_EXTI(int PinNumber);
 int index_NVIC_ISER(int IRQ);

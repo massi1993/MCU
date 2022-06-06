@@ -1,6 +1,7 @@
 /* 
 *
 *       Created on : June 04, 2022 
+*      Last Update : June 06, 2022       
 *           Author : massiAv
 *
 */
@@ -13,8 +14,7 @@
 
 short int flag = SET;
 
-unsigned int _index_EXTI = RESET;                   /*!< Index of SYSCFG -> EXTI >*/ 
-unsigned int _bit_pos_EXTI = RESET;                 /*!< Bit position in which write the data >*/  
+
 unsigned int _index_NVIC_ISER = SET;                /*!< Index of NVIC -> ISER >*/ 
 
 void main(){
@@ -24,13 +24,10 @@ void main(){
          
           SET_PE_IN_OUT_MODE();                         /*!< Enable PEx (x = 8,..15) in output mode >*/ 
           
+          GPIO_MODE(GPIOA,IN_MODE,Px0);                 /*!< Enable PA0 in input mode >*/         
           
-          GPIOA->MODER &=~ (IN_MODE<<0);                /*!< Enable PA0 in input mode >*/         
-          
-          /*!<CONFIGURE PA0 AS EXTERNAL INTERRUPT. WE HAVE TO SELECT PA0 AS MULTIPLEXER'S INPUT >*/
-          _index_EXTI = index_EXTI(Px0);
-          _bit_pos_EXTI = bit_pos_EXTI(Px0);
-          SYSCFG->EXTICR[_index_EXTI] &=~ (PA0 << _bit_pos_EXTI);
+          set_SYSCFG_EXTI(Px0,PA0);                     /*!<CONFIGURE Px0 to get the index and bit position of SYSCFG->EXTI
+                                                        AND PA0 AS EXTERNAL INTERRUPT. WE HAVE TO SELECT PA0 AS MULTIPLEXER'S INPUT >*/        
          
           //SMASCHERO LA LINEA 0 SETTANDOLA AD 1
           EXTI->IMR|=(1<<0);
