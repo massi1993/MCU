@@ -13,6 +13,7 @@
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</file>
             <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_timer_driver.h</file>
             <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
             <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
@@ -26,13 +27,14 @@
             <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\PA0_EXTI\main.c</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 15 17</file>
+                    <file> 16 18</file>
                 </tool>
             </outputs>
         </file>
@@ -41,13 +43,13 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 9</file>
+                    <file> 10</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 5 19 0 1 3 20 14 4</file>
+                    <file> 5 20 0 1 3 21 15 4 8</file>
                 </tool>
             </inputs>
         </file>
@@ -56,13 +58,13 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 12</file>
+                    <file> 13</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 10 0 1 3 20 14 8 5 19 4</file>
+                    <file> 11 0 1 3 21 15 9 5 20 4</file>
                 </tool>
             </inputs>
         </file>
@@ -71,13 +73,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 17</file>
+                    <file> 18</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 16 12 9 13 18 11 2</file>
+                    <file> 17 13 10 14 19 12 2</file>
                 </tool>
             </inputs>
         </file>

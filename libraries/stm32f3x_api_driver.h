@@ -70,8 +70,9 @@
 #define PA0_IDR_MASK            1
 #define PA1_IDR_MASK            2
 #define PA2_IDR_MASK            3
-#define GPIOA_IDR_IN0()         while(((GPIOA->IDR) & (PA0_IDR_MASK)) == 0)
-#define GPIOA_IDR_IN1()         while(((GPIOA->IDR) & (PA0_IDR_MASK)) == 1)
+#define PA0_IDR(x)              while(((GPIOA->IDR) & (PA0_IDR_MASK)) == x ) /*!< x can be only 0 or 1>*/
+#define PA1_IDR(x)              while(((GPIOA->IDR) & (PA1_IDR_MASK)) == x ) /*!< x can be only 0 or 1>*/
+#define PA2_IDR(x)              while(((GPIOA->IDR) & (PA2_IDR_MASK)) == x ) /*!< x can be only 0 or 1>*/
 
 
 /*!< define MACROS for GPIOE_ODR>*/

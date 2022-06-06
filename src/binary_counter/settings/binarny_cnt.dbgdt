@@ -175,7 +175,7 @@
             </IarPane-34075>
             <IarPane-34082>
                 <FindRegHistory>
-                    <item></item>
+                    <item />
                     <item>RCC</item>
                 </FindRegHistory>
                 <col-names>
@@ -379,7 +379,7 @@
                 <expressions>
                     <item>led_on</item>
                     <item>_bit_pos_GPIO_MODE</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

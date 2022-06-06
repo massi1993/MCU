@@ -1,6 +1,7 @@
 /* 
 *
 *       Created on : June 01, 2022 
+*       Last Update: June 04, 2022
 *           Author : massiAv
 *
 */
@@ -10,26 +11,22 @@
 #include "stm32f3x_api_driver.h"
 
 int led_on=0;
-int _bit_pos_GPIO_MODE = SET;
+
 
 void main(){
-  
-	// ENABLE GPIOE AND GPIOA
-        RCC_PCLK_AHBEN(RCC_AHBENR_GPIOA,ENABLE);
-        RCC_PCLK_AHBEN(RCC_AHBENR_GPIOE,ENABLE);
+
+        RCC_PCLK_AHBEN(RCC_AHBENR_GPIOA,ENABLE);        /*!< ENABLE GPIOE AND GPIOA >*/ 
+        RCC_PCLK_AHBEN(RCC_AHBENR_GPIOE,ENABLE);        
 	
-	//SET PEx (WITH x = 8,9,..15) IN OUTPUT_MODE
-        SET_PE_IN_OUT_MODE();
+	SET_PE_IN_OUT_MODE();                           /*!< SET PEx (WITH x = 8,9,..15) IN OUTPUT_MODE >*/
         
-        /*!< SET PA0 IN INPUT MODE (BY DEFAULT PA0 IS ALREADY IN INPUT MODE)> */
-        _bit_pos_GPIO_MODE = bit_pos_GPIO_MODER(Px0);
-        GPIOA -> MODER &=~ (IN_MODE << _bit_pos_GPIO_MODE);
-	 
+        GPIO_MODE(GPIOA,IN_MODE,Px0);                   /*!< SET PA0 IN INPUT MODE (BY DEFAULT PA0 IS ALREADY IN INPUT MODE)> */
+        
 	while(1)
 	{
-	  GPIOA_IDR_IN0(); //WAIT UNTIL PA0 IS NOT PRESSED
+	  PA0_IDR(0); //WAIT UNTIL PA0 IS NOT PRESSED
 	 
-	  GPIOA_IDR_IN1(); //PA0 PRESSED. GO TO NEXT STATEMENT ONLY IF PA0 IS RELEASED
+	  PA0_IDR(1); //PA0 PRESSED. GO TO NEXT STATEMENT ONLY IF PA0 IS RELEASED
 	 
           GPIOE_TURN_LED(++led_on);
 	}
