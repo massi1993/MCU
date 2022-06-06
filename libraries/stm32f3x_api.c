@@ -7,6 +7,7 @@
 
 #include "stm32f3x_lib.h"
 #include "stm32f3x_api_driver.h"
+#include "stm32f3x_timer_driver.h"
 
 /*!-----------------------------------------------------------------------------
 
@@ -49,15 +50,11 @@ void RCC_PCLK_AHBEN(uint32_t RCC_AHBENR_Periph, int status){
 
 /*!<
 @brief
-Define if enable or disable the RCC_AHBENR
-@param RCC_AHBENR_GPIO  specifies the AHB peripheral to gates its clock.
+Define if enable or disable the RCC_APB1ENR
+@param RCC_PCLK_APB1EN  specifies the APB1 peripheral to gates its clock.
     Can be:
-    @arg     RCC_AHBENR_GPIOA   
-    @arg     RCC_AHBENR_GPIOB
-    @arg     RCC_AHBENR_GPIOC
-    @arg     RCC_AHBENR_GPIOD
-    @arg     RCC_AHBENR_GPIOE
-    @arg     RCC_AHBENR_GPIOF
+    @arg     RCC_APB1TIM2   
+    @arg     RCC_APB1TIM3
         
 @param status state of specified peripheral clock.
     Can be: ENABLE or DISABLE
@@ -110,6 +107,62 @@ int bit_pos_GPIO_MODER(int PinNumber){
     
     return bit_pos;
 }
+
+
+/*!-----------------------------------------------------------------------------
+
+                      API FOR TIMER
+
+-------------------------------------------------------------------------------->*/
+
+/*!<
+@brief
+Get Prescaler and AutoReloadRegister with time and Fck.
+
+@param TIMER_Type* Timer TIMER OF INTEREST
+@param unsigned int time
+@param usigned int Fck
+
+@return None
+
+
+*/
+
+void set_PSC_and_ARR_TIM(TIMER_Type* Timer, unsigned int time, unsigned int Fck){
+          
+          unsigned int PSC, NARR;
+          PSC = (unsigned int)(time*Fck/65535);
+          Timer ->PSC = PSC ;
+          NARR = (unsigned int)(time*Fck)/(TIM3->PSC +1);
+          Timer->ARR = NARR;
+}
+
+/*!<
+@brief
+Enable counter
+
+@param TIMER_Type* Timer TIMER OF INTEREST
+@param status state of specified timer.
+    Can be: ENABLE or DISABLE
+
+@return None
+
+
+*/
+
+void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status){
+          
+          Timer->CNT = RESET;
+          if(status == ENABLE)
+          {
+            Timer->CR1 |= CEN_EN;
+          }
+          else
+          {
+            Timer->CR1 &=~ CEN_EN;
+          }
+}
+
 
 /*!-----------------------------------------------------------------------------
 

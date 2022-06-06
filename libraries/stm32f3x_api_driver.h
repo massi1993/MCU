@@ -5,6 +5,7 @@
 *
 */
 #include <stdint.h>
+#include "stm32f3x_lib.h"
 
 #ifndef STM32_F3X_DRIVER_H
 #define STM32_F3X_DRIVER_H
@@ -96,6 +97,8 @@
 void RCC_PCLK_AHBEN(uint32_t RCC_AHBENR_Periph, int status);   
 void RCC_PCLK_APB1EN(uint32_t RCC_APB1ENR_Periph, int status);
 int bit_pos_GPIO_MODER(int PinNumber);
+void set_PSC_and_ARR_TIM(TIMER_Type* Timer, unsigned int time, unsigned int Fck);
+void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status);
 int index_EXTI(int PinNumber);
 int bit_pos_EXTI(int PinNumber);
 int index_NVIC_ISER(int IRQ);

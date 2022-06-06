@@ -5,13 +5,20 @@
     <configuration>
         <name>Debug</name>
         <outputs>
+            <file>$PROJ_DIR$\system_stm32f30x.c</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_timer_driver.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</file>
+            <file>$PROJ_DIR$\..\..\libraries\startup\startup_stm32f30x.s</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_stm32f30x.o</file>
-            <file>$PROJ_DIR$\Debug\Exe\exti_PA0.out</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\exti_PA0.out</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_stm32f30x.o.rsp</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
@@ -20,56 +27,32 @@
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_timer_driver.h</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
             <file>$TOOLKIT_DIR$\config\linker\ST\stm32f303xC.icf</file>
-            <file>$PROJ_DIR$\Debug\List\exti_PA0.map</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.c</file>
-            <file>$PROJ_DIR$\..\..\libraries\startup\system_stm32f30x.h</file>
-            <file>$PROJ_DIR$\system_stm32f30x.c</file>
+            <file>$PROJ_DIR$\Debug\List\exti_PA0.map</file>
             <file>$PROJ_DIR$\Debug\Obj\system_stm32f30x.o</file>
             <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\..\..\libraries\startup\startup_stm32f30x.s</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</file>
-            <file>$PROJ_DIR$\..\led_on_timer\main.c</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\Debug\Exe\exti_PA0.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 20</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 19 2 4 17 24 13 25 3 12</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 11</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 16</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
             <name>$PROJ_DIR$\system_stm32f30x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5 12 23 16 14 17 7 1</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -79,7 +62,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 29 6 18 9 7 10 0 30</file>
+                    <file> 1 12 23 16 14 17 7 5</file>
                 </tool>
             </inputs>
         </file>
@@ -88,13 +71,13 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 2</file>
+                    <file> 9</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 1 18 9 7 10 0 14 30 6 29 15</file>
+                    <file> 8 23 16 14 17 7 21 1 12 5 3</file>
                 </tool>
             </inputs>
         </file>
@@ -103,28 +86,13 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 4</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 8</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 17</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 30 6 18 9 7 10 0 29</file>
+                    <file> 15</file>
                 </tool>
             </inputs>
         </file>
@@ -133,9 +101,39 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 5 20</file>
+                    <file> 27 13</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\exti_PA0.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 25 9 11 24 28 20 29 10 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22</file>
+                </tool>
+            </inputs>
         </file>
         <forcedrebuild>
             <name>$PROJ_DIR$\main.c</name>

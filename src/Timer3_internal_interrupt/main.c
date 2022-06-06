@@ -28,9 +28,6 @@ to get a division by 720, the PSC register gets the value 719.
 
 #define Fck 72000000
  
-unsigned int prescaler_TIM3;
-unsigned int nArr_TIM3;
-
 int time = 1;    //1 secondo
 
 unsigned int _bit_pos_GPIO_MODER = SET;         /*!< Bit position in which write the data >*/ 
@@ -47,14 +44,11 @@ void main(){
           /*!< LED IN OUTPUT MODE >*/
           SET_PE_IN_OUT_MODE();
 
-          prescaler_TIM3 = (unsigned int)(time*Fck/65535);
-          TIM3->PSC = prescaler_TIM3;
-          nArr_TIM3 = (unsigned int)(time*Fck)/(TIM3->PSC +1);
-          TIM3->ARR = nArr_TIM3;
-
-          TIM3->CNT=0;
-          TIM3->CR1|=CEN_EN;   //COUNTER ENABLE
-
+          /*!< SET PSC and ARR for TIMER3 >*/
+          set_PSC_and_ARR_TIM(TIM3, time, Fck);
+          
+          CNT_EN_TIM(TIM3,ENABLE);
+          
           TIM3->DIER|=TIM_DIER_UIE;
 
           /*!< Configure the index of NVIC_ISER and unmasking of TIM3 global interrupt>*/
@@ -69,6 +63,6 @@ void TIM3_IRQHandler()
 {
           TIM3->SR&=~(1<<0);
           GPIOE->ODR^=GPIOE_ALL_LED_ON; //^= INVERTE LO STATO
-  
+ 
  }
 
