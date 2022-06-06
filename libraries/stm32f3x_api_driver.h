@@ -105,6 +105,7 @@ void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status);
 void set_SYSCFG_EXTI(int PinNumber, int PortNumber);
 int index_EXTI(int PinNumber);
 int bit_pos_EXTI(int PinNumber);
+void set_NVIC_ISER(int IRQ);
 int index_NVIC_ISER(int IRQ);
 
 #endif /* STM32_F3X_DRIVER_H */

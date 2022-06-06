@@ -9247,13 +9247,41 @@
     "scope": null
   },
   {
+    "ID": "c:@F@set_NVIC_ISER",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void set_NVIC_ISER(int)",
+    "location": {
+      "column": "6",
+      "line": "108",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "set_NVIC_ISER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@set_NVIC_ISER",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void set_NVIC_ISER(int)",
+    "location": {
+      "column": "6",
+      "line": "108",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "set_NVIC_ISER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@index_NVIC_ISER",
     "What": "Function",
     "defdec": "Dec",
     "display": "int index_NVIC_ISER(int)",
     "location": {
       "column": "5",
-      "line": "108",
+      "line": "109",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "index_NVIC_ISER",
@@ -9267,7 +9295,7 @@
     "display": "int index_NVIC_ISER(int)",
     "location": {
       "column": "5",
-      "line": "108",
+      "line": "109",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "index_NVIC_ISER",
@@ -9373,27 +9401,13 @@
     "scope": null
   },
   {
-    "ID": "c:@_index_NVIC_ISER",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "_index_NVIC_ISER",
-    "location": {
-      "column": "14",
-      "line": "18",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\PA0_EXTI\\main.c"
-    },
-    "name": "_index_NVIC_ISER",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "20",
+      "line": "17",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\PA0_EXTI\\main.c"
     },
     "name": "main",
@@ -9401,13 +9415,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@550@F@main@i",
+    "ID": "c:main.c@461@F@main@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "25",
+      "line": "22",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\PA0_EXTI\\main.c"
     },
     "name": "i",
@@ -9421,7 +9435,7 @@
     "display": "void EXTI0_IRQHandler(void)",
     "location": {
       "column": "6",
-      "line": "48",
+      "line": "43",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\PA0_EXTI\\main.c"
     },
     "name": "EXTI0_IRQHandler",
@@ -9793,13 +9807,41 @@
     "scope": null
   },
   {
+    "ID": "c:@F@set_NVIC_ISER",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void set_NVIC_ISER(int)",
+    "location": {
+      "column": "6",
+      "line": "297",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
+    },
+    "name": "set_NVIC_ISER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api.c@7716@F@set_NVIC_ISER@_index_NVIC_ISER",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "_index_NVIC_ISER",
+    "location": {
+      "column": "18",
+      "line": "299",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
+    },
+    "name": "_index_NVIC_ISER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@index_NVIC_ISER",
     "What": "Function",
     "defdec": "Def",
     "display": "int index_NVIC_ISER(int)",
     "location": {
       "column": "5",
-      "line": "298",
+      "line": "320",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index_NVIC_ISER",
@@ -9807,13 +9849,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@7740@F@index_NVIC_ISER@index",
+    "ID": "c:stm32f3x_api.c@8384@F@index_NVIC_ISER@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",
     "location": {
       "column": "9",
-      "line": "300",
+      "line": "322",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index",

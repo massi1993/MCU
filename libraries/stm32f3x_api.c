@@ -281,6 +281,28 @@ int bit_pos_EXTI(int PinNumber){
     return bit_pos;
 }
 
+/*!<
+@brief
+Configure the index of NVIC_ISER and unmasking of EXTIx_Line global interrupt>
+
+@param IRQ      number of interrupt request:
+                - From 0 to 31 the interrupts are set in the ISER[0] register;
+                - from 32 to 63 the interrupts are set in the ISER[1] register;
+                - from 64 to 81 the interrupts are set in the ISER[2] register
+
+@return None
+
+*/
+
+void set_NVIC_ISER(int IRQ){
+  
+    unsigned int _index_NVIC_ISER = SET;                /*!< Index of NVIC -> ISER >*/ 
+    
+    _index_NVIC_ISER = index_NVIC_ISER(IRQ);
+    NVIC->ISER[_index_NVIC_ISER] |= (1<<IRQ);
+        
+}
+
 
 /*!<
 @brief

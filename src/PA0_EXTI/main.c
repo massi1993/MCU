@@ -14,9 +14,6 @@
 
 short int flag = SET;
 
-
-unsigned int _index_NVIC_ISER = SET;                /*!< Index of NVIC -> ISER >*/ 
-
 void main(){
          
           RCC_PCLK_AHBEN(RCC_AHBENR_GPIOA,ENABLE);
@@ -38,10 +35,8 @@ void main(){
           //CANCELLO LA CAUSA DI INTERRUZIONE
           EXTI->PR |= (1<<0);
          
-          /*!< Configure the index of NVIC_ISER and unmasking of EXTI0_Line global interrupt>*/
-          _index_NVIC_ISER = index_NVIC_ISER(IRQ_NO_EXTI0);
-          NVIC->ISER[_index_NVIC_ISER] |= (1<<IRQ_NO_EXTI0);
-         
+          set_NVIC_ISER(IRQ_NO_EXTI0);                  /*!< Configure the index of NVIC_ISER and unmasking of EXTI0_Line global interrupt>*/
+                   
           while(1);
 }
  

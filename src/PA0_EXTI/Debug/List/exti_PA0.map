@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  06/Jun/2022  16:36:42
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  06/Jun/2022  16:50:50
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -67,22 +67,21 @@ No sections matched the following patterns:
   .intvec            ro code   0x800'0000   0x188  startup_stm32f30x.o [1]
                              - 0x800'0188   0x188
 
-"P1":                                       0x4d0
+"P1":                                       0x4d4
   .text              ro code   0x800'0188   0x118  system_stm32f30x.o [1]
-  .text              ro code   0x800'02a0    0xd4  main.o [1]
-  .text              ro code   0x800'0374    0xb6  stm32f3x_api.o [1]
-  .text              ro code   0x800'042a    0x2a  copy_init3.o [4]
-  .text              ro code   0x800'0454    0x28  data_init.o [4]
-  .text              ro code   0x800'047c    0x22  fpinit_M.o [3]
-  .iar.init_table    const     0x800'04a0    0x14  - Linker created -
-  .text              ro code   0x800'04b4    0x1e  cmain.o [4]
-  .text              ro code   0x800'04d2     0x4  low_level_init.o [2]
-  .text              ro code   0x800'04d6     0x4  exit.o [2]
-  .text              ro code   0x800'04dc     0xa  cexit.o [4]
-  .text              ro code   0x800'04e8    0x14  exit.o [5]
-  .text              ro code   0x800'04fc    0x1c  cstartup_M.o [4]
-  .text              ro code   0x800'0518    0x10  startup_stm32f30x.o [1]
-  Initializer bytes  const     0x800'0528     0x8  <for P2-1>
+  .text              ro code   0x800'02a0    0xdc  stm32f3x_api.o [1]
+  .text              ro code   0x800'037c    0xb4  main.o [1]
+  .text              ro code   0x800'0430    0x2a  copy_init3.o [4]
+  .text              ro code   0x800'045c    0x28  data_init.o [4]
+  .text              ro code   0x800'0484    0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x800'04a8    0x14  - Linker created -
+  .text              ro code   0x800'04bc    0x1e  cmain.o [4]
+  .text              ro code   0x800'04da     0x4  low_level_init.o [2]
+  .text              ro code   0x800'04de     0x4  exit.o [2]
+  .text              ro code   0x800'04e4     0xa  cexit.o [4]
+  .text              ro code   0x800'04f0    0x14  exit.o [5]
+  .text              ro code   0x800'0504    0x1c  cstartup_M.o [4]
+  .text              ro code   0x800'0520    0x10  startup_stm32f30x.o [1]
   .text              ro code   0x800'0530     0x4  startup_stm32f30x.o [1]
   .text              ro code   0x800'0534     0x4  startup_stm32f30x.o [1]
   .text              ro code   0x800'0538     0x4  startup_stm32f30x.o [1]
@@ -157,14 +156,14 @@ No sections matched the following patterns:
   .text              ro code   0x800'064c     0x4  startup_stm32f30x.o [1]
   .text              ro code   0x800'0650     0x4  startup_stm32f30x.o [1]
   .text              ro code   0x800'0654     0x4  startup_stm32f30x.o [1]
-  .rodata            const     0x800'0658     0x0  copy_init3.o [4]
-                             - 0x800'0658   0x4d0
+  Initializer bytes  const     0x800'0658     0x4  <for P2-1>
+  .rodata            const     0x800'065c     0x0  copy_init3.o [4]
+                             - 0x800'065c   0x4d4
 
-"P2", part 1 of 2:                            0x8
-  P2-1                        0x2000'0000     0x6  <Init block>
-    .data            inited   0x2000'0000     0x4  main.o [1]
-    .data            inited   0x2000'0004     0x2  main.o [1]
-                            - 0x2000'0006     0x6
+"P2", part 1 of 2:                            0x4
+  P2-1                        0x2000'0000     0x2  <Init block>
+    .data            inited   0x2000'0000     0x2  main.o [1]
+                            - 0x2000'0002     0x2
 
 "P2", part 2 of 2:                         0x2000
   CSTACK                      0x2000'0008  0x2000  <Block>
@@ -175,7 +174,8 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-   0x800'0658   0x803'ffff  0x3'f9a8
+   0x800'065c   0x803'ffff  0x3'f9a4
+  0x2000'0004  0x2000'0007       0x4
   0x2000'2008  0x2000'9fff    0x7ff8
 
 
@@ -186,10 +186,10 @@ Unused ranges:
           Address      Size
           -------      ----
 Copy (__iar_copy_init3)
-    1 source range, total size 0x8 (133% of destination):
-           0x800'0528   0x8
-    1 destination range, total size 0x6:
-          0x2000'0000   0x6
+    1 source range, total size 0x4 (200% of destination):
+           0x800'0658   0x4
+    1 destination range, total size 0x2:
+          0x2000'0000   0x2
 
 
 
@@ -204,12 +204,12 @@ command line/config:
     Total:
 
 C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Obj: [1]
-    main.o                   212        6        6
+    main.o                   180        2        2
     startup_stm32f30x.o      704
-    stm32f3x_api.o           182
+    stm32f3x_api.o           220
     system_stm32f30x.o       280
     ----------------------------------------------
-    Total:                 1'378        6        6
+    Total:                 1'384        2        2
 
 dl7M_tln.a: [2]
     exit.o                     4
@@ -236,10 +236,10 @@ shb_l.a: [5]
     ----------------------------------------------
     Total:                    20
 
-    Gaps                       4        2
+    Gaps                       6        2
     Linker created                     22    8'192
 --------------------------------------------------
-    Grand Total:           1'594       30    8'198
+    Grand Total:           1'602       26    8'194
 
 
 *******************************************************************************
@@ -248,37 +248,37 @@ shb_l.a: [5]
 
 Entry                       Address  Size  Type      Object
 -----                       -------  ----  ----      ------
-.iar.init_table$$Base    0x800'04a0         --   Gb  - Linker created -
-.iar.init_table$$Limit   0x800'04b4         --   Gb  - Linker created -
-?main                    0x800'04b5        Code  Gb  cmain.o [4]
+.iar.init_table$$Base    0x800'04a8         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'04bc         --   Gb  - Linker created -
+?main                    0x800'04bd        Code  Gb  cmain.o [4]
 CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'2008         --   Gb  - Linker created -
-EXTI0_IRQHandler         0x800'0323  0x30  Code  Gb  main.o [1]
-GPIO_MODE                0x800'038f  0x2a  Code  Gb  stm32f3x_api.o [1]
-RCC_PCLK_AHBEN           0x800'0375  0x1a  Code  Gb  stm32f3x_api.o [1]
-Region$$Table$$Base      0x800'04a0         --   Gb  - Linker created -
-Region$$Table$$Limit     0x800'04b4         --   Gb  - Linker created -
+EXTI0_IRQHandler         0x800'03e9  0x30  Code  Gb  main.o [1]
+GPIO_MODE                0x800'02bb  0x2a  Code  Gb  stm32f3x_api.o [1]
+RCC_PCLK_AHBEN           0x800'02a1  0x1a  Code  Gb  stm32f3x_api.o [1]
+Region$$Table$$Base      0x800'04a8         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'04bc         --   Gb  - Linker created -
 SetSysClock              0x800'01df  0x9a  Code  Lc  system_stm32f30x.o [1]
 SystemInit               0x800'0189  0x56  Code  Gb  system_stm32f30x.o [1]
-__cmain                  0x800'04b5        Code  Gb  cmain.o [4]
-__exit                   0x800'04e9  0x14  Code  Gb  exit.o [5]
-__iar_copy_init3         0x800'042b  0x2a  Code  Gb  copy_init3.o [4]
-__iar_data_init3         0x800'0455  0x28  Code  Gb  data_init.o [4]
-__iar_init_vfp           0x800'047d        Code  Gb  fpinit_M.o [3]
-__iar_program_start      0x800'04fd        Code  Gb  cstartup_M.o [4]
-__low_level_init         0x800'04d3   0x4  Code  Gb  low_level_init.o [2]
+__cmain                  0x800'04bd        Code  Gb  cmain.o [4]
+__exit                   0x800'04f1  0x14  Code  Gb  exit.o [5]
+__iar_copy_init3         0x800'0431  0x2a  Code  Gb  copy_init3.o [4]
+__iar_data_init3         0x800'045d  0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp           0x800'0485        Code  Gb  fpinit_M.o [3]
+__iar_program_start      0x800'0505        Code  Gb  cstartup_M.o [4]
+__low_level_init         0x800'04db   0x4  Code  Gb  low_level_init.o [2]
 __vector_table           0x800'0000        Data  Gb  startup_stm32f30x.o [1]
-_call_main               0x800'04c1        Code  Gb  cmain.o [4]
-_exit                    0x800'04dd        Code  Gb  cexit.o [4]
-_index_NVIC_ISER        0x2000'0000   0x4  Data  Gb  main.o [1]
-bit_pos_EXTI             0x800'0415   0xe  Code  Gb  stm32f3x_api.o [1]
-bit_pos_GPIO_MODER       0x800'03b9   0xe  Code  Gb  stm32f3x_api.o [1]
-exit                     0x800'04d7   0x4  Code  Gb  exit.o [2]
-flag                    0x2000'0004   0x2  Data  Gb  main.o [1]
-index_EXTI               0x800'040d   0x8  Code  Gb  stm32f3x_api.o [1]
-index_NVIC_ISER          0x800'0423   0x8  Code  Gb  stm32f3x_api.o [1]
-main                     0x800'02a1  0x82  Code  Gb  main.o [1]
-set_SYSCFG_EXTI          0x800'03c7  0x3e  Code  Gb  stm32f3x_api.o [1]
+_call_main               0x800'04c9        Code  Gb  cmain.o [4]
+_exit                    0x800'04e5        Code  Gb  cexit.o [4]
+bit_pos_EXTI             0x800'0339   0xe  Code  Gb  stm32f3x_api.o [1]
+bit_pos_GPIO_MODER       0x800'02e5   0xe  Code  Gb  stm32f3x_api.o [1]
+exit                     0x800'04df   0x4  Code  Gb  exit.o [2]
+flag                    0x2000'0000   0x2  Data  Gb  main.o [1]
+index_EXTI               0x800'0331   0x8  Code  Gb  stm32f3x_api.o [1]
+index_NVIC_ISER          0x800'0375   0x8  Code  Gb  stm32f3x_api.o [1]
+main                     0x800'037d  0x6c  Code  Gb  main.o [1]
+set_NVIC_ISER            0x800'0347  0x20  Code  Gb  stm32f3x_api.o [1]
+set_SYSCFG_EXTI          0x800'02f3  0x3e  Code  Gb  stm32f3x_api.o [1]
 
 
 [1] = C:\Users\Attilio\Documents\GitHub\MCU\src\PA0_EXTI\Debug\Obj
@@ -287,9 +287,9 @@ set_SYSCFG_EXTI          0x800'03c7  0x3e  Code  Gb  stm32f3x_api.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  1'594 bytes of readonly  code memory
-     30 bytes of readonly  data memory
-  8'198 bytes of readwrite data memory
+  1'602 bytes of readonly  code memory
+     26 bytes of readonly  data memory
+  8'194 bytes of readwrite data memory
 
 Errors: none
 Warnings: none
