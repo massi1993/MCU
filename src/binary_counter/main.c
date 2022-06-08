@@ -18,7 +18,7 @@ void main(){
         RCC_PCLK_AHBEN(RCC_AHBENR_GPIOA,ENABLE);        /*!< ENABLE GPIOE AND GPIOA >*/ 
         RCC_PCLK_AHBEN(RCC_AHBENR_GPIOE,ENABLE);        
 	
-	SET_PE_IN_OUT_MODE();                           /*!< SET PEx (WITH x = 8,9,..15) IN OUTPUT_MODE >*/
+	GPIOE_OUTMODE(Px8,Px15);                        /*!< SET PEx (WITH x = 8,9,..15) IN OUTPUT_MODE >*/
         
         GPIO_MODE(GPIOA,IN_MODE,Px0);                   /*!< SET PA0 IN INPUT MODE (BY DEFAULT PA0 IS ALREADY IN INPUT MODE)> */
         

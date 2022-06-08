@@ -35,19 +35,14 @@ unsigned int _index_NVIC_ISER = SET;            /*!< Index of NVIC -> ISER >*/
 
 void main(){
 
-          /*!< ENABLE GPIOE ON AHB BUS >*/
-          RCC_PCLK_AHBEN(RCC_AHBENR_GPIOE,ENABLE);
+          RCC_PCLK_AHBEN(RCC_AHBENR_GPIOE,ENABLE);      /*!< ENABLE GPIOE ON AHB BUS >*/        
+          RCC_PCLK_APB1EN(RCC_APB1ENR_TIM3,ENABLE);     /*!< ENABLE TIMER2 ON APB1 BUS >*/
 
-          /*!< ENABLE TIMER2 ON APB1 BUS >*/
-          RCC_PCLK_APB1EN(RCC_APB1ENR_TIM3,ENABLE);
+          GPIOE_OUTMODE(Px8,Px15);                      /*!< ALL LED IN OUTPUT MODE >*/
 
-          /*!< LED IN OUTPUT MODE >*/
-          SET_PE_IN_OUT_MODE();
-
-          /*!< SET PSC and ARR for TIMER3 >*/
-          set_PSC_and_ARR_TIM(TIM3, time, Fck);
+          set_PSC_and_ARR_TIM(TIM3, time, Fck);         /*!< SET PSC and ARR for TIMER3 >*/
           
-          CNT_EN_TIM(TIM3,ENABLE);
+          CNT_EN_TIM(TIM3,ENABLE);                      /*!< RESET CNT ON TIMER3 AND ENABLE COUNTER>*/
           
           TIM3->DIER|=TIM_DIER_UIE;
 

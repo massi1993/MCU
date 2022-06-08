@@ -95,7 +95,7 @@ Allows to enable the mode of GPIO
                  If we choose PB2, PinNumber will be Px2;
                  and so on...
 
-@return value of bit position
+@return None
 
 */
 void GPIO_MODE (GPIO_Type* GPIO, unsigned int mode, unsigned int PinNumber){
@@ -111,6 +111,25 @@ void GPIO_MODE (GPIO_Type* GPIO, unsigned int mode, unsigned int PinNumber){
 }
 
 
+/*!<
+@brief
+Set in OUT_MODE LEds from PEStart to PEStop
+
+@param PEStart  LED on Start
+@param PEStop   LED on Stop
+
+@return None
+
+*/
+void GPIOE_OUTMODE(int PEstart, int PEstop){
+
+    for(int i=PEstart; i<=PEstop; i++)
+    {
+        GPIOE->MODER |= (OUT_MODE << 2*i);
+    
+    }
+
+}
 
 /*!<
 @brief
@@ -179,7 +198,6 @@ Enable counter
 
 
 */
-
 void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status){
           
     Timer->CNT = RESET;

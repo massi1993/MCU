@@ -1,6 +1,7 @@
 /* 
 *
 *       Created on : June 02, 2022 
+*       Last Update: June 08, 2022
 *           Author : massiAv
 *
 */
@@ -13,18 +14,16 @@
 int flag = RESET;
 
 void main(){
-  
-        /*!< ENABLE GPIOE AND TIMER2>*/
+
         RCC_PCLK_AHBEN(RCC_AHBENR_GPIOE,ENABLE);
-        RCC_PCLK_APB1EN(RCC_APB1ENR_TIM2,ENABLE);
+        RCC_PCLK_APB1EN(RCC_APB1ENR_TIM2,ENABLE);       /*!< ENABLE GPIOE AND TIMER2>*/
                 
-        /*!< SET PEx (WITH x = 8,9,..15) IN OUTPUT_MODE >*/
-        SET_PE_IN_OUT_MODE();
- 
-        TIM2->ARR = N_CONT(0.5);                /*!< TIME (in seconds) as INPUT > */
+        GPIOE_OUTMODE(Px8,Px15);                        /*!< SET PEx (WITH x = 8,9,..15) IN OUTPUT_MODE >*/
+          
+        TIM2->ARR = N_CONT(0.5);                        /*!< TIME (in seconds) as INPUT > */
         
         /*!< ENABLE COUNTER PULL UP BIT CEN >*/
-        CNT_EN_TIM(TIM2,ENABLE);               /*!< WHEN CNT REACHES N_CNT(X) THE UIF IS SET TO 1 >*/
+        CNT_EN_TIM(TIM2,ENABLE);                        /*!< WHEN CNT REACHES N_CNT(X) THE UIF IS SET TO 1 >*/
         
         while(1)
         {

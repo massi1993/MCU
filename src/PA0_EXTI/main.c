@@ -19,8 +19,8 @@ void main(){
           RCC_PCLK_AHBEN(RCC_AHBENR_GPIOA,ENABLE);
           RCC_PCLK_AHBEN(RCC_AHBENR_GPIOE,ENABLE);      /*!< Enable GPIOA and GPIOE >*/ 
          
-          SET_PE_IN_OUT_MODE();                         /*!< Enable PEx (x = 8,..15) in output mode >*/ 
-          
+          GPIOE_OUTMODE(Px8,Px15);                      /*!< Enable PEx (x = 8,..15) in output mode >*/ 
+         
           GPIO_MODE(GPIOA,IN_MODE,Px0);                 /*!< Enable PA0 in input mode >*/         
           
           set_SYSCFG_EXTI(Px0,PA0);                     /*!<CONFIGURE Px0 to get the index and bit position of SYSCFG->EXTI

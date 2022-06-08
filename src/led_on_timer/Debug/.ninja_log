@@ -50,3 +50,15 @@
 207	278	6762272493180768	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	510f707bb7de0b1d
 1	67	6762273444429415	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	eee78172c837e012
 71	105	6762273444897416	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	510f707bb7de0b1d
+1	154	6763784443844803	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	eee78172c837e012
+2	77	6763788025341957	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	eee78172c837e012
+7	89	6763788025341957	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/stm32f3x_api.o	b8d1c1bd91cd4ff3
+93	786	6763788032391971	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	510f707bb7de0b1d
+2	69	6763788544005186	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	eee78172c837e012
+7	95	6763788544317186	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/stm32f3x_api.o	b8d1c1bd91cd4ff3
+99	137	6763788544629187	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	510f707bb7de0b1d
+0	82	6763788695177504	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/stm32f3x_api.o	b8d1c1bd91cd4ff3
+0	175	6763789480052986	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/stm32f3x_api.o	b8d1c1bd91cd4ff3
+1	42	6763789613995475	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	510f707bb7de0b1d
+1	88	6763790071810110	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	eee78172c837e012
+91	169	6763790072278111	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	510f707bb7de0b1d

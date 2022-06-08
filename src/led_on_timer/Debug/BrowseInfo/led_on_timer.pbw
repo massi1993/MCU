@@ -8463,13 +8463,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@1136@macro@PA0",
+    "ID": "c:stm32f3x_api_driver.h@1189@macro@PA0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PA0",
     "location": {
       "column": "9",
-      "line": "32",
+      "line": "33",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PA0",
@@ -8477,13 +8477,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@1339@macro@PB0",
+    "ID": "c:stm32f3x_api_driver.h@1392@macro@PB0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PB0",
     "location": {
       "column": "9",
-      "line": "34",
+      "line": "35",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PB0",
@@ -8491,13 +8491,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@1374@macro@PC0",
+    "ID": "c:stm32f3x_api_driver.h@1427@macro@PC0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PC0",
     "location": {
       "column": "9",
-      "line": "35",
+      "line": "36",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PC0",
@@ -8505,13 +8505,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@1409@macro@PD0",
+    "ID": "c:stm32f3x_api_driver.h@1462@macro@PD0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PD0",
     "location": {
       "column": "9",
-      "line": "36",
+      "line": "37",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PD0",
@@ -8519,13 +8519,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@1444@macro@PE0",
+    "ID": "c:stm32f3x_api_driver.h@1497@macro@PE0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PE0",
     "location": {
       "column": "9",
-      "line": "37",
+      "line": "38",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PE0",
@@ -8533,13 +8533,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@1479@macro@PF0",
+    "ID": "c:stm32f3x_api_driver.h@1532@macro@PF0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PF0",
     "location": {
       "column": "9",
-      "line": "38",
+      "line": "39",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PF0",
@@ -8547,13 +8547,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@1842@macro@Px0",
+    "ID": "c:stm32f3x_api_driver.h@1928@macro@Px0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px0",
     "location": {
       "column": "9",
-      "line": "50",
+      "line": "52",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px0",
@@ -8561,13 +8561,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@1877@macro@Px1",
+    "ID": "c:stm32f3x_api_driver.h@1963@macro@Px1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px1",
     "location": {
       "column": "9",
-      "line": "51",
+      "line": "53",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px1",
@@ -8575,13 +8575,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@1912@macro@Px2",
+    "ID": "c:stm32f3x_api_driver.h@1998@macro@Px2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px2",
     "location": {
       "column": "9",
-      "line": "52",
+      "line": "54",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px2",
@@ -8589,13 +8589,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@1947@macro@Px3",
+    "ID": "c:stm32f3x_api_driver.h@2033@macro@Px3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px3",
     "location": {
       "column": "9",
-      "line": "53",
+      "line": "55",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px3",
@@ -8603,13 +8603,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@1982@macro@Px4",
+    "ID": "c:stm32f3x_api_driver.h@2068@macro@Px4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px4",
     "location": {
       "column": "9",
-      "line": "54",
+      "line": "56",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px4",
@@ -8617,13 +8617,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2017@macro@Px5",
+    "ID": "c:stm32f3x_api_driver.h@2103@macro@Px5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px5",
     "location": {
       "column": "9",
-      "line": "55",
+      "line": "57",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px5",
@@ -8631,13 +8631,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2052@macro@Px6",
+    "ID": "c:stm32f3x_api_driver.h@2138@macro@Px6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px6",
     "location": {
       "column": "9",
-      "line": "56",
+      "line": "58",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px6",
@@ -8645,13 +8645,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2087@macro@Px7",
+    "ID": "c:stm32f3x_api_driver.h@2173@macro@Px7",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px7",
     "location": {
       "column": "9",
-      "line": "57",
+      "line": "59",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px7",
@@ -8659,13 +8659,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2122@macro@Px8",
+    "ID": "c:stm32f3x_api_driver.h@2208@macro@Px8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px8",
     "location": {
       "column": "9",
-      "line": "58",
+      "line": "60",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px8",
@@ -8673,13 +8673,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2157@macro@Px9",
+    "ID": "c:stm32f3x_api_driver.h@2243@macro@Px9",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px9",
     "location": {
       "column": "9",
-      "line": "59",
+      "line": "61",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px9",
@@ -8687,13 +8687,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2192@macro@Px10",
+    "ID": "c:stm32f3x_api_driver.h@2278@macro@Px10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px10",
     "location": {
       "column": "9",
-      "line": "60",
+      "line": "62",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px10",
@@ -8701,13 +8701,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2228@macro@Px11",
+    "ID": "c:stm32f3x_api_driver.h@2314@macro@Px11",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px11",
     "location": {
       "column": "9",
-      "line": "61",
+      "line": "63",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px11",
@@ -8715,13 +8715,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2264@macro@Px12",
+    "ID": "c:stm32f3x_api_driver.h@2350@macro@Px12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px12",
     "location": {
       "column": "9",
-      "line": "62",
+      "line": "64",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px12",
@@ -8729,13 +8729,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2300@macro@Px13",
+    "ID": "c:stm32f3x_api_driver.h@2386@macro@Px13",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px13",
     "location": {
       "column": "9",
-      "line": "63",
+      "line": "65",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px13",
@@ -8743,13 +8743,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2336@macro@Px14",
+    "ID": "c:stm32f3x_api_driver.h@2422@macro@Px14",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px14",
     "location": {
       "column": "9",
-      "line": "64",
+      "line": "66",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px14",
@@ -8757,13 +8757,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2372@macro@Px15",
+    "ID": "c:stm32f3x_api_driver.h@2458@macro@Px15",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Px15",
     "location": {
       "column": "9",
-      "line": "65",
+      "line": "67",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "Px15",
@@ -8771,13 +8771,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2447@macro@PA0_IDR_MASK",
+    "ID": "c:stm32f3x_api_driver.h@2533@macro@PA0_IDR_MASK",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PA0_IDR_MASK",
     "location": {
       "column": "9",
-      "line": "68",
+      "line": "70",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PA0_IDR_MASK",
@@ -8785,13 +8785,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2482@macro@PA1_IDR_MASK",
+    "ID": "c:stm32f3x_api_driver.h@2568@macro@PA1_IDR_MASK",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PA1_IDR_MASK",
     "location": {
       "column": "9",
-      "line": "69",
+      "line": "71",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PA1_IDR_MASK",
@@ -8799,13 +8799,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2517@macro@PA2_IDR_MASK",
+    "ID": "c:stm32f3x_api_driver.h@2603@macro@PA2_IDR_MASK",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PA2_IDR_MASK",
     "location": {
       "column": "9",
-      "line": "70",
+      "line": "72",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "PA2_IDR_MASK",
@@ -8813,41 +8813,55 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2552@macro@GPIOA_IDR_IN0",
+    "ID": "c:stm32f3x_api_driver.h@2638@macro@PA0_IDR",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIOA_IDR_IN0",
+    "display": "PA0_IDR",
     "location": {
       "column": "9",
-      "line": "71",
+      "line": "73",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
-    "name": "GPIOA_IDR_IN0",
+    "name": "PA0_IDR",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2629@macro@GPIOA_IDR_IN1",
+    "ID": "c:stm32f3x_api_driver.h@2745@macro@PA1_IDR",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIOA_IDR_IN1",
+    "display": "PA1_IDR",
     "location": {
       "column": "9",
-      "line": "72",
+      "line": "74",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
-    "name": "GPIOA_IDR_IN1",
+    "name": "PA1_IDR",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2747@macro@GPIOE_TURN_LED",
+    "ID": "c:stm32f3x_api_driver.h@2852@macro@PA2_IDR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PA2_IDR",
+    "location": {
+      "column": "9",
+      "line": "75",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "PA2_IDR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api_driver.h@3000@macro@GPIOE_TURN_LED",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE_TURN_LED",
     "location": {
       "column": "9",
-      "line": "76",
+      "line": "79",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "GPIOE_TURN_LED",
@@ -8855,13 +8869,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2798@macro@GPIOE_ALL_LED_ON",
+    "ID": "c:stm32f3x_api_driver.h@3051@macro@GPIOE_ALL_LED_ON",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE_ALL_LED_ON",
     "location": {
       "column": "9",
-      "line": "77",
+      "line": "80",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "GPIOE_ALL_LED_ON",
@@ -8869,21 +8883,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@2889@macro@SET_PE_IN_OUT_MODE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SET_PE_IN_OUT_MODE",
-    "location": {
-      "column": "9",
-      "line": "80",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
-    },
-    "name": "SET_PE_IN_OUT_MODE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f3x_api_driver.h@3039@macro@RCC_AHBENR_GPIOA",
+    "ID": "c:stm32f3x_api_driver.h@3146@macro@RCC_AHBENR_GPIOA",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_AHBENR_GPIOA",
@@ -8897,7 +8897,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@3089@macro@RCC_AHBENR_GPIOB",
+    "ID": "c:stm32f3x_api_driver.h@3196@macro@RCC_AHBENR_GPIOB",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_AHBENR_GPIOB",
@@ -8911,7 +8911,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@3139@macro@RCC_AHBENR_GPIOC",
+    "ID": "c:stm32f3x_api_driver.h@3246@macro@RCC_AHBENR_GPIOC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_AHBENR_GPIOC",
@@ -8925,7 +8925,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@3189@macro@RCC_AHBENR_GPIOD",
+    "ID": "c:stm32f3x_api_driver.h@3296@macro@RCC_AHBENR_GPIOD",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_AHBENR_GPIOD",
@@ -8939,7 +8939,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@3239@macro@RCC_AHBENR_GPIOE",
+    "ID": "c:stm32f3x_api_driver.h@3346@macro@RCC_AHBENR_GPIOE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_AHBENR_GPIOE",
@@ -8953,7 +8953,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@3289@macro@RCC_AHBENR_GPIOF",
+    "ID": "c:stm32f3x_api_driver.h@3396@macro@RCC_AHBENR_GPIOF",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_AHBENR_GPIOF",
@@ -8967,7 +8967,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@3384@macro@RCC_APB1ENR_TIM2",
+    "ID": "c:stm32f3x_api_driver.h@3491@macro@RCC_APB1ENR_TIM2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_APB1ENR_TIM2",
@@ -8981,7 +8981,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api_driver.h@3433@macro@RCC_APB1ENR_TIM3",
+    "ID": "c:stm32f3x_api_driver.h@3540@macro@RCC_APB1ENR_TIM3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_APB1ENR_TIM3",
@@ -9051,13 +9051,69 @@
     "scope": null
   },
   {
+    "ID": "c:@F@GPIO_MODE",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void GPIO_MODE(GPIO_Type *, unsigned int, unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "99",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "GPIO_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_MODE",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void GPIO_MODE(GPIO_Type *, unsigned int, unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "99",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "GPIO_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIOE_OUTMODE",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void GPIOE_OUTMODE(int, int)",
+    "location": {
+      "column": "6",
+      "line": "100",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "GPIOE_OUTMODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIOE_OUTMODE",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void GPIOE_OUTMODE(int, int)",
+    "location": {
+      "column": "6",
+      "line": "100",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "GPIOE_OUTMODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@bit_pos_GPIO_MODER",
     "What": "Function",
     "defdec": "Dec",
     "display": "int bit_pos_GPIO_MODER(int)",
     "location": {
       "column": "5",
-      "line": "99",
+      "line": "101",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "bit_pos_GPIO_MODER",
@@ -9071,7 +9127,7 @@
     "display": "int bit_pos_GPIO_MODER(int)",
     "location": {
       "column": "5",
-      "line": "99",
+      "line": "101",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "bit_pos_GPIO_MODER",
@@ -9085,7 +9141,7 @@
     "display": "void set_PSC_and_ARR_TIM(TIMER_Type *, unsigned int, unsigned int)",
     "location": {
       "column": "6",
-      "line": "100",
+      "line": "102",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "set_PSC_and_ARR_TIM",
@@ -9099,7 +9155,7 @@
     "display": "void set_PSC_and_ARR_TIM(TIMER_Type *, unsigned int, unsigned int)",
     "location": {
       "column": "6",
-      "line": "100",
+      "line": "102",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "set_PSC_and_ARR_TIM",
@@ -9113,7 +9169,7 @@
     "display": "void CNT_EN_TIM(TIMER_Type *, unsigned int)",
     "location": {
       "column": "6",
-      "line": "101",
+      "line": "103",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "CNT_EN_TIM",
@@ -9127,7 +9183,7 @@
     "display": "void CNT_EN_TIM(TIMER_Type *, unsigned int)",
     "location": {
       "column": "6",
-      "line": "101",
+      "line": "103",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "CNT_EN_TIM",
@@ -9135,13 +9191,41 @@
     "scope": null
   },
   {
+    "ID": "c:@F@set_SYSCFG_EXTI",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void set_SYSCFG_EXTI(int, int)",
+    "location": {
+      "column": "6",
+      "line": "104",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "set_SYSCFG_EXTI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@set_SYSCFG_EXTI",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void set_SYSCFG_EXTI(int, int)",
+    "location": {
+      "column": "6",
+      "line": "104",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "set_SYSCFG_EXTI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@index_EXTI",
     "What": "Function",
     "defdec": "Dec",
     "display": "int index_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "102",
+      "line": "105",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "index_EXTI",
@@ -9155,7 +9239,7 @@
     "display": "int index_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "102",
+      "line": "105",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "index_EXTI",
@@ -9169,7 +9253,7 @@
     "display": "int bit_pos_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "103",
+      "line": "106",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "bit_pos_EXTI",
@@ -9183,10 +9267,38 @@
     "display": "int bit_pos_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "103",
+      "line": "106",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "bit_pos_EXTI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@set_NVIC_ISER",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void set_NVIC_ISER(int)",
+    "location": {
+      "column": "6",
+      "line": "107",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "set_NVIC_ISER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@set_NVIC_ISER",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void set_NVIC_ISER(int)",
+    "location": {
+      "column": "6",
+      "line": "107",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "set_NVIC_ISER",
     "origin": "user_include",
     "scope": null
   },
@@ -9197,7 +9309,7 @@
     "display": "int index_NVIC_ISER(int)",
     "location": {
       "column": "5",
-      "line": "104",
+      "line": "108",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "index_NVIC_ISER",
@@ -9211,7 +9323,7 @@
     "display": "int index_NVIC_ISER(int)",
     "location": {
       "column": "5",
-      "line": "104",
+      "line": "108",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "index_NVIC_ISER",
@@ -9309,7 +9421,7 @@
     "display": "flag",
     "location": {
       "column": "5",
-      "line": "13",
+      "line": "14",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\main.c"
     },
     "name": "flag",
@@ -9323,24 +9435,10 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "15",
+      "line": "16",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\main.c"
     },
     "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@471@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "9",
-      "line": "22",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\main.c"
-    },
-    "name": "i",
     "origin": "project_file",
     "scope": null
   },
@@ -9491,7 +9589,7 @@
     "display": "void RCC_PCLK_AHBEN(uint32_t, int)",
     "location": {
       "column": "6",
-      "line": "37",
+      "line": "38",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "RCC_PCLK_AHBEN",
@@ -9505,10 +9603,52 @@
     "display": "void RCC_PCLK_APB1EN(uint32_t, int)",
     "location": {
       "column": "6",
-      "line": "66",
+      "line": "67",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "RCC_PCLK_APB1EN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_MODE",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_MODE(GPIO_Type *, unsigned int, unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "101",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
+    },
+    "name": "GPIO_MODE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIOE_OUTMODE",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIOE_OUTMODE(int, int)",
+    "location": {
+      "column": "6",
+      "line": "125",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
+    },
+    "name": "GPIOE_OUTMODE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api.c@2991@F@GPIOE_OUTMODE@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "13",
+      "line": "127",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
+    },
+    "name": "i",
     "origin": "project_file",
     "scope": null
   },
@@ -9519,7 +9659,7 @@
     "display": "int bit_pos_GPIO_MODER(int)",
     "location": {
       "column": "5",
-      "line": "102",
+      "line": "152",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos_GPIO_MODER",
@@ -9527,13 +9667,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@2616@F@bit_pos_GPIO_MODER@bit_pos",
+    "ID": "c:stm32f3x_api.c@3805@F@bit_pos_GPIO_MODER@bit_pos",
     "What": "Variable",
     "defdec": "Def",
     "display": "bit_pos",
     "location": {
       "column": "9",
-      "line": "104",
+      "line": "154",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos",
@@ -9547,7 +9687,7 @@
     "display": "void set_PSC_and_ARR_TIM(TIMER_Type *, unsigned int, unsigned int)",
     "location": {
       "column": "6",
-      "line": "131",
+      "line": "181",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "set_PSC_and_ARR_TIM",
@@ -9555,13 +9695,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@3214@F@set_PSC_and_ARR_TIM@PSC",
+    "ID": "c:stm32f3x_api.c@4397@F@set_PSC_and_ARR_TIM@PSC",
     "What": "Variable",
     "defdec": "Def",
     "display": "PSC",
     "location": {
-      "column": "24",
-      "line": "133",
+      "column": "18",
+      "line": "183",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "PSC",
@@ -9569,13 +9709,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@3214@F@set_PSC_and_ARR_TIM@NARR",
+    "ID": "c:stm32f3x_api.c@4397@F@set_PSC_and_ARR_TIM@NARR",
     "What": "Variable",
     "defdec": "Dec",
     "display": "NARR",
     "location": {
-      "column": "29",
-      "line": "133",
+      "column": "23",
+      "line": "183",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "NARR",
@@ -9589,10 +9729,52 @@
     "display": "void CNT_EN_TIM(TIMER_Type *, unsigned int)",
     "location": {
       "column": "6",
-      "line": "153",
+      "line": "203",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "CNT_EN_TIM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@set_SYSCFG_EXTI",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void set_SYSCFG_EXTI(int, int)",
+    "location": {
+      "column": "6",
+      "line": "239",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
+    },
+    "name": "set_SYSCFG_EXTI",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api.c@5990@F@set_SYSCFG_EXTI@_index_EXTI",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "_index_EXTI",
+    "location": {
+      "column": "18",
+      "line": "241",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
+    },
+    "name": "_index_EXTI",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api.c@6081@F@set_SYSCFG_EXTI@_bit_pos_EXTI",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "_bit_pos_EXTI",
+    "location": {
+      "column": "18",
+      "line": "242",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
+    },
+    "name": "_bit_pos_EXTI",
     "origin": "project_file",
     "scope": null
   },
@@ -9603,7 +9785,7 @@
     "display": "int index_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "182",
+      "line": "274",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index_EXTI",
@@ -9611,13 +9793,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@4351@F@index_EXTI@index",
+    "ID": "c:stm32f3x_api.c@7070@F@index_EXTI@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",
     "location": {
       "column": "9",
-      "line": "184",
+      "line": "276",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index",
@@ -9631,7 +9813,7 @@
     "display": "int bit_pos_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "203",
+      "line": "295",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos_EXTI",
@@ -9639,16 +9821,44 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@4798@F@bit_pos_EXTI@bit_pos",
+    "ID": "c:stm32f3x_api.c@7517@F@bit_pos_EXTI@bit_pos",
     "What": "Variable",
     "defdec": "Def",
     "display": "bit_pos",
     "location": {
       "column": "9",
-      "line": "205",
+      "line": "297",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@set_NVIC_ISER",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void set_NVIC_ISER(int)",
+    "location": {
+      "column": "6",
+      "line": "317",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
+    },
+    "name": "set_NVIC_ISER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f3x_api.c@8050@F@set_NVIC_ISER@_index_NVIC_ISER",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "_index_NVIC_ISER",
+    "location": {
+      "column": "18",
+      "line": "319",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
+    },
+    "name": "_index_NVIC_ISER",
     "origin": "project_file",
     "scope": null
   },
@@ -9659,7 +9869,7 @@
     "display": "int index_NVIC_ISER(int)",
     "location": {
       "column": "5",
-      "line": "226",
+      "line": "340",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index_NVIC_ISER",
@@ -9667,13 +9877,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@5355@F@index_NVIC_ISER@index",
+    "ID": "c:stm32f3x_api.c@8718@F@index_NVIC_ISER@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",
     "location": {
       "column": "9",
-      "line": "228",
+      "line": "342",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index",

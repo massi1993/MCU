@@ -79,9 +79,6 @@
 #define GPIOE_TURN_LED(x)       GPIOE->ODR=(x)<<8
 #define GPIOE_ALL_LED_ON        0x0000FF00      
 
-/*!< define MACROS for GPIOE_MODER>*/
-#define SET_PE_IN_OUT_MODE()             for(int i = 8; i < 16; i++){GPIOE->MODER|= (OUT_MODE << 2*i);}
-
 /*!< define MACROS for RCC_AHB ENABLE >*/
 #define RCC_AHBENR_GPIOA                GPIOA_EN
 #define RCC_AHBENR_GPIOB                GPIOB_EN
@@ -100,6 +97,7 @@
 void RCC_PCLK_AHBEN(uint32_t RCC_AHBENR_Periph, int status);   
 void RCC_PCLK_APB1EN(uint32_t RCC_APB1ENR_Periph, int status);
 void GPIO_MODE (GPIO_Type* GPIO, unsigned int mode, unsigned int PinNumber);
+void GPIOE_OUTMODE(int PEstart, int PEstop);
 int bit_pos_GPIO_MODER(int PinNumber);
 void set_PSC_and_ARR_TIM(TIMER_Type* Timer, unsigned int time, unsigned int Fck);
 void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status);

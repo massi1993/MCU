@@ -5,13 +5,13 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\system_stm32f30x.c</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_timer_driver.h</file>
             <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</file>
             <file>$PROJ_DIR$\..\..\libraries\startup\startup_stm32f30x.s</file>
+            <file>$PROJ_DIR$\system_stm32f30x.c</file>
             <file>$PROJ_DIR$\..\..\libraries\startup\system_stm32f30x.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
@@ -19,8 +19,8 @@
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_stm32f30x.o</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\exti_PA0.out</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\exti_PA0.out</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_stm32f30x.o.rsp</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
@@ -30,42 +30,27 @@
             <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.h</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
             <file>$TOOLKIT_DIR$\config\linker\ST\stm32f303xC.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.c</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
             <file>$PROJ_DIR$\Debug\List\exti_PA0.map</file>
             <file>$PROJ_DIR$\Debug\Obj\system_stm32f30x.o</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
             <file>$PROJ_DIR$\..\led_on_timer\main.c</file>
-            <file>$PROJ_DIR$\..\Timer3_internal_interrupt\main.c</file>
+            <file>$PROJ_DIR$\..\binary_counter\main.c</file>
         </outputs>
-        <file>
-            <name>$PROJ_DIR$\system_stm32f30x.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 29</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 5 13 24 17 15 18 8 1</file>
-                </tool>
-            </inputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 25</file>
+                    <file> 26</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 1 13 24 17 15 18 8 5 3</file>
+                    <file> 0 13 24 17 14 18 8 4 2</file>
                 </tool>
             </inputs>
         </file>
@@ -80,7 +65,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 9 24 17 15 18 8 22 1 13 5 3</file>
+                    <file> 9 24 17 14 18 8 22 0 13 4 2</file>
                 </tool>
             </inputs>
         </file>
@@ -104,22 +89,37 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 14 28</file>
+                    <file> 15 29</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\system_stm32f30x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4 13 24 17 14 18 8 0</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\exti_PA0.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 28</file>
+                    <file> 29</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 26 10 12 25 29 21 30 11 20</file>
+                    <file> 25 10 12 26 30 21 28 11 20</file>
                 </tool>
             </inputs>
         </file>
