@@ -1,5 +1,5 @@
 # Project MCU
-# Update : 05/06/22 , version : 0.3
+# Update : 08/06/22 , version : 0.4
 
 # CONFIGURATION IDE IAR EMBEDDED : Follow these steps to configure project options
 1. In the Project Editor, right-click on the project name and select Options... to display the Options dialog box:
@@ -37,20 +37,20 @@ Example:
 The clock frequency provided by the board is 8 MHz, which is 8 million counts per second. 
 For example, if we want the LEDs to change state every 0.5 second, the counter must reach 4 million.
 
-$f_{ck} = 8 MHz $
+$ f_{ck} = 8 MHz $
 
 $ T_{ck} = 1 / f_{ck} = 125 ns$
 
-$N = Δt / T_{ck} = 4 000 000$
+$ N = Δt / T_{ck} = 4 000 000$
 
 
 ## 3. Project EXTERNAL INTERRUPT (PA0)
 Management external interrupt when PA0 is pressed.
-For this project, is added a new c source file (stm32f3x_api.c)
+For this project, is added a new c source file (system_stm32f30x.c)
 
 
 ## 4. Project INTERNAL INTERRUPT (TIMER3)
-For this project, is added a new c source file (stm32f3x_api.c)
+For this project, is added a new c source file (system_stm32f30x.c)
 Management INTERNAL interrupt WITH LED ON / OFF EVERY SECOND. 
 Inasmuch as TIM3 is a 16-bit timer, it can count to 65,535 before rolling over, which means we can measure events no longer than about 819 microseconds if Fck = 80 MHz!
 As a matter of fact:
@@ -65,4 +65,8 @@ If we wish to measure longer events, we need to use a prescaler, which is a piec
 For example, a prescaler of 80 would turn an 80 MHz clock into a 1 MHz clock.
 
 ![1a01c1b8-ed69-4d86-8c9e-67388366a487](https://user-images.githubusercontent.com/83538787/172060373-4970bbf8-c6ca-4e81-8eb0-47ae446bf3de.jpg)
+
+
+## 4. Project FLASHING LED WITH SPEED CHANGE
+The speed is varied by decreasing the maximum count, stored in the ARR (AutoReloadRegister).
 
