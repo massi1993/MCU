@@ -9513,7 +9513,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_timer_driver.h@777@macro@CHECK_UIF",
+    "ID": "c:stm32f3x_timer_driver.h@793@macro@CHECK_UIF",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CHECK_UIF",
@@ -9527,7 +9527,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_timer_driver.h@937@macro@TIM_DIER_UIE",
+    "ID": "c:stm32f3x_timer_driver.h@968@macro@TIM_DIER_UIE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM_DIER_UIE",
@@ -9541,7 +9541,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_timer_driver.h@996@macro@TIM2_EN",
+    "ID": "c:stm32f3x_timer_driver.h@1027@macro@TIM2_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM2_EN",
@@ -9555,7 +9555,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_timer_driver.h@1036@macro@TIM3_EN",
+    "ID": "c:stm32f3x_timer_driver.h@1067@macro@TIM3_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM3_EN",
@@ -9569,7 +9569,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_timer_driver.h@1076@macro@CEN_EN",
+    "ID": "c:stm32f3x_timer_driver.h@1107@macro@CEN_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CEN_EN",
@@ -9631,7 +9631,7 @@
     "display": "void GPIOE_OUTMODE(int, int)",
     "location": {
       "column": "6",
-      "line": "125",
+      "line": "124",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "GPIOE_OUTMODE",
@@ -9639,13 +9639,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@2991@F@GPIOE_OUTMODE@i",
+    "ID": "c:stm32f3x_api.c@2939@F@GPIOE_OUTMODE@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "13",
-      "line": "127",
+      "line": "126",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "i",
@@ -9659,7 +9659,7 @@
     "display": "int bit_pos_GPIO_MODER(int)",
     "location": {
       "column": "5",
-      "line": "152",
+      "line": "151",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos_GPIO_MODER",
@@ -9667,13 +9667,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@3805@F@bit_pos_GPIO_MODER@bit_pos",
+    "ID": "c:stm32f3x_api.c@3753@F@bit_pos_GPIO_MODER@bit_pos",
     "What": "Variable",
     "defdec": "Def",
     "display": "bit_pos",
     "location": {
       "column": "9",
-      "line": "154",
+      "line": "153",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos",
@@ -9687,7 +9687,7 @@
     "display": "void set_PSC_and_ARR_TIM(TIMER_Type *, unsigned int, unsigned int)",
     "location": {
       "column": "6",
-      "line": "181",
+      "line": "180",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "set_PSC_and_ARR_TIM",
@@ -9695,13 +9695,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@4397@F@set_PSC_and_ARR_TIM@PSC",
+    "ID": "c:stm32f3x_api.c@4345@F@set_PSC_and_ARR_TIM@PSC",
     "What": "Variable",
     "defdec": "Def",
     "display": "PSC",
     "location": {
       "column": "18",
-      "line": "183",
+      "line": "182",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "PSC",
@@ -9709,13 +9709,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@4397@F@set_PSC_and_ARR_TIM@NARR",
+    "ID": "c:stm32f3x_api.c@4345@F@set_PSC_and_ARR_TIM@NARR",
     "What": "Variable",
     "defdec": "Dec",
     "display": "NARR",
     "location": {
       "column": "23",
-      "line": "183",
+      "line": "182",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "NARR",
@@ -9729,7 +9729,7 @@
     "display": "void CNT_EN_TIM(TIMER_Type *, unsigned int)",
     "location": {
       "column": "6",
-      "line": "203",
+      "line": "201",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "CNT_EN_TIM",
@@ -9743,7 +9743,7 @@
     "display": "void set_SYSCFG_EXTI(int, int)",
     "location": {
       "column": "6",
-      "line": "239",
+      "line": "237",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "set_SYSCFG_EXTI",
@@ -9751,13 +9751,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@5990@F@set_SYSCFG_EXTI@_index_EXTI",
+    "ID": "c:stm32f3x_api.c@5936@F@set_SYSCFG_EXTI@_index_EXTI",
     "What": "Variable",
     "defdec": "Def",
     "display": "_index_EXTI",
     "location": {
       "column": "18",
-      "line": "241",
+      "line": "239",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "_index_EXTI",
@@ -9765,13 +9765,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@6081@F@set_SYSCFG_EXTI@_bit_pos_EXTI",
+    "ID": "c:stm32f3x_api.c@6027@F@set_SYSCFG_EXTI@_bit_pos_EXTI",
     "What": "Variable",
     "defdec": "Def",
     "display": "_bit_pos_EXTI",
     "location": {
       "column": "18",
-      "line": "242",
+      "line": "240",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "_bit_pos_EXTI",
@@ -9785,7 +9785,7 @@
     "display": "int index_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "274",
+      "line": "272",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index_EXTI",
@@ -9793,13 +9793,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@7070@F@index_EXTI@index",
+    "ID": "c:stm32f3x_api.c@7016@F@index_EXTI@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",
     "location": {
       "column": "9",
-      "line": "276",
+      "line": "274",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index",
@@ -9813,7 +9813,7 @@
     "display": "int bit_pos_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "295",
+      "line": "293",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos_EXTI",
@@ -9821,13 +9821,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@7517@F@bit_pos_EXTI@bit_pos",
+    "ID": "c:stm32f3x_api.c@7463@F@bit_pos_EXTI@bit_pos",
     "What": "Variable",
     "defdec": "Def",
     "display": "bit_pos",
     "location": {
       "column": "9",
-      "line": "297",
+      "line": "295",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos",
@@ -9841,7 +9841,7 @@
     "display": "void set_NVIC_ISER(int)",
     "location": {
       "column": "6",
-      "line": "317",
+      "line": "315",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "set_NVIC_ISER",
@@ -9849,13 +9849,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@8050@F@set_NVIC_ISER@_index_NVIC_ISER",
+    "ID": "c:stm32f3x_api.c@7996@F@set_NVIC_ISER@_index_NVIC_ISER",
     "What": "Variable",
     "defdec": "Def",
     "display": "_index_NVIC_ISER",
     "location": {
       "column": "18",
-      "line": "319",
+      "line": "317",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "_index_NVIC_ISER",
@@ -9869,7 +9869,7 @@
     "display": "int index_NVIC_ISER(int)",
     "location": {
       "column": "5",
-      "line": "340",
+      "line": "338",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index_NVIC_ISER",
@@ -9877,13 +9877,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@8718@F@index_NVIC_ISER@index",
+    "ID": "c:stm32f3x_api.c@8664@F@index_NVIC_ISER@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",
     "location": {
       "column": "9",
-      "line": "342",
+      "line": "340",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index",
