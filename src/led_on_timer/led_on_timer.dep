@@ -28,6 +28,7 @@
             <file>$PROJ_DIR$\Debug\List\led_on_timer.map</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\..\led_on_velocity_change\main.c</file>
+            <file>$PROJ_DIR$\..\PA0_EXTI\main.c</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>

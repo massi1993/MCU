@@ -9485,13 +9485,27 @@
     "scope": null
   },
   {
+    "ID": "c:@pin_cnt",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "pin_cnt",
+    "location": {
+      "column": "5",
+      "line": "15",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\main.c"
+    },
+    "name": "pin_cnt",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "16",
+      "line": "17",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\main.c"
     },
     "name": "main",
@@ -9737,7 +9751,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@4123@F@bit_pos_GPIO_MODER@bit_pos",
+    "ID": "c:stm32f3x_api.c@4125@F@bit_pos_GPIO_MODER@bit_pos",
     "What": "Variable",
     "defdec": "Def",
     "display": "bit_pos",
@@ -9765,7 +9779,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@4715@F@set_PSC_and_ARR_TIM@PSC",
+    "ID": "c:stm32f3x_api.c@4718@F@set_PSC_and_ARR_TIM@PSC",
     "What": "Variable",
     "defdec": "Def",
     "display": "PSC",
@@ -9779,7 +9793,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@4715@F@set_PSC_and_ARR_TIM@NARR",
+    "ID": "c:stm32f3x_api.c@4718@F@set_PSC_and_ARR_TIM@NARR",
     "What": "Variable",
     "defdec": "Dec",
     "display": "NARR",
@@ -9821,7 +9835,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@6306@F@set_SYSCFG_EXTI@_index_EXTI",
+    "ID": "c:stm32f3x_api.c@6309@F@set_SYSCFG_EXTI@_index_EXTI",
     "What": "Variable",
     "defdec": "Def",
     "display": "_index_EXTI",
@@ -9835,7 +9849,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@6397@F@set_SYSCFG_EXTI@_bit_pos_EXTI",
+    "ID": "c:stm32f3x_api.c@6400@F@set_SYSCFG_EXTI@_bit_pos_EXTI",
     "What": "Variable",
     "defdec": "Def",
     "display": "_bit_pos_EXTI",
@@ -9863,7 +9877,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@7386@F@index_EXTI@index",
+    "ID": "c:stm32f3x_api.c@7389@F@index_EXTI@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",
@@ -9891,7 +9905,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@7833@F@bit_pos_EXTI@bit_pos",
+    "ID": "c:stm32f3x_api.c@7836@F@bit_pos_EXTI@bit_pos",
     "What": "Variable",
     "defdec": "Def",
     "display": "bit_pos",
@@ -9919,7 +9933,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@8366@F@set_NVIC_ISER@_index_NVIC_ISER",
+    "ID": "c:stm32f3x_api.c@8369@F@set_NVIC_ISER@_index_NVIC_ISER",
     "What": "Variable",
     "defdec": "Def",
     "display": "_index_NVIC_ISER",
@@ -9947,7 +9961,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@9034@F@index_NVIC_ISER@index",
+    "ID": "c:stm32f3x_api.c@9037@F@index_NVIC_ISER@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",

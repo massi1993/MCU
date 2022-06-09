@@ -378,384 +378,6 @@
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@75@macro@_DLIB_PRODUCTS_H_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCTS_H_",
-    "location": {
-      "column": "9",
-      "line": "4",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_PRODUCTS_H_",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@524@macro@_DLIB_WIDE_CHARACTERS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_WIDE_CHARACTERS",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_WIDE_CHARACTERS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@680@macro@_DLIB_PRODUCT_STRING",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCT_STRING",
-    "location": {
-      "column": "9",
-      "line": "25",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_PRODUCT_STRING",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@831@macro@_DLIB_PRODUCT_FENV",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCT_FENV",
-    "location": {
-      "column": "9",
-      "line": "29",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_PRODUCT_FENV",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@984@macro@_DLIB_PRODUCT_STDLIB",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCT_STDLIB",
-    "location": {
-      "column": "9",
-      "line": "33",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_PRODUCT_STDLIB",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1095@macro@_DLIB_QSORT_BUF_SIZE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_QSORT_BUF_SIZE",
-    "location": {
-      "column": "9",
-      "line": "37",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_QSORT_BUF_SIZE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1270@macro@_DLIB_SUPPORT_FOR_AEABI",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_SUPPORT_FOR_AEABI",
-    "location": {
-      "column": "9",
-      "line": "46",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_SUPPORT_FOR_AEABI",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1353@macro@_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "location": {
-      "column": "9",
-      "line": "49",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1479@macro@_DLIB_STRTOD_HEX_FLOAT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_STRTOD_HEX_FLOAT",
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_STRTOD_HEX_FLOAT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1833@macro@_USE_ATOMIC_OPS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_USE_ATOMIC_OPS",
-    "location": {
-      "column": "11",
-      "line": "65",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_USE_ATOMIC_OPS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1958@macro@__SOFTFP",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__SOFTFP",
-    "location": {
-      "column": "11",
-      "line": "70",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "__SOFTFP",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2082@macro@__NO_SCRATCH",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__NO_SCRATCH",
-    "location": {
-      "column": "9",
-      "line": "74",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "__NO_SCRATCH",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2206@macro@_DLIB_SPEEDY_FLOATS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_SPEEDY_FLOATS",
-    "location": {
-      "column": "9",
-      "line": "77",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_SPEEDY_FLOATS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2267@macro@_DLIB_TIME_USES_64_DEFAULT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_TIME_USES_64_DEFAULT",
-    "location": {
-      "column": "9",
-      "line": "80",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_TIME_USES_64_DEFAULT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2380@macro@_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
-    "location": {
-      "column": "11",
-      "line": "84",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2464@macro@_DLIB_ELF_INIT_STATIC_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_STATIC_BASE",
-    "location": {
-      "column": "11",
-      "line": "85",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_STATIC_BASE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2511@macro@_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
-    "location": {
-      "column": "11",
-      "line": "86",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2871@macro@_DLIB_ELF_INIT_TABLE_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_TABLE_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "96",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_TABLE_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2921@macro@_DLIB_ELF_INIT_SOURCE_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_SOURCE_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "97",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_SOURCE_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2971@macro@_DLIB_ELF_INIT_DESTINATION_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "98",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3119@macro@_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
-    "location": {
-      "column": "11",
-      "line": "103",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3180@macro@_DLIB_ELF_INIT_REGION_COUNT_TYPE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
-    "location": {
-      "column": "9",
-      "line": "105",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3609@macro@_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
-    "location": {
-      "column": "9",
-      "line": "115",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@4021@macro@_DLIB_ELF_INIT_INTERFACE_VERSION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_INTERFACE_VERSION",
-    "location": {
-      "column": "9",
-      "line": "124",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_INTERFACE_VERSION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@4067@macro@_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "location": {
-      "column": "9",
-      "line": "126",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@4119@macro@_XMATHWRAPPERS_DEF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_XMATHWRAPPERS_DEF",
-    "location": {
-      "column": "9",
-      "line": "128",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_XMATHWRAPPERS_DEF",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@4168@macro@_CPPINIT_ATTR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_CPPINIT_ATTR",
-    "location": {
-      "column": "9",
-      "line": "130",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_CPPINIT_ATTR",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:yvals.h@120@macro@_YVALS",
     "What": "MacroDef",
     "defdec": "Def",
@@ -3482,13 +3104,41 @@
         "scope": "_anonymous_stm32f3x_lib_h_162_9"
       },
       {
+        "ID": "c:@SA@GPIO_Type@FI@BSR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BSR",
+        "location": {
+          "column": "22",
+          "line": "169",
+          "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
+        },
+        "name": "BSR",
+        "origin": "user_include",
+        "scope": "_anonymous_stm32f3x_lib_h_162_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@BRR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BRR",
+        "location": {
+          "column": "22",
+          "line": "170",
+          "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
+        },
+        "name": "BRR",
+        "origin": "user_include",
+        "scope": "_anonymous_stm32f3x_lib_h_162_9"
+      },
+      {
         "ID": "c:@T@GPIO_Type",
         "What": "TypedefDecl",
         "defdec": "Def",
         "display": "struct GPIO_Type",
         "location": {
           "column": "2",
-          "line": "169",
+          "line": "171",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "GPIO_Type",
@@ -3507,7 +3157,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "172",
+      "line": "174",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "members": [
@@ -3518,12 +3168,12 @@
         "display": "CFGR1",
         "location": {
           "column": "21",
-          "line": "173",
+          "line": "175",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CFGR1",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_172_9"
+        "scope": "_anonymous_stm32f3x_lib_h_174_9"
       },
       {
         "ID": "c:@SA@SYSCFG_Type@FI@RCR",
@@ -3532,12 +3182,12 @@
         "display": "RCR",
         "location": {
           "column": "21",
-          "line": "174",
+          "line": "176",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "RCR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_172_9"
+        "scope": "_anonymous_stm32f3x_lib_h_174_9"
       },
       {
         "ID": "c:@SA@SYSCFG_Type@FI@EXTICR",
@@ -3546,12 +3196,12 @@
         "display": "EXTICR",
         "location": {
           "column": "21",
-          "line": "175",
+          "line": "177",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "EXTICR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_172_9"
+        "scope": "_anonymous_stm32f3x_lib_h_174_9"
       },
       {
         "ID": "c:@SA@SYSCFG_Type@FI@CFGR2",
@@ -3560,12 +3210,12 @@
         "display": "CFGR2",
         "location": {
           "column": "21",
-          "line": "176",
+          "line": "178",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CFGR2",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_172_9"
+        "scope": "_anonymous_stm32f3x_lib_h_174_9"
       },
       {
         "ID": "c:@T@SYSCFG_Type",
@@ -3574,12 +3224,12 @@
         "display": "struct SYSCFG_Type",
         "location": {
           "column": "3",
-          "line": "177",
+          "line": "179",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "SYSCFG_Type",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_172_9"
+        "scope": "_anonymous_stm32f3x_lib_h_174_9"
       }
     ],
     "name": "",
@@ -3593,7 +3243,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "181",
+      "line": "183",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "members": [
@@ -3604,12 +3254,12 @@
         "display": "IMR",
         "location": {
           "column": "21",
-          "line": "182",
+          "line": "184",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "IMR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_181_9"
+        "scope": "_anonymous_stm32f3x_lib_h_183_9"
       },
       {
         "ID": "c:@SA@EXTI_Type@FI@EMR",
@@ -3618,12 +3268,12 @@
         "display": "EMR",
         "location": {
           "column": "21",
-          "line": "183",
+          "line": "185",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "EMR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_181_9"
+        "scope": "_anonymous_stm32f3x_lib_h_183_9"
       },
       {
         "ID": "c:@SA@EXTI_Type@FI@RTSR",
@@ -3632,12 +3282,12 @@
         "display": "RTSR",
         "location": {
           "column": "21",
-          "line": "184",
+          "line": "186",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "RTSR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_181_9"
+        "scope": "_anonymous_stm32f3x_lib_h_183_9"
       },
       {
         "ID": "c:@SA@EXTI_Type@FI@FTSR",
@@ -3646,12 +3296,12 @@
         "display": "FTSR",
         "location": {
           "column": "21",
-          "line": "185",
+          "line": "187",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "FTSR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_181_9"
+        "scope": "_anonymous_stm32f3x_lib_h_183_9"
       },
       {
         "ID": "c:@SA@EXTI_Type@FI@SWIER",
@@ -3660,12 +3310,12 @@
         "display": "SWIER",
         "location": {
           "column": "21",
-          "line": "186",
+          "line": "188",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "SWIER",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_181_9"
+        "scope": "_anonymous_stm32f3x_lib_h_183_9"
       },
       {
         "ID": "c:@SA@EXTI_Type@FI@PR",
@@ -3674,12 +3324,12 @@
         "display": "PR",
         "location": {
           "column": "21",
-          "line": "187",
+          "line": "189",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "PR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_181_9"
+        "scope": "_anonymous_stm32f3x_lib_h_183_9"
       },
       {
         "ID": "c:@T@EXTI_Type",
@@ -3688,12 +3338,12 @@
         "display": "struct EXTI_Type",
         "location": {
           "column": "3",
-          "line": "188",
+          "line": "190",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "EXTI_Type",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_181_9"
+        "scope": "_anonymous_stm32f3x_lib_h_183_9"
       }
     ],
     "name": "",
@@ -3707,7 +3357,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "191",
+      "line": "193",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "members": [
@@ -3718,12 +3368,12 @@
         "display": "CR1",
         "location": {
           "column": "21",
-          "line": "192",
+          "line": "194",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CR1",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CR2",
@@ -3732,12 +3382,12 @@
         "display": "CR2",
         "location": {
           "column": "21",
-          "line": "193",
+          "line": "195",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CR2",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@SMCR",
@@ -3746,12 +3396,12 @@
         "display": "SMCR",
         "location": {
           "column": "21",
-          "line": "194",
+          "line": "196",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "SMCR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@DIER",
@@ -3760,12 +3410,12 @@
         "display": "DIER",
         "location": {
           "column": "21",
-          "line": "195",
+          "line": "197",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "DIER",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@SR",
@@ -3774,12 +3424,12 @@
         "display": "SR",
         "location": {
           "column": "21",
-          "line": "196",
+          "line": "198",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "SR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@EGR",
@@ -3788,12 +3438,12 @@
         "display": "EGR",
         "location": {
           "column": "21",
-          "line": "197",
+          "line": "199",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "EGR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCMR1",
@@ -3802,12 +3452,12 @@
         "display": "CCMR1",
         "location": {
           "column": "21",
-          "line": "198",
+          "line": "200",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCMR1",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCMR2",
@@ -3816,12 +3466,12 @@
         "display": "CCMR2",
         "location": {
           "column": "21",
-          "line": "199",
+          "line": "201",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCMR2",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCER",
@@ -3830,12 +3480,12 @@
         "display": "CCER",
         "location": {
           "column": "21",
-          "line": "200",
+          "line": "202",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCER",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CNT",
@@ -3844,12 +3494,12 @@
         "display": "CNT",
         "location": {
           "column": "21",
-          "line": "201",
+          "line": "203",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CNT",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@PSC",
@@ -3858,12 +3508,12 @@
         "display": "PSC",
         "location": {
           "column": "21",
-          "line": "202",
+          "line": "204",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "PSC",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@ARR",
@@ -3872,12 +3522,12 @@
         "display": "ARR",
         "location": {
           "column": "21",
-          "line": "203",
+          "line": "205",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "ARR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@RESERVED1",
@@ -3886,12 +3536,12 @@
         "display": "RESERVED1",
         "location": {
           "column": "21",
-          "line": "204",
+          "line": "206",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "RESERVED1",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCR1",
@@ -3900,12 +3550,12 @@
         "display": "CCR1",
         "location": {
           "column": "21",
-          "line": "205",
+          "line": "207",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCR1",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCR2",
@@ -3914,12 +3564,12 @@
         "display": "CCR2",
         "location": {
           "column": "21",
-          "line": "206",
+          "line": "208",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCR2",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCR3",
@@ -3928,12 +3578,12 @@
         "display": "CCR3",
         "location": {
           "column": "21",
-          "line": "207",
+          "line": "209",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCR3",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@CCR4",
@@ -3942,12 +3592,12 @@
         "display": "CCR4",
         "location": {
           "column": "21",
-          "line": "208",
+          "line": "210",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "CCR4",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@RESERVED2",
@@ -3956,12 +3606,12 @@
         "display": "RESERVED2",
         "location": {
           "column": "21",
-          "line": "209",
+          "line": "211",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "RESERVED2",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@DCR",
@@ -3970,12 +3620,12 @@
         "display": "DCR",
         "location": {
           "column": "21",
-          "line": "210",
+          "line": "212",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "DCR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@SA@TIMER_Type@FI@DMAR",
@@ -3984,12 +3634,12 @@
         "display": "DMAR",
         "location": {
           "column": "21",
-          "line": "211",
+          "line": "213",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "DMAR",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       },
       {
         "ID": "c:@T@TIMER_Type",
@@ -3998,12 +3648,12 @@
         "display": "struct TIMER_Type",
         "location": {
           "column": "2",
-          "line": "212",
+          "line": "214",
           "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
         },
         "name": "TIMER_Type",
         "origin": "user_include",
-        "scope": "_anonymous_stm32f3x_lib_h_191_9"
+        "scope": "_anonymous_stm32f3x_lib_h_193_9"
       }
     ],
     "name": "",
@@ -4011,13 +3661,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@12897@macro@RCC",
+    "ID": "c:stm32f3x_lib.h@13083@macro@RCC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC",
     "location": {
       "column": "9",
-      "line": "217",
+      "line": "219",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC",
@@ -4025,13 +3675,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@12951@macro@GPIOE",
+    "ID": "c:stm32f3x_lib.h@13137@macro@GPIOE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE",
     "location": {
       "column": "9",
-      "line": "218",
+      "line": "220",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOE",
@@ -4039,13 +3689,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@13005@macro@GPIOA",
+    "ID": "c:stm32f3x_lib.h@13191@macro@GPIOA",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA",
     "location": {
       "column": "9",
-      "line": "219",
+      "line": "221",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOA",
@@ -4053,13 +3703,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@13059@macro@TIM2",
+    "ID": "c:stm32f3x_lib.h@13245@macro@TIM2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM2",
     "location": {
       "column": "9",
-      "line": "220",
+      "line": "222",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "TIM2",
@@ -4067,13 +3717,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@13113@macro@TIM3",
+    "ID": "c:stm32f3x_lib.h@13299@macro@TIM3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM3",
     "location": {
       "column": "9",
-      "line": "221",
+      "line": "223",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "TIM3",
@@ -4081,13 +3731,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@13167@macro@EXTI",
+    "ID": "c:stm32f3x_lib.h@13353@macro@EXTI",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "EXTI",
     "location": {
       "column": "9",
-      "line": "222",
+      "line": "224",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "EXTI",
@@ -4095,13 +3745,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@13221@macro@SYSCFG",
+    "ID": "c:stm32f3x_lib.h@13407@macro@SYSCFG",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCFG",
     "location": {
       "column": "9",
-      "line": "223",
+      "line": "225",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "SYSCFG",
@@ -4109,13 +3759,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@13329@macro@GPIOA_EN",
+    "ID": "c:stm32f3x_lib.h@13515@macro@GPIOA_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA_EN",
     "location": {
       "column": "9",
-      "line": "226",
+      "line": "228",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOA_EN",
@@ -4123,13 +3773,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@13370@macro@GPIOB_EN",
+    "ID": "c:stm32f3x_lib.h@13556@macro@GPIOB_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOB_EN",
     "location": {
       "column": "9",
-      "line": "227",
+      "line": "229",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOB_EN",
@@ -4137,13 +3787,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@13411@macro@GPIOC_EN",
+    "ID": "c:stm32f3x_lib.h@13597@macro@GPIOC_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOC_EN",
     "location": {
       "column": "9",
-      "line": "228",
+      "line": "230",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOC_EN",
@@ -4151,13 +3801,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@13452@macro@GPIOD_EN",
+    "ID": "c:stm32f3x_lib.h@13638@macro@GPIOD_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOD_EN",
     "location": {
       "column": "9",
-      "line": "229",
+      "line": "231",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOD_EN",
@@ -4165,13 +3815,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@13493@macro@GPIOE_EN",
+    "ID": "c:stm32f3x_lib.h@13679@macro@GPIOE_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE_EN",
     "location": {
       "column": "9",
-      "line": "230",
+      "line": "232",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOE_EN",
@@ -4179,13 +3829,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@13534@macro@GPIOF_EN",
+    "ID": "c:stm32f3x_lib.h@13720@macro@GPIOF_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOF_EN",
     "location": {
       "column": "9",
-      "line": "231",
+      "line": "233",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "GPIOF_EN",
@@ -4193,13 +3843,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@13984@macro@RCC_CR_HSION",
+    "ID": "c:stm32f3x_lib.h@14170@macro@RCC_CR_HSION",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSION",
     "location": {
       "column": "10",
-      "line": "240",
+      "line": "242",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSION",
@@ -4207,13 +3857,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@14053@macro@RCC_CR_HSIRDY",
+    "ID": "c:stm32f3x_lib.h@14239@macro@RCC_CR_HSIRDY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSIRDY",
     "location": {
       "column": "10",
-      "line": "241",
+      "line": "243",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSIRDY",
@@ -4221,13 +3871,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@14124@macro@RCC_CR_HSITRIM",
+    "ID": "c:stm32f3x_lib.h@14310@macro@RCC_CR_HSITRIM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSITRIM",
     "location": {
       "column": "10",
-      "line": "243",
+      "line": "245",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSITRIM",
@@ -4235,13 +3885,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@14193@macro@RCC_CR_HSITRIM_0",
+    "ID": "c:stm32f3x_lib.h@14379@macro@RCC_CR_HSITRIM_0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSITRIM_0",
     "location": {
       "column": "10",
-      "line": "244",
+      "line": "246",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSITRIM_0",
@@ -4249,13 +3899,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@14274@macro@RCC_CR_HSITRIM_1",
+    "ID": "c:stm32f3x_lib.h@14460@macro@RCC_CR_HSITRIM_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSITRIM_1",
     "location": {
       "column": "10",
-      "line": "245",
+      "line": "247",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSITRIM_1",
@@ -4263,13 +3913,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@14355@macro@RCC_CR_HSITRIM_2",
+    "ID": "c:stm32f3x_lib.h@14541@macro@RCC_CR_HSITRIM_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSITRIM_2",
     "location": {
       "column": "10",
-      "line": "246",
+      "line": "248",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSITRIM_2",
@@ -4277,13 +3927,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@14436@macro@RCC_CR_HSITRIM_3",
+    "ID": "c:stm32f3x_lib.h@14622@macro@RCC_CR_HSITRIM_3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSITRIM_3",
     "location": {
       "column": "10",
-      "line": "247",
+      "line": "249",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSITRIM_3",
@@ -4291,13 +3941,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@14517@macro@RCC_CR_HSITRIM_4",
+    "ID": "c:stm32f3x_lib.h@14703@macro@RCC_CR_HSITRIM_4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSITRIM_4",
     "location": {
       "column": "10",
-      "line": "248",
+      "line": "250",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSITRIM_4",
@@ -4305,13 +3955,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@14600@macro@RCC_CR_HSICAL",
+    "ID": "c:stm32f3x_lib.h@14786@macro@RCC_CR_HSICAL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSICAL",
     "location": {
       "column": "10",
-      "line": "250",
+      "line": "252",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSICAL",
@@ -4319,13 +3969,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@14669@macro@RCC_CR_HSICAL_0",
+    "ID": "c:stm32f3x_lib.h@14855@macro@RCC_CR_HSICAL_0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSICAL_0",
     "location": {
       "column": "10",
-      "line": "251",
+      "line": "253",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSICAL_0",
@@ -4333,13 +3983,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@14750@macro@RCC_CR_HSICAL_1",
+    "ID": "c:stm32f3x_lib.h@14936@macro@RCC_CR_HSICAL_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSICAL_1",
     "location": {
       "column": "10",
-      "line": "252",
+      "line": "254",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSICAL_1",
@@ -4347,13 +3997,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@14831@macro@RCC_CR_HSICAL_2",
+    "ID": "c:stm32f3x_lib.h@15017@macro@RCC_CR_HSICAL_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSICAL_2",
     "location": {
       "column": "10",
-      "line": "253",
+      "line": "255",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSICAL_2",
@@ -4361,13 +4011,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@14912@macro@RCC_CR_HSICAL_3",
+    "ID": "c:stm32f3x_lib.h@15098@macro@RCC_CR_HSICAL_3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSICAL_3",
     "location": {
       "column": "10",
-      "line": "254",
+      "line": "256",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSICAL_3",
@@ -4375,13 +4025,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@14993@macro@RCC_CR_HSICAL_4",
+    "ID": "c:stm32f3x_lib.h@15179@macro@RCC_CR_HSICAL_4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSICAL_4",
     "location": {
       "column": "10",
-      "line": "255",
+      "line": "257",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSICAL_4",
@@ -4389,13 +4039,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@15074@macro@RCC_CR_HSICAL_5",
+    "ID": "c:stm32f3x_lib.h@15260@macro@RCC_CR_HSICAL_5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSICAL_5",
     "location": {
       "column": "10",
-      "line": "256",
+      "line": "258",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSICAL_5",
@@ -4403,13 +4053,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@15155@macro@RCC_CR_HSICAL_6",
+    "ID": "c:stm32f3x_lib.h@15341@macro@RCC_CR_HSICAL_6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSICAL_6",
     "location": {
       "column": "10",
-      "line": "257",
+      "line": "259",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSICAL_6",
@@ -4417,13 +4067,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@15236@macro@RCC_CR_HSICAL_7",
+    "ID": "c:stm32f3x_lib.h@15422@macro@RCC_CR_HSICAL_7",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSICAL_7",
     "location": {
       "column": "10",
-      "line": "258",
+      "line": "260",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSICAL_7",
@@ -4431,13 +4081,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@15319@macro@RCC_CR_HSEON",
+    "ID": "c:stm32f3x_lib.h@15505@macro@RCC_CR_HSEON",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSEON",
     "location": {
       "column": "10",
-      "line": "260",
+      "line": "262",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSEON",
@@ -4445,13 +4095,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@15388@macro@RCC_CR_HSERDY",
+    "ID": "c:stm32f3x_lib.h@15574@macro@RCC_CR_HSERDY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSERDY",
     "location": {
       "column": "10",
-      "line": "261",
+      "line": "263",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSERDY",
@@ -4459,13 +4109,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@15457@macro@RCC_CR_HSEBYP",
+    "ID": "c:stm32f3x_lib.h@15643@macro@RCC_CR_HSEBYP",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_HSEBYP",
     "location": {
       "column": "10",
-      "line": "262",
+      "line": "264",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_HSEBYP",
@@ -4473,13 +4123,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@15526@macro@RCC_CR_CSSON",
+    "ID": "c:stm32f3x_lib.h@15712@macro@RCC_CR_CSSON",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_CSSON",
     "location": {
       "column": "10",
-      "line": "263",
+      "line": "265",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_CSSON",
@@ -4487,13 +4137,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@15597@macro@RCC_CR_PLLON",
+    "ID": "c:stm32f3x_lib.h@15783@macro@RCC_CR_PLLON",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_PLLON",
     "location": {
       "column": "10",
-      "line": "265",
+      "line": "267",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_PLLON",
@@ -4501,13 +4151,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@15666@macro@RCC_CR_PLLRDY",
+    "ID": "c:stm32f3x_lib.h@15852@macro@RCC_CR_PLLRDY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CR_PLLRDY",
     "location": {
       "column": "10",
-      "line": "266",
+      "line": "268",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CR_PLLRDY",
@@ -4515,13 +4165,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@15847@macro@RCC_CFGR_SW",
+    "ID": "c:stm32f3x_lib.h@16033@macro@RCC_CFGR_SW",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_SW",
     "location": {
       "column": "10",
-      "line": "271",
+      "line": "273",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_SW",
@@ -4529,13 +4179,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@15966@macro@RCC_CFGR_SW_0",
+    "ID": "c:stm32f3x_lib.h@16152@macro@RCC_CFGR_SW_0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_SW_0",
     "location": {
       "column": "10",
-      "line": "272",
+      "line": "274",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_SW_0",
@@ -4543,13 +4193,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@16056@macro@RCC_CFGR_SW_1",
+    "ID": "c:stm32f3x_lib.h@16242@macro@RCC_CFGR_SW_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_SW_1",
     "location": {
       "column": "10",
-      "line": "273",
+      "line": "275",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_SW_1",
@@ -4557,13 +4207,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@16148@macro@RCC_CFGR_SW_HSI",
+    "ID": "c:stm32f3x_lib.h@16334@macro@RCC_CFGR_SW_HSI",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_SW_HSI",
     "location": {
       "column": "10",
-      "line": "275",
+      "line": "277",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_SW_HSI",
@@ -4571,13 +4221,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@16261@macro@RCC_CFGR_SW_HSE",
+    "ID": "c:stm32f3x_lib.h@16447@macro@RCC_CFGR_SW_HSE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_SW_HSE",
     "location": {
       "column": "10",
-      "line": "276",
+      "line": "278",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_SW_HSE",
@@ -4585,13 +4235,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@16374@macro@RCC_CFGR_SW_PLL",
+    "ID": "c:stm32f3x_lib.h@16560@macro@RCC_CFGR_SW_PLL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_SW_PLL",
     "location": {
       "column": "10",
-      "line": "277",
+      "line": "279",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_SW_PLL",
@@ -4599,13 +4249,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@16516@macro@RCC_CFGR_SWS",
+    "ID": "c:stm32f3x_lib.h@16702@macro@RCC_CFGR_SWS",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_SWS",
     "location": {
       "column": "10",
-      "line": "280",
+      "line": "282",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_SWS",
@@ -4613,13 +4263,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@16643@macro@RCC_CFGR_SWS_0",
+    "ID": "c:stm32f3x_lib.h@16829@macro@RCC_CFGR_SWS_0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_SWS_0",
     "location": {
       "column": "10",
-      "line": "281",
+      "line": "283",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_SWS_0",
@@ -4627,13 +4277,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@16733@macro@RCC_CFGR_SWS_1",
+    "ID": "c:stm32f3x_lib.h@16919@macro@RCC_CFGR_SWS_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_SWS_1",
     "location": {
       "column": "10",
-      "line": "282",
+      "line": "284",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_SWS_1",
@@ -4641,13 +4291,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@16825@macro@RCC_CFGR_SWS_HSI",
+    "ID": "c:stm32f3x_lib.h@17011@macro@RCC_CFGR_SWS_HSI",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_SWS_HSI",
     "location": {
       "column": "10",
-      "line": "284",
+      "line": "286",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_SWS_HSI",
@@ -4655,13 +4305,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@16945@macro@RCC_CFGR_SWS_HSE",
+    "ID": "c:stm32f3x_lib.h@17131@macro@RCC_CFGR_SWS_HSE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_SWS_HSE",
     "location": {
       "column": "10",
-      "line": "285",
+      "line": "287",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_SWS_HSE",
@@ -4669,13 +4319,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@17065@macro@RCC_CFGR_SWS_PLL",
+    "ID": "c:stm32f3x_lib.h@17251@macro@RCC_CFGR_SWS_PLL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_SWS_PLL",
     "location": {
       "column": "10",
-      "line": "286",
+      "line": "288",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_SWS_PLL",
@@ -4683,13 +4333,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@17204@macro@RCC_CFGR_HPRE",
+    "ID": "c:stm32f3x_lib.h@17390@macro@RCC_CFGR_HPRE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE",
     "location": {
       "column": "10",
-      "line": "289",
+      "line": "291",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE",
@@ -4697,13 +4347,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@17319@macro@RCC_CFGR_HPRE_0",
+    "ID": "c:stm32f3x_lib.h@17505@macro@RCC_CFGR_HPRE_0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE_0",
     "location": {
       "column": "10",
-      "line": "290",
+      "line": "292",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE_0",
@@ -4711,13 +4361,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@17409@macro@RCC_CFGR_HPRE_1",
+    "ID": "c:stm32f3x_lib.h@17595@macro@RCC_CFGR_HPRE_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE_1",
     "location": {
       "column": "10",
-      "line": "291",
+      "line": "293",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE_1",
@@ -4725,13 +4375,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@17499@macro@RCC_CFGR_HPRE_2",
+    "ID": "c:stm32f3x_lib.h@17685@macro@RCC_CFGR_HPRE_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE_2",
     "location": {
       "column": "10",
-      "line": "292",
+      "line": "294",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE_2",
@@ -4739,13 +4389,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@17589@macro@RCC_CFGR_HPRE_3",
+    "ID": "c:stm32f3x_lib.h@17775@macro@RCC_CFGR_HPRE_3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE_3",
     "location": {
       "column": "10",
-      "line": "293",
+      "line": "295",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE_3",
@@ -4753,13 +4403,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@17681@macro@RCC_CFGR_HPRE_DIV1",
+    "ID": "c:stm32f3x_lib.h@17867@macro@RCC_CFGR_HPRE_DIV1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE_DIV1",
     "location": {
       "column": "10",
-      "line": "295",
+      "line": "297",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE_DIV1",
@@ -4767,13 +4417,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@17784@macro@RCC_CFGR_HPRE_DIV2",
+    "ID": "c:stm32f3x_lib.h@17970@macro@RCC_CFGR_HPRE_DIV2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE_DIV2",
     "location": {
       "column": "10",
-      "line": "296",
+      "line": "298",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE_DIV2",
@@ -4781,13 +4431,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@17888@macro@RCC_CFGR_HPRE_DIV4",
+    "ID": "c:stm32f3x_lib.h@18074@macro@RCC_CFGR_HPRE_DIV4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE_DIV4",
     "location": {
       "column": "10",
-      "line": "297",
+      "line": "299",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE_DIV4",
@@ -4795,13 +4445,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@17992@macro@RCC_CFGR_HPRE_DIV8",
+    "ID": "c:stm32f3x_lib.h@18178@macro@RCC_CFGR_HPRE_DIV8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE_DIV8",
     "location": {
       "column": "10",
-      "line": "298",
+      "line": "300",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE_DIV8",
@@ -4809,13 +4459,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@18096@macro@RCC_CFGR_HPRE_DIV16",
+    "ID": "c:stm32f3x_lib.h@18282@macro@RCC_CFGR_HPRE_DIV16",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE_DIV16",
     "location": {
       "column": "10",
-      "line": "299",
+      "line": "301",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE_DIV16",
@@ -4823,13 +4473,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@18201@macro@RCC_CFGR_HPRE_DIV64",
+    "ID": "c:stm32f3x_lib.h@18387@macro@RCC_CFGR_HPRE_DIV64",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE_DIV64",
     "location": {
       "column": "10",
-      "line": "300",
+      "line": "302",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE_DIV64",
@@ -4837,13 +4487,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@18306@macro@RCC_CFGR_HPRE_DIV128",
+    "ID": "c:stm32f3x_lib.h@18492@macro@RCC_CFGR_HPRE_DIV128",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE_DIV128",
     "location": {
       "column": "10",
-      "line": "301",
+      "line": "303",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE_DIV128",
@@ -4851,13 +4501,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@18412@macro@RCC_CFGR_HPRE_DIV256",
+    "ID": "c:stm32f3x_lib.h@18598@macro@RCC_CFGR_HPRE_DIV256",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE_DIV256",
     "location": {
       "column": "10",
-      "line": "302",
+      "line": "304",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE_DIV256",
@@ -4865,13 +4515,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@18518@macro@RCC_CFGR_HPRE_DIV512",
+    "ID": "c:stm32f3x_lib.h@18704@macro@RCC_CFGR_HPRE_DIV512",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_HPRE_DIV512",
     "location": {
       "column": "10",
-      "line": "303",
+      "line": "305",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_HPRE_DIV512",
@@ -4879,13 +4529,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@18655@macro@RCC_CFGR_PPRE1",
+    "ID": "c:stm32f3x_lib.h@18841@macro@RCC_CFGR_PPRE1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE1",
     "location": {
       "column": "10",
-      "line": "306",
+      "line": "308",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE1",
@@ -4893,13 +4543,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@18771@macro@RCC_CFGR_PPRE1_0",
+    "ID": "c:stm32f3x_lib.h@18957@macro@RCC_CFGR_PPRE1_0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE1_0",
     "location": {
       "column": "10",
-      "line": "307",
+      "line": "309",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE1_0",
@@ -4907,13 +4557,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@18861@macro@RCC_CFGR_PPRE1_1",
+    "ID": "c:stm32f3x_lib.h@19047@macro@RCC_CFGR_PPRE1_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE1_1",
     "location": {
       "column": "10",
-      "line": "308",
+      "line": "310",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE1_1",
@@ -4921,13 +4571,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@18951@macro@RCC_CFGR_PPRE1_2",
+    "ID": "c:stm32f3x_lib.h@19137@macro@RCC_CFGR_PPRE1_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE1_2",
     "location": {
       "column": "10",
-      "line": "309",
+      "line": "311",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE1_2",
@@ -4935,13 +4585,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@19043@macro@RCC_CFGR_PPRE1_DIV1",
+    "ID": "c:stm32f3x_lib.h@19229@macro@RCC_CFGR_PPRE1_DIV1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE1_DIV1",
     "location": {
       "column": "10",
-      "line": "311",
+      "line": "313",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE1_DIV1",
@@ -4949,13 +4599,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@19144@macro@RCC_CFGR_PPRE1_DIV2",
+    "ID": "c:stm32f3x_lib.h@19330@macro@RCC_CFGR_PPRE1_DIV2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE1_DIV2",
     "location": {
       "column": "10",
-      "line": "312",
+      "line": "314",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE1_DIV2",
@@ -4963,13 +4613,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@19246@macro@RCC_CFGR_PPRE1_DIV4",
+    "ID": "c:stm32f3x_lib.h@19432@macro@RCC_CFGR_PPRE1_DIV4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE1_DIV4",
     "location": {
       "column": "10",
-      "line": "313",
+      "line": "315",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE1_DIV4",
@@ -4977,13 +4627,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@19348@macro@RCC_CFGR_PPRE1_DIV8",
+    "ID": "c:stm32f3x_lib.h@19534@macro@RCC_CFGR_PPRE1_DIV8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE1_DIV8",
     "location": {
       "column": "10",
-      "line": "314",
+      "line": "316",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE1_DIV8",
@@ -4991,13 +4641,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@19450@macro@RCC_CFGR_PPRE1_DIV16",
+    "ID": "c:stm32f3x_lib.h@19636@macro@RCC_CFGR_PPRE1_DIV16",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE1_DIV16",
     "location": {
       "column": "10",
-      "line": "315",
+      "line": "317",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE1_DIV16",
@@ -5005,13 +4655,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@19584@macro@RCC_CFGR_PPRE2",
+    "ID": "c:stm32f3x_lib.h@19770@macro@RCC_CFGR_PPRE2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE2",
     "location": {
       "column": "10",
-      "line": "318",
+      "line": "320",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE2",
@@ -5019,13 +4669,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@19700@macro@RCC_CFGR_PPRE2_0",
+    "ID": "c:stm32f3x_lib.h@19886@macro@RCC_CFGR_PPRE2_0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE2_0",
     "location": {
       "column": "10",
-      "line": "319",
+      "line": "321",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE2_0",
@@ -5033,13 +4683,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@19790@macro@RCC_CFGR_PPRE2_1",
+    "ID": "c:stm32f3x_lib.h@19976@macro@RCC_CFGR_PPRE2_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE2_1",
     "location": {
       "column": "10",
-      "line": "320",
+      "line": "322",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE2_1",
@@ -5047,13 +4697,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@19880@macro@RCC_CFGR_PPRE2_2",
+    "ID": "c:stm32f3x_lib.h@20066@macro@RCC_CFGR_PPRE2_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE2_2",
     "location": {
       "column": "10",
-      "line": "321",
+      "line": "323",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE2_2",
@@ -5061,13 +4711,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@19972@macro@RCC_CFGR_PPRE2_DIV1",
+    "ID": "c:stm32f3x_lib.h@20158@macro@RCC_CFGR_PPRE2_DIV1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE2_DIV1",
     "location": {
       "column": "10",
-      "line": "323",
+      "line": "325",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE2_DIV1",
@@ -5075,13 +4725,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@20073@macro@RCC_CFGR_PPRE2_DIV2",
+    "ID": "c:stm32f3x_lib.h@20259@macro@RCC_CFGR_PPRE2_DIV2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE2_DIV2",
     "location": {
       "column": "10",
-      "line": "324",
+      "line": "326",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE2_DIV2",
@@ -5089,13 +4739,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@20175@macro@RCC_CFGR_PPRE2_DIV4",
+    "ID": "c:stm32f3x_lib.h@20361@macro@RCC_CFGR_PPRE2_DIV4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE2_DIV4",
     "location": {
       "column": "10",
-      "line": "325",
+      "line": "327",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE2_DIV4",
@@ -5103,13 +4753,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@20277@macro@RCC_CFGR_PPRE2_DIV8",
+    "ID": "c:stm32f3x_lib.h@20463@macro@RCC_CFGR_PPRE2_DIV8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE2_DIV8",
     "location": {
       "column": "10",
-      "line": "326",
+      "line": "328",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE2_DIV8",
@@ -5117,13 +4767,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@20379@macro@RCC_CFGR_PPRE2_DIV16",
+    "ID": "c:stm32f3x_lib.h@20565@macro@RCC_CFGR_PPRE2_DIV16",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PPRE2_DIV16",
     "location": {
       "column": "10",
-      "line": "327",
+      "line": "329",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PPRE2_DIV16",
@@ -5131,13 +4781,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@20484@macro@RCC_CFGR_PLLSRC",
+    "ID": "c:stm32f3x_lib.h@20670@macro@RCC_CFGR_PLLSRC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLSRC",
     "location": {
       "column": "10",
-      "line": "329",
+      "line": "331",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLSRC",
@@ -5145,13 +4795,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@20593@macro@RCC_CFGR_PLLXTPRE",
+    "ID": "c:stm32f3x_lib.h@20779@macro@RCC_CFGR_PLLXTPRE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLXTPRE",
     "location": {
       "column": "10",
-      "line": "331",
+      "line": "333",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLXTPRE",
@@ -5159,13 +4809,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@20735@macro@RCC_CFGR_PLLMULL",
+    "ID": "c:stm32f3x_lib.h@20921@macro@RCC_CFGR_PLLMULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL",
     "location": {
       "column": "10",
-      "line": "334",
+      "line": "336",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL",
@@ -5173,13 +4823,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@20864@macro@RCC_CFGR_PLLMULL_0",
+    "ID": "c:stm32f3x_lib.h@21050@macro@RCC_CFGR_PLLMULL_0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL_0",
     "location": {
       "column": "10",
-      "line": "335",
+      "line": "337",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL_0",
@@ -5187,13 +4837,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@20954@macro@RCC_CFGR_PLLMULL_1",
+    "ID": "c:stm32f3x_lib.h@21140@macro@RCC_CFGR_PLLMULL_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL_1",
     "location": {
       "column": "10",
-      "line": "336",
+      "line": "338",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL_1",
@@ -5201,13 +4851,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@21044@macro@RCC_CFGR_PLLMULL_2",
+    "ID": "c:stm32f3x_lib.h@21230@macro@RCC_CFGR_PLLMULL_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL_2",
     "location": {
       "column": "10",
-      "line": "337",
+      "line": "339",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL_2",
@@ -5215,13 +4865,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@21134@macro@RCC_CFGR_PLLMULL_3",
+    "ID": "c:stm32f3x_lib.h@21320@macro@RCC_CFGR_PLLMULL_3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL_3",
     "location": {
       "column": "10",
-      "line": "338",
+      "line": "340",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL_3",
@@ -5229,13 +4879,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@21226@macro@RCC_CFGR_PLLSRC_HSI_Div2",
+    "ID": "c:stm32f3x_lib.h@21412@macro@RCC_CFGR_PLLSRC_HSI_Div2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLSRC_HSI_Div2",
     "location": {
       "column": "10",
-      "line": "340",
+      "line": "342",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLSRC_HSI_Div2",
@@ -5243,13 +4893,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@21368@macro@RCC_CFGR_PLLSRC_PREDIV1",
+    "ID": "c:stm32f3x_lib.h@21554@macro@RCC_CFGR_PLLSRC_PREDIV1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLSRC_PREDIV1",
     "location": {
       "column": "10",
-      "line": "341",
+      "line": "343",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLSRC_PREDIV1",
@@ -5257,13 +4907,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@21503@macro@RCC_CFGR_PLLXTPRE_PREDIV1",
+    "ID": "c:stm32f3x_lib.h@21689@macro@RCC_CFGR_PLLXTPRE_PREDIV1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLXTPRE_PREDIV1",
     "location": {
       "column": "10",
-      "line": "343",
+      "line": "345",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLXTPRE_PREDIV1",
@@ -5271,13 +4921,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@21627@macro@RCC_CFGR_PLLXTPRE_PREDIV1_Div2",
+    "ID": "c:stm32f3x_lib.h@21813@macro@RCC_CFGR_PLLXTPRE_PREDIV1_Div2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLXTPRE_PREDIV1_Div2",
     "location": {
       "column": "10",
-      "line": "344",
+      "line": "346",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLXTPRE_PREDIV1_Div2",
@@ -5285,13 +4935,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@21754@macro@RCC_CFGR_PLLMULL2",
+    "ID": "c:stm32f3x_lib.h@21940@macro@RCC_CFGR_PLLMULL2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL2",
     "location": {
       "column": "10",
-      "line": "346",
+      "line": "348",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL2",
@@ -5299,13 +4949,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@21856@macro@RCC_CFGR_PLLMULL3",
+    "ID": "c:stm32f3x_lib.h@22042@macro@RCC_CFGR_PLLMULL3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL3",
     "location": {
       "column": "10",
-      "line": "347",
+      "line": "349",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL3",
@@ -5313,13 +4963,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@21958@macro@RCC_CFGR_PLLMULL4",
+    "ID": "c:stm32f3x_lib.h@22144@macro@RCC_CFGR_PLLMULL4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL4",
     "location": {
       "column": "10",
-      "line": "348",
+      "line": "350",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL4",
@@ -5327,13 +4977,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@22060@macro@RCC_CFGR_PLLMULL5",
+    "ID": "c:stm32f3x_lib.h@22246@macro@RCC_CFGR_PLLMULL5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL5",
     "location": {
       "column": "10",
-      "line": "349",
+      "line": "351",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL5",
@@ -5341,13 +4991,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@22162@macro@RCC_CFGR_PLLMULL6",
+    "ID": "c:stm32f3x_lib.h@22348@macro@RCC_CFGR_PLLMULL6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL6",
     "location": {
       "column": "10",
-      "line": "350",
+      "line": "352",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL6",
@@ -5355,13 +5005,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@22264@macro@RCC_CFGR_PLLMULL7",
+    "ID": "c:stm32f3x_lib.h@22450@macro@RCC_CFGR_PLLMULL7",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL7",
     "location": {
       "column": "10",
-      "line": "351",
+      "line": "353",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL7",
@@ -5369,13 +5019,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@22366@macro@RCC_CFGR_PLLMULL8",
+    "ID": "c:stm32f3x_lib.h@22552@macro@RCC_CFGR_PLLMULL8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL8",
     "location": {
       "column": "10",
-      "line": "352",
+      "line": "354",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL8",
@@ -5383,13 +5033,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@22468@macro@RCC_CFGR_PLLMULL9",
+    "ID": "c:stm32f3x_lib.h@22654@macro@RCC_CFGR_PLLMULL9",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL9",
     "location": {
       "column": "10",
-      "line": "353",
+      "line": "355",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL9",
@@ -5397,13 +5047,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@22570@macro@RCC_CFGR_PLLMULL10",
+    "ID": "c:stm32f3x_lib.h@22756@macro@RCC_CFGR_PLLMULL10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL10",
     "location": {
       "column": "10",
-      "line": "354",
+      "line": "356",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL10",
@@ -5411,13 +5061,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@22672@macro@RCC_CFGR_PLLMULL11",
+    "ID": "c:stm32f3x_lib.h@22858@macro@RCC_CFGR_PLLMULL11",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL11",
     "location": {
       "column": "10",
-      "line": "355",
+      "line": "357",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL11",
@@ -5425,13 +5075,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@22775@macro@RCC_CFGR_PLLMULL12",
+    "ID": "c:stm32f3x_lib.h@22961@macro@RCC_CFGR_PLLMULL12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL12",
     "location": {
       "column": "10",
-      "line": "356",
+      "line": "358",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL12",
@@ -5439,13 +5089,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@22878@macro@RCC_CFGR_PLLMULL13",
+    "ID": "c:stm32f3x_lib.h@23064@macro@RCC_CFGR_PLLMULL13",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL13",
     "location": {
       "column": "10",
-      "line": "357",
+      "line": "359",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL13",
@@ -5453,13 +5103,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@22981@macro@RCC_CFGR_PLLMULL14",
+    "ID": "c:stm32f3x_lib.h@23167@macro@RCC_CFGR_PLLMULL14",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL14",
     "location": {
       "column": "10",
-      "line": "358",
+      "line": "360",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL14",
@@ -5467,13 +5117,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@23084@macro@RCC_CFGR_PLLMULL15",
+    "ID": "c:stm32f3x_lib.h@23270@macro@RCC_CFGR_PLLMULL15",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL15",
     "location": {
       "column": "10",
-      "line": "359",
+      "line": "361",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL15",
@@ -5481,13 +5131,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@23187@macro@RCC_CFGR_PLLMULL16",
+    "ID": "c:stm32f3x_lib.h@23373@macro@RCC_CFGR_PLLMULL16",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_PLLMULL16",
     "location": {
       "column": "10",
-      "line": "360",
+      "line": "362",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_PLLMULL16",
@@ -5495,13 +5145,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@23319@macro@RCC_CFGR_USBPRE",
+    "ID": "c:stm32f3x_lib.h@23505@macro@RCC_CFGR_USBPRE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_USBPRE",
     "location": {
       "column": "10",
-      "line": "363",
+      "line": "365",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_USBPRE",
@@ -5509,13 +5159,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@23446@macro@RCC_CFGR_I2SSRC",
+    "ID": "c:stm32f3x_lib.h@23632@macro@RCC_CFGR_I2SSRC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_I2SSRC",
     "location": {
       "column": "10",
-      "line": "366",
+      "line": "368",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_I2SSRC",
@@ -5523,13 +5173,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@23595@macro@RCC_CFGR_MCO",
+    "ID": "c:stm32f3x_lib.h@23781@macro@RCC_CFGR_MCO",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_MCO",
     "location": {
       "column": "10",
-      "line": "369",
+      "line": "371",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_MCO",
@@ -5537,13 +5187,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@23724@macro@RCC_CFGR_MCO_0",
+    "ID": "c:stm32f3x_lib.h@23910@macro@RCC_CFGR_MCO_0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_MCO_0",
     "location": {
       "column": "10",
-      "line": "370",
+      "line": "372",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_MCO_0",
@@ -5551,13 +5201,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@23814@macro@RCC_CFGR_MCO_1",
+    "ID": "c:stm32f3x_lib.h@24000@macro@RCC_CFGR_MCO_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_MCO_1",
     "location": {
       "column": "10",
-      "line": "371",
+      "line": "373",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_MCO_1",
@@ -5565,13 +5215,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@23904@macro@RCC_CFGR_MCO_2",
+    "ID": "c:stm32f3x_lib.h@24090@macro@RCC_CFGR_MCO_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_MCO_2",
     "location": {
       "column": "10",
-      "line": "372",
+      "line": "374",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_MCO_2",
@@ -5579,13 +5229,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@23996@macro@RCC_CFGR_MCO_NOCLOCK",
+    "ID": "c:stm32f3x_lib.h@24182@macro@RCC_CFGR_MCO_NOCLOCK",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_MCO_NOCLOCK",
     "location": {
       "column": "10",
-      "line": "374",
+      "line": "376",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_MCO_NOCLOCK",
@@ -5593,13 +5243,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@24089@macro@RCC_CFGR_MCO_LSI",
+    "ID": "c:stm32f3x_lib.h@24275@macro@RCC_CFGR_MCO_LSI",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_MCO_LSI",
     "location": {
       "column": "10",
-      "line": "375",
+      "line": "377",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_MCO_LSI",
@@ -5607,13 +5257,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@24206@macro@RCC_CFGR_MCO_LSE",
+    "ID": "c:stm32f3x_lib.h@24392@macro@RCC_CFGR_MCO_LSE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_MCO_LSE",
     "location": {
       "column": "10",
-      "line": "376",
+      "line": "378",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_MCO_LSE",
@@ -5621,13 +5271,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@24323@macro@RCC_CFGR_MCO_SYSCLK",
+    "ID": "c:stm32f3x_lib.h@24509@macro@RCC_CFGR_MCO_SYSCLK",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_MCO_SYSCLK",
     "location": {
       "column": "10",
-      "line": "377",
+      "line": "379",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_MCO_SYSCLK",
@@ -5635,13 +5285,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@24443@macro@RCC_CFGR_MCO_HSI",
+    "ID": "c:stm32f3x_lib.h@24629@macro@RCC_CFGR_MCO_HSI",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_MCO_HSI",
     "location": {
       "column": "10",
-      "line": "378",
+      "line": "380",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_MCO_HSI",
@@ -5649,13 +5299,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@24560@macro@RCC_CFGR_MCO_HSE",
+    "ID": "c:stm32f3x_lib.h@24746@macro@RCC_CFGR_MCO_HSE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_MCO_HSE",
     "location": {
       "column": "10",
-      "line": "379",
+      "line": "381",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_MCO_HSE",
@@ -5663,13 +5313,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@24678@macro@RCC_CFGR_MCO_PLL",
+    "ID": "c:stm32f3x_lib.h@24864@macro@RCC_CFGR_MCO_PLL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_MCO_PLL",
     "location": {
       "column": "10",
-      "line": "380",
+      "line": "382",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_MCO_PLL",
@@ -5677,13 +5327,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@24810@macro@RCC_CFGR_MCOF",
+    "ID": "c:stm32f3x_lib.h@24996@macro@RCC_CFGR_MCOF",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR_MCOF",
     "location": {
       "column": "10",
-      "line": "382",
+      "line": "384",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR_MCOF",
@@ -5691,13 +5341,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@25049@macro@RCC_CFGR2_PREDIV1",
+    "ID": "c:stm32f3x_lib.h@25235@macro@RCC_CFGR2_PREDIV1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1",
     "location": {
       "column": "10",
-      "line": "389",
+      "line": "391",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1",
@@ -5705,13 +5355,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@25151@macro@RCC_CFGR2_PREDIV1_0",
+    "ID": "c:stm32f3x_lib.h@25337@macro@RCC_CFGR2_PREDIV1_0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_0",
     "location": {
       "column": "10",
-      "line": "390",
+      "line": "392",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_0",
@@ -5719,13 +5369,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@25241@macro@RCC_CFGR2_PREDIV1_1",
+    "ID": "c:stm32f3x_lib.h@25427@macro@RCC_CFGR2_PREDIV1_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_1",
     "location": {
       "column": "10",
-      "line": "391",
+      "line": "393",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_1",
@@ -5733,13 +5383,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@25331@macro@RCC_CFGR2_PREDIV1_2",
+    "ID": "c:stm32f3x_lib.h@25517@macro@RCC_CFGR2_PREDIV1_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_2",
     "location": {
       "column": "10",
-      "line": "392",
+      "line": "394",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_2",
@@ -5747,13 +5397,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@25421@macro@RCC_CFGR2_PREDIV1_3",
+    "ID": "c:stm32f3x_lib.h@25607@macro@RCC_CFGR2_PREDIV1_3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_3",
     "location": {
       "column": "10",
-      "line": "393",
+      "line": "395",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_3",
@@ -5761,13 +5411,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@25513@macro@RCC_CFGR2_PREDIV1_DIV1",
+    "ID": "c:stm32f3x_lib.h@25699@macro@RCC_CFGR2_PREDIV1_DIV1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV1",
     "location": {
       "column": "10",
-      "line": "395",
+      "line": "397",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV1",
@@ -5775,13 +5425,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@25629@macro@RCC_CFGR2_PREDIV1_DIV2",
+    "ID": "c:stm32f3x_lib.h@25815@macro@RCC_CFGR2_PREDIV1_DIV2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV2",
     "location": {
       "column": "10",
-      "line": "396",
+      "line": "398",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV2",
@@ -5789,13 +5439,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@25746@macro@RCC_CFGR2_PREDIV1_DIV3",
+    "ID": "c:stm32f3x_lib.h@25932@macro@RCC_CFGR2_PREDIV1_DIV3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV3",
     "location": {
       "column": "10",
-      "line": "397",
+      "line": "399",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV3",
@@ -5803,13 +5453,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@25863@macro@RCC_CFGR2_PREDIV1_DIV4",
+    "ID": "c:stm32f3x_lib.h@26049@macro@RCC_CFGR2_PREDIV1_DIV4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV4",
     "location": {
       "column": "10",
-      "line": "398",
+      "line": "400",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV4",
@@ -5817,13 +5467,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@25980@macro@RCC_CFGR2_PREDIV1_DIV5",
+    "ID": "c:stm32f3x_lib.h@26166@macro@RCC_CFGR2_PREDIV1_DIV5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV5",
     "location": {
       "column": "10",
-      "line": "399",
+      "line": "401",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV5",
@@ -5831,13 +5481,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@26097@macro@RCC_CFGR2_PREDIV1_DIV6",
+    "ID": "c:stm32f3x_lib.h@26283@macro@RCC_CFGR2_PREDIV1_DIV6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV6",
     "location": {
       "column": "10",
-      "line": "400",
+      "line": "402",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV6",
@@ -5845,13 +5495,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@26214@macro@RCC_CFGR2_PREDIV1_DIV7",
+    "ID": "c:stm32f3x_lib.h@26400@macro@RCC_CFGR2_PREDIV1_DIV7",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV7",
     "location": {
       "column": "10",
-      "line": "401",
+      "line": "403",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV7",
@@ -5859,13 +5509,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@26331@macro@RCC_CFGR2_PREDIV1_DIV8",
+    "ID": "c:stm32f3x_lib.h@26517@macro@RCC_CFGR2_PREDIV1_DIV8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV8",
     "location": {
       "column": "10",
-      "line": "402",
+      "line": "404",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV8",
@@ -5873,13 +5523,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@26448@macro@RCC_CFGR2_PREDIV1_DIV9",
+    "ID": "c:stm32f3x_lib.h@26634@macro@RCC_CFGR2_PREDIV1_DIV9",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV9",
     "location": {
       "column": "10",
-      "line": "403",
+      "line": "405",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV9",
@@ -5887,13 +5537,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@26565@macro@RCC_CFGR2_PREDIV1_DIV10",
+    "ID": "c:stm32f3x_lib.h@26751@macro@RCC_CFGR2_PREDIV1_DIV10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV10",
     "location": {
       "column": "10",
-      "line": "404",
+      "line": "406",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV10",
@@ -5901,13 +5551,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@26683@macro@RCC_CFGR2_PREDIV1_DIV11",
+    "ID": "c:stm32f3x_lib.h@26869@macro@RCC_CFGR2_PREDIV1_DIV11",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV11",
     "location": {
       "column": "10",
-      "line": "405",
+      "line": "407",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV11",
@@ -5915,13 +5565,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@26801@macro@RCC_CFGR2_PREDIV1_DIV12",
+    "ID": "c:stm32f3x_lib.h@26987@macro@RCC_CFGR2_PREDIV1_DIV12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV12",
     "location": {
       "column": "10",
-      "line": "406",
+      "line": "408",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV12",
@@ -5929,13 +5579,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@26919@macro@RCC_CFGR2_PREDIV1_DIV13",
+    "ID": "c:stm32f3x_lib.h@27105@macro@RCC_CFGR2_PREDIV1_DIV13",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV13",
     "location": {
       "column": "10",
-      "line": "407",
+      "line": "409",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV13",
@@ -5943,13 +5593,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@27037@macro@RCC_CFGR2_PREDIV1_DIV14",
+    "ID": "c:stm32f3x_lib.h@27223@macro@RCC_CFGR2_PREDIV1_DIV14",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV14",
     "location": {
       "column": "10",
-      "line": "408",
+      "line": "410",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV14",
@@ -5957,13 +5607,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@27155@macro@RCC_CFGR2_PREDIV1_DIV15",
+    "ID": "c:stm32f3x_lib.h@27341@macro@RCC_CFGR2_PREDIV1_DIV15",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV15",
     "location": {
       "column": "10",
-      "line": "409",
+      "line": "411",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV15",
@@ -5971,13 +5621,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@27273@macro@RCC_CFGR2_PREDIV1_DIV16",
+    "ID": "c:stm32f3x_lib.h@27459@macro@RCC_CFGR2_PREDIV1_DIV16",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_PREDIV1_DIV16",
     "location": {
       "column": "10",
-      "line": "410",
+      "line": "412",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_PREDIV1_DIV16",
@@ -5985,13 +5635,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@27425@macro@RCC_CFGR2_ADCPRE12",
+    "ID": "c:stm32f3x_lib.h@27611@macro@RCC_CFGR2_ADCPRE12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12",
     "location": {
       "column": "10",
-      "line": "413",
+      "line": "415",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12",
@@ -5999,13 +5649,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@27528@macro@RCC_CFGR2_ADCPRE12_0",
+    "ID": "c:stm32f3x_lib.h@27714@macro@RCC_CFGR2_ADCPRE12_0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_0",
     "location": {
       "column": "10",
-      "line": "414",
+      "line": "416",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_0",
@@ -6013,13 +5663,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@27618@macro@RCC_CFGR2_ADCPRE12_1",
+    "ID": "c:stm32f3x_lib.h@27804@macro@RCC_CFGR2_ADCPRE12_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_1",
     "location": {
       "column": "10",
-      "line": "415",
+      "line": "417",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_1",
@@ -6027,13 +5677,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@27708@macro@RCC_CFGR2_ADCPRE12_2",
+    "ID": "c:stm32f3x_lib.h@27894@macro@RCC_CFGR2_ADCPRE12_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_2",
     "location": {
       "column": "10",
-      "line": "416",
+      "line": "418",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_2",
@@ -6041,13 +5691,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@27798@macro@RCC_CFGR2_ADCPRE12_3",
+    "ID": "c:stm32f3x_lib.h@27984@macro@RCC_CFGR2_ADCPRE12_3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_3",
     "location": {
       "column": "10",
-      "line": "417",
+      "line": "419",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_3",
@@ -6055,13 +5705,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@27888@macro@RCC_CFGR2_ADCPRE12_4",
+    "ID": "c:stm32f3x_lib.h@28074@macro@RCC_CFGR2_ADCPRE12_4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_4",
     "location": {
       "column": "10",
-      "line": "418",
+      "line": "420",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_4",
@@ -6069,13 +5719,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@27980@macro@RCC_CFGR2_ADCPRE12_NO",
+    "ID": "c:stm32f3x_lib.h@28166@macro@RCC_CFGR2_ADCPRE12_NO",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_NO",
     "location": {
       "column": "10",
-      "line": "420",
+      "line": "422",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_NO",
@@ -6083,13 +5733,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@28110@macro@RCC_CFGR2_ADCPRE12_DIV1",
+    "ID": "c:stm32f3x_lib.h@28296@macro@RCC_CFGR2_ADCPRE12_DIV1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_DIV1",
     "location": {
       "column": "10",
-      "line": "421",
+      "line": "423",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_DIV1",
@@ -6097,13 +5747,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@28223@macro@RCC_CFGR2_ADCPRE12_DIV2",
+    "ID": "c:stm32f3x_lib.h@28409@macro@RCC_CFGR2_ADCPRE12_DIV2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_DIV2",
     "location": {
       "column": "10",
-      "line": "422",
+      "line": "424",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_DIV2",
@@ -6111,13 +5761,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@28336@macro@RCC_CFGR2_ADCPRE12_DIV4",
+    "ID": "c:stm32f3x_lib.h@28522@macro@RCC_CFGR2_ADCPRE12_DIV4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_DIV4",
     "location": {
       "column": "10",
-      "line": "423",
+      "line": "425",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_DIV4",
@@ -6125,13 +5775,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@28449@macro@RCC_CFGR2_ADCPRE12_DIV6",
+    "ID": "c:stm32f3x_lib.h@28635@macro@RCC_CFGR2_ADCPRE12_DIV6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_DIV6",
     "location": {
       "column": "10",
-      "line": "424",
+      "line": "426",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_DIV6",
@@ -6139,13 +5789,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@28562@macro@RCC_CFGR2_ADCPRE12_DIV8",
+    "ID": "c:stm32f3x_lib.h@28748@macro@RCC_CFGR2_ADCPRE12_DIV8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_DIV8",
     "location": {
       "column": "10",
-      "line": "425",
+      "line": "427",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_DIV8",
@@ -6153,13 +5803,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@28675@macro@RCC_CFGR2_ADCPRE12_DIV10",
+    "ID": "c:stm32f3x_lib.h@28861@macro@RCC_CFGR2_ADCPRE12_DIV10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_DIV10",
     "location": {
       "column": "10",
-      "line": "426",
+      "line": "428",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_DIV10",
@@ -6167,13 +5817,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@28789@macro@RCC_CFGR2_ADCPRE12_DIV12",
+    "ID": "c:stm32f3x_lib.h@28975@macro@RCC_CFGR2_ADCPRE12_DIV12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_DIV12",
     "location": {
       "column": "10",
-      "line": "427",
+      "line": "429",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_DIV12",
@@ -6181,13 +5831,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@28903@macro@RCC_CFGR2_ADCPRE12_DIV16",
+    "ID": "c:stm32f3x_lib.h@29089@macro@RCC_CFGR2_ADCPRE12_DIV16",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_DIV16",
     "location": {
       "column": "10",
-      "line": "428",
+      "line": "430",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_DIV16",
@@ -6195,13 +5845,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@29017@macro@RCC_CFGR2_ADCPRE12_DIV32",
+    "ID": "c:stm32f3x_lib.h@29203@macro@RCC_CFGR2_ADCPRE12_DIV32",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_DIV32",
     "location": {
       "column": "10",
-      "line": "429",
+      "line": "431",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_DIV32",
@@ -6209,13 +5859,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@29131@macro@RCC_CFGR2_ADCPRE12_DIV64",
+    "ID": "c:stm32f3x_lib.h@29317@macro@RCC_CFGR2_ADCPRE12_DIV64",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_DIV64",
     "location": {
       "column": "10",
-      "line": "430",
+      "line": "432",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_DIV64",
@@ -6223,13 +5873,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@29245@macro@RCC_CFGR2_ADCPRE12_DIV128",
+    "ID": "c:stm32f3x_lib.h@29431@macro@RCC_CFGR2_ADCPRE12_DIV128",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_DIV128",
     "location": {
       "column": "10",
-      "line": "431",
+      "line": "433",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_DIV128",
@@ -6237,13 +5887,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@29360@macro@RCC_CFGR2_ADCPRE12_DIV256",
+    "ID": "c:stm32f3x_lib.h@29546@macro@RCC_CFGR2_ADCPRE12_DIV256",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE12_DIV256",
     "location": {
       "column": "10",
-      "line": "432",
+      "line": "434",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE12_DIV256",
@@ -6251,13 +5901,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@29509@macro@RCC_CFGR2_ADCPRE34",
+    "ID": "c:stm32f3x_lib.h@29695@macro@RCC_CFGR2_ADCPRE34",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34",
     "location": {
       "column": "10",
-      "line": "435",
+      "line": "437",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34",
@@ -6265,13 +5915,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@29613@macro@RCC_CFGR2_ADCPRE34_0",
+    "ID": "c:stm32f3x_lib.h@29799@macro@RCC_CFGR2_ADCPRE34_0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_0",
     "location": {
       "column": "10",
-      "line": "436",
+      "line": "438",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_0",
@@ -6279,13 +5929,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@29703@macro@RCC_CFGR2_ADCPRE34_1",
+    "ID": "c:stm32f3x_lib.h@29889@macro@RCC_CFGR2_ADCPRE34_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_1",
     "location": {
       "column": "10",
-      "line": "437",
+      "line": "439",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_1",
@@ -6293,13 +5943,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@29793@macro@RCC_CFGR2_ADCPRE34_2",
+    "ID": "c:stm32f3x_lib.h@29979@macro@RCC_CFGR2_ADCPRE34_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_2",
     "location": {
       "column": "10",
-      "line": "438",
+      "line": "440",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_2",
@@ -6307,13 +5957,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@29883@macro@RCC_CFGR2_ADCPRE34_3",
+    "ID": "c:stm32f3x_lib.h@30069@macro@RCC_CFGR2_ADCPRE34_3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_3",
     "location": {
       "column": "10",
-      "line": "439",
+      "line": "441",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_3",
@@ -6321,13 +5971,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@29973@macro@RCC_CFGR2_ADCPRE34_4",
+    "ID": "c:stm32f3x_lib.h@30159@macro@RCC_CFGR2_ADCPRE34_4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_4",
     "location": {
       "column": "10",
-      "line": "440",
+      "line": "442",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_4",
@@ -6335,13 +5985,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@30065@macro@RCC_CFGR2_ADCPRE34_NO",
+    "ID": "c:stm32f3x_lib.h@30251@macro@RCC_CFGR2_ADCPRE34_NO",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_NO",
     "location": {
       "column": "10",
-      "line": "442",
+      "line": "444",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_NO",
@@ -6349,13 +5999,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@30195@macro@RCC_CFGR2_ADCPRE34_DIV1",
+    "ID": "c:stm32f3x_lib.h@30381@macro@RCC_CFGR2_ADCPRE34_DIV1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_DIV1",
     "location": {
       "column": "10",
-      "line": "443",
+      "line": "445",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_DIV1",
@@ -6363,13 +6013,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@30308@macro@RCC_CFGR2_ADCPRE34_DIV2",
+    "ID": "c:stm32f3x_lib.h@30494@macro@RCC_CFGR2_ADCPRE34_DIV2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_DIV2",
     "location": {
       "column": "10",
-      "line": "444",
+      "line": "446",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_DIV2",
@@ -6377,13 +6027,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@30421@macro@RCC_CFGR2_ADCPRE34_DIV4",
+    "ID": "c:stm32f3x_lib.h@30607@macro@RCC_CFGR2_ADCPRE34_DIV4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_DIV4",
     "location": {
       "column": "10",
-      "line": "445",
+      "line": "447",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_DIV4",
@@ -6391,13 +6041,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@30534@macro@RCC_CFGR2_ADCPRE34_DIV6",
+    "ID": "c:stm32f3x_lib.h@30720@macro@RCC_CFGR2_ADCPRE34_DIV6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_DIV6",
     "location": {
       "column": "10",
-      "line": "446",
+      "line": "448",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_DIV6",
@@ -6405,13 +6055,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@30647@macro@RCC_CFGR2_ADCPRE34_DIV8",
+    "ID": "c:stm32f3x_lib.h@30833@macro@RCC_CFGR2_ADCPRE34_DIV8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_DIV8",
     "location": {
       "column": "10",
-      "line": "447",
+      "line": "449",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_DIV8",
@@ -6419,13 +6069,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@30760@macro@RCC_CFGR2_ADCPRE34_DIV10",
+    "ID": "c:stm32f3x_lib.h@30946@macro@RCC_CFGR2_ADCPRE34_DIV10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_DIV10",
     "location": {
       "column": "10",
-      "line": "448",
+      "line": "450",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_DIV10",
@@ -6433,13 +6083,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@30874@macro@RCC_CFGR2_ADCPRE34_DIV12",
+    "ID": "c:stm32f3x_lib.h@31060@macro@RCC_CFGR2_ADCPRE34_DIV12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_DIV12",
     "location": {
       "column": "10",
-      "line": "449",
+      "line": "451",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_DIV12",
@@ -6447,13 +6097,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@30988@macro@RCC_CFGR2_ADCPRE34_DIV16",
+    "ID": "c:stm32f3x_lib.h@31174@macro@RCC_CFGR2_ADCPRE34_DIV16",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_DIV16",
     "location": {
       "column": "10",
-      "line": "450",
+      "line": "452",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_DIV16",
@@ -6461,13 +6111,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@31102@macro@RCC_CFGR2_ADCPRE34_DIV32",
+    "ID": "c:stm32f3x_lib.h@31288@macro@RCC_CFGR2_ADCPRE34_DIV32",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_DIV32",
     "location": {
       "column": "10",
-      "line": "451",
+      "line": "453",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_DIV32",
@@ -6475,13 +6125,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@31216@macro@RCC_CFGR2_ADCPRE34_DIV64",
+    "ID": "c:stm32f3x_lib.h@31402@macro@RCC_CFGR2_ADCPRE34_DIV64",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_DIV64",
     "location": {
       "column": "10",
-      "line": "452",
+      "line": "454",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_DIV64",
@@ -6489,13 +6139,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@31330@macro@RCC_CFGR2_ADCPRE34_DIV128",
+    "ID": "c:stm32f3x_lib.h@31516@macro@RCC_CFGR2_ADCPRE34_DIV128",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_DIV128",
     "location": {
       "column": "10",
-      "line": "453",
+      "line": "455",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_DIV128",
@@ -6503,13 +6153,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@31445@macro@RCC_CFGR2_ADCPRE34_DIV256",
+    "ID": "c:stm32f3x_lib.h@31631@macro@RCC_CFGR2_ADCPRE34_DIV256",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_CFGR2_ADCPRE34_DIV256",
     "location": {
       "column": "10",
-      "line": "454",
+      "line": "456",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "RCC_CFGR2_ADCPRE34_DIV256",
@@ -6517,13 +6167,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@31896@macro@HSE_VALUE",
+    "ID": "c:stm32f3x_lib.h@32082@macro@HSE_VALUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "HSE_VALUE",
     "location": {
       "column": "10",
-      "line": "464",
+      "line": "466",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "HSE_VALUE",
@@ -6531,13 +6181,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@32183@macro@HSE_STARTUP_TIMEOUT",
+    "ID": "c:stm32f3x_lib.h@32369@macro@HSE_STARTUP_TIMEOUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "HSE_STARTUP_TIMEOUT",
     "location": {
       "column": "10",
-      "line": "473",
+      "line": "475",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "HSE_STARTUP_TIMEOUT",
@@ -6545,13 +6195,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@32465@macro@HSI_STARTUP_TIMEOUT",
+    "ID": "c:stm32f3x_lib.h@32651@macro@HSI_STARTUP_TIMEOUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "HSI_STARTUP_TIMEOUT",
     "location": {
       "column": "10",
-      "line": "482",
+      "line": "484",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "HSI_STARTUP_TIMEOUT",
@@ -6559,13 +6209,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@32616@macro@HSI_VALUE",
+    "ID": "c:stm32f3x_lib.h@32802@macro@HSI_VALUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "HSI_VALUE",
     "location": {
       "column": "10",
-      "line": "486",
+      "line": "488",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "HSI_VALUE",
@@ -6573,13 +6223,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@32961@macro@LSI_VALUE",
+    "ID": "c:stm32f3x_lib.h@33147@macro@LSI_VALUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LSI_VALUE",
     "location": {
       "column": "10",
-      "line": "491",
+      "line": "493",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "LSI_VALUE",
@@ -6587,13 +6237,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_lib.h@33306@macro@LSE_VALUE",
+    "ID": "c:stm32f3x_lib.h@33492@macro@LSE_VALUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LSE_VALUE",
     "location": {
       "column": "10",
-      "line": "496",
+      "line": "498",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_lib.h"
     },
     "name": "LSE_VALUE",
@@ -8365,6 +8015,384 @@
     "scope": null
   },
   {
+    "ID": "c:DLib_Product.h@75@macro@_DLIB_PRODUCTS_H_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCTS_H_",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_PRODUCTS_H_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@524@macro@_DLIB_WIDE_CHARACTERS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_WIDE_CHARACTERS",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_WIDE_CHARACTERS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@680@macro@_DLIB_PRODUCT_STRING",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCT_STRING",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_PRODUCT_STRING",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@831@macro@_DLIB_PRODUCT_FENV",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCT_FENV",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_PRODUCT_FENV",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@984@macro@_DLIB_PRODUCT_STDLIB",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCT_STDLIB",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_PRODUCT_STDLIB",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1095@macro@_DLIB_QSORT_BUF_SIZE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_QSORT_BUF_SIZE",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_QSORT_BUF_SIZE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1270@macro@_DLIB_SUPPORT_FOR_AEABI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_SUPPORT_FOR_AEABI",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_SUPPORT_FOR_AEABI",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1353@macro@_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1479@macro@_DLIB_STRTOD_HEX_FLOAT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRTOD_HEX_FLOAT",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_STRTOD_HEX_FLOAT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1833@macro@_USE_ATOMIC_OPS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_USE_ATOMIC_OPS",
+    "location": {
+      "column": "11",
+      "line": "65",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_USE_ATOMIC_OPS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1958@macro@__SOFTFP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SOFTFP",
+    "location": {
+      "column": "11",
+      "line": "70",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "__SOFTFP",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2082@macro@__NO_SCRATCH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__NO_SCRATCH",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "__NO_SCRATCH",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2206@macro@_DLIB_SPEEDY_FLOATS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_SPEEDY_FLOATS",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_SPEEDY_FLOATS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2267@macro@_DLIB_TIME_USES_64_DEFAULT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_TIME_USES_64_DEFAULT",
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_TIME_USES_64_DEFAULT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2380@macro@_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
+    "location": {
+      "column": "11",
+      "line": "84",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2464@macro@_DLIB_ELF_INIT_STATIC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_STATIC_BASE",
+    "location": {
+      "column": "11",
+      "line": "85",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_STATIC_BASE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2511@macro@_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
+    "location": {
+      "column": "11",
+      "line": "86",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2871@macro@_DLIB_ELF_INIT_TABLE_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_TABLE_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_TABLE_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2921@macro@_DLIB_ELF_INIT_SOURCE_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_SOURCE_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_SOURCE_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2971@macro@_DLIB_ELF_INIT_DESTINATION_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "98",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3119@macro@_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
+    "location": {
+      "column": "11",
+      "line": "103",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3180@macro@_DLIB_ELF_INIT_REGION_COUNT_TYPE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
+    "location": {
+      "column": "9",
+      "line": "105",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3609@macro@_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
+    "location": {
+      "column": "9",
+      "line": "115",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@4021@macro@_DLIB_ELF_INIT_INTERFACE_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_INTERFACE_VERSION",
+    "location": {
+      "column": "9",
+      "line": "124",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_INTERFACE_VERSION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@4067@macro@_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "location": {
+      "column": "9",
+      "line": "126",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@4119@macro@_XMATHWRAPPERS_DEF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_XMATHWRAPPERS_DEF",
+    "location": {
+      "column": "9",
+      "line": "128",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_XMATHWRAPPERS_DEF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@4168@macro@_CPPINIT_ATTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_CPPINIT_ATTR",
+    "location": {
+      "column": "9",
+      "line": "130",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_CPPINIT_ATTR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:stm32f3x_api_driver.h@186@macro@STM32_F3X_DRIVER_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -9079,13 +9107,41 @@
     "scope": null
   },
   {
+    "ID": "c:@F@GPIO_BSR_REG",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void GPIO_BSR_REG(GPIO_Type *, int, int)",
+    "location": {
+      "column": "6",
+      "line": "100",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "GPIO_BSR_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_BSR_REG",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void GPIO_BSR_REG(GPIO_Type *, int, int)",
+    "location": {
+      "column": "6",
+      "line": "100",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
+    },
+    "name": "GPIO_BSR_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@GPIOE_OUTMODE",
     "What": "Function",
     "defdec": "Dec",
     "display": "void GPIOE_OUTMODE(int, int)",
     "location": {
       "column": "6",
-      "line": "100",
+      "line": "101",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "GPIOE_OUTMODE",
@@ -9099,7 +9155,7 @@
     "display": "void GPIOE_OUTMODE(int, int)",
     "location": {
       "column": "6",
-      "line": "100",
+      "line": "101",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "GPIOE_OUTMODE",
@@ -9113,7 +9169,7 @@
     "display": "int bit_pos_GPIO_MODER(int)",
     "location": {
       "column": "5",
-      "line": "101",
+      "line": "102",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "bit_pos_GPIO_MODER",
@@ -9127,7 +9183,7 @@
     "display": "int bit_pos_GPIO_MODER(int)",
     "location": {
       "column": "5",
-      "line": "101",
+      "line": "102",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "bit_pos_GPIO_MODER",
@@ -9141,7 +9197,7 @@
     "display": "void set_PSC_and_ARR_TIM(TIMER_Type *, unsigned int, unsigned int)",
     "location": {
       "column": "6",
-      "line": "102",
+      "line": "103",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "set_PSC_and_ARR_TIM",
@@ -9155,7 +9211,7 @@
     "display": "void set_PSC_and_ARR_TIM(TIMER_Type *, unsigned int, unsigned int)",
     "location": {
       "column": "6",
-      "line": "102",
+      "line": "103",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "set_PSC_and_ARR_TIM",
@@ -9169,7 +9225,7 @@
     "display": "void CNT_EN_TIM(TIMER_Type *, unsigned int)",
     "location": {
       "column": "6",
-      "line": "103",
+      "line": "104",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "CNT_EN_TIM",
@@ -9183,7 +9239,7 @@
     "display": "void CNT_EN_TIM(TIMER_Type *, unsigned int)",
     "location": {
       "column": "6",
-      "line": "103",
+      "line": "104",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "CNT_EN_TIM",
@@ -9197,7 +9253,7 @@
     "display": "void set_SYSCFG_EXTI(int, int)",
     "location": {
       "column": "6",
-      "line": "104",
+      "line": "105",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "set_SYSCFG_EXTI",
@@ -9211,7 +9267,7 @@
     "display": "void set_SYSCFG_EXTI(int, int)",
     "location": {
       "column": "6",
-      "line": "104",
+      "line": "105",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "set_SYSCFG_EXTI",
@@ -9225,7 +9281,7 @@
     "display": "int index_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "105",
+      "line": "106",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "index_EXTI",
@@ -9239,7 +9295,7 @@
     "display": "int index_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "105",
+      "line": "106",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "index_EXTI",
@@ -9253,7 +9309,7 @@
     "display": "int bit_pos_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "106",
+      "line": "107",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "bit_pos_EXTI",
@@ -9267,7 +9323,7 @@
     "display": "int bit_pos_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "106",
+      "line": "107",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "bit_pos_EXTI",
@@ -9281,7 +9337,7 @@
     "display": "void set_NVIC_ISER(int)",
     "location": {
       "column": "6",
-      "line": "107",
+      "line": "108",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "set_NVIC_ISER",
@@ -9295,7 +9351,7 @@
     "display": "void set_NVIC_ISER(int)",
     "location": {
       "column": "6",
-      "line": "107",
+      "line": "108",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "set_NVIC_ISER",
@@ -9309,7 +9365,7 @@
     "display": "int index_NVIC_ISER(int)",
     "location": {
       "column": "5",
-      "line": "108",
+      "line": "109",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "index_NVIC_ISER",
@@ -9323,7 +9379,7 @@
     "display": "int index_NVIC_ISER(int)",
     "location": {
       "column": "5",
-      "line": "108",
+      "line": "109",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api_driver.h"
     },
     "name": "index_NVIC_ISER",
@@ -9449,7 +9505,7 @@
     "display": "void EXTI0_IRQHandler(void)",
     "location": {
       "column": "6",
-      "line": "43",
+      "line": "42",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\PA0_EXTI\\main.c"
     },
     "name": "EXTI0_IRQHandler",
@@ -9527,7 +9583,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_timer_driver.h@777@macro@CHECK_UIF",
+    "ID": "c:stm32f3x_timer_driver.h@793@macro@CHECK_UIF",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CHECK_UIF",
@@ -9541,7 +9597,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_timer_driver.h@937@macro@TIM_DIER_UIE",
+    "ID": "c:stm32f3x_timer_driver.h@969@macro@TIM_DIER_UIE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM_DIER_UIE",
@@ -9555,7 +9611,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_timer_driver.h@996@macro@TIM2_EN",
+    "ID": "c:stm32f3x_timer_driver.h@1028@macro@TIM2_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM2_EN",
@@ -9569,7 +9625,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_timer_driver.h@1036@macro@TIM3_EN",
+    "ID": "c:stm32f3x_timer_driver.h@1068@macro@TIM3_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM3_EN",
@@ -9583,7 +9639,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_timer_driver.h@1076@macro@CEN_EN",
+    "ID": "c:stm32f3x_timer_driver.h@1108@macro@CEN_EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CEN_EN",
@@ -9639,13 +9695,27 @@
     "scope": null
   },
   {
+    "ID": "c:@F@GPIO_BSR_REG",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_BSR_REG(GPIO_Type *, int, int)",
+    "location": {
+      "column": "6",
+      "line": "123",
+      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
+    },
+    "name": "GPIO_BSR_REG",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@GPIOE_OUTMODE",
     "What": "Function",
     "defdec": "Def",
     "display": "void GPIOE_OUTMODE(int, int)",
     "location": {
       "column": "6",
-      "line": "125",
+      "line": "146",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "GPIOE_OUTMODE",
@@ -9653,13 +9723,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@2991@F@GPIOE_OUTMODE@i",
+    "ID": "c:stm32f3x_api.c@3303@F@GPIOE_OUTMODE@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "13",
-      "line": "127",
+      "line": "148",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "i",
@@ -9673,7 +9743,7 @@
     "display": "int bit_pos_GPIO_MODER(int)",
     "location": {
       "column": "5",
-      "line": "152",
+      "line": "176",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos_GPIO_MODER",
@@ -9681,13 +9751,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@3805@F@bit_pos_GPIO_MODER@bit_pos",
+    "ID": "c:stm32f3x_api.c@4125@F@bit_pos_GPIO_MODER@bit_pos",
     "What": "Variable",
     "defdec": "Def",
     "display": "bit_pos",
     "location": {
       "column": "9",
-      "line": "154",
+      "line": "178",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos",
@@ -9701,7 +9771,7 @@
     "display": "void set_PSC_and_ARR_TIM(TIMER_Type *, unsigned int, unsigned int)",
     "location": {
       "column": "6",
-      "line": "181",
+      "line": "205",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "set_PSC_and_ARR_TIM",
@@ -9709,13 +9779,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@4397@F@set_PSC_and_ARR_TIM@PSC",
+    "ID": "c:stm32f3x_api.c@4718@F@set_PSC_and_ARR_TIM@PSC",
     "What": "Variable",
     "defdec": "Def",
     "display": "PSC",
     "location": {
       "column": "18",
-      "line": "183",
+      "line": "207",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "PSC",
@@ -9723,13 +9793,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@4397@F@set_PSC_and_ARR_TIM@NARR",
+    "ID": "c:stm32f3x_api.c@4718@F@set_PSC_and_ARR_TIM@NARR",
     "What": "Variable",
     "defdec": "Dec",
     "display": "NARR",
     "location": {
       "column": "23",
-      "line": "183",
+      "line": "207",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "NARR",
@@ -9743,7 +9813,7 @@
     "display": "void CNT_EN_TIM(TIMER_Type *, unsigned int)",
     "location": {
       "column": "6",
-      "line": "203",
+      "line": "226",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "CNT_EN_TIM",
@@ -9757,7 +9827,7 @@
     "display": "void set_SYSCFG_EXTI(int, int)",
     "location": {
       "column": "6",
-      "line": "239",
+      "line": "262",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "set_SYSCFG_EXTI",
@@ -9765,13 +9835,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@5990@F@set_SYSCFG_EXTI@_index_EXTI",
+    "ID": "c:stm32f3x_api.c@6309@F@set_SYSCFG_EXTI@_index_EXTI",
     "What": "Variable",
     "defdec": "Def",
     "display": "_index_EXTI",
     "location": {
       "column": "18",
-      "line": "241",
+      "line": "264",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "_index_EXTI",
@@ -9779,13 +9849,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@6081@F@set_SYSCFG_EXTI@_bit_pos_EXTI",
+    "ID": "c:stm32f3x_api.c@6400@F@set_SYSCFG_EXTI@_bit_pos_EXTI",
     "What": "Variable",
     "defdec": "Def",
     "display": "_bit_pos_EXTI",
     "location": {
       "column": "18",
-      "line": "242",
+      "line": "265",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "_bit_pos_EXTI",
@@ -9799,7 +9869,7 @@
     "display": "int index_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "274",
+      "line": "297",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index_EXTI",
@@ -9807,13 +9877,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@7070@F@index_EXTI@index",
+    "ID": "c:stm32f3x_api.c@7389@F@index_EXTI@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",
     "location": {
       "column": "9",
-      "line": "276",
+      "line": "299",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index",
@@ -9827,7 +9897,7 @@
     "display": "int bit_pos_EXTI(int)",
     "location": {
       "column": "5",
-      "line": "295",
+      "line": "318",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos_EXTI",
@@ -9835,13 +9905,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@7517@F@bit_pos_EXTI@bit_pos",
+    "ID": "c:stm32f3x_api.c@7836@F@bit_pos_EXTI@bit_pos",
     "What": "Variable",
     "defdec": "Def",
     "display": "bit_pos",
     "location": {
       "column": "9",
-      "line": "297",
+      "line": "320",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "bit_pos",
@@ -9855,7 +9925,7 @@
     "display": "void set_NVIC_ISER(int)",
     "location": {
       "column": "6",
-      "line": "317",
+      "line": "340",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "set_NVIC_ISER",
@@ -9863,13 +9933,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@8050@F@set_NVIC_ISER@_index_NVIC_ISER",
+    "ID": "c:stm32f3x_api.c@8369@F@set_NVIC_ISER@_index_NVIC_ISER",
     "What": "Variable",
     "defdec": "Def",
     "display": "_index_NVIC_ISER",
     "location": {
       "column": "18",
-      "line": "319",
+      "line": "342",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "_index_NVIC_ISER",
@@ -9883,7 +9953,7 @@
     "display": "int index_NVIC_ISER(int)",
     "location": {
       "column": "5",
-      "line": "340",
+      "line": "363",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index_NVIC_ISER",
@@ -9891,13 +9961,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f3x_api.c@8718@F@index_NVIC_ISER@index",
+    "ID": "c:stm32f3x_api.c@9037@F@index_NVIC_ISER@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",
     "location": {
       "column": "9",
-      "line": "342",
+      "line": "365",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\libraries\\stm32f3x_api.c"
     },
     "name": "index",

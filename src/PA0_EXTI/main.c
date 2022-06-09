@@ -22,7 +22,6 @@ void main(){
           GPIOE_OUTMODE(Px8,Px15);                      /*!< Enable PEx (x = 8,..15) in output mode >*/ 
          
           GPIO_MODE(GPIOA,IN_MODE,Px0);                 /*!< Enable PA0 in input mode >*/         
-          
           set_SYSCFG_EXTI(Px0,PA0);                     /*!<CONFIGURE Px0 to get the index and bit position of SYSCFG->EXTI
                                                         AND PA0 AS EXTERNAL INTERRUPT. WE HAVE TO SELECT PA0 AS MULTIPLEXER'S INPUT >*/        
          

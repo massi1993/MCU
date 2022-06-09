@@ -161,7 +161,7 @@ void GPIOE_OUTMODE(int PEstart, int PEstop){
 GPIO->MODER ALLOWS TO CONFIGURE PORTS IN INPUT, OUTPUT, ANALOG  AND ALTERNATE FUNCTION MODE,
 WRITING CORRECTLY THE CHOSEN MODE IN THE TWO BITS OF INTEREST.
 SO, THIS FUNCTION ALLOWS TO FIND THE BIT POSITION IN WHICH TO WRITE.
-For this, we first get the module reported to 2 (PinNumber % 2) and then we multiply by 2.
+For this, we first get the module reported to 16 (PinNumber % 16) and then we multiply by 2.
 
 @param PinNumber pin number chosen from MACROS define PxY, e.g Px0, Px1, etc..
                  If we choose PA0, PinNumber will be Px0;
@@ -177,7 +177,7 @@ int bit_pos_GPIO_MODER(int PinNumber){
 
     int bit_pos;
     
-    bit_pos = (PinNumber % 2) * 2;
+    bit_pos = (PinNumber % 16) * 2;
     
     return bit_pos;
 }
