@@ -97,6 +97,7 @@
 void RCC_PCLK_AHBEN(uint32_t RCC_AHBENR_Periph, int status);   
 void RCC_PCLK_APB1EN(uint32_t RCC_APB1ENR_Periph, int status);
 void GPIO_MODE (GPIO_Type* GPIO, unsigned int mode, unsigned int PinNumber);
+void GPIO_BSR_REG(GPIO_Type* GPIO, int pinEn, int status);
 void GPIOE_OUTMODE(int PEstart, int PEstop);
 int bit_pos_GPIO_MODER(int PinNumber);
 void set_PSC_and_ARR_TIM(TIMER_Type* Timer, unsigned int time, unsigned int Fck);

@@ -110,6 +110,28 @@ void GPIO_MODE (GPIO_Type* GPIO, unsigned int mode, unsigned int PinNumber){
     }
 }
 
+/*!<
+@brief
+Define GPIO Bit Set Reset Register
+
+@param pinEn  Pin to control
+@param status It can be Set or Reset
+
+@return None
+
+*/
+void GPIO_BSR_REG(GPIO_Type* GPIO, int pinEn, int status){
+
+    if(status == SET)
+    {
+        GPIO->BSR = (1 << pinEn);
+    }
+    else if(status == RESET)
+    {
+        GPIO->BRR = (1 << pinEn);
+    }
+    
+}
 
 /*!<
 @brief
@@ -130,6 +152,9 @@ void GPIOE_OUTMODE(int PEstart, int PEstop){
     }
 
 }
+
+
+
 
 /*!<
 @brief

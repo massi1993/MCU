@@ -166,6 +166,8 @@ typedef struct{
        __vo uint32_t PUPDR;             /*!< its address is (GPIOx_base_address + 0x0C) >*/
        __vo uint32_t IDR;               /*!< its address is (GPIOx_base_address + 0x10) >*/
        __vo uint32_t ODR;               /*!< its address is (GPIOx_base_address + 0x14) >*/
+       __vo uint16_t BSR;               /*!< its address is (GPIOx_base_address + 0x18) >*/
+       __vo uint16_t BRR;               /*!< its address is (GPIOx_base_address + 0x0A) >*/
 }GPIO_Type;
 
 

@@ -1,7 +1,7 @@
 /* 
 *
 *       Created on : June 02, 2022 
-*       Last Update: June 08, 2022
+*       Last Update: June 09, 2022
 *           Author : massiAv
 *
 */
@@ -12,6 +12,7 @@
 #include "stm32f3x_timer_driver.h"
 
 int flag = RESET;
+int pin_cnt = Px10;
 
 void main(){
 
@@ -29,15 +30,18 @@ void main(){
         {
             if(CHECK_UIF(TIM2) && !flag)
             {  
-              GPIOE->ODR = GPIOE_ALL_LED_ON;    /*!< ON ALL LED                    > */
-              TIM2->SR&=~SET_UIF;               /*!< RESET UPDATE INTERRUPT FLAG   > */
+              //GPIOE->ODR = GPIOE_ALL_LED_ON;          /*!< ON ALL LED                    > */
+              GPIO_BSR_REG(GPIOE,pin_cnt,SET);          /*!< BSRR to Set the corrispondent ODRx bit >*/
+              TIM2->SR &=~ SET_UIF;                     /*!< RESET UPDATE INTERRUPT FLAG   > */
               flag = SET;    
             }
             else if(CHECK_UIF(TIM2) && flag)
             {
-               GPIOE->ODR = RESET;              /*!< OFF ALL LED                 >*/    
-               TIM2->SR &= ~SET_UIF;            /*!< RESET UPDATE INTERRUPT FLAG >*/
+               //GPIOE->ODR = RESET;                    /*!< OFF ALL LED                 >*/    
+               GPIO_BSR_REG(GPIOE,pin_cnt,RESET);       /*!< BSRR to Reset the corrispondent ODRx bit >*/
+               TIM2->SR &=~ SET_UIF;                    /*!< RESET UPDATE INTERRUPT FLAG >*/
                flag = RESET;
             }
+            
         }
 }
