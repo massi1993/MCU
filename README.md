@@ -1,5 +1,5 @@
 # Project MCU
-# Update : 08/06/22 , version : 0.4
+# Update : 09/06/22 , version : 0.4
 
 # CONFIGURATION IDE IAR EMBEDDED : Follow these steps to configure project options
 1. In the Project Editor, right-click on the project name and select Options... to display the Options dialog box:
@@ -32,6 +32,8 @@ Example:
 - cnt = 1 -> blue led PE8 on
 - cnt = 2 -> red led PE9 on
 - cnt = 3 -> blue and red led (PE8 and PE9) on
+
+However, we can use also BSRR to set/reset the corrispondent ODRx bit.
 
 ## 2. Project LED FLASHING EVERY x SECONDS
 The clock frequency provided by the board is 8 MHz, which is 8 million counts per second. 
