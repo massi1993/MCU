@@ -69,6 +69,9 @@ For example, a prescaler of 80 would turn an 80 MHz clock into a 1 MHz clock.
 ![1a01c1b8-ed69-4d86-8c9e-67388366a487](https://user-images.githubusercontent.com/83538787/172060373-4970bbf8-c6ca-4e81-8eb0-47ae446bf3de.jpg)
 
 
-## 4. Project FLASHING LED WITH SPEED CHANGE
+## 5. Project FLASHING LED WITH SPEED CHANGE
 The speed is varied by decreasing the maximum count, stored in the ARR (AutoReloadRegister).
 
+## 6. Project STOPWATCH
+Start time measurement when the PA0 is pressed; Stop time when PA0 is pressed again. Basically, we are implementing a stopwatch.
+![image](https://user-images.githubusercontent.com/83538787/173041289-64b4213a-c3e8-4aab-a95f-83aa3fc1a8e6.png)
