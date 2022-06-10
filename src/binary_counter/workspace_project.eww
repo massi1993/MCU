@@ -18,5 +18,8 @@
     <project>
         <path>$WS_DIR$\..\Timer3_internal_interrupt\Tim3_Internal_interrupt.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\Voltage_converter\voltage-converter.ewp</path>
+    </project>
     <batchBuild />
 </workspace>

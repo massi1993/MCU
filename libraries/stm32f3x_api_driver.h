@@ -1,6 +1,7 @@
 /* STM32_F3X_DRIVER_H
 *
 *       Created on : June 01, 2022 
+*      Last Update : June 10, 2022
 *           Author : massiAv
 *
 */
@@ -15,12 +16,10 @@
 -------------------------------------------------------------*/
 
 /*!< define GENERAL MACROS >*/
+#define IN_MODE                         0         
 #define OUT_MODE                        1
-#define IN_MODE                         3           /*!< IN_MODE DEFINED 3 BECAUSE OF NEGATIVE LOGIC.
-                                              TO SET PINY (WITH Y = A,B,C,...,F) IN IN_MODE WE WRITE:   
-                                              PYx & = ~ (3 << x) 
-                                              INSTEAD OF
-                                              PYx | = (0 << x) >*/   
+#define ANALOG_MODE                     3
+                                                      
 #define SET                             1
 #define RESET                           0
   
@@ -89,6 +88,8 @@
 #define RCC_AHBENR_GPIOD                GPIOD_EN
 #define RCC_AHBENR_GPIOE                GPIOE_EN
 #define RCC_AHBENR_GPIOF                GPIOF_EN
+#define RCC_AHBENR_ADC12                ADC12_EN
+#define RCC_AHBENR_ADC34                ADC34_EN
 
 /*!< define MACROS for RCC_AP1 ENABLE >*/
 #define RCC_APB1ENR_TIM2                TIM2_EN
@@ -103,20 +104,29 @@
 /*!< Enable Peripheral Clock >*/
 void RCC_PCLK_AHBEN(uint32_t RCC_AHBENR_Periph, int status);   
 void RCC_PCLK_APB1EN(uint32_t RCC_APB1ENR_Periph, int status);
+
 /*!< API For GPIO>*/
 void GPIO_MODE (GPIO_Type* GPIO, unsigned int mode, unsigned int PinNumber);
 void GPIO_BSR_REG(GPIO_Type* GPIO, int pinEn, int status);
 void GPIOE_OUTMODE(int PEstart, int PEstop);
 int bit_pos_GPIO_MODER(int PinNumber);
+
 /*!< API FOR TIMER >*/
 void set_PSC_and_ARR_TIM(TIMER_Type* Timer, unsigned int time, unsigned int Fck);
 void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status);
 float Measure_Time(TIMER_Type* Timer, unsigned int mode);
+
 /*!< API FOR INTERRUPT >*/
 void set_SYSCFG_EXTI(int PinNumber, int PortNumber);
 int index_EXTI(int PinNumber);
 int bit_pos_EXTI(int PinNumber);
 void set_NVIC_ISER(int IRQ);
 int index_NVIC_ISER(int IRQ);
+
+/*!< API FOR ADC >*/
+void  ADC_Voltage_Regulator_EN(ADC_Type* ADC);
+void config_ADC(ADC_Type* ADC, ADC_Common_Type* ADC_CC);
+
+
 
 #endif /* STM32_F3X_DRIVER_H */

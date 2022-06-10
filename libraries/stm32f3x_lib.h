@@ -1,6 +1,7 @@
 /* STM32_F3X_LIB_H
 *
 *       Created on : June 01, 2022 
+*      Last Update : June 10, 2022
 *           Author : massiAv
 *
 */
@@ -31,19 +32,20 @@
 
 typedef struct
 {
-  __vo uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register >*/
-       uint32_t RESERVED0[24];
-  __vo uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register >*/
-       uint32_t RSERVED1[24];
-  __vo uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register >*/
-       uint32_t RESERVED2[24];
-  __vo uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register >*/
-       uint32_t RESERVED3[24];
-  __vo uint32_t IABR[8];                 /*!< Offset: 0x200 (R/W)  Interrupt Active bit Register >*/
-       uint32_t RESERVED4[56];
-  __vo uint8_t  IPR[240];                 /*!< Offset: 0x300 (R/W)  Interrupt Priority Register (8Bit wide) >*/
-       uint32_t RESERVED5[644];
-  __vo uint32_t STIR;                    /*!< Offset: 0xE00 ( /W)  Software Trigger Interrupt Register >*/
+    __vo uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register >*/
+         uint32_t RESERVED0[24];
+    __vo uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register >*/
+         uint32_t RSERVED1[24];
+    __vo uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register >*/
+         uint32_t RESERVED2[24];
+    __vo uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register >*/
+         uint32_t RESERVED3[24];
+    __vo uint32_t IABR[8];                 /*!< Offset: 0x200 (R/W)  Interrupt Active bit Register >*/
+         uint32_t RESERVED4[56];
+    __vo uint8_t  IPR[240];                 /*!< Offset: 0x300 (R/W)  Interrupt Priority Register (8Bit wide) >*/
+         uint32_t RESERVED5[644];
+    __vo uint32_t STIR;                    /*!< Offset: 0xE00 ( /W)  Software Trigger Interrupt Register >*/
+    
 }  NVIC_Type;
 
 
@@ -51,27 +53,27 @@ typedef struct
 /*!< define SCB Registers >*/
 typedef struct
 {
-  __vo uint32_t CPUID;                   /*!< Offset: 0x000 (R/ )  CPUID Base Register                                   */
-  __vo uint32_t ICSR;                    /*!< Offset: 0x004 (R/W)  Interrupt Control and State Register                  */
-  __vo uint32_t VTOR;                    /*!< Offset: 0x008 (R/W)  Vector Table Offset Register                          */
-  __vo uint32_t AIRCR;                   /*!< Offset: 0x00C (R/W)  Application Interrupt and Reset Control Register      */
-  __vo uint32_t SCR;                     /*!< Offset: 0x010 (R/W)  System Control Register                               */
-  __vo uint32_t CCR;                     /*!< Offset: 0x014 (R/W)  Configuration Control Register                        */
-  __vo uint8_t  SHP[12];                 /*!< Offset: 0x018 (R/W)  System Handlers Priority Registers (4-7, 8-11, 12-15) */
-  __vo uint32_t SHCSR;                   /*!< Offset: 0x024 (R/W)  System Handler Control and State Register             */
-  __vo uint32_t CFSR;                    /*!< Offset: 0x028 (R/W)  Configurable Fault Status Register                    */
-  __vo uint32_t HFSR;                    /*!< Offset: 0x02C (R/W)  HardFault Status Register                             */
-  __vo uint32_t DFSR;                    /*!< Offset: 0x030 (R/W)  Debug Fault Status Register                           */
-  __vo uint32_t MMFAR;                   /*!< Offset: 0x034 (R/W)  MemManage Fault Address Register                      */
-  __vo uint32_t BFAR;                    /*!< Offset: 0x038 (R/W)  BusFault Address Register                             */
-  __vo uint32_t AFSR;                    /*!< Offset: 0x03C (R/W)  Auxiliary Fault Status Register                       */
-  __vo uint32_t PFR[2];                  /*!< Offset: 0x040 (R/ )  Processor Feature Register                            */
-  __vo uint32_t DFR;                     /*!< Offset: 0x048 (R/ )  Debug Feature Register                                */
-  __vo uint32_t ADR;                     /*!< Offset: 0x04C (R/ )  Auxiliary Feature Register                            */
-  __vo uint32_t MMFR[4];                 /*!< Offset: 0x050 (R/ )  Memory Model Feature Register                         */
-  __vo uint32_t ISAR[5];                 /*!< Offset: 0x060 (R/ )  Instruction Set Attributes Register                   */
-  __vo uint32_t RESERVED0[5];
-  __vo uint32_t CPACR;                   /*!< Offset: 0x088 (R/W)  Coprocessor Access Control Register                   */
+    __vo uint32_t CPUID;                   /*!< Offset: 0x000 (R/ )  CPUID Base Register                                   */
+    __vo uint32_t ICSR;                    /*!< Offset: 0x004 (R/W)  Interrupt Control and State Register                  */
+    __vo uint32_t VTOR;                    /*!< Offset: 0x008 (R/W)  Vector Table Offset Register                          */
+    __vo uint32_t AIRCR;                   /*!< Offset: 0x00C (R/W)  Application Interrupt and Reset Control Register      */
+    __vo uint32_t SCR;                     /*!< Offset: 0x010 (R/W)  System Control Register                               */
+    __vo uint32_t CCR;                     /*!< Offset: 0x014 (R/W)  Configuration Control Register                        */
+    __vo uint8_t  SHP[12];                 /*!< Offset: 0x018 (R/W)  System Handlers Priority Registers (4-7, 8-11, 12-15) */
+    __vo uint32_t SHCSR;                   /*!< Offset: 0x024 (R/W)  System Handler Control and State Register             */
+    __vo uint32_t CFSR;                    /*!< Offset: 0x028 (R/W)  Configurable Fault Status Register                    */
+    __vo uint32_t HFSR;                    /*!< Offset: 0x02C (R/W)  HardFault Status Register                             */
+    __vo uint32_t DFSR;                    /*!< Offset: 0x030 (R/W)  Debug Fault Status Register                           */
+    __vo uint32_t MMFAR;                   /*!< Offset: 0x034 (R/W)  MemManage Fault Address Register                      */
+    __vo uint32_t BFAR;                    /*!< Offset: 0x038 (R/W)  BusFault Address Register                             */
+    __vo uint32_t AFSR;                    /*!< Offset: 0x03C (R/W)  Auxiliary Fault Status Register                       */
+    __vo uint32_t PFR[2];                  /*!< Offset: 0x040 (R/ )  Processor Feature Register                            */
+    __vo uint32_t DFR;                     /*!< Offset: 0x048 (R/ )  Debug Feature Register                                */
+    __vo uint32_t ADR;                     /*!< Offset: 0x04C (R/ )  Auxiliary Feature Register                            */
+    __vo uint32_t MMFR[4];                 /*!< Offset: 0x050 (R/ )  Memory Model Feature Register                         */
+    __vo uint32_t ISAR[5];                 /*!< Offset: 0x060 (R/ )  Instruction Set Attributes Register                   */
+    __vo uint32_t RESERVED0[5];
+    __vo uint32_t CPACR;                   /*!< Offset: 0x088 (R/W)  Coprocessor Access Control Register                   */
 } SCB_Type;
 
 
@@ -79,15 +81,15 @@ typedef struct
 /*!< define FLASH Registers >*/
 typedef struct
 {
-  __vo uint32_t ACR;          /*!< FLASH access control register,              Address offset: 0x00 */
-  __vo uint32_t KEYR;         /*!< FLASH key register,                         Address offset: 0x04 */
-  __vo uint32_t OPTKEYR;      /*!< FLASH option key register,                  Address offset: 0x08 */
-  __vo uint32_t SR;           /*!< FLASH status register,                      Address offset: 0x0C */
-  __vo uint32_t CR;           /*!< FLASH control register,                     Address offset: 0x10 */
-  __vo uint32_t AR;           /*!< FLASH address register,                     Address offset: 0x14 */
-       uint32_t RESERVED;     /*!< Reserved, 0x18                                                   */
-  __vo uint32_t OBR;          /*!< FLASH Option byte register,                 Address offset: 0x1C */
-  __vo uint32_t WRPR;         /*!< FLASH Write register,                       Address offset: 0x20 */
+    __vo uint32_t ACR;          /*!< FLASH access control register,              Address offset: 0x00 */
+    __vo uint32_t KEYR;         /*!< FLASH key register,                         Address offset: 0x04 */
+    __vo uint32_t OPTKEYR;      /*!< FLASH option key register,                  Address offset: 0x08 */
+    __vo uint32_t SR;           /*!< FLASH status register,                      Address offset: 0x0C */
+    __vo uint32_t CR;           /*!< FLASH control register,                     Address offset: 0x10 */
+    __vo uint32_t AR;           /*!< FLASH address register,                     Address offset: 0x14 */
+        uint32_t RESERVED;     /*!< Reserved, 0x18                                                   */
+    __vo uint32_t OBR;          /*!< FLASH Option byte register,                 Address offset: 0x1C */
+    __vo uint32_t WRPR;         /*!< FLASH Write register,                       Address offset: 0x20 */
   
 } FLASH_TypeDef;
 
@@ -213,16 +215,69 @@ typedef struct {
       __vo uint32_t DMAR;               /*!< its address is (TIMER_base_address + 0x4C) >*/
 }TIMER_Type;
 
+      
+typedef struct{
+  
+      __vo uint32_t ISR;                /*!< its address is (ADC_base_address + 0x00) >*/
+      __vo uint32_t IER;                /*!< its address is (ADC_base_address + 0x04) >*/
+      __vo uint32_t CR;                 /*!< its address is (ADC_base_address + 0x08) >*/
+      __vo uint32_t CFGR;               /*!< its address is (ADC_base_address + 0x0C) >*/
+           uint32_t RESERVED0;          /*!< its address is (ADC_base_address + 0x10) -> RESERVED  >*/
+      __vo uint32_t SMPR1;              /*!< its address is (ADC_base_address + 0x14) >*/
+      __vo uint32_t SMPR2;              /*!< its address is (ADC_base_address + 0x18) >*/ 
+           uint32_t RESERVED1;          /*!< its address is (ADC_base_address + 0x1C) -> RESERVED  >*/
+      __vo uint32_t TR1;                /*!< its address is (ADC_base_address + 0x20) >*/
+      __vo uint32_t TR2;                /*!< its address is (ADC_base_address + 0x24) >*/
+      __vo uint32_t TR3;                /*!< its address is (ADC_base_address + 0x28) >*/
+           uint32_t RESERVED2;          /*!< its address is (ADC_base_address + 0x2C) -> RESERVED>*/
+      __vo uint32_t SQR1;               /*!< its address is (ADC_base_address + 0x30) >*/
+      __vo uint32_t SQR2;               /*!< its address is (ADC_base_address + 0x34) >*/
+      __vo uint32_t SQR3;               /*!< its address is (ADC_base_address + 0x38) >*/
+      __vo uint32_t SQR4;               /*!< its address is (ADC_base_address + 0x3C) >*/
+      __vo uint32_t DR;                 /*!< its address is (ADC_base_address + 0x40) >*/
+           uint32_t RESERVED3[2];       /*!< its address is (ADC_base_address + 0x44) -> RESERVED >*/
+      __vo uint32_t JSQR;               /*!< its address is (ADC_base_address + 0x4C) >*/
+           uint32_t RESERVED4[4];       /*!< its address is (ADC_base_address + 0x50) -> RESERVED >*/
+      __vo uint32_t OFR1;               /*!< its address is (ADC_base_address + 0x60) >*/
+      __vo uint32_t OFR2;               /*!< its address is (ADC_base_address + 0x64) >*/
+      __vo uint32_t OFR3;               /*!< its address is (ADC_base_address + 0x68) >*/
+      __vo uint32_t OFR4;               /*!< its address is (ADC_base_address + 0x6C) >*/      
+           uint32_t RESERVED5[4];       /*!< its address is (ADC_base_address + 0x70) -> RESERVED >*/
+      __vo uint32_t JDR1;               /*!< its address is (ADC_base_address + 0x80) >*/    
+      __vo uint32_t JDR2;               /*!< its address is (ADC_base_address + 0x84) >*/          
+      __vo uint32_t JDR3;               /*!< its address is (ADC_base_address + 0x88) >*/  
+      __vo uint32_t JDR4;               /*!< its address is (ADC_base_address + 0x8C) >*/   
+           uint32_t RESERVED6[4];       /*!< its address is (ADC_base_address + 0x90) -> RESERVED >*/           
+      __vo uint32_t AWD2CR;             /*!< its address is (ADC_base_address + 0xA0) >*/
+      __vo uint32_t AWD3CR;             /*!< its address is (ADC_base_address + 0xA4) >*/
+           uint32_t RESERVED7[2];       /*!< its address is (ADC_base_address + 0xA8) >*/
+      __vo uint32_t DIFSEL;             /*!< its address is (ADC_base_address + 0xB0) >*/
+      __vo uint32_t CALFACT;            /*!< its address is (ADC_base_address + 0xB4) >*/   
+}ADC_Type;
 
+typedef struct{
+  
+      __vo uint32_t CSR;                /*!< its address is (ADC_base_address + 0x300 + 0x00) >*/
+           uint32_t RESERVED;           /*!< its address is (ADC_base_address + 0x300 + 0x04) >*/        
+      __vo uint32_t CCR;                /*!< its address is (ADC_base_address + 0x300 + 0x08) >*/
+      __vo uint32_t CDR;                /*!< its address is (ADC_base_address + 0x300 + 0x0C) >*/
+ 
+}ADC_Common_Type;
 
 /*!< define of peripheral base address >*/
-#define RCC             ((RCC_Type*)    0x40021000U)
-#define GPIOE           ((GPIO_Type*)   0x48001000U)
-#define GPIOA           ((GPIO_Type*)   0x48000000U)
-#define TIM2            ((TIMER_Type*)  0x40000000U)
-#define TIM3            ((TIMER_Type*)  0x40000400U)
-#define EXTI            ((EXTI_Type*)   0x40010400U)
-#define SYSCFG          ((SYSCFG_Type*) 0x40010000U)
+#define RCC             ((RCC_Type*)            0x40021000U)
+#define GPIOE           ((GPIO_Type*)           0x48001000U)
+#define GPIOA           ((GPIO_Type*)           0x48000000U)
+#define TIM2            ((TIMER_Type*)          0x40000000U)
+#define TIM3            ((TIMER_Type*)          0x40000400U)
+#define EXTI            ((EXTI_Type*)           0x40010400U)
+#define SYSCFG          ((SYSCFG_Type*)         0x40010000U)
+#define ADC1            ((ADC_Type*)            0x50000000U)
+#define ADC2            ((ADC_Type*)            0x50000100U)  
+#define ADC1_2           ((ADC_Common_Type*)     0x50000300U)  
+#define ADC3            ((ADC_Type*)            0x50000400U)
+#define ADC4            ((ADC_Type*)            0x50000500U)
+#define ADC3_4           ((ADC_Common_Type*)     0x50000700U)
 
 /*!< define MACROS of GPIOx_EN into RCC_AHBENR >*/
 #define GPIOA_EN                (1<<17)
@@ -232,6 +287,52 @@ typedef struct {
 #define GPIOE_EN                (1<<21)
 #define GPIOF_EN                (1<<22)
 
+/*!< define MACROS of ADC_EN into RCC_AHBENR >*/
+#define ADC12_EN                (1<<28)
+#define ADC34_EN                (1<<29)
+
+
+/*!< define MACROS of ADC_REGISTER >*/
+#define ADC_ISR_ADRDY           (1<<0)                  /*!<This bit is set by hardware after the ADC has been enabled (bit ADEN=1) and when the ADC
+                                                            reaches a state where it is ready to accept conversion requests.
+                                                            It is cleared by software writing 1 to it.
+                                                            0: ADC not yet ready to start conversion (or the flag event was already acknowledged and cleared
+                                                            by software)
+                                                            1: ADC is ready to start conversion >*/
+#define ADC_ISR_EOC             (1<<2)                  /*!< bit EOC is set by hardware at the end of each regular conversion of a channel when a new data is
+                                                            available in the ADC_DR register. It is cleared by software writing 1 to it or by reading the ADC_DR
+                                                             register>*/
+#define ADC_CR_ADEN             (1<<0)                  /*!< ADC Enable >*/
+#define ADC_CR_ADSTART          (1<<2)                  /*!< Write 1 to start regular conversions      >*/ 
+#define ADC_CR_REG_EN           (1<<28)
+#define ADC_CR_ADCAL            (1U<<31)                /*!< Write 1 to calibrate the ADC. Read at 1 means that a calibration in progress.
+                                                             Bit ADCAL will be 0 when calibration is complete.>*/
+
+#define ADC_CFG_CONT            (1<<13)                 /*!< Single / continuous conversion mode for regular conversions
+                                                             This bit is set and cleared by software. If it is set, regular conversion takes place continuously until it
+                                                             is cleared.
+                                                             0: Single conversion mode
+                                                             1: Continuous conversion mode
+                                                             Note: It is not possible to have both discontinuous mode and continuous mode enabled: it is forbidden
+                                                             to set both DISCEN=1 and CONT=1.
+                                                             Note: Software is allowed to write this bit only when ADSTART=0 (which ensures that no regular
+                                                             conversion is ongoing).
+                                                             Note: When dual mode is enabled (bits MDMA of ADCx_CCR register are not equal to zero), the bit
+                                                             CONT of the slave ADC is no more writable and its content is equal to the bit CONT of the
+                                                             master ADC >*/
+
+#define ADC_SMP1_2_5CKC         (0x1<<3)                /*!<  Write '001' for 2.5 ADC clock cycles    >*/        
+#define ADC_SMP1_4_5CKC         (0x2<<3)                /*!<  Write '010' for 4.5 ADC clock cycles    >*/
+#define ADC_SMP1_7_5CKC         (0x3<<3)                /*!<  Write '011' for 7.5 ADC clock cycles    >*/
+#define ADC_SMP1_19_5CKC        (0x4<<3)                /*!<  Write '100' for 19.5 ADC clock cycles    >*/
+#define ADC_SMP1_61_5CKC        (0x5<<3)                /*!<  Write '101' for 61.5 ADC clock cycles    >*/
+#define ADC_SMP1_181_5CKC       (0x6<<3)                /*!<  Write '110' for 181.5 ADC clock cycles    >*/
+#define ADC_SMP1_601_5CKC       (0x7<<3)                /*!<  Write '111' for 601.5 ADC clock cycles    >*/
+
+#define ADC_CC_CCR_SYNC_CKMODE1 (1<<16)                 /*!<  Synchronous clock mode divided by 1: the analog ADC is clocked by the AHB clock . 
+                                                              This configuration must be enabled only if the AHB clock prescaler is set to 1. >*/
+#define ADC_CC_CCR_SYNC_CKMODE2 (1<<17)                 /*!<  Synchronous clock mode divided by 2: the analog ADC is clocked by the AHB clock divided by 2 >*/
+#define ADC_CC_CCR_SYNC_CKMODE4 (3<<16)                 /*!<  Synchronous clock mode divided by 4: the analog ADC is clocked by the AHB clock divided by 4 >*/
 /*!-----------------------------------------------------------------------------
 
                           Reset and Clock Control                            

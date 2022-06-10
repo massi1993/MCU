@@ -1,7 +1,7 @@
 /* STM32_F3X_API
 *
 *       Created on : June 04, 2022 
-*      Last Update : June 06, 2022       
+*      Last Update : June 10, 2022       
 *           Author : massiAv
 *
 */
@@ -100,14 +100,8 @@ Allows to enable the mode of GPIO
 */
 void GPIO_MODE (GPIO_Type* GPIO, unsigned int mode, unsigned int PinNumber){
   
-    if(mode == IN_MODE)
-    {
-      GPIO->MODER &=~ (mode << bit_pos_GPIO_MODER(PinNumber));
-    }
-    else
-    {
-      GPIO->MODER |= (mode << bit_pos_GPIO_MODER(PinNumber));
-    }
+    GPIO->MODER |= (mode << bit_pos_GPIO_MODER(PinNumber));
+
 }
 
 /*!<
@@ -239,7 +233,7 @@ void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status){
 /*!<
 @brief  Start time measurement when the PA0 is pressed; Stop time when PA0 is pressed again if the mode is STOPWATCH.
         Otherwise, if the mode is NOT_STOP_WATCH, it measure the time betwen two pressing of PA0.
-        Basically, we are implementing a stopwatch or not_setp_watch.
+        Basically, we are implementing a stopwatch or not_stop_watch.
 
 @param TIMER_Type * Timer Timer to use as stopwatch
 
@@ -413,3 +407,55 @@ int index_NVIC_ISER(int IRQ){
 
     return index;
 }
+
+/*!-----------------------------------------------------------------------------
+
+                                API FOR ADC
+
+-------------------------------------------------------------------------------->*/
+/*!<
+@brief
+Before performing any operation such as launching a calibration or enabling the ADC, the ADC
+voltage regulator must first be enabled and the software must wait for the regulator start-up time.
+The default state is '10': to enable the regulator we have to change the default state with intermediate state '00' and then enable ADC regulator writing '01'
+
+@param ADC_Type* ADC 
+
+@return None
+
+*/
+void  ADC_Voltage_Regulator_EN(ADC_Type* ADC){
+  
+    ADC->CR &=~ (1<<29);                /*!< ADVREGEN from '10' to '00' >*/
+    
+    ADC->CR |= ADC_CR_REG_EN;           /*!< ADVREGEN from '00' to '01' >*/
+    
+    for(int i=0;i<1000;i++);            /*!< WAIT 10 us                 >*/
+}
+
+
+/*!<
+@brief
+
+@param 
+@return 
+
+*/
+void config_ADC(ADC_Type* ADC, ADC_Common_Type* ADC_CC){
+  
+    ADC_Voltage_Regulator_EN(ADC);
+     
+    ADC_CC->CCR |= ADC_CC_CCR_SYNC_CKMODE1;                     /*!< For detail see the declaration of ADC_CC_CCR_SYNC_CKMODE1  >*/
+    
+    ADC->CR |= ADC_CR_ADCAL;                                    /*!< Calibration of ADC >*/
+    while((ADC->CR  & ADC_CR_ADCAL)== ADC_CR_ADCAL);            /*!< Waiting for ADCAL change to 0. If ADCAL = 0 so the calibration is complete >*/
+     
+    ADC->CR |= ADC_CR_ADEN;                                     /*!< ADC Enable>*/
+    while((ADC->ISR & ADC_ISR_ADRDY)!= ADC_ISR_ADRDY);          /*!< Wait for ADRDY change to 1 and be ready to conversion      >*/
+     
+    ADC->CFGR |= ADC_CFG_CONT;                                  /*!< Continuous conversion mode         >*/
+    ADC->SQR1 |= (1<<6);                                        /*!< SQR1=00001 -> CHANNEL 1 (PA0)      >*/
+    ADC->SQR1 &=~ (0x0000000F);                                 /*!< L=0000 -> 1 Conversion             >*/
+    ADC->SMPR1 |= ADC_SMP1_601_5CKC;                            /*!< Choose 601.5 CLOCK CYCLES          >*/
+} 
+

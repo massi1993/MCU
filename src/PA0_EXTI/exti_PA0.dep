@@ -5,15 +5,15 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</file>
-            <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\..\..\libraries\startup\startup_stm32f30x.s</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_timer_driver.h</file>
             <file>$PROJ_DIR$\system_stm32f30x.c</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_stm32f30x.o</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
@@ -24,9 +24,9 @@
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\exti_PA0.out</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.h</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\exti_PA0.out</file>
             <file>$TOOLKIT_DIR$\config\linker\ST\stm32f303xC.icf</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_gpio_driver.c</file>
             <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
@@ -36,30 +36,6 @@
             <file>$PROJ_DIR$\Debug\List\exti_PA0.map</file>
             <file>$PROJ_DIR$\Debug\Obj\system_stm32f30x.o</file>
         </outputs>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 19 28</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 8</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 26 21 14 12 25 9 18 4 11 0 5</file>
-                </tool>
-            </inputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\..\..\libraries\startup\startup_stm32f30x.s</name>
             <outputs>
@@ -86,9 +62,33 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 4 11 21 14 12 25 9 0 5</file>
+                    <file> 1 11 20 14 12 25 9 4 5</file>
                 </tool>
             </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 20 14 12 25 9 18 1 11 4 5</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 21 28</file>
+                </tool>
+            </outputs>
         </file>
         <file>
             <name>$PROJ_DIR$\system_stm32f30x.c</name>
@@ -101,7 +101,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 0 11 21 14 12 25 9 4</file>
+                    <file> 4 11 20 14 12 25 9 1</file>
                 </tool>
             </inputs>
         </file>
@@ -116,7 +116,7 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 22 8 10 27 29 17 24 7 16</file>
+                    <file> 22 7 10 27 29 17 24 8 16</file>
                 </tool>
             </inputs>
         </file>
@@ -131,7 +131,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 20</file>
+                    <file> 19</file>
                 </tool>
             </inputs>
         </file>
