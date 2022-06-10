@@ -59,3 +59,6 @@
 355	456	6765625527991845	C:/Users/Attilio/Documents/GitHub/MCU/src/Measurement_time_usingPA0/Debug/Exe/measuremente_time.out	d5b29dabe8f6d2da
 1	65	6765626382406248	C:/Users/Attilio/Documents/GitHub/MCU/src/Measurement_time_usingPA0/Debug/Obj/main.o	64ef85c4a0c48bac
 69	139	6765626383186249	C:/Users/Attilio/Documents/GitHub/MCU/src/Measurement_time_usingPA0/Debug/Exe/measuremente_time.out	d5b29dabe8f6d2da
+7	144	6765854362711807	C:/Users/Attilio/Documents/GitHub/MCU/src/Measurement_time_usingPA0/Debug/Obj/stm32f3x_api.o	8bdbb9d328a8e4c1
+2	157	6765854362991823	C:/Users/Attilio/Documents/GitHub/MCU/src/Measurement_time_usingPA0/Debug/Obj/main.o	64ef85c4a0c48bac
+161	224	6765854363701863	C:/Users/Attilio/Documents/GitHub/MCU/src/Measurement_time_usingPA0/Debug/Exe/measuremente_time.out	d5b29dabe8f6d2da

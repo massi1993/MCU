@@ -81,3 +81,6 @@
 524	1467	6765065052587394	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	510f707bb7de0b1d
 1	146	6765072517217289	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	eee78172c837e012
 150	190	6765072517685290	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	510f707bb7de0b1d
+1	71	6765855342213126	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/main.o	eee78172c837e012
+6	128	6765855342733155	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Obj/stm32f3x_api.o	b8d1c1bd91cd4ff3
+132	180	6765855343213183	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_timer/Debug/Exe/led_on_timer.out	510f707bb7de0b1d

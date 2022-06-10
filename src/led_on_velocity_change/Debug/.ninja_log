@@ -35,3 +35,6 @@
 81	127	6763866217455668	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_velocity_change/Debug/Exe/led_on_velocity_change.out	48429601e8dfcaae
 61	2293	6763973046219129	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_velocity_change/Debug/Obj/main.o	6264de662df16135
 2439	3267	6763973056359147	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_velocity_change/Debug/Exe/led_on_velocity_change.out	48429601e8dfcaae
+1	188	6765854843358375	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_velocity_change/Debug/Obj/main.o	6264de662df16135
+6	214	6765854843514375	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_velocity_change/Debug/Obj/stm32f3x_api.o	3d26bf3060bae75d
+218	261	6765854843982376	C:/Users/Attilio/Documents/GitHub/MCU/src/led_on_velocity_change/Debug/Exe/led_on_velocity_change.out	48429601e8dfcaae
