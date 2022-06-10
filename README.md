@@ -73,7 +73,7 @@ For example, a prescaler of 80 would turn an 80 MHz clock into a 1 MHz clock.
 The speed is varied by decreasing the maximum count, stored in the ARR (AutoReloadRegister).
 
 ## 6. Project STOPWATCH/NOT_STOPWATCH
-Start time measurement when the PA0 is pressed; Stop time when PA0 is pressed again. Otherwise, if the mode is NOT_STOP_WATCH, it measure the time betwen two pressing of PA0.Basically, we are implementing a stopwatch or not_stop_watch.
+Start time measurement when the PA0 is pressed; Stop time when PA0 is pressed again. Otherwise, if the mode is NOT_STOP_WATCH, it measure the time betwen two pressing of PA0. Basically, we are implementing a stopwatch or not_stop_watch TIMER.
 
 [MODE_STOPWATCH]
 
