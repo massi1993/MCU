@@ -13,6 +13,9 @@
         <path>$WS_DIR$\..\led_on_velocity_change\led_on_velocity_change.ewp</path>
     </project>
     <project>
+        <path>$WS_DIR$\..\Measurement_time_usingPA0\measuremente_time.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\..\Timer3_internal_interrupt\Tim3_Internal_interrupt.ewp</path>
     </project>
     <batchBuild />

@@ -12,7 +12,6 @@
 #include "stm32f3x_timer_driver.h"
 
 int flag = RESET;
-int pin_cnt = Px10;
 
 void main(){
 
@@ -31,14 +30,14 @@ void main(){
             if(CHECK_UIF(TIM2) && !flag)
             {  
               //GPIOE->ODR = GPIOE_ALL_LED_ON;          /*!< ON ALL LED                    > */
-              GPIO_BSR_REG(GPIOE,pin_cnt,SET);          /*!< BSRR to Set the corrispondent ODRx bit >*/
+              GPIO_BSR_REG(GPIOE,Px10,SET);          /*!< BSRR to Set the corrispondent ODRx bit >*/
               TIM2->SR &=~ SET_UIF;                     /*!< RESET UPDATE INTERRUPT FLAG   > */
               flag = SET;    
             }
             else if(CHECK_UIF(TIM2) && flag)
             {
                //GPIOE->ODR = RESET;                    /*!< OFF ALL LED                 >*/    
-               GPIO_BSR_REG(GPIOE,pin_cnt,RESET);       /*!< BSRR to Reset the corrispondent ODRx bit >*/
+               GPIO_BSR_REG(GPIOE,Px10,RESET);       /*!< BSRR to Reset the corrispondent ODRx bit >*/
                TIM2->SR &=~ SET_UIF;                    /*!< RESET UPDATE INTERRUPT FLAG >*/
                flag = RESET;
             }

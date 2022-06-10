@@ -5,15 +5,6 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_timer_driver.h</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
             <file>$TOOLKIT_DIR$\config\linker\ST\stm32f303xC.icf</file>
@@ -24,33 +15,46 @@
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
             <file>$PROJ_DIR$\Debug\Exe\led_on_timer.out</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
             <file>$PROJ_DIR$\Debug\List\led_on_timer.map</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\..\led_on_velocity_change\main.c</file>
-            <file>$PROJ_DIR$\..\PA0_EXTI\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_timer_driver.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
         </outputs>
         <file>
-            <name>[ROOT_NODE]</name>
+            <name>$PROJ_DIR$\Debug\Exe\led_on_timer.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 17 20</file>
+                    <file> 10</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 2 11 12 20 6 18 21</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 21</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 9 12 16 6 10 18 13 3 14 2 4</file>
+                    <file> 0 3 7 19 1 9 4 16 5 15 17</file>
                 </tool>
             </inputs>
         </file>
@@ -59,30 +63,24 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 19</file>
+                    <file> 12</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 3 14 12 16 6 10 18 2 4</file>
+                    <file> 16 5 3 7 19 1 9 15 17</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Debug\Exe\led_on_timer.out</name>
+            <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 20</file>
+                    <file> 8 10</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 11 21 19 7 15 5 8</file>
-                </tool>
-            </inputs>
         </file>
         <forcedrebuild>
             <name>$PROJ_DIR$\main.c</name>

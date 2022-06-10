@@ -9485,27 +9485,13 @@
     "scope": null
   },
   {
-    "ID": "c:@pin_cnt",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "pin_cnt",
-    "location": {
-      "column": "5",
-      "line": "15",
-      "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\main.c"
-    },
-    "name": "pin_cnt",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "17",
+      "line": "16",
       "path": "C:\\Users\\Attilio\\Documents\\GitHub\\MCU\\src\\led_on_timer\\main.c"
     },
     "name": "main",

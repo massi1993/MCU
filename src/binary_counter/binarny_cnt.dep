@@ -6,49 +6,34 @@
         <name>Debug</name>
         <outputs>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_timer_driver.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\Exe\binarny_cnt.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f303xC.icf</file>
             <file>$PROJ_DIR$\Debug\List\binarny_cnt.map</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\Debug\Exe\binarny_cnt.out</file>
-            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f303xC.icf</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_timer_driver.h</file>
-            <file>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</file>
-            <file>$PROJ_DIR$\main.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
         </outputs>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\binarny_cnt.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 2</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 15 0 9 13 4 11 7</file>
-                </tool>
-            </inputs>
-        </file>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 2 14</file>
+                    <file> 17 11</file>
                 </tool>
             </outputs>
         </file>
@@ -57,13 +42,13 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 9</file>
+                    <file> 7</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 20 3 6 5 12 1 17 16 19</file>
+                    <file> 3 18 8 1 20 15 19 2 6</file>
                 </tool>
             </inputs>
         </file>
@@ -78,7 +63,22 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 10 6 5 12 1 17 8 20 3 16</file>
+                    <file> 12 8 1 20 15 19 9 3 18 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\binarny_cnt.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 16 0 7 13 21 14 10</file>
                 </tool>
             </inputs>
         </file>

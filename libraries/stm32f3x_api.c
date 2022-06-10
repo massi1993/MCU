@@ -225,9 +225,9 @@ Enable counter
 */
 void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status){
           
-    Timer->CNT = RESET;
     if(status == ENABLE)
     {
+      Timer->CNT = RESET;
       Timer->CR1 |= CEN_EN;
     }
     else
@@ -235,7 +235,6 @@ void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status){
       Timer->CR1 &=~ CEN_EN;
     }
 }
-
 
 /*!-----------------------------------------------------------------------------
 
