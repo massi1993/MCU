@@ -236,6 +236,52 @@ void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status){
     }
 }
 
+/*!<
+@brief  Start time measurement when the PA0 is pressed; Stop time when PA0 is pressed again if the mode is STOPWATCH.
+        Otherwise, if the mode is NOT_STOP_WATCH, it measure the time betwen two pressing of PA0.
+        Basically, we are implementing a stopwatch or not_setp_watch.
+
+@param TIMER_Type * Timer Timer to use as stopwatch
+
+@param unsigned int mode it can be STOP_WATCH or NOT_STOP_WATCH
+
+@return time    measurement time
+
+>*/
+float Measure_Time(TIMER_Type* Timer, unsigned int mode){
+  
+    float time = RESET;                                         /*!< variable to store time measurement >*/
+    
+    if(mode == STOP_WATCH)
+    {
+        PA0_IDR_PRESSED(0);                                     /*!< WAIT UNTIL PA0 IS PRESSED  TO START TIME MEASUREMENT >*/
+        CNT_EN_TIM(Timer,ENABLE);                               /*!< ENABLE COUNT TIM2          >*/
+      
+        PA0_IDR_PRESSED(1);                                     /*!< WAIT PA0 IS RELEASE        >*/
+      
+        PA0_IDR_PRESSED(0);                                     /*!< WAIT UNTIL PA0 IS PRESSED AGAIN TO STOP THE MEASUREMENT >*/
+        CNT_EN_TIM(Timer,DISABLE);                              /*!< DISABLE COUNT TIM2          >*/
+        time = (float) (Timer->CNT)/F_CLK;                      /*!< MEASUREMENT TIME           >*/
+    }
+    
+    else if(mode == NOT_STOP_WATCH)
+    {
+      /*!<Check if PA0 is PRESSED>*/
+      if(((GPIOA->IDR) & (1<<0))== (1<<0))
+      {
+            CNT_EN_TIM(Timer,ENABLE);                           /*!< ENABLE COUNT TIM2          >*/
+            PA0_IDR_PRESSED(1);                                 /*!< WAIT PA0 IS RELEASE        >*/
+            CNT_EN_TIM(Timer,DISABLE);                          /*!< DISABLE COUNT TIM2          >*/
+            time = (float) (Timer->CNT)/F_CLK;                  /*!< MEASUREMENT TIME           >*/
+        }
+      
+    }
+    
+    return time;
+}
+
+
+
 /*!-----------------------------------------------------------------------------
 
                       API FOR EXTernal Interrupt AND INTERNAL INTERRUPT

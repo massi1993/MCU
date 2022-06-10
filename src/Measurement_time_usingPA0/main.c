@@ -4,8 +4,7 @@
 *       Last Update: June 10, 2022
 *           Author : massiAv
 *
-@brief  Start time measurement when the PA0 is pressed; Stop time when PA0 is pressed again.
-        Basically, we are implementing a stopwatch.
+
 */
 #include <stdio.h>
 #include "stm32f3x_lib.h"
@@ -13,7 +12,7 @@
 #include "stm32f3x_timer_driver.h"
 
 
-float time = RESET;                                             /*!< variable to store time measurement >*/
+float time_meas = RESET;
 
 void main()
 {
@@ -24,16 +23,10 @@ void main()
         
         while (1)
         {
-            PA0_IDR_PRESSED(0);                                 /*!< WAIT UNTIL PA0 IS PRESSED  TO START TIME MEASUREMENT >*/
-            CNT_EN_TIM(TIM2,ENABLE);                            /*!< ENABLE COUNT TIM2          >*/
           
-            PA0_IDR_PRESSED(1);                                 /*!< WAIT PA0 IS RELEASE        >*/
-          
-            PA0_IDR_PRESSED(0);                                 /*!< WAIT UNTIL PA0 IS PRESSED AGAIN TO STOP THE MEASUREMENT >*/
-            CNT_EN_TIM(TIM2,DISABLE);                           /*!< DISABLE COUNT TIM2          >*/
-          
-            time = (float) (TIM2->CNT)/F_CLK;                   /*!< MEASUREMENT TIME           >*/
-          
-            printf("Measurement time is: %f\n", time);
+            time_meas = Measure_Time(TIM2,STOP_WATCH);           /*!< Use TIM2 as StopWatch       >*/
+            //time_meas = Measure_Time(TIM2,NOT_STOP_WATCH);       /*!< Use TIM2 as NotStopWatch. It measure the time during pressing PA0    >*/
+            if(time_meas>0.0001)
+              printf("Measurement time is: %f seconds\n", time_meas);
         }
 }

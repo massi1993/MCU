@@ -27,6 +27,9 @@
 #define ENABLE                          1        
 #define DISABLE                         0
 
+#define STOP_WATCH                      1
+#define NOT_STOP_WATCH                  0
+
 /*!< MACROS TO DEFINE bits that are written by software to select the source input for the EXTIx with x = 0,1,2,3>*/
 /*!< WE DEFINE THEM PortNumber for EXTI REGISTER>*/
 
@@ -108,6 +111,7 @@ int bit_pos_GPIO_MODER(int PinNumber);
 /*!< API FOR TIMER >*/
 void set_PSC_and_ARR_TIM(TIMER_Type* Timer, unsigned int time, unsigned int Fck);
 void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status);
+float Measure_Time(TIMER_Type* Timer, unsigned int mode);
 /*!< API FOR INTERRUPT >*/
 void set_SYSCFG_EXTI(int PinNumber, int PortNumber);
 int index_EXTI(int PinNumber);
