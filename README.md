@@ -120,3 +120,5 @@ In the project, we use the ADC to obtain and elaborate the analog signal from PA
 Given an input code (from 0 to 4095) to the DAC, the relative output voltage from the ADC is obtained. 
 
 From the datasheet we have chosen to use pin PA4 for the DAC (DAC1_OUT1) and pin PA5 for the ADC (ADC2_IN2).
+
+![image](https://user-images.githubusercontent.com/83538787/173192289-3261a279-5553-49ec-bd6f-03b0999842cf.png)
