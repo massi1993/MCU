@@ -21,6 +21,15 @@ open the Debugger tab and select Use flash loader(s):
 5. Done: click OK to save the project settings.
 
 6. For this project, the workspace has been saved in the "binary_counter" folder and is renamed "workspace_project".
+# Table of contents
+
+### 1. Binary counter                   (folder binary counter)
+### 2. LED FLASHING EVERY x SECONDS     (folder led_on_timer)
+### 3. EXTERNAL INTERRUPT (PA0)         (folder PA0_EXTI)
+### 4. INTERNAL INTERRUPT (TIMER3)      (folder Timer3_internal_interrupt)
+### 5. FLASHING LED WITH SPEED CHANGE   (folder led_on_velocity_change)
+### 6. STOPWATCH/NOT_STOPWATCH          (folder Measurement_time_usingPA0)
+### 7. VOLTAGE CONVERTER                (folder Voltage_converter)
 
 # Description
 ## 1. Project binary counter
