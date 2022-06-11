@@ -314,6 +314,35 @@ typedef struct{
  
 }ADC_Common_Type;
 
+
+typedef struct{
+  
+      __vo uint32_t CR;                 /*!< its address is (DAC_base_address + 0x00) >*/
+      union{
+          __vo uint32_t SWTRIGR;        /*!< its address is (DAC_base_address + 0x04) >*/
+          struct{
+            unsigned SWTRIG1:1;
+            unsigned SWTRIG2:1;
+            unsigned RESERVED:30;
+          };
+      };
+      __vo uint32_t DHR12R1;            /*!< its address is (DAC_base_address + 0x08) >*/
+      __vo uint32_t DHR12L1;            /*!< its address is (DAC_base_address + 0x0C) >*/
+      __vo uint32_t DHR8R1;             /*!< its address is (DAC_base_address + 0x10) >*/
+      __vo uint32_t DHR12R2;            /*!< its address is (DAC_base_address + 0x14) >*/
+      __vo uint32_t DHR12L2;            /*!< its address is (DAC_base_address + 0x18) >*/     
+      __vo uint32_t DHR8R2;             /*!< its address is (DAC_base_address + 0x1C) >*/
+      __vo uint32_t DHR12RD;            /*!< its address is (DAC_base_address + 0x20) >*/
+      __vo uint32_t DHR12LD;            /*!< its address is (DAC_base_address + 0x24) >*/
+      __vo uint32_t DHR8RD;             /*!< its address is (DAC_base_address + 0x28) >*/
+      __vo uint32_t DOR1;               /*!< its address is (DAC_base_address + 0x2C) >*/
+      __vo uint32_t DOR2;               /*!< its address is (DAC_base_address + 0x30) >*/
+      __vo uint32_t SR;                 /*!< its address is (DAC_base_address + 0x34) >*/
+      
+}DAC_Type;
+
+
+
 /*!< define of peripheral base address >*/
 #define RCC             ((RCC_Type*)            0x40021000U)
 #define GPIOE           ((GPIO_Type*)           0x48001000U)
@@ -324,10 +353,27 @@ typedef struct{
 #define SYSCFG          ((SYSCFG_Type*)         0x40010000U)
 #define ADC1            ((ADC_Type*)            0x50000000U)
 #define ADC2            ((ADC_Type*)            0x50000100U)  
-#define ADC1_2           ((ADC_Common_Type*)     0x50000300U)  
+#define ADC1_2          ((ADC_Common_Type*)     0x50000300U)  
 #define ADC3            ((ADC_Type*)            0x50000400U)
 #define ADC4            ((ADC_Type*)            0x50000500U)
-#define ADC3_4           ((ADC_Common_Type*)     0x50000700U)
+#define ADC3_4          ((ADC_Common_Type*)     0x50000700U)
+#define DAC1            ((DAC_Type*)            0x40007400U) 
+
+/*!< define MACROS to enable Peripheral into RCC_APB1 >*/
+#define SPI2_EN                 (1<<14)
+#define SPI3_EN                 (1<<15)
+#define USART2_EN               (1<<17)
+#define USART3_EN               (1<<18)
+#define UART4_EN                (1<<19)
+#define UART5_EN                (1<<20)
+#define I2C1_EN                 (1<<21)
+#define I2C2_EN                 (1<<22)
+#define USB_EN                  (1<<23)
+#define CAN_EN                  (1<<25)
+#define PWREN_EN                (1<<28)
+#define DAC_EN                  (1<<29)
+
+
 
 /*!< define MACROS of GPIOx_EN into RCC_AHBENR >*/
 #define GPIOA_EN                (1<<17)
@@ -353,6 +399,7 @@ typedef struct{
                                                             available in the ADC_DR register. It is cleared by software writing 1 to it or by reading the ADC_DR
                                                              register>*/
 #define ADC_CR_ADEN             (1<<0)                  /*!< ADC Enable >*/
+#define ADC_CR_ADDIS            (1<<1)                  /*!< ADC Disable >*/                                                              
 #define ADC_CR_ADSTART          (1<<2)                  /*!< Write 1 to start regular conversions      >*/ 
 #define ADC_CR_REG_EN           (1<<28)
 #define ADC_CR_ADCAL            (1U<<31)                /*!< Write 1 to calibrate the ADC. Read at 1 means that a calibration in progress.
@@ -392,6 +439,11 @@ typedef struct{
                                                               This configuration must be enabled only if the AHB clock prescaler is set to 1. >*/
 #define ADC_CC_CCR_SYNC_CKMODE2 (1<<17)                 /*!<  Synchronous clock mode divided by 2: the analog ADC is clocked by the AHB clock divided by 2 >*/
 #define ADC_CC_CCR_SYNC_CKMODE4 (3<<16)                 /*!<  Synchronous clock mode divided by 4: the analog ADC is clocked by the AHB clock divided by 4 >*/
+
+
+/*!< define MACROS of DAC_REGISTER >*/
+#define DAC_CR_EN1              (1<<0)
+
 /*!-----------------------------------------------------------------------------
 
                           Reset and Clock Control                            

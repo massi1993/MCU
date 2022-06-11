@@ -417,7 +417,7 @@ int index_NVIC_ISER(int IRQ){
 
 /*!-----------------------------------------------------------------------------
 
-                                API FOR ADC
+                                API FOR ADC and DAC
 
 -------------------------------------------------------------------------------->*/
 /*!<
@@ -493,18 +493,115 @@ float get_quantization_level(ADC_Type* ADC, unsigned int ADC_res){
     return QL;
 }
 
+/*!<
+@brief
+Set number channel of ADC via Pin number.
+For example:
+  PA0 -> ADC1_IN1  (CHANNEL1)
+  PA1 -> ADC1_IN2  (CHANNEL2)
+  PA2 -> ADC1_IN3  (CHANNEL3)
+  etc...
+
+@param GPIO_Type* GPIO to specificate the port
+
+@param Pin number       to specificate the number of the port selected
+
+
+
+@return 
+
+*/
+unsigned int get_Nchannel_ADC(GPIO_Type* GPIO, unsigned int PinNumber){
+    
+    unsigned int channel = RESET;
+    
+    if(GPIO == GPIOA)
+    {
+      if(PinNumber == Px0 || PinNumber == Px4)
+      {
+          channel = 0x01;
+      }
+      else if (PinNumber == Px1 || PinNumber == Px5)
+      {
+          channel = 0x02;
+      }
+      else if (PinNumber == Px2 || PinNumber == Px6)
+      {
+          channel = 0x03;
+      }
+      else if (PinNumber == Px3 || PinNumber == Px7)
+      {
+          channel = 0x04;
+      }    
+    }
+    
+    return (channel << 6);
+}
+
+/*!<
+@brief
+SET NUMBER ADC BY PORT AND PIN NUMBER.
+
+For: From PA0 to PA3 -> ADC1
+     From PA4 to PA7 -> ADC2
+    ETC..
+
+@param GPIO_Type* GPIO to specificate the port
+
+@param Pin number       to specificate the number of the port selected
+
+
+@return ADC_Type* ADCx
+
+*/
+ADC_Type* get_number_ADC(GPIO_Type* GPIO, unsigned int PinNumber){
+  
+    ADC_Type* ADC_number;
+    
+    if(GPIO == GPIOA)
+    {
+      if(PinNumber <= Px3)
+      {
+          ADC_number = ADC1;
+      }
+      else if (PinNumber >= Px4 && PinNumber <= Px7)
+      {
+          ADC_number = ADC2;
+      }
+      
+    }
+    
+    return ADC_number;
+}
+
 
 /*!<
 
 @brief
 Set configuration for ADC 
 
-@param  ADC_Type* ADC, ADC_Common_Type* ADC_CC
+
+@param  GPIO_Type* GPIO, unsigned int PinNumber
+        specified PORT and pinnumber that enable ADC.
+        For example, if I choose PA5 to use ADC2, then I'll use setup_ADC(GPIOA,Px5)
 
 @return None
 
 */
-void config_ADC(ADC_Type* ADC, ADC_Common_Type* ADC_CC){
+
+void setup_ADC(GPIO_Type* GPIO, unsigned int PinNumber){
+    
+    ADC_Common_Type* ADC_CC;
+    ADC_Type* ADC = get_number_ADC(GPIO,PinNumber);
+    
+    if(ADC == ADC1 || ADC == ADC2)
+    {
+        ADC_CC = ADC1_2;
+    }
+    else
+    {
+        ADC_CC = ADC3_4;
+    }
     
     ADC_Voltage_Regulator_EN(ADC);
      
@@ -517,8 +614,58 @@ void config_ADC(ADC_Type* ADC, ADC_Common_Type* ADC_CC){
     while((ADC->ISR & ADC_ISR_ADRDY)!= ADC_ISR_ADRDY);          /*!< Wait for ADRDY change to 1 and be ready to conversion      >*/
      
     ADC->CFGR |= ADC_CFG_CONT;                                  /*!< Continuous conversion mode         >*/
-    ADC->SQR1 |= (1<<6);                                        /*!< SQR1=00001 -> CHANNEL 1 (PA0)      >*/
+    ADC->SQR1 |= get_Nchannel_ADC(GPIO,PinNumber);                                        /*!< number channel      >*/
     ADC->SQR1 &=~ (0x0000000F);                                 /*!< L=0000 -> 1 Conversion             >*/
     ADC->SMPR1 |= ADC_SMP1_601_5CKC;                            /*!< Choose 601.5 CLOCK CYCLES          >*/
 } 
 
+
+/*!<
+
+@brief
+Setup for DAC
+
+@param  DAC_Type* DAC, unsigned int code
+
+@return None
+
+*/
+void setup_DAC(DAC_Type* DAC, unsigned int code){
+
+    DAC->CR |= DAC_CR_EN1;
+    if(code <= 4095)
+      DAC->DHR12R1 = code;
+    for(int j=0;j<1000;j++);                    /*!< Wait voltage generation    >*/
+
+}
+
+
+/*!<
+
+@brief
+DISABLE ADC
+
+@param  ADC_Type* ADC TO DISABLE
+
+@return None
+
+*/
+void ADC_DISABLE(ADC_Type* ADC){
+  
+    ADC->CR |= ADC_CR_ADDIS;
+}
+
+/*!<
+
+@brief
+DISABLE DAC
+
+@param  DAC_Type* DAC TO DISABLE
+
+@return None
+
+*/
+void DAC_DISABLE(DAC_Type* DAC){
+  
+    DAC->CR &=~ DAC_CR_EN1;
+}

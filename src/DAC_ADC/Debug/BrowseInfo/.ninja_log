@@ -1,0 +1,13 @@
+# ninja log v5
+2	191	6766498560000000	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/BrowseInfo/main.xcl	3d472d8a8986c536
+1	60	6766604621698543	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/BrowseInfo/main.pbi	3dd47831e97ec34
+63	85	6766604622010544	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/BrowseInfo/dac_adc.pbd	e7d963b0bb26fe87
+88	665	6766604627470554	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/BrowseInfo/dac_adc.pbw	3e5c198acb3b104e
+4	248	6766498560000000	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/BrowseInfo/stm32f3x_api.xcl	b8b261d1e49d09bf
+1	78	6766593705479323	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/BrowseInfo/stm32f3x_api.pbi	1f69ee14a1e24aa3
+2	82	6766608109712694	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/BrowseInfo/main.pbi	3dd47831e97ec34
+84	112	6766608110024695	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/BrowseInfo/dac_adc.pbd	e7d963b0bb26fe87
+115	698	6766608115484704	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/BrowseInfo/dac_adc.pbw	3e5c198acb3b104e
+1	77	6766608217070884	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/BrowseInfo/main.pbi	3dd47831e97ec34
+79	105	6766608217382885	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/BrowseInfo/dac_adc.pbd	e7d963b0bb26fe87
+108	862	6766608224714898	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/BrowseInfo/dac_adc.pbw	3e5c198acb3b104e

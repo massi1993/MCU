@@ -24,16 +24,16 @@ void main()
           
           GPIOE_OUTMODE(Px8,Px15);
          
-          config_ADC(ADC1,ADC1_2);
+          setup_ADC(GPIOA,Px0);
 
-          ADC1->CR |= ADC_CR_ADSTART;                                   /*!< Start CONVERSIONE pull up bit ADSTART >*/
+          ADC1->CR |= ADC_CR_ADSTART;                                   /*!< Start CONVERSION pull up bit ADSTART >*/
          
           
           while(1)
           {
               while((ADC1->ISR & (ADC_ISR_EOC))!= (ADC_ISR_EOC));       /*!< Wait that EOC change to 1, when EOC=1 can read the result in ADC->DR*/
              
-              voltage = (ADC1->DR) * (VDD_USB/get_quantization_level(ADC1,ADC_CFG_RES_12bit));
+              voltage = (ADC1->DR) * (VDD_USB/(get_quantization_level(ADC1,ADC_CFG_RES_12bit) - 1));
              
               if(voltage<=3 && voltage>=2.998)
               {

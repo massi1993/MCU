@@ -1,0 +1,12 @@
+# ninja log v5
+6	165	6766562957054506	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/Obj/stm32f3x_api.o	e809764e31361a1
+1	188	6766562957396508	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/Obj/main.o	9ac3473daafc8a45
+193	265	6766562958176509	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/Exe/voltage-converter.out	33586aa625bcef70
+42	884	6766588494088793	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/Obj/stm32f3x_api.o	e809764e31361a1
+1	998	6766588495180795	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/Obj/main.o	9ac3473daafc8a45
+1003	1275	6766588497988800	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/Exe/voltage-converter.out	33586aa625bcef70
+2	146	6766589883521030	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/Obj/stm32f3x_api.o	e809764e31361a1
+150	226	6766589884311075	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/Exe/voltage-converter.out	33586aa625bcef70
+16	190	6766605056197306	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/Obj/stm32f3x_api.o	e809764e31361a1
+12	263	6766605056821308	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/Obj/main.o	9ac3473daafc8a45
+267	342	6766605057601309	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/Exe/voltage-converter.out	33586aa625bcef70

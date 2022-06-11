@@ -94,6 +94,19 @@
 /*!< define MACROS for RCC_AP1 ENABLE >*/
 #define RCC_APB1ENR_TIM2                TIM2_EN
 #define RCC_APB1ENR_TIM3                TIM3_EN
+#define RCC_APB1ENR_SPI2                SPI2_EN                 
+#define RCC_APB1ENR_SPI3                SPI3_EN                 
+#define RCC_APB1ENR_USART2              USART2_EN               
+#define RCC_APB1ENR_USART3              USART3_EN               
+#define RCC_APB1ENR_UART                UART4_EN                
+#define RCC_APB1ENR_UART5               UART5_EN                
+#define RCC_APB1ENR_I2C1                I2C1_EN                 
+#define RCC_APB1ENR_I2C2                I2C2_EN                 
+#define RCC_APB1ENR_USB                 USB_EN                  
+#define RCC_APB1ENR_CAN                 CAN_EN                  
+#define RCC_APB1ENR_PWREN               PWREN_EN                
+#define RCC_APB1ENR_DAC                 DAC_EN                  
+
 
 
 
@@ -123,11 +136,14 @@ int bit_pos_EXTI(int PinNumber);
 void set_NVIC_ISER(int IRQ);
 int index_NVIC_ISER(int IRQ);
 
-/*!< API FOR ADC >*/
+/*!< API FOR ADC AND DAC>*/
 void ADC_Voltage_Regulator_EN(ADC_Type* ADC);
 float get_quantization_level(ADC_Type* ADC, unsigned int ADC_res);
-void config_ADC(ADC_Type* ADC, ADC_Common_Type* ADC_CC);
-
-
+unsigned int get_Nchannel_ADC(GPIO_Type* GPIO, unsigned int PinNumber);
+ADC_Type* get_number_ADC(GPIO_Type* GPIO, unsigned int PinNumber);
+void setup_ADC(GPIO_Type* GPIO, unsigned int PinNumber);
+void setup_DAC(DAC_Type* DAC, unsigned int code);
+void ADC_DISABLE(ADC_Type* ADC);
+void DAC_DISABLE(DAC_Type* DAC);
 
 #endif /* STM32_F3X_DRIVER_H */
