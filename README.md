@@ -81,9 +81,7 @@ Start time measurement when the PA0 is pressed; Stop time when PA0 is pressed ag
 
 ## 7. Project VOLTAGE CONVERTER
 
-The converted digital data is found on the RDATA register (Regular DATA which then goes to the AHB interface) and represents the number of samples counted, 
-each of which is  $ V_{in} =R_{DATA} * (V_{DD} * 2^{n}) $  volts (this difference represents precisely the quantization and $ 2^{n} $ are the quantization levels -> 
-in the case of 12 bits these quantization levels are $ 2^{12} = 4096 $). 
+The converted digital data is found on the RDATA register (Regular DATA which then goes to the AHB interface) and represents the number of samples counted, each of which is  $ V_{in} =R_{DATA} * (V_{DD} * 2^{n}) $  volts (this difference represents precisely the quantization and $ 2^{n} $ are the quantization levels -> in the case of 12 bits these quantization levels are $ 2^{12} = 4096 $). 
 
 So, the voltage is:
 
