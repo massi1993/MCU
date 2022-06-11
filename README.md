@@ -91,7 +91,7 @@ with $ V_{DD} = 3 V $ or $ 3.3 V $ respectively if the microcontroller is powere
 
 In the project, we use the ADC to obtain and elaborate the analog signal from PA0 (set as analog input) in order to get voltage's value (on PA0) , using formula (1)
 
-[PAO NOT PRESSED]
+[PA0 NOT PRESSED]
 
 ![image](https://user-images.githubusercontent.com/83538787/173183914-16214e62-49ea-4e82-8a58-9f671f408cbf.png)
 
