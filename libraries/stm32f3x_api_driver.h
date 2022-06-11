@@ -1,7 +1,7 @@
 /* STM32_F3X_DRIVER_H
 *
 *       Created on : June 01, 2022 
-*      Last Update : June 10, 2022
+*      Last Update : June 11, 2022
 *           Author : massiAv
 *
 */
@@ -124,7 +124,8 @@ void set_NVIC_ISER(int IRQ);
 int index_NVIC_ISER(int IRQ);
 
 /*!< API FOR ADC >*/
-void  ADC_Voltage_Regulator_EN(ADC_Type* ADC);
+void ADC_Voltage_Regulator_EN(ADC_Type* ADC);
+float get_quantization_level(ADC_Type* ADC, unsigned int ADC_res);
 void config_ADC(ADC_Type* ADC, ADC_Common_Type* ADC_CC);
 
 

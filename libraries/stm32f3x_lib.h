@@ -1,7 +1,7 @@
 /* STM32_F3X_LIB_H
 *
 *       Created on : June 01, 2022 
-*      Last Update : June 10, 2022
+*      Last Update : June 11, 2022
 *           Author : massiAv
 *
 */
@@ -13,14 +13,19 @@
 
 
 
-#define __vo            volatile                   /*!< The volatile keyword is intended to prevent 
-                                                    the compiler from applying any optimizations on 
-                                                    objects that can change in ways that cannot be 
-                                                    determined by the compiler.
-                                                    E.g. A variable can be modified by external 
-                                                    interrupt.>*/    
+#define __vo            volatile                        /*!< The volatile keyword is intended to prevent 
+                                                          the compiler from applying any optimizations on 
+                                                          objects that can change in ways that cannot be 
+                                                          determined by the compiler.
+                                                          E.g. A variable can be modified by external 
+                                                          interrupt.>*/    
 
-#define FLASH_BASE      ((uint32_t)0x08000000)     /*!< FLASH base address in the alias region >*/
+#define FLASH_BASE      ((uint32_t)0x08000000)          /*!< FLASH base address in the alias region >*/
+                                                      
+                                                      
+#define VDD_USB         3.0                             /*!< Voltage if the MCU is powered via USB>*/                              
+#define VDD_BATTERY     3.3                             /*!< Voltage if the MCU is powered via BATTERY>*/
+                                                      
 
 /*!-----------------------------------------------------------------------------
 
@@ -162,14 +167,59 @@ typedef struct{
 
 
 typedef struct{
-       __vo uint32_t MODER;             /*!< its address is (GPIOx_base_address + 0x00) >*/
-       __vo uint32_t OTYPER;            /*!< its address is (GPIOx_base_address + 0x04) >*/
-       __vo uint32_t OSPEEDR;           /*!< its address is (GPIOx_base_address + 0x08) >*/
-       __vo uint32_t PUPDR;             /*!< its address is (GPIOx_base_address + 0x0C) >*/
-       __vo uint32_t IDR;               /*!< its address is (GPIOx_base_address + 0x10) >*/
-       __vo uint32_t ODR;               /*!< its address is (GPIOx_base_address + 0x14) >*/
-       __vo uint16_t BSR;               /*!< its address is (GPIOx_base_address + 0x18) >*/
-       __vo uint16_t BRR;               /*!< its address is (GPIOx_base_address + 0x0A) >*/
+       
+        union{
+            __vo uint32_t MODER;             /*!< its address is (GPIOx_base_address + 0x00) >*/
+            struct{
+              unsigned MODER0:2;
+              unsigned MODER1:2;
+              unsigned MODER2:2;
+              unsigned MODER3:2;
+              unsigned MODER4:2;
+              unsigned MODER5:2;
+              unsigned MODER6:2;
+              unsigned MODER7:2;
+              unsigned MODER8:2;
+              unsigned MODER9:2;
+              unsigned MODER10:2;
+              unsigned MODER11:2;
+              unsigned MODER12:2;
+              unsigned MODER13:2;
+              unsigned MODER14:2;
+              unsigned MODER15:2;
+            };
+        };     
+        
+       __vo uint32_t OTYPER;                    /*!< its address is (GPIOx_base_address + 0x04) >*/
+       __vo uint32_t OSPEEDR;                   /*!< its address is (GPIOx_base_address + 0x08) >*/
+       __vo uint32_t PUPDR;                     /*!< its address is (GPIOx_base_address + 0x0C) >*/
+       __vo uint32_t IDR;                       /*!< its address is (GPIOx_base_address + 0x10) >*/
+       
+       union{
+          __vo uint16_t ODR;                    /*!< its address is (GPIOx_base_address + 0x14) >*/
+          struct{
+              unsigned ODR0:1;
+              unsigned ODR1:1;
+              unsigned ODR2:1;
+              unsigned ODR3:1;
+              unsigned ODR4:1;
+              unsigned ODR5:1;
+              unsigned ODR6:1;
+              unsigned ODR7:1;
+              unsigned ODR8:1;
+              unsigned ODR9:1;
+              unsigned ODR10:1;
+              unsigned ODR11:1;
+              unsigned ODR12:1;
+              unsigned ODR13:1;
+              unsigned ODR14:1;
+              unsigned ODR15:1;
+            };
+       };
+            uint16_t RESERVED;                  /*!< its address is (GPIOx_base_address + 0x16) >*/
+       __vo uint16_t BSR;                       /*!< its address is (GPIOx_base_address + 0x18) >*/
+       __vo uint16_t BRR;                       /*!< its address is (GPIOx_base_address + 0x0A) >*/
+       
 }GPIO_Type;
 
 
@@ -307,6 +357,15 @@ typedef struct{
 #define ADC_CR_REG_EN           (1<<28)
 #define ADC_CR_ADCAL            (1U<<31)                /*!< Write 1 to calibrate the ADC. Read at 1 means that a calibration in progress.
                                                              Bit ADCAL will be 0 when calibration is complete.>*/
+
+
+                                                        /*!< These bits are written by software to select the resolution of the conversion.>*/
+#define ADC_CFG_RES_12bit       (0x0<<3)                /*!<    '00': 12-bit      >*/
+#define ADC_CFG_RES_10bit       (0x1<<3)                /*!<    '01': 10-bit      >*/
+#define ADC_CFG_RES_8bit        (0x2<<3)                /*!<    '10': 8-bit       >*/
+#define ADC_CFG_RES_6bit        (0x3<<3)                /*!<    '11': 6-bit       >*/
+                                                        /*!< Note: Software is allowed to write these bits only when ADSTART=0 and JADSTART=0 (which
+                                                             ensures that no conversion is ongoing)>*/
 
 #define ADC_CFG_CONT            (1<<13)                 /*!< Single / continuous conversion mode for regular conversions
                                                              This bit is set and cleared by software. If it is set, regular conversion takes place continuously until it

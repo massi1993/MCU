@@ -24,14 +24,19 @@
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$PROJ_DIR$\..\Measurement_time_usingPA0\main.c</file>
-            <file>$PROJ_DIR$\..\led_on_velocity_change\main.c</file>
-            <file>$PROJ_DIR$\..\Timer3_internal_interrupt\main.c</file>
-            <file>$PROJ_DIR$\..\Voltage_converter\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
         </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 13 15</file>
+                </tool>
+            </outputs>
+        </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
@@ -52,7 +57,7 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 19</file>
+                    <file> 21</file>
                 </tool>
             </outputs>
             <inputs>
@@ -61,15 +66,6 @@
                     <file> 3 10 8 12 18 6 14 2 4</file>
                 </tool>
             </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 13 15</file>
-                </tool>
-            </outputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\led_on_timer.out</name>
@@ -82,7 +78,7 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 7 16 19 20 11 17 21</file>
+                    <file> 7 16 21 19 11 17 20</file>
                 </tool>
             </inputs>
         </file>

@@ -1,11 +1,12 @@
 /* STM32_F3X_API
 *
 *       Created on : June 04, 2022 
-*      Last Update : June 10, 2022       
+*      Last Update : June 11, 2022       
 *           Author : massiAv
 *
 */
 
+#include <math.h>
 #include "stm32f3x_lib.h"
 #include "stm32f3x_api_driver.h"
 #include "stm32f3x_timer_driver.h"
@@ -139,12 +140,18 @@ Set in OUT_MODE LEds from PEStart to PEStop
 */
 void GPIOE_OUTMODE(int PEstart, int PEstop){
 
-    for(int i=PEstart; i<=PEstop; i++)
+    if(PEstart != Px8 && PEstop != Px15)
     {
-        GPIOE->MODER |= (OUT_MODE << 2*i);
-    
+        for(int i=PEstart; i<=PEstop; i++)
+        {
+            GPIOE->MODER |= (OUT_MODE << 2*i);
+        
+        }
     }
-
+    else
+    {
+        GPIOE->MODER|=0x55550000;
+    }
 }
 
 
@@ -433,16 +440,72 @@ void  ADC_Voltage_Regulator_EN(ADC_Type* ADC){
     for(int i=0;i<1000;i++);            /*!< WAIT 10 us                 >*/
 }
 
-
 /*!<
 @brief
+Set ADC_CFGR_RES. Setting of data resolution of adc and get quantization levels. 
+For example:
+  res = 12-bit
+  res = 10-bit
+  res = 8-bit
+  res = 6-bit
 
-@param 
-@return 
+  quantization level is:
+  QL = 2^res
+
+@param unsigned int resolution  
+        One between:
+        - ADC_CFG_RES_12bit  
+        - ADC_CFG_RES_10bit 
+        - ADC_CFG_RES_8bit  
+        - ADC_CFG_RES_6bit  
+
+@param ADC_Type* ADC
+
+@return float quantization level (for example 4096.0)
+
+*/
+float get_quantization_level(ADC_Type* ADC, unsigned int ADC_res){
+    
+    float QL = RESET;
+    int ADC_res_bit = RESET;
+    
+    ADC ->CFGR |= ADC_res;
+    
+    if((ADC ->CFGR & (0x3<<3))== ADC_CFG_RES_12bit)
+    {
+        ADC_res_bit = 12;
+    }
+    else if((ADC ->CFGR & (0x3<<3))== ADC_CFG_RES_10bit)
+    {
+        ADC_res_bit = 10;
+    }
+    else if((ADC ->CFGR & (0x3<<3)) == ADC_CFG_RES_8bit)
+    {
+        ADC_res_bit = 8;
+    }
+    else if((ADC ->CFGR & (0x3<<3)) == ADC_CFG_RES_6bit)
+    {   
+        ADC_res_bit = 6;
+    }
+        
+    QL = pow(2,ADC_res_bit);
+    
+    return QL;
+}
+
+
+/*!<
+
+@brief
+Set configuration for ADC 
+
+@param  ADC_Type* ADC, ADC_Common_Type* ADC_CC
+
+@return None
 
 */
 void config_ADC(ADC_Type* ADC, ADC_Common_Type* ADC_CC){
-  
+    
     ADC_Voltage_Regulator_EN(ADC);
      
     ADC_CC->CCR |= ADC_CC_CCR_SYNC_CKMODE1;                     /*!< For detail see the declaration of ADC_CC_CCR_SYNC_CKMODE1  >*/
