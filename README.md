@@ -1,7 +1,19 @@
 # Project MCU
 # Update : 11/06/22 , version : 0.4
 
-# CONFIGURATION IDE IAR EMBEDDED : Follow these steps to configure project options
+# Table of contents
+
+0. [IDE_Configuration](#confIDE)
+1. [Binary counter](#bin-count) 
+2. [LED FLASHING EVERY x SECONDS](#ledOnSeconds)     
+3. [EXTERNAL INTERRUPT (PA0)](#PA0exti)         
+4. [INTERNAL INTERRUPT (TIMER3)](#TIM3int)      
+5. [FLASHING LED WITH SPEED CHANGE](#ledOnSpeed)   
+6. [STOPWATCH/NOT_STOPWATCH](#StopWatchOrNo)          
+7. [VOLTAGE CONVERTER](#V_converter)     
+
+# CONFIGURATION IDE IAR EMBEDDED :  <a name="confIDE"></a>
+## Follow these steps to configure project options
 1. In the Project Editor, right-click on the project name and select Options... to display the Options dialog box:
 In the Options dialog box, select the General Options category, open the Target tab and select Device - ST -STM32F303:
 ![config1](https://user-images.githubusercontent.com/83538787/171648935-19605a9c-bc42-47fe-afc5-051d73a3ed70.png)
@@ -21,15 +33,7 @@ open the Debugger tab and select Use flash loader(s):
 5. Done: click OK to save the project settings.
 
 6. For this project, the workspace has been saved in the "binary_counter" folder and is renamed "workspace_project".
-# Table of contents
-
-1. [Binary counter](#bin-count) 
-2. [LED FLASHING EVERY x SECONDS](#ledOnSeconds)     
-3. [EXTERNAL INTERRUPT (PA0)](#PA0exti)         
-4. [INTERNAL INTERRUPT (TIMER3)](#TIM3int)      
-5. [FLASHING LED WITH SPEED CHANGE](#ledOnSpeed)   
-6. [STOPWATCH/NOT_STOPWATCH](#StopWatchOrNo)          
-7. [VOLTAGE CONVERTER](#V_converter)                
+          
 
 # Description
 ## 1. Project binary counter (folder binary counter) <a name="bin-count"></a>
