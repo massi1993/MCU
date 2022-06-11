@@ -10,7 +10,8 @@
 4. [INTERNAL INTERRUPT (TIMER3)](#TIM3int)      
 5. [FLASHING LED WITH SPEED CHANGE](#ledOnSpeed)   
 6. [STOPWATCH/NOT_STOPWATCH](#StopWatchOrNo)          
-7. [VOLTAGE CONVERTER](#V_converter)     
+7. [VOLTAGE CONVERTER](#V_converter)
+8. [DAC-ADC](#DAC-ADC)     
 
 # CONFIGURATION IDE IAR EMBEDDED :  <a name="confIDE"></a>
 ## Follow these steps to configure project options
@@ -112,3 +113,10 @@ In the project, we use the ADC to obtain and elaborate the analog signal from PA
 
 ![image](https://user-images.githubusercontent.com/83538787/173183945-aa556b50-7764-4ad1-b4c3-aa87896f101a.png)
 
+## 8. Project DAC-ADC IN SERIES (folder DAC_ADC) <a name="DAC-ADC"></a>
+
+![DAC-ADC](https://user-images.githubusercontent.com/83538787/173192086-aec7c769-2c91-4fb4-86e5-5344fb71de2f.PNG)
+
+Given an input code (from 0 to 4095) to the DAC, the relative output voltage from the ADC is obtained. 
+
+From the datasheet we have chosen to use pin PA4 for the DAC (DAC1_OUT1) and pin PA5 for the ADC (ADC2_IN2).
