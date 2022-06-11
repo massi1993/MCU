@@ -39,12 +39,12 @@ void main()
         ADC->CR |= ADC_CR_ADSTART;                             /*!< Start CONVERSIONE pull up bit ADSTART >*/
         while((ADC->ISR & ADC_ISR_EOC) != ADC_ISR_EOC );       /*!< Wait that EOC change to 1, when EOC=1 can read the result in ADC->DR*/
         
-        
-	voltage_out=(DAC1->DHR12R1)*(VDD_USB/(pow(2,12) - 1));          /*!< DAC output voltage reading >*/
+          
+	voltage_out=(DAC1->DHR12R1)*(VDD_USB/(pow(2,12) - 1));                                  /*!< DAC output voltage reading >*/
 	printf("DAC\ninput: %d\noutput: %.4f V\n",DAC1->DHR12R1,voltage_out);
 	 
-	code_out=ADC->DR;                                       /*!< ADC output code reading    >*/
-	voltage_in=code_out*(VDD_USB/(get_quantization_level(ADC,ADC_CFG_RES_12bit) - 1));
+	code_out=ADC->DR;                                       
+	voltage_in=code_out*(VDD_USB/(get_quantization_level(ADC,ADC_CFG_RES_12bit) - 1));      /*!< ADC output code reading    >*/
 	printf("ADC\ninput: %.4f V\noutput: %d \n",voltage_in,code_out);
 
         ADC_DISABLE(ADC);
