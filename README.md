@@ -85,7 +85,9 @@ The converted digital data is found on the RDATA register (Regular DATA which th
 
 So, the voltage is:
 
-$ V_{in} =R_{DATA} * (V_{DD} * 2^{12})$  (1)  with $ V_{DD} = 3 V $ or $ 3.3 V $ respectively if the microcontroller is powered via USB or battery.
+$ V_{in} =R_{DATA} * (V_{DD} * 2^{12})$  (1)  
+
+with $ V_{DD} = 3 V $ or $ 3.3 V $ respectively if the microcontroller is powered via USB or battery.
 
 In the project, we use the ADC to obtain and elaborate the analog signal from PA0 (set as analog input) in order to get voltage's value (on PA0) , using formula (1)
 
