@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\binary_counter\binarny_cnt.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\PA0_EXTI\exti_PA0.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\led_on_timer\led_on_timer.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\led_on_velocity_change\led_on_velocity_change.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Measurement_time_usingPA0\measuremente_time.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Timer3_internal_interrupt\Tim3_Internal_interrupt.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Voltage_converter\voltage-converter.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

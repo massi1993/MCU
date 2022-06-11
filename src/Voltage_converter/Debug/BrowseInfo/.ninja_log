@@ -1,11 +1,7 @@
 # ninja log v5
-1	2854	6765721990000000	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/main.xcl	79362a9f46f9f5c4
-0	207	6766456782341084	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/main.pbi	5202f359488fca72
-210	233	6766456782631100	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/voltage-converter.pbd	ff04c15940581504
-2	167	6766456781951061	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/stm32f3x_api.pbi	d6eca54fe92269c4
-235	15869	6766456929569505	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/voltage-converter.pbw	47a266148946418d
-89	2628	6765721990000000	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/stm32f3x_api.xcl	cdd3ff32b48d043b
-1	656	6766456995803293	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/main.pbi	5202f359488fca72
-3	673	6766456995973303	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/stm32f3x_api.pbi	d6eca54fe92269c4
-676	699	6766456996253319	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/voltage-converter.pbd	ff04c15940581504
-701	13375	6766457118089227	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/voltage-converter.pbw	47a266148946418d
+0	569	6766480090000000	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/main.xcl	79362a9f46f9f5c4
+268	599	6766480090000000	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/stm32f3x_api.xcl	cdd3ff32b48d043b
+603	771	6766480096272100	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/stm32f3x_api.pbi	d6eca54fe92269c4
+573	778	6766480096332103	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/main.pbi	5202f359488fca72
+780	857	6766480097142150	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/voltage-converter.pbd	ff04c15940581504
+859	3860	6766480126741341	C:/Users/Attilio/Documents/GitHub/MCU/src/Voltage_converter/Debug/BrowseInfo/voltage-converter.pbw	47a266148946418d
