@@ -23,7 +23,7 @@ open the Debugger tab and select Use flash loader(s):
 6. For this project, the workspace has been saved in the "binary_counter" folder and is renamed "workspace_project".
 # Table of contents
 
-### 1. Binary counter                   (folder binary counter)
+1. [Binary counter](#bin-count)                   
 ### 2. LED FLASHING EVERY x SECONDS     (folder led_on_timer)
 ### 3. EXTERNAL INTERRUPT (PA0)         (folder PA0_EXTI)
 ### 4. INTERNAL INTERRUPT (TIMER3)      (folder Timer3_internal_interrupt)
@@ -32,7 +32,7 @@ open the Debugger tab and select Use flash loader(s):
 ### 7. VOLTAGE CONVERTER                (folder Voltage_converter)
 
 # Description
-## 1. Project binary counter
+## 1. Project binary counter (folder binary counter) <a name="bin-count"></a>
 To make a binary counter we need a counter variable, whose value increases by 1 each time the USER button (PA0) is pressed. 
 We also want the value to be shown on the display, which in our case is represented by the 8 LEDs.
 
