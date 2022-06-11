@@ -1,5 +1,5 @@
 # Project MCU
-# Update : 10/06/22 , version : 0.4
+# Update : 11/06/22 , version : 0.4
 
 # CONFIGURATION IDE IAR EMBEDDED : Follow these steps to configure project options
 1. In the Project Editor, right-click on the project name and select Options... to display the Options dialog box:
@@ -78,3 +78,14 @@ Start time measurement when the PA0 is pressed; Stop time when PA0 is pressed ag
 [MODE_STOPWATCH]
 
 ![image](https://user-images.githubusercontent.com/83538787/173041289-64b4213a-c3e8-4aab-a95f-83aa3fc1a8e6.png)
+
+## 6. Project VOLTAGE CONVERTER
+
+The converted digital data is found on the RDATA register (Regular DATA which then goes to the AHB interface) and represents the number of samples counted, 
+each of which is  
+$ V_{in} =R_{DATA} * (V_{DD} * 2^{n}) $ volts (this difference represents precisely the quantization and $ 2^{n} $ are the quantization levels -> in the case of 12
+bits these quantization levels are $ 2^{12} = 4096 $). So, the voltage is:
+$ V_{in} =R_{DATA} * (V_{DD} * 2^{12}) (1) $ with $ V_{DD} = 3 V or 3.3 V$ respectively if the microcontroller is powered via USB or battery.
+In the project, we use the ADC to obtain and elaborate the analog signal from PA0 (set as analog input) in order to get voltage's value (on PA0) , using formula (1)
+
+
