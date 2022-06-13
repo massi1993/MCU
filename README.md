@@ -127,3 +127,8 @@ From the datasheet we have chosen to use pin PA4 for the DAC (DAC1_OUT1) and pin
 ## 9. Project DAC-ADC with USART (folder DAC_ADC_USART) <a name="DAC-ADC-USART"></a>
 
 A code is sent to the DAC which then converts into an analog signal, which is converted back into a digital signal via ADC.
+
+![dac-adc-usart](https://user-images.githubusercontent.com/83538787/173396173-81055e52-a89c-4f06-a5ba-11aa3c58527f.PNG)
+
+![teraTerm](https://user-images.githubusercontent.com/83538787/173396577-302e1c91-8e48-4d24-81b9-dda409483b9b.PNG)
+
