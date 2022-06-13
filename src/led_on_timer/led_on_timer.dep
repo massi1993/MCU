@@ -25,9 +25,18 @@
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\Debug\List\led_on_timer.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
             <file>$PROJ_DIR$\Debug\Exe\led_on_timer.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
         </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 19 20</file>
+                </tool>
+            </outputs>
+        </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
@@ -48,7 +57,7 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 20</file>
+                    <file> 21</file>
                 </tool>
             </outputs>
             <inputs>
@@ -69,18 +78,9 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 10 18 20 16 14 7 15</file>
+                    <file> 10 18 21 16 14 7 15</file>
                 </tool>
             </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 19 21</file>
-                </tool>
-            </outputs>
         </file>
         <forcedrebuild>
             <name>$PROJ_DIR$\main.c</name>

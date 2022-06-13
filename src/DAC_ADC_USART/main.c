@@ -16,12 +16,12 @@ Note: REMEMBER to link PA4 and PA2 via JUMPER
 #include "stm32f3x_timer_driver.h"
 
 
-const char txt1 [60]= {"Type A to insert code 4095 to the DAC\r\n"};
+const char txt1 [60]= {"\nType A to insert code 4095 to the DAC\r\n"};
 const char txt2 [60]= {"Type B to insert code 3000 to the DAC\r\n"};
 const char txt3 [60]= {"Type C to insert code 2500 to the DAC\r\n"};
 const char txt4 [60]= {"Type D to insert code 1750 to the DAC\r\n\n"};
-const char txt5 [60]= {"You typed an incorrect value, RETRY! \r\n"};
-const char txt6 [60]= {"Ok, correct value\r\n"};
+const char txt5 [60]= {"\nYou typed an incorrect value, RETRY! \r\n\n"};
+const char txt6 [60]= {"\nOk, correct value\r\n\n"};
 
 
 char datoRx;                    /*!< variable in which the data read by usart is stored>*/
@@ -34,7 +34,7 @@ float voltage_out;              /*!< DAC's output voltage                       
 float voltage_in;               /*!< ADC's input voltage                                   >*/ 
 int code_out;                   /*!< ADC's output code                                     >*/     
  
- 
+char text_result[100]; 
 void main(){
           
           RCC_PCLK_AHBEN(RCC_AHBENR_GPIOA,ENABLE);              /*!< Enable GPIOA       >*/
@@ -97,15 +97,19 @@ void main(){
               setup_DAC(DAC1,code_in_dac);                              /*!< Only now call the setup_DAC() function. First at all, it was necessary to set the code_in_dac variable >*/         
                  
               voltage_out=(DAC1->DHR12R1)*(VDD_USB/(pow(2,12)-1.0));    /*!< DAC output voltage reading >*/
-              printf("DAC\ninput: %d\noutput: %f V\n",DAC1->DHR12R1,voltage_out);
+              //printf("DAC\ninput: %d\noutput: %f V\n",DAC1->DHR12R1,voltage_out);
              
               ADC->CR|=ADC_CR_ADSTART;                                  /*!< Start CONVERSIONE pull up bit ADSTART >*/
               while( (ADC->ISR & ADC_ISR_EOC) != ADC_ISR_EOC);          /*!< Wait that EOC change to 1, when EOC=1 can read the result in ADC->DR*/
           
               code_out=ADC->DR;                                         /*!< ADC output code reading    >*/
               voltage_in=code_out*(VDD_USB/(get_quantization_level(ADC,ADC_CFG_RES_12bit) - 1));
-              printf("ADC\ninput: %f V\noutput: %d \n\n",voltage_in,code_out);
-          
+              //printf("ADC\ninput: %f V\noutput: %d \n\n",voltage_in,code_out);
+              
+              sprintf(text_result,"DAC's Voltage output : %f\r\nADC's Voltage input : %f\r\n",voltage_out,voltage_in);          /*!< Build result into string to transmitt   >*/
+              
+              usart_tx(USART1,text_result,strlen(text_result));         /*!< Final String to Transmitt       >*/
+              
               code_out = RESET;
               code_in_dac = RESET;
           
