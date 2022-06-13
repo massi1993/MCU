@@ -130,5 +130,4 @@ A code is sent to the DAC which then converts into an analog signal, which is co
 
 ![dac-adc-usart](https://user-images.githubusercontent.com/83538787/173396173-81055e52-a89c-4f06-a5ba-11aa3c58527f.PNG)
 
-![teraTerm](https://user-images.githubusercontent.com/83538787/173396577-302e1c91-8e48-4d24-81b9-dda409483b9b.PNG)
-
+![teraTerm](https://user-images.githubusercontent.com/83538787/173401386-0db9d5ac-aa10-49e3-9d31-b0ad9e915ed8.PNG)
