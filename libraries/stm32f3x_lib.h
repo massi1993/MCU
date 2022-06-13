@@ -161,8 +161,8 @@ typedef struct{
         __vo uint32_t BDCR;             /*!< its address is (RCC_base_address + 0x20) >*/   
         __vo uint32_t CSR;              /*!< its address is (RCC_base_address + 0x24) >*/   
         __vo uint32_t AHBRSTR;          /*!< its address is (RCC_base_address + 0x28) >*/   
-        __vo uint32_t CFGR2;             /*!< its address is (RCC_base_address + 0x2C) >*/
-        __vo uint32_t CFGR3;             /*!< its address is (RCC_base_address + 0x30) >*/
+        __vo uint32_t CFGR2;            /*!< its address is (RCC_base_address + 0x2C) >*/
+        __vo uint32_t CFGR3;            /*!< its address is (RCC_base_address + 0x30) >*/
 }RCC_Type;
 
 
@@ -196,7 +196,7 @@ typedef struct{
        __vo uint32_t IDR;                       /*!< its address is (GPIOx_base_address + 0x10) >*/
        
        union{
-          __vo uint16_t ODR;                    /*!< its address is (GPIOx_base_address + 0x14) >*/
+          __vo uint32_t ODR;                    /*!< its address is (GPIOx_base_address + 0x14) >*/
           struct{
               unsigned ODR0:1;
               unsigned ODR1:1;
@@ -214,11 +214,14 @@ typedef struct{
               unsigned ODR13:1;
               unsigned ODR14:1;
               unsigned ODR15:1;
+              unsigned RESERVED:16;
             };
        };
-            uint16_t RESERVED;                  /*!< its address is (GPIOx_base_address + 0x16) >*/
        __vo uint16_t BSR;                       /*!< its address is (GPIOx_base_address + 0x18) >*/
        __vo uint16_t BRR;                       /*!< its address is (GPIOx_base_address + 0x0A) >*/
+       __vo uint32_t LCKR;                      /*!< its address is (GPIOx_base_address + 0x1C) >*/
+       __vo uint32_t AFR[2];                    /*!< its address is (GPIOx_base_address + 0x20) >*/
+       __vo uint32_t BRR1;                      /*!< its address is (GPIOx_base_address + 0x28) >*/
        
 }GPIO_Type;
 
@@ -341,23 +344,51 @@ typedef struct{
       
 }DAC_Type;
 
+typedef struct{
+      
+      __vo uint32_t CR1;                /*!< USART Control register 1,                 Address offset: 0x00 */ 
+      __vo uint32_t CR2;                /*!< USART Control register 2,                 Address offset: 0x04 */ 
+      __vo uint32_t CR3;                /*!< USART Control register 3,                 Address offset: 0x08 */
+      __vo uint16_t BRR;                /*!< USART Baud rate register,                 Address offset: 0x0C */
+           uint16_t  RESERVED1;         /*!< Reserved, 0x0E                                                 */  
+      __vo uint16_t GTPR;               /*!< USART Guard time and prescaler register,  Address offset: 0x10 */
+           uint16_t  RESERVED2;         /*!< Reserved, 0x12                                                 */
+      __vo uint32_t RTOR;               /*!< USART Receiver Time Out register,         Address offset: 0x14 */  
+      __vo uint16_t RQR;                /*!< USART Request register,                   Address offset: 0x18 */
+           uint16_t  RESERVED3;         /*!< Reserved, 0x1A                                                 */
+      __vo uint32_t ISR;                /*!< USART Interrupt and status register,      Address offset: 0x1C */
+      __vo uint32_t ICR;                /*!< USART Interrupt flag Clear register,      Address offset: 0x20 */
+      __vo uint16_t RDR;                /*!< USART Receive Data register,              Address offset: 0x24 */
+           uint16_t  RESERVED4;         /*!< Reserved, 0x26                                                 */
+      __vo uint16_t TDR;                /*!< USART Transmit Data register,             Address offset: 0x28 */
+           uint16_t  RESERVED5;         /*!< Reserved, 0x2A                                                 */
+           
+}USART_Type;                            
 
 
-/*!< define of peripheral base address >*/
-#define RCC             ((RCC_Type*)            0x40021000U)
-#define GPIOE           ((GPIO_Type*)           0x48001000U)
-#define GPIOA           ((GPIO_Type*)           0x48000000U)
-#define TIM2            ((TIMER_Type*)          0x40000000U)
-#define TIM3            ((TIMER_Type*)          0x40000400U)
-#define EXTI            ((EXTI_Type*)           0x40010400U)
-#define SYSCFG          ((SYSCFG_Type*)         0x40010000U)
+
+/*!< define of peripheral base address on AHB BUS>*/
 #define ADC1            ((ADC_Type*)            0x50000000U)
 #define ADC2            ((ADC_Type*)            0x50000100U)  
 #define ADC1_2          ((ADC_Common_Type*)     0x50000300U)  
 #define ADC3            ((ADC_Type*)            0x50000400U)
 #define ADC4            ((ADC_Type*)            0x50000500U)
 #define ADC3_4          ((ADC_Common_Type*)     0x50000700U)
+#define RCC             ((RCC_Type*)            0x40021000U)
+#define GPIOA           ((GPIO_Type*)           0x48000000U)
+#define GPIOB           ((GPIO_Type*)           0x48000400U)
+#define GPIOC           ((GPIO_Type*)           0x48000800U)
+#define GPIOD           ((GPIO_Type*)           0x48000C00U)
+#define GPIOE           ((GPIO_Type*)           0x48001000U)
+#define GPIOF           ((GPIO_Type*)           0x48001400U)
+
+/*!< define of peripheral base address on APB BUS>*/
+#define TIM2            ((TIMER_Type*)          0x40000000U)
+#define TIM3            ((TIMER_Type*)          0x40000400U)
+#define EXTI            ((EXTI_Type*)           0x40010400U)
+#define SYSCFG          ((SYSCFG_Type*)         0x40010000U)
 #define DAC1            ((DAC_Type*)            0x40007400U) 
+#define USART1          ((USART_Type*)          0x40013800U)
 
 /*!< define MACROS to enable Peripheral into RCC_APB1 >*/
 #define SPI2_EN                 (1<<14)
@@ -373,7 +404,15 @@ typedef struct{
 #define PWREN_EN                (1<<28)
 #define DAC_EN                  (1<<29)
 
-
+/*!< define MACROS to enable Peripheral into RCC_APB2 >*/
+#define SYSCFG_EN               (1<<0)
+#define TIM1_EN                 (1<<11)
+#define SPI1_EN                 (1<<12)
+#define TIM8_EN                 (1<<13)
+#define USART1_EN               (1<<14)
+#define TIM15_EN                (1<<16)
+#define TIM16_EN                (1<<17)
+#define TIM17_EN                (1<<18)
 
 /*!< define MACROS of GPIOx_EN into RCC_AHBENR >*/
 #define GPIOA_EN                (1<<17)
@@ -443,6 +482,22 @@ typedef struct{
 
 /*!< define MACROS of DAC_REGISTER >*/
 #define DAC_CR_EN1              (1<<0)
+
+
+/*!< define MACROS of USART_CR >*/
+#define USART_EN                (1<<0)
+#define RX_EN                   (1<<2)
+#define TX_EN                   (1<<3)
+#define WORD_LENGHT             (1<<12)                 /*!< This bit determines the word length. It is set or cleared by software.
+                                                              0: 1 Start bit, 8 Data bits, n Stop bit
+                                                              1: 1 Start bit, 9 Data bits, n Stop bit        >*/
+/*!< define MACROS of USART_ISR >*/
+#define USART_ISR_RXNE          (1<<5)        
+#define USART_ISR_TC            (1<<6)                  /*!< 0: Transmission is not complete
+                                                             1: Transmission is complete >*/
+#define USART_ISR_TXE           (1<<7)                  /*!< 0: Data is not transferred to the shift register
+                                                             1: Data is transferred to the shift register)>*/
+
 
 /*!-----------------------------------------------------------------------------
 

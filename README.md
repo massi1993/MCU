@@ -12,6 +12,7 @@
 6. [STOPWATCH/NOT_STOPWATCH](#StopWatchOrNo)          
 7. [VOLTAGE CONVERTER](#V_converter)
 8. [DAC-ADC](#DAC-ADC)     
+9. [DAC-ADC with USART](#DAC-ADC-USART)     
 
 # CONFIGURATION IDE IAR EMBEDDED :  <a name="confIDE"></a>
 ## Follow these steps to configure project options
@@ -122,3 +123,7 @@ Given an input code (from 0 to 4095) to the DAC, the relative output voltage fro
 From the datasheet we have chosen to use pin PA4 for the DAC (DAC1_OUT1) and pin PA5 for the ADC (ADC2_IN2).
 
 ![image](https://user-images.githubusercontent.com/83538787/173192289-3261a279-5553-49ec-bd6f-03b0999842cf.png)
+
+## 9. Project DAC-ADC with USART (folder DAC_ADC_USART) <a name="DAC-ADC-USART"></a>
+
+A code is sent to the DAC which then converts into an analog signal, which is converted back into a digital signal via ADC.

@@ -1,7 +1,7 @@
 /*
 *
 *       Created on : June 10, 2022 
-*      Last Update : June 11, 2022
+*      Last Update : June 13, 2022
 *           Author : massiAv
 *
 */
@@ -24,24 +24,29 @@ void main()
           
           GPIOE_OUTMODE(Px8,Px15);
          
-          setup_ADC(GPIOA,Px0);
+          ADC_Type* ADC = setup_ADC(GPIOA,Px0,CONTINUOUS_MODE);
 
-          ADC1->CR |= ADC_CR_ADSTART;                                   /*!< Start CONVERSION pull up bit ADSTART >*/
+          ADC->CR |= ADC_CR_ADSTART;                                   /*!< Start CONVERSION pull up bit ADSTART >*/
          
           
           while(1)
           {
-              while((ADC1->ISR & (ADC_ISR_EOC))!= (ADC_ISR_EOC));       /*!< Wait that EOC change to 1, when EOC=1 can read the result in ADC->DR*/
+              while((ADC->ISR & (ADC_ISR_EOC))!= (ADC_ISR_EOC));       /*!< Wait that EOC change to 1, when EOC=1 can read the result in ADC->DR*/
              
-              voltage = (ADC1->DR) * (VDD_USB/(get_quantization_level(ADC1,ADC_CFG_RES_12bit) - 1));
+              voltage = (ADC->DR) * (VDD_USB/(get_quantization_level(ADC,ADC_CFG_RES_12bit) - 1));
              
               if(voltage<=3 && voltage>=2.998)
               {
-                GPIOE->ODR^=0x0000FF00;                                 /*!< Inverter the state on LED >*/
+                GPIOE->ODR = GPIOE_ALL_LED_ON;                          /*!< Led ON>*/
                 printf("Value of voltage %.3f\n",voltage);
+                voltage = RESET;
               }
-             
-          }
+              else
+              {
+                GPIOE->BRR = GPIOE_ALL_LED_ON;                          /*!< Using Bit Reset Register to Led OFF>*/
+              }
+              
+           }
 }
 
 

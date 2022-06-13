@@ -10,10 +10,7 @@
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_lib.h</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_timer_driver.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\List\led_on_timer.map</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\led_on_timer.out</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
@@ -26,20 +23,23 @@
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\List\led_on_timer.map</file>
             <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\led_on_timer.out</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 5</file>
+                    <file> 18</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 16 15 9 20 14 7 12 3 11 2 4</file>
+                    <file> 13 12 6 17 11 5 9 3 8 2 4</file>
                 </tool>
             </inputs>
         </file>
@@ -48,13 +48,13 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 21</file>
+                    <file> 20</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 3 11 15 9 20 14 7 2 4</file>
+                    <file> 3 8 12 6 17 11 5 2 4</file>
                 </tool>
             </inputs>
         </file>
@@ -63,13 +63,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 6</file>
+                    <file> 19</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 13 5 21 19 17 10 18</file>
+                    <file> 10 18 20 16 14 7 15</file>
                 </tool>
             </inputs>
         </file>
@@ -78,7 +78,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 6 8</file>
+                    <file> 19 21</file>
                 </tool>
             </outputs>
         </file>

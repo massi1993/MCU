@@ -1,9 +1,11 @@
 /*
 *
 *       Created on : June 11, 2022 
-*      Last Update : June 11, 2022
+*      Last Update : June 13, 2022
 *           Author : massiAv
 *
+*
+Note: REMEMBER to link PA4 and PA5 via JUMPER
 */
 
 #include <stdio.h>
@@ -13,7 +15,7 @@
 #include <math.h>
 
 /*!< DAC Variable       >*/
-unsigned int code_in_DAC = 4095;
+unsigned int code_in_DAC = 3000;
 float voltage_out;
 	 
 /*!< ADC Variable       >*/
@@ -30,11 +32,8 @@ void main()
         GPIO_MODE(GPIOA,ANALOG_MODE,Px4);                       /*!< PA4 as analog input -> DAC1_OUT1   >*/
         GPIO_MODE(GPIOA,ANALOG_MODE,Px5);                       /*!< PA5 as analog input -> ADC2_IN2    >*/
         
-        setup_ADC(GPIOA,Px5);
+        ADC_Type* ADC = setup_ADC(GPIOA,Px5,SINGLE_MODE);
         setup_DAC(DAC1,code_in_DAC);
-        
-        ADC_Type* ADC = get_number_ADC(GPIOA,Px5);              /*!< Store into ADC variable the exactly ADC chosen. This function
-                                                                     This function discriminates which ADCx is chosen based on GPIOx and pin number >*/
         
         ADC->CR |= ADC_CR_ADSTART;                             /*!< Start CONVERSIONE pull up bit ADSTART >*/
         while((ADC->ISR & ADC_ISR_EOC) != ADC_ISR_EOC );       /*!< Wait that EOC change to 1, when EOC=1 can read the result in ADC->DR*/

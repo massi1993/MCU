@@ -5,7 +5,7 @@
 *           Author : massiAv
 *
 */
-
+#include <stdio.h>
 #include <math.h>
 #include "stm32f3x_lib.h"
 #include "stm32f3x_api_driver.h"
@@ -20,6 +20,7 @@
 /*!<
 @brief
 Define if enable or disable the RCC_AHBENR
+
 @param RCC_AHBENR_Periph  specifies the AHB peripheral to gates its clock.
     Can be:
     @arg     RCC_AHBENR_GPIOA   
@@ -51,8 +52,10 @@ void RCC_PCLK_AHBEN(uint32_t RCC_AHBENR_Periph, int status){
 
 
 /*!<
+
 @brief
 Define if enable or disable the RCC_APB1ENR
+
 @param RCC_PCLK_APB1EN  specifies the APB1 peripheral to gates its clock.
     Can be:
     @arg     RCC_APB1TIM2   
@@ -74,6 +77,38 @@ void RCC_PCLK_APB1EN(uint32_t RCC_APB1ENR_Periph, int status){
     else
     {
       RCC->APB1ENR &=~ RCC_APB1ENR_Periph;
+    }
+
+}
+
+/*!<
+
+@brief
+Define if enable or disable the RCC_APB2ENR
+
+@param RCC_PCLK_APB2EN  specifies the APB2 peripheral to gates its clock.
+    Can be:
+    @arg   RCC_APB2ENR_SYSCFG     
+    @arg   RCC_APB2ENR_TIM1  
+           RCC_APB2ENR_USART1
+           RCC_APB2ENR_TIM17 
+        etc..
+@param status state of specified peripheral clock.
+    Can be: ENABLE or DISABLE
+
+@return None
+
+*/
+
+void RCC_PCLK_APB2EN(uint32_t RCC_APB2ENR_Periph, int status){
+
+    if(status == ENABLE)
+    {
+      RCC->APB2ENR |= RCC_APB2ENR_Periph;
+    }
+    else
+    {
+      RCC->APB2ENR &=~ RCC_APB2ENR_Periph;
     }
 
 }
@@ -158,6 +193,7 @@ void GPIOE_OUTMODE(int PEstart, int PEstop){
 
 
 /*!<
+
 @brief
 GPIO->MODER ALLOWS TO CONFIGURE PORTS IN INPUT, OUTPUT, ANALOG  AND ALTERNATE FUNCTION MODE,
 WRITING CORRECTLY THE CHOSEN MODE IN THE TWO BITS OF INTEREST.
@@ -183,6 +219,79 @@ int bit_pos_GPIO_MODER(int PinNumber){
     return bit_pos;
 }
 
+/*!<
+@brief
+Set register AFR with the correct value
+
+@param GPIO_Type* GPIO General Purpose I/O Port to enable
+
+@param mode      type of AFR : AF0, AF1, AF2 ETC..
+
+@param PinNumber pin number of port chosen from MACROS define PxY, e.g Px0, Px1, etc..
+                 If we choose PA0, PinNumber will be Px0;
+                 If we choose PB1, PinNumber will be Px1;
+                 If we choose PB2, PinNumber will be Px2;
+                 and so on...
+
+@return None
+
+*/
+void GPIO_AFR(GPIO_Type* GPIO, unsigned int AF_Type, unsigned int PinNumber){
+  
+    GPIO->AFR[index_AFR(PinNumber)] |= (AF_Type << bit_pos_GPIO_AFR(PinNumber));
+
+}
+
+
+/*!<
+
+@brief
+Get the index of GPIO -> AFR[index].
+
+@param PinNumber that generate the ALTERNATE FUNCTION
+                 PinNumber pin number chosen from MACROS define PxY, e.g Px0, Px1, etc..
+                          If we choose PA0, PinNumber will be Px0;
+                          If we choose PB1, PinNumber will be Px1;
+                          If we choose PB2, PinNumber will be Px2;
+                          and so on...
+
+@return value of AFR index. It can be AFR[0] OR AFR[1]
+
+*/
+
+int index_AFR(int PinNumber){
+
+        int index;
+
+        index = PinNumber/8;
+
+        return index;
+}
+
+/*!<
+
+@brief
+Set the correct position to write the bit.
+For this, we first get the module reported to 8 (PinNumber % 8) and then we multiply by 2.
+
+@param PinNumber pin number chosen from MACROS define PxY, e.g Px0, Px1, etc..
+                 If we choose PA0, PinNumber will be Px0;
+                 If we choose PB1, PinNumber will be Px1;
+                 If we choose PB2, PinNumber will be Px2;
+                 and so on...
+
+@return value of bit position
+
+*/
+
+int bit_pos_GPIO_AFR(int PinNumber){
+
+    int bit_pos;
+    
+    bit_pos = (PinNumber % 8) * 4;
+    
+    return bit_pos;
+}
 
 /*!-----------------------------------------------------------------------------
 
@@ -191,11 +300,14 @@ int bit_pos_GPIO_MODER(int PinNumber){
 -------------------------------------------------------------------------------->*/
 
 /*!<
+
 @brief
 Get Prescaler and AutoReloadRegister with time and Fck.
 
 @param TIMER_Type* Timer TIMER OF INTEREST
+
 @param unsigned int time
+
 @param usigned int Fck
 
 @return None
@@ -213,10 +325,12 @@ void set_PSC_and_ARR_TIM(TIMER_Type* Timer, unsigned int time, unsigned int Fck)
 }
 
 /*!<
+
 @brief
 Enable counter
 
 @param TIMER_Type* Timer TIMER OF INTEREST
+
 @param status state of specified timer.
     Can be: ENABLE or DISABLE
 
@@ -241,6 +355,7 @@ void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status){
 @brief  Start time measurement when the PA0 is pressed; Stop time when PA0 is pressed again if the mode is STOPWATCH.
         Otherwise, if the mode is NOT_STOP_WATCH, it measure the time betwen two pressing of PA0.
         Basically, we are implementing a stopwatch or not_stop_watch.
+
 
 @param TIMER_Type * Timer Timer to use as stopwatch
 
@@ -589,7 +704,7 @@ Set configuration for ADC
 
 */
 
-void setup_ADC(GPIO_Type* GPIO, unsigned int PinNumber){
+ADC_Type* setup_ADC(GPIO_Type* GPIO, unsigned int PinNumber, uint8_t conversion_mode){
     
     ADC_Common_Type* ADC_CC;
     ADC_Type* ADC = get_number_ADC(GPIO,PinNumber);
@@ -612,11 +727,23 @@ void setup_ADC(GPIO_Type* GPIO, unsigned int PinNumber){
      
     ADC->CR |= ADC_CR_ADEN;                                     /*!< ADC Enable>*/
     while((ADC->ISR & ADC_ISR_ADRDY)!= ADC_ISR_ADRDY);          /*!< Wait for ADRDY change to 1 and be ready to conversion      >*/
-     
-    ADC->CFGR |= ADC_CFG_CONT;                                  /*!< Continuous conversion mode         >*/
-    ADC->SQR1 |= get_Nchannel_ADC(GPIO,PinNumber);                                        /*!< number channel      >*/
+    
+    if(conversion_mode == SINGLE_MODE)
+    {
+      ADC->CFGR &=~ ADC_CFG_CONT;                               /*!< Single conversion mode         >*/
+    }
+    else if (conversion_mode == CONTINUOUS_MODE)
+    {
+      ADC->CFGR |= ADC_CFG_CONT;                                /*!< Continuous conversion mode         >*/
+    }
+    
+    ADC->SQR1 |= get_Nchannel_ADC(GPIO,PinNumber);              /*!< number channel      >*/
     ADC->SQR1 &=~ (0x0000000F);                                 /*!< L=0000 -> 1 Conversion             >*/
     ADC->SMPR1 |= ADC_SMP1_601_5CKC;                            /*!< Choose 601.5 CLOCK CYCLES          >*/
+    //ADC->SMPR1 |= ADC_SMP1_61_5CKC;                            /*!< Choose 61.5 CLOCK CYCLES FOR USART          >*/
+    
+    return ADC;
+
 } 
 
 
@@ -635,7 +762,7 @@ void setup_DAC(DAC_Type* DAC, unsigned int code){
     DAC->CR |= DAC_CR_EN1;
     if(code <= 4095)
       DAC->DHR12R1 = code;
-    for(int j=0;j<1000;j++);                    /*!< Wait voltage generation    >*/
+    for(int j=0;j<1000;j++);                                    /*!< Wait voltage generation    >*/
 
 }
 
@@ -668,4 +795,71 @@ DISABLE DAC
 void DAC_DISABLE(DAC_Type* DAC){
   
     DAC->CR &=~ DAC_CR_EN1;
+}
+
+
+
+/*!-----------------------------------------------------------------------------
+
+                                API FOR USART
+
+-------------------------------------------------------------------------------->*/
+/*!<
+
+@brief
+SETUP USART IN RX AND TX. 
+
+@param  USART_Type* USART
+
+@return None
+
+*/
+void setup_USART_RX_TX(USART_Type* USART){
+  
+    USART->CR1 &=~ WORD_LENGHT;                            /*!< Set: 1 Start bit, 8 Data bits, n Stop bit       >*/
+    USART->BRR |= BR_115_2;                                /*!< Set: baud rate = 115200 bit/s at 72MHz          >*/ 
+    USART->CR1 |= USART_EN;                                /*!< USART Enable    >*/   
+    USART->CR1 |= RX_EN;                                   /*!< USART in RX     >*/
+    USART->CR1 |= TX_EN;                                   /*!< USART in TX     >*/
+    
+}
+
+/*!<
+
+@brief
+Set the data character to be transmitted
+
+@param  USART_Type* USART
+
+@param const char tx[] to transmitt via USART
+@param int len         lenght of text to transi
+
+@return None
+
+*/
+void usart_tx(USART_Type* USART,const char tx[], int len){
+  
+  while((USART->ISR & USART_ISR_TXE) != USART_ISR_TXE){};       /*!< Wait until TXE pull up to 1 >*/
+  
+  for(int i=0;i<len;i++)
+  {
+      USART->TDR=tx[i];
+      while((USART->ISR & USART_ISR_TC) != USART_ISR_TC);                   /*!< Wait until TC pull up to 1 >*/
+  }
+}
+ 
+/*!<
+
+@brief
+Get the received data from Usart
+
+@param  USART_Type* USART
+
+@return None
+
+*/
+char usart_rx(USART_Type* USART){      
+  
+    return ((char)(USART->RDR & 0xFF));
+    
 }
