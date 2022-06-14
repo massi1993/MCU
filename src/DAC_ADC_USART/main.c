@@ -104,7 +104,7 @@ void main(){
           
               code_out=ADC->DR;                                         /*!< ADC output code reading    >*/
               voltage_in=code_out*(VDD_USB/(get_quantization_level(ADC,ADC_CFG_RES_12bit) - 1));
-              //printf("ADC\ninput: %f V\noutput: %d \n\n",voltage_in,code_out);
+              printf("ADC\ninput: %f V\noutput: %d \n\n",voltage_in,code_out);
               
               sprintf(text_result,"DAC's Voltage output : %f\r\nADC's Voltage input : %f\r\n",voltage_out,voltage_in);          /*!< Build result into string to transmitt   >*/
               
