@@ -34,7 +34,8 @@ float voltage_out;              /*!< DAC's output voltage                       
 float voltage_in;               /*!< ADC's input voltage                                   >*/ 
 int code_out;                   /*!< ADC's output code                                     >*/     
  
-char text_result[100]; 
+char result[100]; 
+
 void main(){
           
           RCC_PCLK_AHBEN(RCC_AHBENR_GPIOA,ENABLE);              /*!< Enable GPIOA       >*/
@@ -97,18 +98,21 @@ void main(){
               setup_DAC(DAC1,code_in_dac);                              /*!< Only now call the setup_DAC() function. First at all, it was necessary to set the code_in_dac variable >*/         
                  
               voltage_out=(DAC1->DHR12R1)*(VDD_USB/(pow(2,12)-1.0));    /*!< DAC output voltage reading >*/
-              //printf("DAC\ninput: %d\noutput: %f V\n",DAC1->DHR12R1,voltage_out);
+              
              
               ADC->CR|=ADC_CR_ADSTART;                                  /*!< Start CONVERSIONE pull up bit ADSTART >*/
               while( (ADC->ISR & ADC_ISR_EOC) != ADC_ISR_EOC);          /*!< Wait that EOC change to 1, when EOC=1 can read the result in ADC->DR*/
           
               code_out=ADC->DR;                                         /*!< ADC output code reading    >*/
               voltage_in=code_out*(VDD_USB/(get_quantization_level(ADC,ADC_CFG_RES_12bit) - 1));
-              printf("ADC\ninput: %f V\noutput: %d \n\n",voltage_in,code_out);
               
-              sprintf(text_result,"DAC's Voltage output : %f\r\nADC's Voltage input : %f\r\n",voltage_out,voltage_in);          /*!< Build result into string to transmitt   >*/
+              /*!< lines to test matlab's code >*/
+              //printf("DAC\ninput: %d\noutput: %f V\n",DAC1->DHR12R1,voltage_out);
+              //printf("ADC\ninput: %f V\noutput: %d \n\n",voltage_in,code_out);    
               
-              usart_tx(USART1,text_result,strlen(text_result));         /*!< Final String to Transmitt       >*/
+              sprintf(result,"DAC's Voltage output : %f\r\nADC's Voltage input : %f\r\n",voltage_out,voltage_in);          /*!< Build result into string to transmitt   >*/
+              
+              usart_tx(USART1,result,strlen(result));                    /*!< Final String to Transmitt       >*/
               
               code_out = RESET;
               code_in_dac = RESET;

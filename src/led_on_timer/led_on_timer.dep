@@ -5,6 +5,16 @@
     <configuration>
         <name>Debug</name>
         <outputs>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\List\led_on_timer.map</file>
+            <file>$PROJ_DIR$\Debug\Exe\led_on_timer.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api.c</file>
             <file>$PROJ_DIR$\..\..\libraries\stm32f3x_api_driver.h</file>
@@ -17,38 +27,43 @@
             <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
             <file>$TOOLKIT_DIR$\config\linker\ST\stm32f303xC.icf</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\List\led_on_timer.map</file>
-            <file>$PROJ_DIR$\Debug\Exe\led_on_timer.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f3x_api.o</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 19 20</file>
+                    <file> 6 7</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\led_on_timer.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 20 5 8 3 1 17 2</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 18</file>
+                    <file> 5</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 13 12 6 17 11 5 9 3 8 2 4</file>
+                    <file> 0 9 16 4 21 15 19 13 18 12 14</file>
                 </tool>
             </inputs>
         </file>
@@ -57,28 +72,13 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 21</file>
+                    <file> 8</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 3 8 12 6 17 11 5 2 4</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\led_on_timer.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 19</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 10 18 21 16 14 7 15</file>
+                    <file> 13 18 9 16 4 21 15 12 14</file>
                 </tool>
             </inputs>
         </file>
