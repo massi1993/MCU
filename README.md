@@ -144,5 +144,5 @@ We want to simulate an alternating voltage, generating a sinusoid with the DAC a
 
 ![image](https://user-images.githubusercontent.com/83538787/176029749-4ec94638-b975-4641-8ca5-38f9704f1f79.png)
 
-Outuput 
+Output 
 ![image](https://user-images.githubusercontent.com/83538787/176030697-30a8eaa0-378b-4982-802d-d7ca25293b9b.png)
