@@ -24,6 +24,8 @@ char data_received;
 
 float flashing_tim3 = 1;
 
+void flashing_led(TIMER_Type* Timer, unsigned int PinNumber);   /*!< Function's prototype for flashing LEDs>*/
+
 void main()
 {
         RCC_PCLK_AHBEN(RCC_AHBENR_GPIOE,ENABLE);                /*!< ENABLE GPIOE >*/
@@ -46,74 +48,58 @@ void main()
         CNT_EN_TIM(TIM3,ENABLE);                                /*!< ENABLE TIM3'S COUNTER >*/
         set_PSC_and_ARR_TIM(TIM3,flashing_tim3,F_ck72MHz);      /*!< PSC AND ARR ARE SETTED IN ORDER TO HAVE flashing_tim3 SECOND USING TIM3 AT 72 MHz*/
         
-        /*!< SETUP USART>*/
-        setup_USART_RX_TX(USART1);
+        setup_USART_RX_TX(USART1);                              /*!< SETUP USART>*/
         
+        usart_tx(USART1,txt,strlen(txt));                       /*!< txt is the string to transmit via USART            >*/
         
-        usart_tx(USART1,txt,strlen(txt));
-        
-        while(!(USART1->ISR & USART_ISR_RXNE));                 /*!< Waiting for the data to be ready to be read      >*/
+        while(!(USART1->ISR & USART_ISR_RXNE));                 /*!< Waiting for the data to be ready to be read        >*/
         
         while(1){
           
-          data_received = usart_rx(USART1);
+          data_received = usart_rx(USART1);                     /*!< Storing into data_received the data received via USART>*/
           
-          if(data_received == 'B'){
-            if(CHECK_UIF(TIM2) && !flag)
-            {
-                GPIOE->ODR = (1<<8);
-                TIM2->SR&=~(1<<0);
-                flag = SET;
-            }
-            if(CHECK_UIF(TIM2) && flag)
-            {
-                GPIOE->ODR = (1<<12);
-                TIM2->SR&=~(1<<0);
-                flag = RESET;
-            }
+          /*!<Alghoritm for flashing LEDs>*/
+          if(data_received == 'B')
+          {
+            flashing_led(TIM2,Px8);
           }
-          if(data_received == 'R'){
-            if(CHECK_UIF(TIM2) && !flag)
-            {
-                GPIOE->ODR = (1<<9);
-                TIM2->SR&=~(1<<0);
-                flag = SET;
-            }
-            if(CHECK_UIF(TIM2) && flag)
-            {
-                GPIOE->ODR = (1<<13);
-                TIM2->SR&=~(1<<0);
-                flag = RESET;
-            }
+          if(data_received == 'R')
+          {
+            flashing_led(TIM2,Px9);
           }
-          if(data_received == 'O'){
-            if(CHECK_UIF(TIM3) && !flag)
-            {
-                GPIOE->ODR = (1<<10);
-                TIM3->SR&=~(1<<0);
-                flag = SET;
-            }
-            if(CHECK_UIF(TIM3) && flag)
-            {
-                GPIOE->ODR = (1<<14);
-                TIM3->SR&=~(1<<0);
-                flag = RESET;
-            }
+          if(data_received == 'O')
+          {
+            flashing_led(TIM3,Px10);
           }
-          if(data_received == 'G'){
-            if(CHECK_UIF(TIM3) && !flag)
-            {
-                GPIOE->ODR = (1<<11);
-                TIM3->SR&=~(1<<0);
-                flag = SET;
-            }
-            if(CHECK_UIF(TIM3) && flag)
-            {
-                GPIOE->ODR = (1<<15);
-                TIM3->SR&=~(1<<0);
-                flag = RESET;
-            }
+          if(data_received == 'G')
+          {
+            flashing_led(TIM3,Px11); 
           }
-      
+          if(data_received != 'G' && data_received != 'O' && data_received != 'R' && data_received != 'B')
+          {
+            usart_tx(USART1,error_txt,strlen(error_txt));
+            GPIOE-> BRR = 0xFF00;
+            while(!(USART1->ISR & USART_ISR_RXNE));                 /*!< Waiting for the data to be ready to be read      >*/
+          }
+          
+        }
+}
+
+
+/*!< Function for flashing LEDs>*/
+void flashing_led(TIMER_Type* Timer, unsigned int PinNumber){
+
+  
+        if(CHECK_UIF(Timer) && !flag)
+        {
+            GPIOE->ODR = (1<<PinNumber);
+            Timer->SR&=~(1<<0);
+            flag = SET;
+        }
+        if(CHECK_UIF(Timer) && flag)
+        {
+            GPIOE->ODR = (1<<(PinNumber+4));
+            Timer->SR&=~(1<<0);
+            flag = RESET;
         }
 }
