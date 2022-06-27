@@ -168,7 +168,7 @@ int index_AFR(int PinNumber);
 int bit_pos_GPIO_AFR(int PinNumber);
 
 /*!< API FOR TIMER >*/
-void set_PSC_and_ARR_TIM(TIMER_Type* Timer, unsigned int time, unsigned int Fck);
+void set_PSC_and_ARR_TIM(TIMER_Type* Timer, float time, unsigned int Fck);
 void CNT_EN_TIM(TIMER_Type* Timer, unsigned int status);
 float Measure_Time(TIMER_Type* Timer, unsigned int mode);
 

@@ -30,7 +30,7 @@ void main(){
             if(CHECK_UIF(TIM2) && !flag)
             {  
               //GPIOE->ODR = GPIOE_ALL_LED_ON;          /*!< ON ALL LED                    > */
-              GPIO_BSR_REG(GPIOE,Px10,SET);          /*!< BSRR to Set the corrispondent ODRx bit >*/
+              GPIO_BSR_REG(GPIOE,Px10,SET);             /*!< BSRR to Set the corrispondent ODRx bit >*/
               TIM2->SR &=~ SET_UIF;                     /*!< RESET UPDATE INTERRUPT FLAG   > */
               flag = SET;    
             }

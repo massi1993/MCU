@@ -315,12 +315,12 @@ Get Prescaler and AutoReloadRegister with time and Fck.
 
 */
 
-void set_PSC_and_ARR_TIM(TIMER_Type* Timer, unsigned int time, unsigned int Fck){
+void set_PSC_and_ARR_TIM(TIMER_Type* Timer, float time, unsigned int Fck){
           
     unsigned int PSC, NARR;
     PSC = (unsigned int)(time*Fck/65535);
     Timer ->PSC = PSC ;
-    NARR = (unsigned int)(time*Fck)/(TIM3->PSC +1);
+    NARR = (unsigned int)(time*Fck)/(Timer->PSC +1);
     Timer->ARR = NARR;
 }
 
@@ -859,7 +859,7 @@ Get the received data from Usart
 
 */
 char usart_rx(USART_Type* USART){      
-  
+    
     return ((char)(USART->RDR & 0xFF));
     
 }

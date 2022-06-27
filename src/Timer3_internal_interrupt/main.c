@@ -1,7 +1,7 @@
 /*
 *
 *       Created on : June 05, 2022 
-*      Last Update : June 05, 2022
+*      Last Update : June 27, 2022
 *           Author : massiAv
 *
 
@@ -29,7 +29,7 @@ to get a division by 720, the PSC register gets the value 719.
 
 #define Fck 72000000
  
-int time = 1;    //1 secondo
+float time = 1.0;    //1 secondo
 
 unsigned int _bit_pos_GPIO_MODER = SET;         /*!< Bit position in which write the data >*/ 
 unsigned int _index_NVIC_ISER = SET;            /*!< Index of NVIC -> ISER >*/     

@@ -13,6 +13,7 @@
 7. [VOLTAGE CONVERTER](#V_converter)
 8. [DAC-ADC](#DAC-ADC)     
 9. [DAC-ADC with USART](#DAC-ADC-USART)     
+10. [Flashing leds with USART](#led-USART)     
 
 # CONFIGURATION IDE IAR EMBEDDED :  <a name="confIDE"></a>
 ## Follow these steps to configure project options
@@ -131,3 +132,9 @@ For this project, is added a c sourc file system_stm32f30x.c
 ![dac-adc-usart](https://user-images.githubusercontent.com/83538787/173396173-81055e52-a89c-4f06-a5ba-11aa3c58527f.PNG)
 
 ![teraTerm](https://user-images.githubusercontent.com/83538787/173401386-0db9d5ac-aa10-49e3-9d31-b0ad9e915ed8.PNG)
+
+## 10. Project Flashing leds  with USART (folder Usart_flashing_led) <a name="led-USART"></a>
+
+Let's use Timer2 to turn on, every 0.5 seconds, the red or blue leds: in this case it's need sending 'B' or 'R' via USART.
+Let's use Timer3 to turn on, every second, the green or orange leds: here, we have to send 'O' or 'G' via USART.
+

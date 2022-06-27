@@ -14,9 +14,11 @@
 -------------------------------------------------------------*/
 
 /*!< define GENERAL MACROS >*/
-#define F_CLK   8000000
-                                         
-#define N_CONT(x)       x*F_CLK                          /*!< x is time time between one flash and the next >*/
+#define F_CLK           8000000
+#define F_ck72MHz       72000000  
+
+#define N_CONT(x)               x*F_CLK                                 /*!< x is time time between one flash and the next >*/
+#define N_CONT_72Mhz(x)         x*F_ck72MHz                             /*!< x is time time between one flash and the next with Fck at 72Mhz>*/
 
 /*!< define MACROS for TIMx->SR (STATUS REGISTER)>*/
 #define SET_UIF                 (1<<0)                                  /*!< WHEN CNT REACHES N_CNT(X) THE UIF IS SET TO 1 BY HARDWARE >*/                  

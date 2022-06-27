@@ -1,0 +1,9 @@
+# ninja log v5
+1	331	6778509960000000	C:/Users/Attilio/Documents/GitHub/MCU/src/Usart_Flashing_led/Debug/BrowseInfo/main.xcl	1a6d51d118491777
+2	651	6780217393233846	C:/Users/Attilio/Documents/GitHub/MCU/src/Usart_Flashing_led/Debug/BrowseInfo/stm32f3x_api.pbi	9a055b278d1c022d
+0	170	6780306104427516	C:/Users/Attilio/Documents/GitHub/MCU/src/Usart_Flashing_led/Debug/BrowseInfo/main.pbi	dec6c3b01b6f7cbc
+210	975	6780306112227530	C:/Users/Attilio/Documents/GitHub/MCU/src/Usart_Flashing_led/Debug/BrowseInfo/usart_Flash_led.pbw	71fe6c91bfb27243
+172	205	6780306104739517	C:/Users/Attilio/Documents/GitHub/MCU/src/Usart_Flashing_led/Debug/BrowseInfo/usart_Flash_led.pbd	517332bf49bd1bca
+3	297	6778509960000000	C:/Users/Attilio/Documents/GitHub/MCU/src/Usart_Flashing_led/Debug/BrowseInfo/stm32f3x_api.xcl	7d13230fd98f102
+87	143	6780206416588415	C:/Users/Attilio/Documents/GitHub/MCU/src/Usart_Flashing_led/Debug/BrowseInfo/system_stm32f30x.pbi	f43df1cd22e314a5
+1	87	6778511550000000	C:/Users/Attilio/Documents/GitHub/MCU/src/Usart_Flashing_led/Debug/BrowseInfo/system_stm32f30x.xcl	73d9335de339f835
