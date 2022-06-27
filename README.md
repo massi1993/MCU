@@ -1,5 +1,5 @@
 # Project MCU
-# Update : 13/06/22 , version : 0.5
+# Update : 27/06/22 , version : 0.6
 
 # Table of contents
 
@@ -142,4 +142,7 @@ Let's use Timer3 to turn on, every second, the green or orange leds: here, we ha
 ## 11. Generation of Sine Waveform (folder Sine_waveform_generation) <a name="Sine-Dac-adc"></a>
 We want to simulate an alternating voltage, generating a sinusoid with the DAC and acquiring it with the ADC. Obviously, the acquisition must take place while the DAC generates the sine wave, since it would not make sense to do so at the end of the generation, since at that point the voltage is constant and equal to the last value obtained by the DAC. We also want the interval between one sample and the next to be constant: the transition from DHR to DOR must be regulated by a timer.
 
-![SineWaveform]
+![image](https://user-images.githubusercontent.com/83538787/176029749-4ec94638-b975-4641-8ca5-38f9704f1f79.png)
+
+Outuput 
+![image](https://user-images.githubusercontent.com/83538787/176030697-30a8eaa0-378b-4982-802d-d7ca25293b9b.png)
