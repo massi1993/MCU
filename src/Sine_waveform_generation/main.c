@@ -41,18 +41,16 @@ void main()
         for(int i=0;i<N_SAMPLES;i++)
         {
           DAC1->DHR12R1=LUT_in[i];
-          while((TIM2->SR & (1<<0)) != (1<<0));  //ATTENDO CHE UIF PASSI A 1
-  TIM2->SR&=~(1<<0);                    //AZZERO IL UIF-> UIF=0;
-  for(int j=0;j<1000;j++);              //attendo la generazione della tensione
+          while((TIM2->SR & (1<<0)) != (1<<0));                 /*!< Wait that UIF up to 1      >*/
+          TIM2->SR&=~(1<<0);                                    /*!< Set to 0 UIF-> UIF=0;      >*/
+          for(int j=0;j<1000;j++);                              /*!< wait 10 us                 >*/
         
-        
-        //adstart=1
-	  ADC->CR|=(1<<2);
-	  while((ADC->ISR & (1<<2)) != (1<<2)); // ATTENDO LA FINE DELLA CONVERSIONE
+          ADC->CR|= ADC_CR_ADSTART;                             /*!< Start conversion           >*/
+	  while((ADC->ISR & ADC_ISR_EOC) != ADC_ISR_EOC);       /*!< Wait End Of Conversion     >*/
 	 
-	  //MEMORIZZO L'USCITA DELL'ADC IN UNA SECONDA LUT
-	  LUT_out[i]=ADC->DR;
+	  LUT_out[i]=ADC->DR;                                   /*!< stored into LUT_out the result of conversion */        
 	  }
+        
 	  while(1);
 
 }
