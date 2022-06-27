@@ -1,7 +1,7 @@
 /* STM32_F3X_API
 *
 *       Created on : June 04, 2022 
-*      Last Update : June 11, 2022       
+*      Last Update : June 27, 2022       
 *           Author : massiAv
 *
 */
@@ -548,7 +548,7 @@ The default state is '10': to enable the regulator we have to change the default
 */
 void  ADC_Voltage_Regulator_EN(ADC_Type* ADC){
   
-    ADC->CR &=~ (1<<29);                /*!< ADVREGEN from '10' to '00' >*/
+      ADC->CR &=~ (1<<29);                /*!< ADVREGEN from '10' to '00' >*/
     
     ADC->CR |= ADC_CR_REG_EN;           /*!< ADVREGEN from '00' to '01' >*/
     
@@ -650,7 +650,7 @@ unsigned int get_Nchannel_ADC(GPIO_Type* GPIO, unsigned int PinNumber){
       }    
     }
     
-    return (channel << 6);
+    return channel;
 }
 
 /*!<
@@ -706,6 +706,7 @@ Set configuration for ADC
 
 ADC_Type* setup_ADC(GPIO_Type* GPIO, unsigned int PinNumber, uint8_t conversion_mode){
     
+    unsigned int nChannel;
     ADC_Common_Type* ADC_CC;
     ADC_Type* ADC = get_number_ADC(GPIO,PinNumber);
     
@@ -737,10 +738,11 @@ ADC_Type* setup_ADC(GPIO_Type* GPIO, unsigned int PinNumber, uint8_t conversion_
       ADC->CFGR |= ADC_CFG_CONT;                                /*!< Continuous conversion mode         >*/
     }
     
-    ADC->SQR1 |= get_Nchannel_ADC(GPIO,PinNumber);              /*!< number channel      >*/
+    nChannel = get_Nchannel_ADC(GPIO,PinNumber);
+    ADC->SQR1 |= (nChannel<<6);                                 /*!< 1st conversion in regular sequence      >*/
     ADC->SQR1 &=~ (0x0000000F);                                 /*!< L=0000 -> 1 Conversion             >*/
-    ADC->SMPR1 |= ADC_SMP1_601_5CKC;                            /*!< Choose 601.5 CLOCK CYCLES          >*/
-    //ADC->SMPR1 |= ADC_SMP1_61_5CKC;                            /*!< Choose 61.5 CLOCK CYCLES FOR USART          >*/
+    //ADC->SMPR1 |= ADC_SMP1_601_5CKC(nChannel);                  /*!< Choose 601.5 CLOCK CYCLES          >*/
+    ADC->SMPR1 |= ADC_SMP1_61_5CKC(nChannel);                   /*!< Choose 61.5 CLOCK CYCLES FOR USART          >*/
     
     return ADC;
 
@@ -766,6 +768,39 @@ void setup_DAC(DAC_Type* DAC, unsigned int code){
 
 }
 
+/*!<
+
+@brief
+Enable Dac trigger 
+
+@param  DAC_Type* DAC, unsigned int status, unsigned int trigger_event
+
+@return None
+
+*/
+void DAC_trigger_status(DAC_Type* DAC, unsigned int status,  unsigned int trigger_event){
+
+    int tenIsEnable = RESET;
+    
+    if(status == ENABLE)
+    {
+        DAC->CR |= DAC_CR_TEN1;
+        tenIsEnable = SET;
+    }
+    else if (status == DISABLE)
+    {
+        DAC->CR &=~ DAC_CR_TEN1;
+    }
+    
+    if(tenIsEnable)
+    {
+        DAC->CR |= trigger_event;
+        DAC->CR |= DAC_CR_EN1;    
+    }
+    
+
+}
+
 
 /*!<
 
@@ -778,7 +813,7 @@ DISABLE ADC
 
 */
 void ADC_DISABLE(ADC_Type* ADC){
-  
+    
     ADC->CR |= ADC_CR_ADDIS;
 }
 
@@ -862,4 +897,29 @@ char usart_rx(USART_Type* USART){
     
     return ((char)(USART->RDR & 0xFF));
     
+}
+
+
+/*!-----------------------------------------------------------------------------
+
+                                API FOR GENERATION WAVEFORM
+
+-------------------------------------------------------------------------------->*/
+/*!<
+
+@brief
+GENERATION OF SINE WAVEFORM
+
+@param  short int LUT_in[]      LookUp Table in which are savedesthe samples of waveform
+
+@param  unsigned int nSample       numbers of sample in which is divided the waveform
+
+@return None
+
+*/
+ 
+void sine_waveform(short int LUT_in[], unsigned int nSample)
+{
+  for(int i=0;i<nSample;i++)
+        LUT_in[i]=(short int)(2048+2048*sin(2*3.14*i/nSample));
 }

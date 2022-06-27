@@ -53,3 +53,6 @@
 26	471	6768218472018319	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/Obj/main.o	ab0f7b701298304e
 31	619	6768218473578322	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/Obj/stm32f3x_api.o	f3f5e04ce14c6b4e
 624	752	6768218474826324	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/Exe/dac_adc.out	46410fe3a05c737a
+18	276	6780621458622985	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/Obj/stm32f3x_api.o	f3f5e04ce14c6b4e
+14	582	6780621459714987	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/Obj/main.o	ab0f7b701298304e
+588	744	6780621463302994	C:/Users/Attilio/Documents/GitHub/MCU/src/DAC_ADC/Debug/Exe/dac_adc.out	46410fe3a05c737a

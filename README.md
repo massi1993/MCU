@@ -14,6 +14,7 @@
 8. [DAC-ADC](#DAC-ADC)     
 9. [DAC-ADC with USART](#DAC-ADC-USART)     
 10. [Flashing leds with USART](#led-USART)     
+11. [Generation Sine waveform](#Sine-Dac-adc)    
 
 # CONFIGURATION IDE IAR EMBEDDED :  <a name="confIDE"></a>
 ## Follow these steps to configure project options
@@ -138,3 +139,7 @@ For this project, is added a c sourc file system_stm32f30x.c
 Let's use Timer2 to turn on, every 0.5 seconds, the red or blue leds: in this case it's need sending 'B' or 'R' via USART.
 Let's use Timer3 to turn on, every second, the green or orange leds: here, we have to send 'O' or 'G' via USART.
 
+## 11. Generation of Sine Waveform (folder Sine_waveform_generation) <a name="Sine-Dac-adc"></a>
+We want to simulate an alternating voltage, generating a sinusoid with the DAC and acquiring it with the ADC. Obviously, the acquisition must take place while the DAC generates the sine wave, since it would not make sense to do so at the end of the generation, since at that point the voltage is constant and equal to the last value obtained by the DAC. We also want the interval between one sample and the next to be constant: the transition from DHR to DOR must be regulated by a timer.
+
+![SineWaveform]

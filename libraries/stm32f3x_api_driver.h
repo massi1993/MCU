@@ -186,6 +186,7 @@ unsigned int get_Nchannel_ADC(GPIO_Type* GPIO, unsigned int PinNumber);
 ADC_Type* get_number_ADC(GPIO_Type* GPIO, unsigned int PinNumber);
 ADC_Type* setup_ADC(GPIO_Type* GPIO, unsigned int PinNumber, uint8_t conversion_mode);
 void setup_DAC(DAC_Type* DAC, unsigned int code);
+void DAC_trigger_status(DAC_Type* DAC, unsigned int status, unsigned int trigger_event);
 void ADC_DISABLE(ADC_Type* ADC);
 void DAC_DISABLE(DAC_Type* DAC);
 
@@ -194,5 +195,7 @@ void setup_USART_RX_TX(USART_Type* USART);
 void usart_tx(USART_Type* USART, const char tx[], int len);
 char usart_rx(USART_Type* USART);
 
+/*!< API FOR WAVEFORM>*/
+void sine_waveform(short int LUT_in[], unsigned int nSample);
 
 #endif /* STM32_F3X_DRIVER_H */

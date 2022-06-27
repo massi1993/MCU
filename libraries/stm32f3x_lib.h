@@ -1,7 +1,7 @@
 /* STM32_F3X_LIB_H
 *
 *       Created on : June 01, 2022 
-*      Last Update : June 11, 2022
+*      Last Update : June 27, 2022
 *           Author : massiAv
 *
 */
@@ -466,13 +466,13 @@ typedef struct{
                                                              CONT of the slave ADC is no more writable and its content is equal to the bit CONT of the
                                                              master ADC >*/
 
-#define ADC_SMP1_2_5CKC         (0x1<<3)                /*!<  Write '001' for 2.5 ADC clock cycles    >*/        
-#define ADC_SMP1_4_5CKC         (0x2<<3)                /*!<  Write '010' for 4.5 ADC clock cycles    >*/
-#define ADC_SMP1_7_5CKC         (0x3<<3)                /*!<  Write '011' for 7.5 ADC clock cycles    >*/
-#define ADC_SMP1_19_5CKC        (0x4<<3)                /*!<  Write '100' for 19.5 ADC clock cycles    >*/
-#define ADC_SMP1_61_5CKC        (0x5<<3)                /*!<  Write '101' for 61.5 ADC clock cycles    >*/
-#define ADC_SMP1_181_5CKC       (0x6<<3)                /*!<  Write '110' for 181.5 ADC clock cycles    >*/
-#define ADC_SMP1_601_5CKC       (0x7<<3)                /*!<  Write '111' for 601.5 ADC clock cycles    >*/
+#define ADC_SMP1_2_5CKC(x)         (0x1<<3*x)           /*!<  Write '001' for 2.5 ADC clock cycles    >*/        
+#define ADC_SMP1_4_5CKC(x)         (0x2<<3*x)           /*!<  Write '010' for 4.5 ADC clock cycles    >*/
+#define ADC_SMP1_7_5CKC(x)         (0x3<<3*x)           /*!<  Write '011' for 7.5 ADC clock cycles    >*/
+#define ADC_SMP1_19_5CKC(x)        (0x4<<3*x)           /*!<  Write '100' for 19.5 ADC clock cycles    >*/
+#define ADC_SMP1_61_5CKC(x)        (0x5<<3*x)           /*!<  Write '101' for 61.5 ADC clock cycles    >*/
+#define ADC_SMP1_181_5CKC(x)       (0x6<<3*x)           /*!<  Write '110' for 181.5 ADC clock cycles    >*/
+#define ADC_SMP1_601_5CKC(x)       (0x7<<3*x)           /*!<  Write '111' for 601.5 ADC clock cycles    >*/
 
 #define ADC_CC_CCR_SYNC_CKMODE1 (1<<16)                 /*!<  Synchronous clock mode divided by 1: the analog ADC is clocked by the AHB clock . 
                                                               This configuration must be enabled only if the AHB clock prescaler is set to 1. >*/
@@ -482,7 +482,18 @@ typedef struct{
 
 /*!< define MACROS of DAC_REGISTER >*/
 #define DAC_CR_EN1              (1<<0)
-
+#define DAC_CR_TEN1             (1<<2)                  /*!< TEN1: DAC channel1 trigger enable
+                                                                  This bit is set and cleared by software to enable/disable DAC channel1 trigger.
+                                                                  0: DAC channel1 trigger disabled and data written into the DAC_DHRx register are
+                                                                  transferred one APB1 clock cycle later to the DAC_DOR1 register
+                                                                  1: DAC channel1 trigger enabled and data from the DAC_DHRx register are transferred
+                                                                  three APB1 clock cycles later to the DAC_DOR1 register        >*/
+#define DAC_TSEL_TIM7_EVENT     (1<<4)
+#define DAC_TSEL_TIM5_EVENT     (3<<3)
+#define DAC_TSEL_TIM2_EVENT     (1<<5)
+#define DAC_TSEL_TIM4_EVENT     (5<<3)
+#define DAC_TSEL_EXT_L9         (3<<4)
+#define DAC_SW_TRIGGER          (7<<3)
 
 /*!< define MACROS of USART_CR >*/
 #define USART_EN                (1<<0)

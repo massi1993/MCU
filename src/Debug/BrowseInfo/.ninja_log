@@ -1,0 +1,12 @@
+# ninja log v5
+0	2535	6780567750000000	C:/Users/Attilio/Documents/GitHub/MCU/src/Debug/BrowseInfo/main.xcl	2bcdb9d19bfadcd5
+2538	3002	6780567755695144	C:/Users/Attilio/Documents/GitHub/MCU/src/Debug/BrowseInfo/main.pbi	7282024d81e5def8
+3015	3429	6780567760063152	C:/Users/Attilio/Documents/GitHub/MCU/src/Debug/BrowseInfo/sine_waveform.pbd	960fc78c54047261
+3431	7271	6780567798061223	C:/Users/Attilio/Documents/GitHub/MCU/src/Debug/BrowseInfo/sine_waveform.pbw	8a9c7ba753e496ea
+1	40	6780567899565416	C:/Users/Attilio/Documents/GitHub/MCU/src/Debug/BrowseInfo/main.pbi	7282024d81e5def8
+42	94	6780567900033417	C:/Users/Attilio/Documents/GitHub/MCU/src/Debug/BrowseInfo/sine_waveform.pbd	960fc78c54047261
+96	1325	6780567912241441	C:/Users/Attilio/Documents/GitHub/MCU/src/Debug/BrowseInfo/sine_waveform.pbw	8a9c7ba753e496ea
+0	182	6780568290000000	C:/Users/Attilio/Documents/GitHub/MCU/src/Debug/BrowseInfo/stm32f3x_api.xcl	957b86840cc83983
+186	272	6780568295412297	C:/Users/Attilio/Documents/GitHub/MCU/src/Debug/BrowseInfo/stm32f3x_api.pbi	33c737848cdef50e
+274	346	6780568296192299	C:/Users/Attilio/Documents/GitHub/MCU/src/Debug/BrowseInfo/sine_waveform.pbd	980dd1398e5367f7
+348	1402	6780568306508318	C:/Users/Attilio/Documents/GitHub/MCU/src/Debug/BrowseInfo/sine_waveform.pbw	8a9c7ba753e496ea
