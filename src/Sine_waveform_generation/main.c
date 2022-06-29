@@ -30,7 +30,7 @@ void main()
         GPIO_MODE(GPIOA,ANALOG_MODE,Px4);
         
         ADC_Type* ADC = setup_ADC(GPIOA,Px2,SINGLE_MODE);       /*!< Setup ADC          >*/
-        DAC_trigger_status(DAC1,ENABLE,DAC_TSEL_TIM2_EVENT);    
+        DAC_trigger_status(DAC1,ENABLE,DAC_TSEL_TIM2_EVENT);    /*!< Setup DAC          >*/ 
         
         CNT_EN_TIM(TIM2,ENABLE);
         TIM2->ARR=N_CONT_72Mhz(0.5);                     
@@ -40,16 +40,16 @@ void main()
         
         for(int i=0;i<N_SAMPLES;i++)
         {
-          DAC1->DHR12R1=LUT_in[i];
-          while((TIM2->SR & (1<<0)) != (1<<0));                 /*!< Wait that UIF up to 1      >*/
-          TIM2->SR&=~(1<<0);                                    /*!< Set to 0 UIF-> UIF=0;      >*/
-          for(int j=0;j<1000;j++);                              /*!< wait 10 us                 >*/
-        
-          ADC->CR|= ADC_CR_ADSTART;                             /*!< Start conversion           >*/
-	  while((ADC->ISR & ADC_ISR_EOC) != ADC_ISR_EOC);       /*!< Wait End Of Conversion     >*/
-	 
-	  LUT_out[i]=ADC->DR;                                   /*!< stored into LUT_out the result of conversion */        
-	  }
+            DAC1->DHR12R1=LUT_in[i];
+            while((TIM2->SR & (1<<0)) != (1<<0));                 /*!< Wait that UIF up to 1      >*/
+            TIM2->SR&=~(1<<0);                                    /*!< Set to 0 UIF-> UIF=0;      >*/
+            for(int j=0;j<1000;j++);                              /*!< wait 10 us                 >*/
+          
+            ADC->CR|= ADC_CR_ADSTART;                             /*!< Start conversion           >*/
+            while((ADC->ISR & ADC_ISR_EOC) != ADC_ISR_EOC);       /*!< Wait End Of Conversion     >*/
+          
+            LUT_out[i]=ADC->DR;                                   /*!< stored into LUT_out the result of conversion */        
+	 }
         
 	  while(1);
 

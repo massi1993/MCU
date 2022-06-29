@@ -57,3 +57,5 @@
 1508	1892	6780651414056525	C:/Users/Attilio/Documents/GitHub/MCU/src/Sine_waveform_generation/Debug/Obj/system_stm32f30x.o	55f07e93774a2ea9
 76	1980	6780651414896573	C:/Users/Attilio/Documents/GitHub/MCU/src/Sine_waveform_generation/Debug/Obj/stm32f3x_api.o	1a4c9c905feadf0b
 1987	2565	6780651420736907	C:/Users/Attilio/Documents/GitHub/MCU/src/Sine_waveform_generation/Debug/Exe/sine_waveform.out	783f08a36d47fedf
+2483	23373	6782091185948229	C:/Users/Attilio/Documents/GitHub/MCU/src/Sine_waveform_generation/Debug/Obj/main.o	e62cd3b0a0473094
+23376	24949	6782091201919142	C:/Users/Attilio/Documents/GitHub/MCU/src/Sine_waveform_generation/Debug/Exe/sine_waveform.out	783f08a36d47fedf

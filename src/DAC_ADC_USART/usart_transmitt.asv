@@ -1,6 +1,7 @@
 % Define serial port with 115200 baud rate 
 rate = 115200;
 
+
 while(1)
 deviceSTM32 = serialport('COM44',rate);
 
@@ -11,11 +12,11 @@ write(deviceSTM32, txt, "uint8");
 
 while(deviceSTM32.NumBytesAvailable==0)
 end
+
 data=char(read(deviceSTM32,deviceSTM32.NumBytesAvailable,"uint8"));
 disp(data)
 pause(1);
 
 % Close and delete the serial port
 delete(deviceSTM32);
-
 end
